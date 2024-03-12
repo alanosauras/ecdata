@@ -34,14 +34,46 @@ function displayResults(results) {
     summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
     resultsDiv.appendChild(summaryLine);
 
-    // Example: Create a list of matches
-    const ul = document.createElement('ul');
-    results.forEach(result => {
-        const li = document.createElement('li');
-        li.textContent = `YEAR: ${result.YEAR}, Captain: ${result['Captain wt name']}, Crew: ${result['Crew wt name']}, Total (hrs): ${result['Total (hrs)']}`;
-        ul.appendChild(li);
+    // // Example: Create a list of matches
+    // const ul = document.createElement('ul');
+    // results.forEach(result => {
+    //     const li = document.createElement('li');
+    //     li.textContent = `YEAR: ${result.YEAR}, Captain: ${result['Captain wt name']}, Crew: ${result['Crew wt name']}, Total (hrs): ${result['Total (hrs)']}`;
+    //     ul.appendChild(li);
+    // });
+    // resultsDiv.appendChild(ul);
+
+    // Create a table
+    const table = document.createElement('table');
+    table.style.width = '100%';
+    table.setAttribute('border', '1');
+
+    // Create header row
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    ['Year', 'Captain', 'Crew', 'Total (hrs)'].forEach(headerText => {
+        const header = document.createElement('th');
+        header.textContent = headerText;
+        headerRow.appendChild(header);
     });
-    resultsDiv.appendChild(ul);
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Create and fill table body
+    const tbody = document.createElement('tbody');
+    results.forEach(result => {
+        const row = document.createElement('tr');
+        ['YEAR', 'Captain wt name', 'Crew wt name', 'Total (hrs)'].forEach(column => {
+            const cell = document.createElement('td');
+            cell.textContent = result[column];
+            row.appendChild(cell);
+        });
+        tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+
+    // Append the table to the resultsDiv
+    resultsDiv.appendChild(table);
 }
 
 // Event listener for input in the search box
