@@ -5,7 +5,7 @@ function searchData() {
     const results = raceData.filter(entry => 
         entry['Captain wt name'].toLowerCase().includes(query) || 
         entry['Crew wt name'].toLowerCase().includes(query) ||
-        entry['YEAR'].toString() === query // Convert YEAR to string if it's a number
+        entry['YEAR'].toString().toLowerCase() === query // Assuming YEAR is a string that needs case-insensitive comparison
     );
 
     displayResults(results);
