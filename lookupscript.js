@@ -28,11 +28,33 @@ function displayResults(results) {
         return;
     }
 
-    // Prepend a summary line with the total number of races entered
     const query = document.getElementById('searchQuery').value; // Get the original query for display
-    const summaryLine = document.createElement('p');
-    summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
-    resultsDiv.appendChild(summaryLine);
+
+    // Check if the query is a year
+    if (/\b\d{4}\b/.test(query)) {
+        const totalEntries = results.length;
+        const finishers = results.filter(entry => !isNaN(entry['Total (hrs)'])).length;
+        const nonFinishers = results.filter(entry => isNaN(entry['Total (hrs)'])).length;
+        const successRate = (finishers / totalEntries) * 100;
+
+        const summaryLine = document.createElement('p');
+        summaryLine.innerHTML = `In ${query} there were ${totalEntries} entries into the EC.<br>` +
+                                `${finishers} entries completed the challenge.<br>` +
+                                `${nonFinishers} entries did not.<br>` +
+                                `The overall success rate was ${successRate.toFixed(1)}%.`;
+        resultsDiv.appendChild(summaryLine);
+    } else {
+        // Prepend a summary line with the total number of races entered
+        const summaryLine = document.createElement('p');
+        summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
+        resultsDiv.appendChild(summaryLine);
+    }
+
+    // // Prepend a summary line with the total number of races entered
+    // const query = document.getElementById('searchQuery').value; // Get the original query for display
+    // const summaryLine = document.createElement('p');
+    // summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
+    // resultsDiv.appendChild(summaryLine);
 
     // // Example: Create a list of matches
     // const ul = document.createElement('ul');
@@ -47,12 +69,14 @@ function displayResults(results) {
     const table = document.createElement('table');
     table.classList.add('search-results-table');
 
+
     // Create header row
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
-    ['Year', 'Captain', 'Crew', 'Total (hrs)'].forEach(headerText => {
+    ["Year", "Triber/s", "Group", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"].forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;
+        header.className = 'myHeaderClass';
         headerRow.appendChild(header);
     });
     thead.appendChild(headerRow);
@@ -62,11 +86,31 @@ function displayResults(results) {
     const tbody = document.createElement('tbody');
     results.forEach(result => {
         const row = document.createElement('tr');
-        ['YEAR', 'Captain wt name', 'Crew wt name', 'Total (hrs)'].forEach(column => {
+        const tribers = result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'];
+        const classValue = result['C#'];
+        const totalDHM = convertHoursToDHM(result['Total (hrs)']);
+
+        // Define the order of keys as per the new structure including calculated or combined fields
+        const dataValues = [
+            result['YEAR'],
+            tribers,
+            result['Group'],
+            result['BOAT'],
+            classValue,
+            result['Total (hrs)'],
+            result['cp1'],
+            result['cp2'],
+            result['cp3'],
+            totalDHM,
+        ];
+
+        dataValues.forEach(value => {
             const cell = document.createElement('td');
-            cell.textContent = result[column];
+            cell.textContent = value;
+            cell.className = 'myDataClass';
             row.appendChild(cell);
         });
+
         tbody.appendChild(row);
     });
     table.appendChild(tbody);
@@ -115,3 +159,13 @@ document.getElementById('searchButton').addEventListener('click', function() {
     // Initiate the search when the search button is clicked
     searchdata();
 });
+
+
+// Helper function to convert hours to days, hours, minutes
+function convertHoursToDHM(totalHours) {
+    const hours = Number(totalHours);
+    const days = Math.floor(hours / 24);
+    const remainderHours = hours % 24;
+    const minutes = Math.floor((remainderHours - Math.floor(remainderHours)) * 60);
+    return `${days}d ${Math.floor(remainderHours)}h ${minutes}m`;
+}
