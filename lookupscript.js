@@ -12,7 +12,7 @@ function searchdata() {
 }
 
 function displayResults(results) {
-    const resultsDiv = document.getElementById('searchResults');
+    const resultsDiv = document.getElementById('searchresults');
     resultsDiv.innerHTML = ''; // Clear previous results
 
     if (results.length === 0) {
