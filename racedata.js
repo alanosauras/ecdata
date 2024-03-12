@@ -1,5 +1,5 @@
-//raceData.js
-var raceData = [
+//racedata.js
+var racedata = [
   {
     "Total (hrs)": 26.2,
     "YEAR": 2010,
