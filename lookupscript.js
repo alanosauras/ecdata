@@ -1,6 +1,6 @@
 // lookupscript.js
 
-function searchData() {
+function searchdata() {
     const query = document.getElementById('searchQuery').value.toLowerCase();
     const results = racedata.filter(entry => 
         entry['Captain wt name'].toLowerCase().includes(query) || 
