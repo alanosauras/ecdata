@@ -3,17 +3,21 @@
 // Function to handle search
 function searchdata() {
     const query = document.getElementById('searchQuery').value.toLowerCase().trim();
+    const classFilterValue = document.getElementById('classFilter').value;
+    const groupFilterValue = groupFilter.value; // Use the global variable
+    const boatFilterValue = boatQuery.value.toLowerCase(); // Use the global variable
 
-    if (!query) { // Checks if the query is empty after trimming whitespace
-        document.getElementById('searchresults').innerHTML = 'Enter a triber\'s name to search.';
-        return; // Exit the function early if no query is provided
-    }
+    let results = racedata.filter(entry => {
+        const matchesNameOrYear = entry['Captain wt name'].toLowerCase().includes(query) ||
+                                  entry['Crew wt name'].toLowerCase().includes(query) ||
+                                  entry['YEAR'].toString() === query;
 
-    const results = racedata.filter(entry => 
-        entry['Captain wt name'].toLowerCase() === query || 
-        entry['Crew wt name'].toLowerCase() === query ||
-        entry['YEAR'].toString() === query // Assuming you still want to allow YEAR searches
-    );
+        const matchesClass = classFilterValue === "ALL" || entry['C#'] === `C${classFilterValue}`;
+        const matchesGroup = groupFilterValue === "ALL" || entry['Group'].toLowerCase() === groupFilterValue.toLowerCase();
+        const matchesBoat = !boatFilterValue || entry['BOAT'].toLowerCase().includes(boatFilterValue);
+
+        return matchesNameOrYear && matchesClass && matchesGroup && matchesBoat;
+    });
 
     displayResults(results);
 }
@@ -49,21 +53,6 @@ function displayResults(results) {
         summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
         resultsDiv.appendChild(summaryLine);
     }
-
-    // // Prepend a summary line with the total number of races entered
-    // const query = document.getElementById('searchQuery').value; // Get the original query for display
-    // const summaryLine = document.createElement('p');
-    // summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
-    // resultsDiv.appendChild(summaryLine);
-
-    // // Example: Create a list of matches
-    // const ul = document.createElement('ul');
-    // results.forEach(result => {
-    //     const li = document.createElement('li');
-    //     li.textContent = `YEAR: ${result.YEAR}, Captain: ${result['Captain wt name']}, Crew: ${result['Crew wt name']}, Total (hrs): ${result['Total (hrs)']}`;
-    //     ul.appendChild(li);
-    // });
-    // resultsDiv.appendChild(ul);
 
     // Create a table
     const table = document.createElement('table');
@@ -160,6 +149,24 @@ document.getElementById('searchButton').addEventListener('click', function() {
     searchdata();
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    populateBoatOptions();
+});
+
+function populateBoatOptions() {
+    const boatOptions = document.getElementById('boatOptions');
+    const uniqueBoats = new Set();
+
+    racedata.forEach(entry => {
+        uniqueBoats.add(entry['BOAT']); // Adjust 'BOAT' if the actual property name differs.
+    });
+
+    uniqueBoats.forEach(boat => {
+        const option = document.createElement('option');
+        option.value = boat;
+        boatOptions.appendChild(option);
+    });
+}
 
 // Helper function to convert hours to days, hours, minutes
 function convertHoursToDHM(totalHours) {
