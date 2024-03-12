@@ -45,8 +45,7 @@ function displayResults(results) {
 
     // Create a table
     const table = document.createElement('table');
-    table.style.width = '100%';
-    table.setAttribute('border', '1');
+    table.classList.add('search-results-table');
 
     // Create header row
     const thead = document.createElement('thead');

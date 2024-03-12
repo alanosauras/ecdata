@@ -1,6 +1,7 @@
 .search-results-table {
     border-collapse: collapse;
     width: 100%;
+    padding: 8px;
 }
 
 .search-results-table th, .search-results-table td {
