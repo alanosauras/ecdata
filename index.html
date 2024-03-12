@@ -5,8 +5,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Everglades Challenge Triber Data</h1>
-    <input type="text" id="searchQuery" placeholder="Enter a triber's name" list="nameOptions">
+    <h2>Everglades Challenge Triber Data</h2>
+    <h4>Enter a Tribers Name so see their EC results.
+        <br>Enter a year to see that years results. 2001 was the first. 
+        <br>Enter a boat to see how that boat has done. eg. "Core Sound 17" or "Epic"
+        <br>Enter a Class to see results from only that class. eg. "c3" or "c1"
+    </h4>
+    <input type="text" id="searchQuery" placeholder="Query" list="nameOptions">
     <datalist id="nameOptions"></datalist>
     <button onclick="searchdata()">Search</button>
     <div id="searchresults"></div>
