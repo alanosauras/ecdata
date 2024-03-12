@@ -6,21 +6,49 @@
 </head>
 <body>
     <h2>Everglades Challenge Triber Data</h2>
-    <h4>Enter a Tribers Name so see their EC results.
-        <br>Enter a year to see that years results. 2001 was the first. 
-        
-        <!--<br>Enter a boat to see how that boat has done. eg. "Core Sound 17" or "Epic"
-        <br>Enter a Class to see results from only that class. eg. "c3" or "c1"
-        -->
+    <h4>Enter a Tribers Name to see their EC results.
+        <br>Enter a year to see that year's results. 2001 was the first. 
+        <br>Type "all" to see all data.           
     </h4>
     <input type="text" id="searchQuery" placeholder="Query" list="nameOptions">
     <datalist id="nameOptions"></datalist>
+
+    <!-- Class Filter Dropdown -->
+    <select id="classFilter">
+        <option value="ALL">All Classes</option>
+        <option value="1">Class 1</option>
+        <option value="2">Class 2</option>
+        <option value="3">Class 3</option>
+        <option value="4">Class 4</option>
+        <option value="5">Class 5</option>
+        <option value="6">Class 6</option>
+    </select>
+
+    <!-- Group Filter Dropdown -->
+    <select id="groupFilter">
+        <option value="ALL">All Groups</option>
+        <option value="single">Single</option>
+        <option value="double">Double</option>
+    </select>
+
+    <!-- Boat Filter Input with Datalist for Autocomplete -->
+    <input type="text" id="boatQuery" placeholder="Boat Model" list="boatOptions">
+    <datalist id="boatOptions"></datalist>
+
     <button onclick="searchdata()">Search</button>
     <div id="searchresults"></div>
 
-    <!-- Link to your racedata.js file -->
     <script src="racedata.js"></script>
-    <!-- Link to your main JavaScript file, if you have separate JS logic -->
     <script src="lookupscript.js"></script>
 </body>
 </html>
+
+
+
+
+
+<!-- <h4><br>Enter the name of a boat to see results only with that boat. eg. "Core Sound 17" or "Epic"
+    <br>OR, enter a Class to see results from only that class. eg. "c1" or "c3"
+    </h4>
+    <input type="text" id="boatQuery" placeholder="Boat or Class" list="boatOptions">
+    <datalist id="boatOptions"></datalist> -->
