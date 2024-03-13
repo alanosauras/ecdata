@@ -3,6 +3,7 @@ document.getElementById('navigation').innerHTML = `
     <hr>
     <nav>
         <ul>
+            <li><a href="notes.html">Notes/About</a></li> 
             <li><a href="index.html">Lookup</a></li>
             <li><a href="boatdata.html">Boat Data</a></li>
             <li><a href="classchart.html">Charts</a></li>
