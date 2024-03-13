@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hall of Fame</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+    <h4>Tribers who have never not finished. While this includes a fair amount of luck it is still impressive. Note that the year 2015 was ommited from the tally since there were no "official" finshers that year. </h4>
+    <table id="hallOfFameTable" class="search-results-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>WaterTriber</th>
+                <th>Finished Challenges</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic content will be added here -->
+        </tbody>
+    </table>
+
+    <!-- <script src="racedata.js"></script> -->
+    <script src="racedatano2015.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', updateHallOfFame);
+
+function updateHallOfFame() {
+    // Step 1: Filter out DNS entries and entries from the year 2015
+    const relevantData = racedatano2015.filter(entry => entry['Total (hrs)'] !== "DNS" && entry['YEAR'] !== "2015");
+
+    // Step 2: Compile an object with captain and crew names and their finish counts
+    const triberFinishes = {}; // Object to store each triber's finish count
+    const triberDNFs = new Set(); // Set to store tribers with any DNFs
+
+    relevantData.forEach(entry => {
+        const { 'Captain wt name': captain, 'Crew wt name': crew, 'Total (hrs)': totalHrs } = entry;
+        const isFinish = !isNaN(totalHrs) && totalHrs !== "DNF";
+
+        // Update finish count or add DNF mark
+        if (isFinish) {
+            triberFinishes[captain] = (triberFinishes[captain] || 0) + 1;
+            if (crew) triberFinishes[crew] = (triberFinishes[crew] || 0) + 1;
+        } else {
+            triberDNFs.add(captain);
+            if (crew) triberDNFs.add(crew);
+        }
+    });
+
+    // Step 3: Remove any names that have a DNF from the triberFinishes object
+    Object.keys(triberFinishes).forEach(triber => {
+        if (triberDNFs.has(triber)) {
+            delete triberFinishes[triber];
+        }
+    });
+
+    // Sort remaining names by number of finishes
+    const sortedTribers = Object.entries(triberFinishes).sort((a, b) => b[1] - a[1]);
+
+    // Update the table with the final list of Hall of Fame candidates
+    const tableBody = document.querySelector('#hallOfFameTable tbody');
+    tableBody.innerHTML = ''; // Clear existing content
+
+    sortedTribers.forEach(([name, finishes], index) => {
+        const row = tableBody.insertRow();
+        const numberCell = row.insertCell(0);
+        numberCell.textContent = index + 1;
+
+        const nameCell = row.insertCell(1);
+        nameCell.textContent = name;
+
+        const finishesCell = row.insertCell(2);
+        finishesCell.textContent = finishes;
+    });
+}
+
+
+
+    </script>
+    
+</body>
+</html>
