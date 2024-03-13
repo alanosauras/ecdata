@@ -81,8 +81,8 @@ button:hover {
 }
 
 .chart-container {
-    width: 75%; /* Or any specific width */
-    max-width: 600px; /* Optional: Sets a maximum width */
+    width: 90%; /* Or any specific width */
+    max-width: 800px; /* Optional: Sets a maximum width */
     height: auto; /* Keeps the container's height adjustable to the chart */
     margin: auto; /* Centers the container */
     aspect-ratio: 4 / 3; /* Optional: Controls the aspect ratio of the chart */
