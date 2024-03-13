@@ -1,3 +1,4 @@
+/* Existing styles for tables */
 .search-results-table {
     border-collapse: collapse;
     width: 100%;
@@ -13,4 +14,55 @@
 .search-results-table th {
     background-color: #f2f2f2;
     font-weight: bold;
+}
+
+/* New styles */
+body {
+    font-family: Arial, sans-serif; /* Apply a consistent font across your page */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points from navigation */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Aligns nav items horizontally */
+    margin-right: 20px; /* Adds some space between nav items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: blue; /* Sets link color */
+}
+
+h2, h4 {
+    font-weight: normal; /* Adjusts heading boldness */
+    color: #333; /* Sets text color for headings */
+}
+
+input[type="text"], select {
+    padding: 8px;
+    margin-top: 5px; /* Adds space above inputs and selects */
+    border-radius: 4px; /* Optional: Adds rounded corners to inputs and selects */
+    border: 1px solid #ccc; /* Sets the border color */
+}
+
+button {
+    background-color: blue; /* Sets button background color */
+    color: white; /* Sets button text color */
+    padding: 10px 15px; /* Adjusts padding inside the button */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 4px; /* Optional: Adds rounded corners to the button */
+}
+
+button:hover {
+    background-color: darkblue; /* Darkens button on hover for a visual feedback */
+}
+
+/* Specific styles for your stats divs for consistency */
+#triberInfo, #finishRateInfo, #firstTimeEntrantSuccessRate, #groupSuccessRates {
+    font-size: 16px; /* Sets a consistent font size */
+    margin-bottom: 20px; /* Adds space below each stats div */
 }
