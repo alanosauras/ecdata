@@ -9,7 +9,6 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-    <h4>Stats:</h4>
     <div id="triberInfo" class="stat-section"></div>
     <div id="finishRateInfo" class="stat-section"></div>
     <div id="firstTimeEntrantSuccessRate" class="stat-section"></div>
@@ -46,7 +45,9 @@
     <input type="text" id="boatQuery" placeholder="Boat Model" list="boatOptions">
     <datalist id="boatOptions"></datalist>
 
-    <button onclick="searchdata()">Search</button>
+    <!-- <button onclick="searchdata()">Search</button> -->
+    <button id="resetButton">Reset Search</button>
+
     <div id="searchresults"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -57,12 +58,3 @@
 </body>
 </html>
 
-
-
-
-
-<!-- <h4><br>Enter the name of a boat to see results only with that boat. eg. "Core Sound 17" or "Epic"
-    <br>OR, enter a Class to see results from only that class. eg. "c1" or "c3"
-    </h4>
-    <input type="text" id="boatQuery" placeholder="Boat or Class" list="boatOptions">
-    <datalist id="boatOptions"></datalist> -->
