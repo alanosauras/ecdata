@@ -1,6 +1,27 @@
 // lookupscript.js
 
 // Function to handle search
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Initialize search to display all data immediately upon page load
+    searchdata();
+
+    // Simplified event listener for the "Enter" key in the search query input field
+    document.getElementById('searchQuery').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent the default action to avoid form submission
+            searchdata();
+        }
+    });
+
+    // Attach event listeners to the class and group filter dropdowns to trigger search on change
+    document.getElementById('classFilter').addEventListener('change', searchdata);
+    document.getElementById('groupFilter').addEventListener('change', searchdata);
+    document.getElementById('boatQuery').addEventListener('input', searchdata);
+});
+
+
 function searchdata() {
     const query = document.getElementById('searchQuery').value.toLowerCase().trim();
     const classFilterValue = document.getElementById('classFilter').value;
@@ -68,22 +89,5 @@ document.getElementById('boatQuery').addEventListener('input', function(event) {
 document.getElementById('searchButton').addEventListener('click', function() {
 });
 
-document.addEventListener('DOMContentLoaded', function() {
 
-    // Initialize search to display all data immediately upon page load
-    searchdata();
-
-    // Simplified event listener for the "Enter" key in the search query input field
-    document.getElementById('searchQuery').addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            event.preventDefault(); // Prevent the default action to avoid form submission
-            searchdata();
-        }
-    });
-
-    // Attach event listeners to the class and group filter dropdowns to trigger search on change
-    document.getElementById('classFilter').addEventListener('change', searchdata);
-    document.getElementById('groupFilter').addEventListener('change', searchdata);
-    document.getElementById('boatQuery').addEventListener('input', searchdata);
-});
 
