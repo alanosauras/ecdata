@@ -79,3 +79,12 @@ button:hover {
     margin: 5px 0; /* Reduces space between paragraphs within each section */
     line-height: 1.5; /* Adjusts line spacing for better readability */
 }
+
+.chart-container {
+    width: 75%; /* Or any specific width */
+    max-width: 600px; /* Optional: Sets a maximum width */
+    height: auto; /* Keeps the container's height adjustable to the chart */
+    margin: auto; /* Centers the container */
+    aspect-ratio: 4 / 3; /* Optional: Controls the aspect ratio of the chart */
+}
+
