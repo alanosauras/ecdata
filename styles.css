@@ -69,14 +69,14 @@ button:hover {
 
 .stat-section {
     margin-bottom: 20px; /* Adds space below each section */
-    padding: 3px; /* Adds some padding inside each section for better readability */
+    padding: 4px; /* Adds some padding inside each section for better readability */
     font-size: 16px; /* Adjusts the font size for consistency */
     background-color: #ffffff; /* Optional: adds a background color to each section */
     border-radius: 5px; /* Optional: rounds the corners of the sections */
 }
 
 .stat-section p {
-    margin: 5px 0; /* Reduces space between paragraphs within each section */
+    margin: 4px 0; /* Reduces space between paragraphs within each section */
     line-height: 1.5; /* Adjusts line spacing for better readability */
 }
 
@@ -93,4 +93,15 @@ button:hover {
     pointer-events: none; /* Optional: Disables clicking on the active link */
 }
 
+.links-container {
+    margin-top: 10;
+    padding: ; /* Ensure container doesn't add space */
+}
+
+
+.links-container a {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1; /* Adjust this value as needed */
+}
 

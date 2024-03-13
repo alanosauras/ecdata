@@ -10,25 +10,26 @@ function displayResults(results) {
 
     const query = document.getElementById('searchQuery').value; // Get the original query for display
 
-    // Check if the query is a year
-    if (/\b\d{4}\b/.test(query)) {
-        const totalEntries = results.length;
-        const finishers = results.filter(entry => !isNaN(entry['Total (hrs)'])).length;
-        const nonFinishers = results.filter(entry => isNaN(entry['Total (hrs)'])).length;
-        const successRate = (finishers / totalEntries) * 100;
+// Check if the query is a year
+if (/\b\d{4}\b/.test(query)) {
+    const dnsEntries = results.filter(entry => entry['Total (hrs)'] === "DNS").length; // Count DNS entries
+    const startedEntries = results.length - dnsEntries; // Calculate started entries by excluding DNS
+    const finishers = results.filter(entry => !isNaN(entry['Total (hrs)'])).length;
+    const nonFinishers = startedEntries - finishers; // Adjust nonFinishers to only include started entries
+    const successRate = startedEntries > 0 ? (finishers / startedEntries) * 100 : 0; // Calculate success rate based on started entries
 
-        const summaryLine = document.createElement('p');
-        summaryLine.innerHTML = `In ${query} there were ${totalEntries} entries into the EC.<br>` +
-                                `${finishers} entries completed the challenge.<br>` +
-                                `${nonFinishers} entries did not.<br>` +
-                                `The overall success rate was ${successRate.toFixed(1)}%.`;
-        resultsDiv.appendChild(summaryLine);
-    } else {
-        // Prepend a summary line with the total number of races entered
-        const summaryLine = document.createElement('p');
-        summaryLine.textContent = `${query} has ${results.length} Everglades Challenge Entries.`;
-        resultsDiv.appendChild(summaryLine);
-    }
+    const summaryLine = document.createElement('p');
+    summaryLine.innerHTML = `In ${query}, ${startedEntries} entries started the EC. ${dnsEntries} entries did not start.<br>` +
+                            `${finishers} entries completed the challenge, while ${nonFinishers} entries did not.<br>` +
+                            `The overall success rate was ${successRate.toFixed(1)}%.<br>` 
+                            resultsDiv.appendChild(summaryLine);
+} else {
+    // Prepend a summary line with the total number of races entered
+    const summaryLine = document.createElement('p');
+    summaryLine.textContent = `${query} has ${results.length} Everglades Challenge Entries.`;
+    resultsDiv.appendChild(summaryLine);
+}
+
 
     // Create a table
     const table = document.createElement('table');

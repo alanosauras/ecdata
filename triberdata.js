@@ -22,62 +22,66 @@ function calculateAndDisplayUniqueTribers() {
 }
 
 function calculateAndDisplayFinishRate() {
-    let totalEntries = 0;
+    let totalStarts = 0; // To count only entries that started the race
     let finishedEntries = 0;
 
     racedata.forEach(entry => {
-        totalEntries += 1;
-        // Assuming 'finish' is the field and checking if it's a number
-        if (!isNaN(entry['finish']) && entry['finish'] !== null && entry['finish'] !== "") {
-            finishedEntries += 1;
+        if (entry['Total (hrs)'] !== "DNS") { // Count as a started entry if not DNS
+            totalStarts += 1;
+            if (!isNaN(entry['Total (hrs)'])) { // Check if 'Total (hrs)' is a number, indicating a finish
+                finishedEntries += 1;
+            }
         }
     });
 
-    const finishRate = (finishedEntries / totalEntries * 100).toFixed(1); // To one decimal place
+    const finishRate = totalStarts > 0 ? (finishedEntries / totalStarts * 100).toFixed(1) : '0.00'; // To one decimal place
     displayFinishRate(finishRate);
 }
 
 function displayFinishRate(rate) {
     const finishRateDiv = document.getElementById('finishRateInfo');
     if (finishRateDiv) {
-        finishRateDiv.innerHTML = `The overall success rate is ${rate}% out of all entries.`;
+        finishRateDiv.innerHTML = `The overall success rate is ${rate}% out of all entries that started. `;
     }
 }
 
+
 function calculateAndDisplayFirstTimeEntrantSuccessRate() {
-    let captainFirstAppearances = {}; // Object to track the first year and success of each captain
-    let firstTimeEntries = 0;
+    let captainFirstAppearances = {}; // Object to track the first appearance and if they started/finished
+    let firstTimeStarts = 0; // Entries that started, excluding DNS
     let firstTimeFinishes = 0;
 
     racedata.forEach(entry => {
         const captainName = entry['Captain wt name'].toLowerCase().trim();
-        const entryYear = parseInt(entry['YEAR'], 10); // Ensure the year is treated as a number
-        const finished = !isNaN(entry['finish']) && entry['finish'] !== null && entry['finish'] !== "";
+        // Assume a 'DNS' is indicated in 'Total (hrs)' field
+        const started = entry['Total (hrs)'] !== "DNS";
+        const finished = !isNaN(entry['Total (hrs)']);
 
-        // If the captain hasn't been encountered yet or this entry is earlier than what we've recorded
-        if (!captainFirstAppearances[captainName] || captainFirstAppearances[captainName].year > entryYear) {
-            captainFirstAppearances[captainName] = { year: entryYear, success: finished };
+        // Update captain's first appearance if this entry is earlier or if they haven't been recorded yet
+        if (started && (!captainFirstAppearances[captainName] || captainFirstAppearances[captainName].year > parseInt(entry['YEAR'], 10))) {
+            captainFirstAppearances[captainName] = { year: parseInt(entry['YEAR'], 10), finished: finished };
         }
     });
 
-    // Now calculate total first-time entries and finishes
+    // Iterate through the appearances to calculate totals
     Object.values(captainFirstAppearances).forEach(appearance => {
-        firstTimeEntries += 1; // Every captain counted here is a first-time entry
-        if (appearance.success) {
-            firstTimeFinishes += 1; // Count this as a successful first-time finish
+        firstTimeStarts += 1; // Every recorded captain is a first-time starter
+        if (appearance.finished) {
+            firstTimeFinishes += 1; // Count as a finish if they finished
         }
     });
 
-    const successRate = (firstTimeEntries > 0 ? (firstTimeFinishes / firstTimeEntries * 100) : 0).toFixed(1);
+    const successRate = (firstTimeStarts > 0 ? (firstTimeFinishes / firstTimeStarts * 100) : 0).toFixed(1);
     displayFirstTimeEntrantSuccessRate(successRate);
 }
 
 function displayFirstTimeEntrantSuccessRate(rate) {
     const successRateDiv = document.getElementById('firstTimeEntrantSuccessRate');
     if (successRateDiv) {
-        successRateDiv.innerHTML = `The success rate of first time captains ${rate}%`;
+        successRateDiv.innerHTML = `The overall success rate of first-time entrants is ${rate}%.`;
     }
 }
+
 
 function calculateAndDisplayGroupSuccessRates() {
     let soloAttempts = 0;
@@ -86,27 +90,25 @@ function calculateAndDisplayGroupSuccessRates() {
     let doubleFinishes = 0;
 
     racedata.forEach(entry => {
-        // Count solo attempts and finishes
-        if (entry['Group'] === 'Single') {
-            soloAttempts += 1;
-            if (!isNaN(entry['finish']) && entry['finish'] !== null && entry['finish'] !== "") {
+        const started = entry['Total (hrs)'] !== "DNS"; // Entry started the race if not "DNS"
+        const finished = !isNaN(entry['Total (hrs)']); // Entry finished the race if 'Total (hrs)' is a number
+
+        if (entry['Group'] === 'Single' && started) {
+            soloAttempts += 1; // Count only if the entry started
+            if (finished) {
                 soloFinishes += 1;
             }
-        }
-        // Count double attempts and finishes
-        else if (entry['Group'] === 'Double') {
-            doubleAttempts += 1;
-            if (!isNaN(entry['finish']) && entry['finish'] !== null && entry['finish'] !== "") {
+        } else if (entry['Group'] === 'Double' && started) {
+            doubleAttempts += 1; // Count only if the entry started
+            if (finished) {
                 doubleFinishes += 1;
             }
         }
     });
 
-    // Calculate success rates
     const soloSuccessRate = (soloAttempts > 0 ? (soloFinishes / soloAttempts * 100) : 0).toFixed(1);
     const doubleSuccessRate = (doubleAttempts > 0 ? (doubleFinishes / doubleAttempts * 100) : 0).toFixed(1);
 
-    // Display the results
     displayGroupSuccessRates(soloAttempts, soloSuccessRate, doubleAttempts, doubleSuccessRate);
 }
 
@@ -114,10 +116,65 @@ function displayGroupSuccessRates(soloAttempts, soloSuccessRate, doubleAttempts,
     const resultsDiv = document.getElementById('groupSuccessRates');
     if (resultsDiv) {
         resultsDiv.innerHTML = `
-        <p style="margin: 0;">The number of Solo entries is ${soloAttempts}</p>
-        <p style="margin: 0;">The overall success rate of solo entries is ${soloSuccessRate}%</p>
-        <p style="margin: 0;">The total number of 2 person entries is ${doubleAttempts}</p>
-        <p style="margin: 0;">The overall success rate of 2 person entries is ${doubleSuccessRate}%</p>
+        <p>The number of Solo entries is ${soloAttempts}</p>
+        <p>The overall success rate of solo entries is ${soloSuccessRate}%</p>
+        <p>The total number of 2 person entries is ${doubleAttempts}</p>
+        <p>The overall success rate of 2 person entries is ${doubleSuccessRate}%</p>
     `;
     }
 }
+
+function calculateAndDisplayFirstTimeGroupSuccessRates() {
+    let firstTimeSoloEntries = 0;
+    let firstTimeSoloFinishes = 0;
+    let firstTimeDoubleEntries = 0;
+    let firstTimeDoubleFinishes = 0;
+    let captainFirstAppearances = {};
+
+    racedata.forEach(entry => {
+        const captainName = entry['Captain wt name'].toLowerCase().trim();
+        const group = entry['Group'];
+        const started = entry['Total (hrs)'] !== "DNS";
+        const finished = !isNaN(entry['Total (hrs)']);
+        const entryYear = parseInt(entry['YEAR'], 10);
+
+        if (started && (!captainFirstAppearances[captainName] || captainFirstAppearances[captainName].year > entryYear)) {
+            captainFirstAppearances[captainName] = { year: entryYear, group: group, finished: finished };
+        }
+    });
+
+    // Iterate through the appearances to calculate totals for solo and double
+    Object.values(captainFirstAppearances).forEach(appearance => {
+        if (appearance.group === 'Single') {
+            firstTimeSoloEntries += 1;
+            if (appearance.finished) {
+                firstTimeSoloFinishes += 1;
+            }
+        } else if (appearance.group === 'Double') {
+            firstTimeDoubleEntries += 1;
+            if (appearance.finished) {
+                firstTimeDoubleFinishes += 1;
+            }
+        }
+    });
+
+    const soloSuccessRate = (firstTimeSoloEntries > 0 ? (firstTimeSoloFinishes / firstTimeSoloEntries * 100) : 0).toFixed(1);
+    const doubleSuccessRate = (firstTimeDoubleEntries > 0 ? (firstTimeDoubleFinishes / firstTimeDoubleEntries * 100) : 0).toFixed(1);
+
+    displayFirstTimeGroupSuccessRates(soloSuccessRate, doubleSuccessRate);
+}
+
+function displayFirstTimeGroupSuccessRates(soloRate, doubleRate) {
+    const successRateDiv = document.getElementById('firstTimeGroupSuccessRates');
+    if (successRateDiv) {
+        successRateDiv.innerHTML = `The success rate for first-time solo entrants is ${soloRate}% vs. ${doubleRate}% for first-time 2 person entries.`;
+    }
+}
+
+// Ensure you call the calculateAndDisplayFirstTimeGroupSuccessRates function similarly to other stats functions
+document.addEventListener('DOMContentLoaded', function() {
+    // Other stat calculations
+    calculateAndDisplayFirstTimeGroupSuccessRates();
+});
+
+
