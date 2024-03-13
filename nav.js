@@ -5,6 +5,8 @@ document.getElementById('navigation').innerHTML = `
         <ul>
             <li><a href="index.html">Lookup</a></li>
             <li><a href="boatdata.html">Boat Data</a></li>
+            <li><a href="missingboatinfo.html">Missing Info</a></li> 
+
             <li><a href="classchart.html">Charts</a></li>
             <li><a href="notes.html">Notes/About</a></li> 
 

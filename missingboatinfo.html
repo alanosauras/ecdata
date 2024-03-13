@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boat Data</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+
+    <h4>This list is entries where the Boat Description from the roster was ambiguous about which boat was actually used. If you can clarify an entry, shoot me a message and i'll update it.   </h4><br>
+    
+    <table id="unidentifiedBoatDataTable" class="search-results-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Captain and Crew</th>
+            <th>Boat Description</th>
+            <th>Finished?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows will be added here -->
+    </tbody>
+</table>
+
+<script>document.addEventListener('DOMContentLoaded', function() {
+    updateUnidentifiedBoatsTable();
+});
+
+function updateUnidentifiedBoatsTable() {
+            // Filter entries for unidentified boats ("?") and exclude DNS entries
+            const unidentifiedBoatEntries = racedata.filter(entry => entry['BOAT'] === "?" && entry['Total (hrs)'] !== "DNS");
+
+            // Sort entries by year
+            unidentifiedBoatEntries.sort((a, b) => parseInt(a['YEAR']) - parseInt(b['YEAR']));
+
+            const tableBody = document.querySelector('#unidentifiedBoatDataTable tbody');
+            tableBody.innerHTML = ''; // Clear previous entries
+
+            unidentifiedBoatEntries.forEach(entry => {
+                const row = tableBody.insertRow(-1);
+                const yearCell = row.insertCell(0);
+                yearCell.textContent = entry['YEAR'];
+
+                const captainCrewCell = row.insertCell(1);
+                captainCrewCell.textContent = entry['Crew wt name'] ? `${entry['Captain wt name']} and ${entry['Crew wt name']}` : entry['Captain wt name'];
+
+                const boatDescriptionCell = row.insertCell(2);
+                boatDescriptionCell.textContent = entry['Boat Description'];
+
+                const finishedCell = row.insertCell(3);
+                finishedCell.textContent = !isNaN(entry['Total (hrs)']) ? "Yes" : "No"; // Indicate "Yes" if finished, "No" otherwise
+            });
+        }
+</script>
+<script src="racedata.js"></script>
+
+</body>
+</html>
