@@ -71,7 +71,7 @@ if (/\b\d{4}\b/.test(query)) {
         const dataValues = [
             result['YEAR'],
             tribers,
-            result['Group'],
+            result['Group/Gender'],
             result['BOAT'],
             classValue,
             result['Total (hrs)'],

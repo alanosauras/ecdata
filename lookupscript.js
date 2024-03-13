@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function searchdata() {
     const query = document.getElementById('searchQuery').value.toLowerCase().trim();
     const classFilterValue = document.getElementById('classFilter').value;
-    const groupFilterValue = groupFilter.value; // Use the global variable
-    const boatFilterValue = boatQuery.value.toLowerCase(); // Use the global variable
+    const groupFilterValue = document.getElementById('groupFilter').value; // Adjusted to fetch correctly
+    const boatFilterValue = document.getElementById('boatQuery').value.toLowerCase(); // Adjusted to fetch correctly
 
     let results = racedata.filter(entry => {
         const matchesNameOrYear = entry['Captain wt name'].toLowerCase().includes(query) ||
@@ -37,7 +37,13 @@ function searchdata() {
                                   entry['YEAR'].toString() === query;
 
         const matchesClass = classFilterValue === "ALL" || entry['C#'] === `C${classFilterValue}`;
-        const matchesGroup = groupFilterValue === "ALL" || entry['Group'].toLowerCase() === groupFilterValue.toLowerCase();
+
+        // Updated group matching logic
+        const matchesGroup = groupFilterValue === "ALL" || 
+                             (groupFilterValue === "All Single" && entry['Group/Gender'].includes("Single")) ||
+                             (groupFilterValue === "All Double" && entry['Group/Gender'].includes("Double")) ||
+                             entry['Group/Gender'].toLowerCase().includes(groupFilterValue.toLowerCase());
+
         const matchesBoat = !boatFilterValue || entry['BOAT'].toLowerCase().includes(boatFilterValue);
 
         return matchesNameOrYear && matchesClass && matchesGroup && matchesBoat;
@@ -45,6 +51,7 @@ function searchdata() {
 
     displayResults(results);
 }
+
 
 // Event listener for input in the search box
 document.getElementById('searchQuery').addEventListener('input', function(event) {
