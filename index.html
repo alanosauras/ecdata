@@ -5,7 +5,26 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="boatData.html">Boat Data</a></li>
+            <li><a href="classchart.html">Charts</a></li>
+            <!-- <li><a href="triberdata.html">Triber Data</a></li> -->
+
+        </ul>
+    </nav>
+
     <h2>Everglades Challenge Data</h2>
+    <hr>
+    <h4>Stats:</h4>
+    <div id="triberInfo"></div>
+    <div id="finishRateInfo"></div>
+    <div id="firstTimeEntrantSuccessRate"></div>
+    <div id="groupSuccessRates"></div>
+
+
+<hr>
     <h4>Type a Triber's name to see only their EC results. 
         <br>or enter a year to see only that year. 2001 was the first. 
     </h4>
@@ -37,12 +56,11 @@
     <button onclick="searchdata()">Search</button>
     <div id="searchresults"></div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="racedata.js"></script>
+    <script src="triberdata.js"></script>
     <script src="helperFunctions.js"></script>
-    <script src="displayresulsts.js"></script>
     <script src="lookupscript.js"></script>
- 
-
 </body>
 </html>
 

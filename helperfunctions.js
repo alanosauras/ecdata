@@ -26,7 +26,7 @@ function displayResults(results) {
     } else {
         // Prepend a summary line with the total number of races entered
         const summaryLine = document.createElement('p');
-        summaryLine.textContent = `${query} has entered ${results.length} Everglades Challenges.`;
+        summaryLine.textContent = `${query} has ${results.length} Everglades Challenge Entries.`;
         resultsDiv.appendChild(summaryLine);
     }
 
@@ -41,7 +41,7 @@ function displayResults(results) {
     // Add an empty header for the number sequence column
     const emptyHeader = document.createElement('th');
     headerRow.appendChild(emptyHeader);
-    
+
     ["Year", "Triber/s", "Group", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"].forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;

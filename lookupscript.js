@@ -26,11 +26,9 @@ function searchdata() {
 document.getElementById('searchQuery').addEventListener('input', function(event) {
     const inputVal = event.target.value.toLowerCase();
     const nameOptions = document.getElementById('nameOptions');
-    
-    // Clear previous options
+        // Clear previous options
     nameOptions.innerHTML = '';
-    
-    // Filter and collect all unique names that start with the input value
+        // Filter and collect all unique names that start with the input value
     const uniqueNames = new Set();
     racedata.forEach(entry => {
         const captainName = entry['Captain wt name'].toLowerCase();
@@ -38,7 +36,6 @@ document.getElementById('searchQuery').addEventListener('input', function(event)
         if (captainName.startsWith(inputVal)) uniqueNames.add(entry['Captain wt name']);
         if (crewName.startsWith(inputVal)) uniqueNames.add(entry['Crew wt name']);
     });
-
     // Create and append option elements for each unique name
     uniqueNames.forEach(name => {
         const optionElement = document.createElement('option');
@@ -47,38 +44,46 @@ document.getElementById('searchQuery').addEventListener('input', function(event)
     });
 });
 
-// Event listener for change in dropdown selection
-document.getElementById('nameOptions').addEventListener('change', function(event) {
-    // Get the selected name from the dropdown
-    const selectedName = event.target.value;
-    // Set the search query to the selected name
-    document.getElementById('searchQuery').value = selectedName;
-    // Initiate the search
-    searchdata();
+// Event listener for input in the boat search box
+document.getElementById('boatQuery').addEventListener('input', function(event) {
+    const inputVal = event.target.value.toLowerCase();
+    const boatOptions = document.getElementById('boatOptions');
+    // Clear previous options
+    boatOptions.innerHTML = '';
+    // Filter and collect all unique boat names that start with the input value
+    const uniqueBoatNames = new Set();
+    racedata.forEach(entry => {
+        const boat = entry['BOAT'].toLowerCase();
+        if (boat.startsWith(inputVal)) uniqueBoatNames.add(entry['BOAT']);
+    });
+    // Create and append option elements for each unique boat name
+    uniqueBoatNames.forEach(boat => {
+        const optionElement = document.createElement('option');
+        optionElement.value = boat;
+        boatOptions.appendChild(optionElement);
+    });
 });
 
 // Event listener for click on search button
 document.getElementById('searchButton').addEventListener('click', function() {
-    // Initiate the search when the search button is clicked
-    searchdata();
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    populateBoatOptions();
+
+    // Initialize search to display all data immediately upon page load
+    searchdata();
+
+    // Simplified event listener for the "Enter" key in the search query input field
+    document.getElementById('searchQuery').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent the default action to avoid form submission
+            searchdata();
+        }
     });
 
-function populateBoatOptions() {
-    const boatOptions = document.getElementById('boatOptions');
-    const uniqueBoats = new Set();
-
-    racedata.forEach(entry => {
-        uniqueBoats.add(entry['BOAT']); // Adjust 'BOAT' if the actual property name differs.
-    });
-
-    uniqueBoats.forEach(boat => {
-        const option = document.createElement('option');
-        option.value = boat;
-        boatOptions.appendChild(option);
-    });
-}
+    // Attach event listeners to the class and group filter dropdowns to trigger search on change
+    document.getElementById('classFilter').addEventListener('change', searchdata);
+    document.getElementById('groupFilter').addEventListener('change', searchdata);
+    document.getElementById('boatQuery').addEventListener('input', searchdata);
+});
 
