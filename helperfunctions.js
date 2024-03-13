@@ -26,7 +26,7 @@ if (/\b\d{4}\b/.test(query)) {
 } else {
     // Prepend a summary line with the total number of races entered
     const summaryLine = document.createElement('p');
-    summaryLine.textContent = `${query} has ${results.length} Everglades Challenge Entries.`;
+    summaryLine.textContent = `${query}: ${results.length} Everglades Challenge Entries.`;
     resultsDiv.appendChild(summaryLine);
 }
 
