@@ -1,4 +1,6 @@
 document.getElementById('navigation').innerHTML = `
+    <h2>Everglades Challenge Data</h2>
+    <hr>
     <nav>
         <ul>
             <li><a href="index.html">Lookup</a></li>
@@ -7,4 +9,5 @@ document.getElementById('navigation').innerHTML = `
             <!-- <li><a href="triberdata.html">Triber Data</a></li> -->
         </ul>
     </nav>
+    <hr>
 `;

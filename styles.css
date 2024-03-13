@@ -88,3 +88,9 @@ button:hover {
     aspect-ratio: 4 / 3; /* Optional: Controls the aspect ratio of the chart */
 }
 
+.active-link {
+    color: rgb(85, 82, 82);
+    pointer-events: none; /* Optional: Disables clicking on the active link */
+}
+
+
