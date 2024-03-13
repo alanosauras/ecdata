@@ -69,7 +69,6 @@ document.getElementById('searchButton').addEventListener('click', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    populateBoatOptions();
 
     // Initialize search to display all data immediately upon page load
     searchdata();
@@ -88,17 +87,3 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('boatQuery').addEventListener('input', searchdata);
 });
 
-function populateBoatOptions() {
-    const boatOptions = document.getElementById('boatOptions');
-    const uniqueBoats = new Set();
-
-    racedata.forEach(entry => {
-        uniqueBoats.add(entry['BOAT']); // Adjust 'BOAT' if the actual property name differs.
-    });
-
-    uniqueBoats.forEach(boat => {
-        const option = document.createElement('option');
-        option.value = boat;
-        boatOptions.appendChild(option);
-    });
-}

@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    populateBoatOptions(); // If you're still populating boat options elsewhere
     updateTable(); // Initial table population
 
     // Listen for changes on the class filter dropdown
@@ -49,5 +48,11 @@ function populateTable(sortedBoats, occurrences, finishes) {
         
         const finishesCell = row.insertCell(3);
         finishesCell.textContent = finishes[boat] || 0;
+
+        // Calculate and display success rate
+        const successRateCell = row.insertCell(4);
+        const successRate = finishes[boat] ? ((finishes[boat] / occurrences[boat]) * 100).toFixed(1) : '0.00';
+        successRateCell.textContent = `${successRate}%`;
+
     });
 }
