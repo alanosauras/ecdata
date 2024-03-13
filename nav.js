@@ -4,11 +4,12 @@ document.getElementById('navigation').innerHTML = `
     <nav>
         <ul>
             <li><a href="index.html">Lookup</a></li>
+            <li><a href="ww.html">Wilderness Waterway</a></li>
             <li><a href="boatdata.html">Boat Data</a></li>
-            <li><a href="missingboatinfo.html">Missing Boat Info</a></li> 
+            <li><a href="missingboatinfo.html">Missing Info</a></li> 
             <li><a href="cursedboats.html">Cursed Boats?</a></li> 
             <li><a href="stats.html">Lucky Tribers</a></li>
-            <li><a href="notes.html">Notes/About</a></li> 
+            <li><a href="notes.html">About</a></li> 
 
         </ul>
     </nav>
