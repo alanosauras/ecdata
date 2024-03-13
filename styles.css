@@ -105,3 +105,18 @@ button:hover {
     line-height: 1; /* Adjust this value as needed */
 }
 
+body {
+    font-size: 16px; /* Base font size */
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+}
+
+.container {
+    width: 100%; /* Use relative width */
+    max-width: 1200px; /* Optional: limit the max width */
+    margin: auto; /* Center the container */
+}
