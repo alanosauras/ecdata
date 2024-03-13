@@ -5,16 +5,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h2>Everglades Challenge Triber Data</h2>
-    <h4>Enter a Tribers Name to see their EC results.
-        <br>Enter a year to see that year's results. 2001 was the first. 
-        <br>Type "all" to see all data.           
+    <h2>Everglades Challenge Data</h2>
+    <h4>Type a Triber's name to see only their EC results. 
+        <br>or enter a year to see only that year. 2001 was the first. 
     </h4>
-    <input type="text" id="searchQuery" placeholder="Query" list="nameOptions">
+    <input type="text" id="searchQuery" placeholder="Name or Year" list="nameOptions">
     <datalist id="nameOptions"></datalist>
-
+<br><br> Filter by Class, Group or Boat. 
     <!-- Class Filter Dropdown -->
-    <select id="classFilter">
+    <br><select id="classFilter">
         <option value="ALL">All Classes</option>
         <option value="1">Class 1</option>
         <option value="2">Class 2</option>
@@ -39,7 +38,11 @@
     <div id="searchresults"></div>
 
     <script src="racedata.js"></script>
+    <script src="helperFunctions.js"></script>
+    <script src="displayresulsts.js"></script>
     <script src="lookupscript.js"></script>
+ 
+
 </body>
 </html>
 
