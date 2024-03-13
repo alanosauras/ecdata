@@ -92,26 +92,28 @@ const totalEntriesChart = new Chart(totalCtx, {
 
 //success rate chart
 
-const entriesByYear = {};
+const startedEntriesByYear = {}; // Entries that started
 const finishersByYear = {};
 const successRateByYear = {};
 
 racedata.forEach(entry => {
     const year = entry['YEAR'];
-    entriesByYear[year] = (entriesByYear[year] || 0) + 1;
-    if (!isNaN(entry['finish'])) {
-        finishersByYear[year] = (finishersByYear[year] || 0) + 1;
+    if (entry['Total (hrs)'] !== "DNS") { // Count as started if not marked as DNS
+        startedEntriesByYear[year] = (startedEntriesByYear[year] || 0) + 1;
+        if (!isNaN(entry['Total (hrs)'])) { // Check if 'Total (hrs)' is a number, indicating a finish
+            finishersByYear[year] = (finishersByYear[year] || 0) + 1;
+        }
     }
 });
 
-Object.keys(entriesByYear).forEach(year => {
-    const totalEntries = entriesByYear[year];
+Object.keys(startedEntriesByYear).forEach(year => {
+    const totalStarted = startedEntriesByYear[year];
     const totalFinishers = finishersByYear[year] || 0; // Ensure there's a fallback value
-    successRateByYear[year] = (totalFinishers / totalEntries) * 100;
+    successRateByYear[year] = totalStarted > 0 ? (totalFinishers / totalStarted * 100).toFixed(1) : '0.00'; // Calculate success rate
 });
 
 const years = Object.keys(successRateByYear).sort(); // Sort years to ensure chronological order
-const successRates = years.map(year => successRateByYear[year]);
+const successRates = years.map(year => successRateByYear[year]); // Map to success rates
 
 document.addEventListener('DOMContentLoaded', () => {
     const successRateCtx = document.getElementById('successRateByYearChart').getContext('2d');
