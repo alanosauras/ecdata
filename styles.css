@@ -64,5 +64,18 @@ button:hover {
 /* Specific styles for your stats divs for consistency */
 #triberInfo, #finishRateInfo, #firstTimeEntrantSuccessRate, #groupSuccessRates {
     font-size: 16px; /* Sets a consistent font size */
-    margin-bottom: 20px; /* Adds space below each stats div */
+    margin-bottom: 0px; /* Adds space below each stats div */
+}
+
+.stat-section {
+    margin-bottom: 20px; /* Adds space below each section */
+    padding: 3px; /* Adds some padding inside each section for better readability */
+    font-size: 16px; /* Adjusts the font size for consistency */
+    background-color: #ffffff; /* Optional: adds a background color to each section */
+    border-radius: 5px; /* Optional: rounds the corners of the sections */
+}
+
+.stat-section p {
+    margin: 5px 0; /* Reduces space between paragraphs within each section */
+    line-height: 1.5; /* Adjusts line spacing for better readability */
 }
