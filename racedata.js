@@ -7237,7 +7237,7 @@ var racedata = [
     "finish": 24.57,
     "either/or": "",
     "PB?": "",
-    "WW": "ww",
+    "WW": "",
     "Boat Description": "Core Sound 20 MKIII"
   },
   {
@@ -8657,7 +8657,7 @@ var racedata = [
     "finish": 10.52,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Kruger Cruiser canoe with balogh rig"
   },
   {
