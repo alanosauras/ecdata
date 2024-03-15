@@ -7110,7 +7110,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Core Sound 20 Mark 3",
+    "BOAT": "homemade trimaran 18",
     "cp1": 25.17,
     "cp2": 34.42,
     "cp3": 39.17,
