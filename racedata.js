@@ -6857,7 +6857,7 @@ var racedata = [
     "finish": 22.07,
     "either/or": "",
     "PB?": "",
-    "WW": "ww",
+    "WW": "",
     "Boat Description": "Holopuni Outrigger Sailing Canoe"
   },
   {
@@ -6877,7 +6877,7 @@ var racedata = [
     "finish": 14.28,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "grey Hobie TI with green, white & blue sail"
   },
   {
