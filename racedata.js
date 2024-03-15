@@ -6490,7 +6490,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Crazyrussian's Pacific Proa",
+    "BOAT": "Modern Proa 18'",
     "cp1": 24.83,
     "cp2": 51.12,
     "cp3": 24.55,
