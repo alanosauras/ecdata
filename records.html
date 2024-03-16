@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stats and Records</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="../nav.js"></script>
+    <script src="../activelink.js"></script>
+
+    <div id="triberInfo" class="stat-section"></div>
+    <div id="finishRateInfo" class="stat-section"></div>
+    <div id="groupSuccessRates" class="stat-section"></div>
+    <div id="firstTimeEntrantSuccessRate" class="stat-section"></div>
+    <div id="firstTimeGroupSuccessRates" class="stat-section"></div>
+
+    <hr>
+
+    <h2>Class Records</h2>
+    <script src="../racedata.js"></script>
+    <script>
+    const recordTimes = {
+        cp1: 4.13,
+        cp2: 7.42,
+        cp3: 6.47,
+        cp4: 3.98
+    };
+</script>
+
+<script>
+    const recordHolders = {
+        "Class 1": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+        "Class 2": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+        "Class 3": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+        "Class 4": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+        "Class 5": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+        "Class 1 & 2 Combined": { "Overall": {}, "CP1": {}, "CP2": {}, "CP3": {}, "CP4": {} },
+    };
+    
+    function calculateRecordHolders() {
+        racedata.forEach(entry => {
+            const classesToCheck = [entry['Class']];
+            if (entry['Class'] === "Class 1" || entry['Class'] === "Class 2") {
+                classesToCheck.push("Class 1 & 2 Combined");
+            }
+    
+            classesToCheck.forEach(className => {
+                // Handle overall record
+                const overallTime = parseFloat(entry['Total (hrs)']);
+                if (!isNaN(overallTime) && (!recordHolders[className]['Overall'].time || overallTime < recordHolders[className]['Overall'].time)) {
+                    recordHolders[className]['Overall'] = {
+                        year: entry['YEAR'],
+                        tribeNames: entry['Crew wt name'] ? `${entry['Captain wt name']} and ${entry['Crew wt name']}` : entry['Captain wt name'],
+                        boat: entry['BOAT'],
+                        time: overallTime
+                    };
+                }
+    
+                // Handle checkpoint records
+                ["cp1", "cp2", "cp3", "finish"].forEach((checkpoint, index) => {
+                    const time = parseFloat(entry[checkpoint]);
+                    if (!isNaN(time)) {
+                        const recordType = ['CP1', 'CP2', 'CP3', 'CP4'][index];
+                        if (!recordHolders[className][recordType].time || time < recordHolders[className][recordType].time) {
+                            recordHolders[className][recordType] = {
+                                year: entry['YEAR'],
+                                tribeNames: entry['Crew wt name'] ? `${entry['Captain wt name']} and ${entry['Crew wt name']}` : entry['Captain wt name'],
+                                boat: entry['BOAT'],
+                                time: time
+                            };
+                        }
+                    }
+                });
+            });
+        });
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        calculateRecordHolders();
+        // Assuming displayClassRecords() or equivalent function to render tables is defined elsewhere
+    });
+    </script>
+    
+</body>
+</html>

@@ -9,19 +9,12 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-    <div id="triberInfo" class="stat-section"></div>
-    <div id="finishRateInfo" class="stat-section"></div>
-    <div id="groupSuccessRates" class="stat-section"></div>
-    <div id="firstTimeEntrantSuccessRate" class="stat-section"></div>
-    <div id="firstTimeGroupSuccessRates" class="stat-section"></div>
-
-<hr>
     <h4>Type a Triber's name to see only their EC results. 
         <br>or enter a year to see only that year. 2001 was the first. 
     </h4>
     <input type="text" id="searchQuery" placeholder="Name or Year" list="nameOptions">
     <datalist id="nameOptions"></datalist>
-<br><br> Filter by Class, Group or Boat. 
+<br><br> Filter by Class, Group, Times, or Boat. 
     <!-- Class Filter Dropdown -->
     <br><select id="classFilter">
         <option value="ALL">All Classes</option>
@@ -47,6 +40,16 @@
 
 </select>
 
+<!-- Sorting by times -->
+<select id="sortFilter">
+    <option value="fastestTime">Fastest Time (default)</option>
+    <option value="slowestTime">Slowest Time</option>
+    <option value="cp1">Sort by CP1 Time</option>
+    <option value="cp2">Sort by CP2 Time</option>
+    <option value="cp3">Sort by CP3 Time</option>
+    <option value="cp4">Sort by CP4 Time</option>
+</select>
+
 
     <!-- Boat Filter Input with Datalist for Autocomplete -->
     <input type="text" id="boatQuery" placeholder="Boat Model" list="boatOptions">
@@ -60,8 +63,10 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="racedata.js"></script>
     <script src="triberdata.js"></script>
+    <script src="records.js"></script>
     <script src="helperfunctions.js"></script>
     <script src="lookupscript.js"></script>
+
 </body>
 </html>
 
