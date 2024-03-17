@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+    window.linkify = linkify; // Make it accessible globally
 
     linkify(document.body);
 });

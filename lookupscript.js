@@ -90,7 +90,12 @@ if (sortFilterValue !== "None") {
 
 
 
-    displayResults(results);
+displayResults(results);
+
+// Call linkify after updating the content
+if (window.linkify) {
+    window.linkify(document.body);
+}
 }
 
 

@@ -9,7 +9,9 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-<h4> table below lists all unique boat types in order of number of EC attempts. It excludes DNS's in the calculation.</h4>
+<h4> Below are all unique boat types in order of their number of finshes. Did not starts are not included in attempts.</h4>
+
+<h4> In an attempt to rate the boats from the data a "weighted score" is calculated using a 50/50 weighted average of the number of unique crews for each boat as well as it's success rate. This highlights boats that have a good success rate accross multiple unique crews rather than just one hotshot crew that use the same boat every year. When Sorting by this weighted score, boats with less than 2 unique crews are not shown since data with that few points has little meaning. </h4>
 
 <div id="dataNote"></div>
 
@@ -39,7 +41,8 @@ Sort by:
 <table id="boatDataTable" class="search-results-table">
     <thead>
         <tr>
-            <th>#</th>
+            <th></th>
+            <th>Class</th>
             <th>Boat</th>
             <th>Attempts</th>
             <th>Finishes</th>

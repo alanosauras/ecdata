@@ -111,6 +111,11 @@ dataValues.forEach((value, i) => {
 
     // Append the table to the resultsDiv
     resultsDiv.appendChild(table);
+
+    // Call linkify after updating the content
+    if (window.linkify) {
+        window.linkify(document.body);
+    }
 }
 
 // Helper function to convert hours to days, hours, minutes
