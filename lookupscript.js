@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('classFilter').addEventListener('change', searchdata);
     document.getElementById('groupFilter').addEventListener('change', searchdata);
     document.getElementById('boatQuery').addEventListener('input', searchdata);
+    document.getElementById('sortFilter').addEventListener('change', searchdata);
+
 });
 
 function searchdata() {
@@ -30,6 +32,8 @@ function searchdata() {
     const classFilterValue = document.getElementById('classFilter').value;
     const groupFilterValue = document.getElementById('groupFilter').value; // Adjusted to fetch correctly
     const boatFilterValue = document.getElementById('boatQuery').value.toLowerCase(); // Adjusted to fetch correctly
+    // Get the selected sorting criterion
+    const sortFilterValue = document.getElementById('sortFilter').value;
 
     let results = racedata.filter(entry => {
         const matchesNameOrYear = entry['Captain wt name'].toLowerCase().includes(query) ||
@@ -49,7 +53,49 @@ function searchdata() {
         return matchesNameOrYear && matchesClass && matchesGroup && matchesBoat;
     });
 
-    displayResults(results);
+// Sort the results based on the selected sorting criterion
+if (sortFilterValue !== "None") {
+    results.sort((a, b) => {
+        let timeA, timeB;
+
+        switch (sortFilterValue) {
+            case "fastestTime":
+                // Compare total times, treating non-numeric values as very high
+                timeA = isNaN(a['Total (hrs)']) ? Infinity : parseFloat(a['Total (hrs)']);
+                timeB = isNaN(b['Total (hrs)']) ? Infinity : parseFloat(b['Total (hrs)']);
+                break;
+            case "slowestTime":
+                // Compare total times in reverse, treating non-numeric values as very low
+                timeA = isNaN(a['Total (hrs)']) ? -Infinity : parseFloat(a['Total (hrs)']);
+                timeB = isNaN(b['Total (hrs)']) ? -Infinity : parseFloat(b['Total (hrs)']);
+                break;
+            case "cp1":
+            case "cp2":
+            case "cp3":
+                // Directly sort by CP times without calculating splits
+                timeA = isNaN(a[sortFilterValue]) ? Infinity : parseFloat(a[sortFilterValue]);
+                timeB = isNaN(b[sortFilterValue]) ? Infinity : parseFloat(b[sortFilterValue]);
+                break;
+            case "cp4": // Ensure to sort by "finish" when "cp4" is selected
+                timeA = isNaN(a['finish']) ? Infinity : parseFloat(a['finish']);
+                timeB = isNaN(b['finish']) ? Infinity : parseFloat(b['finish']);
+                break;
+            default:
+                return 0; // No sorting if an unrecognized filter value is used
+        }
+
+        return timeA - timeB; // For slowest time, this already sorts in reverse due to -Infinity for non-numeric values
+    });
+}
+
+
+
+displayResults(results);
+
+// Call linkify after updating the content
+if (window.linkify) {
+    window.linkify(document.body);
+}
 }
 
 

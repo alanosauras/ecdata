@@ -10,14 +10,18 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-    <h4>This list displays unique boat types that have started but never finished a challenge. Only boats with all attempts resulting in DNF are included. Attempts could be from more than one boat in the same year. Note that some boat types are not production boats such as "Custom Sharpie" or "Homemade sailing canoe". These are boats that couldn't be easily named but should be identifiable as non-production boats. If you see an error let me know. </h4><br>
+    <h4>This list displays unique boat types that have started but never finished a challenge. Only boats with all attempts resulting in DNF are included. Attempts could be from more than one boat in the same year.</h4>
+    <h4>Probably shouldn't read too much into this data. Note that several Proas made this list. As of 2024, only one Proa design has completed the EC which is the one designed/built by Crazyrussian.</h4>
+    <h4>Unique Attempts indicates the number of unique captain/crew combinations that have attempted the EC in that boat.</h4>
+    <br>
 
     <table id="neverFinishedBoatDataTable" class="search-results-table">
         <thead>
             <tr>
-                <th>#</th>
+                <th></th>
                 <th>Boat Name</th>
                 <th>Failed Attempts</th>
+                <th>Unique Attempts</th>
             </tr>
         </thead>
         <tbody>
@@ -33,11 +37,13 @@
         function updateNeverFinishedBoatsTable() {
             const boatAttempts = {};
             const boatFailures = {};
+            const uniqueAttempts = {};
     
             racedata.forEach(entry => {
-                // Include boats that started (exclude DNS)
                 if (entry['Total (hrs)'] !== "DNS") {
+                    const uniqueKey = entry['BOAT'] + '|' + entry['Captain wt name'] + (entry['Crew wt name'] ? '|' + entry['Crew wt name'] : '');
                     boatAttempts[entry['BOAT']] = (boatAttempts[entry['BOAT']] || 0) + 1;
+                    uniqueAttempts[uniqueKey] = true;
     
                     if (entry['Total (hrs)'] === "DNF") {
                         boatFailures[entry['BOAT']] = (boatFailures[entry['BOAT']] || 0) + 1;
@@ -45,10 +51,7 @@
                 }
             });
     
-            // Filter to keep only boats that have never finished (failures = attempts)
             let neverFinishedBoats = Object.keys(boatFailures).filter(boat => boatFailures[boat] === boatAttempts[boat]);
-    
-            // Sort the boats by most to least failed attempts
             neverFinishedBoats.sort((a, b) => boatFailures[b] - boatFailures[a]);
     
             const tableBody = document.querySelector('#neverFinishedBoatDataTable tbody');
@@ -64,6 +67,9 @@
     
                 const failedAttemptsCell = row.insertCell(2);
                 failedAttemptsCell.textContent = boatFailures[boat];
+                
+                const uniqueAttemptsCell = row.insertCell(3);
+                uniqueAttemptsCell.textContent = Object.keys(uniqueAttempts).filter(key => key.startsWith(boat + '|')).length;
             });
         }
     </script>

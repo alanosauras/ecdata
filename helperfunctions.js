@@ -43,7 +43,7 @@ if (/\b\d{4}\b/.test(query)) {
     const emptyHeader = document.createElement('th');
     headerRow.appendChild(emptyHeader);
 
-    ["Year", "Triber/s", "Group", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"].forEach(headerText => {
+    ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "CP4", "Total (hr)", "D:H:M"].forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;
         header.className = 'myHeaderClass';
@@ -57,43 +57,65 @@ if (/\b\d{4}\b/.test(query)) {
     results.forEach((result, index) => {
         const row = document.createElement('tr');
 
-            // Add a cell at the start for the row number, but with no header
-            const numberCell = document.createElement('td');
-            numberCell.textContent = index + 1; // Row numbering
-            row.appendChild(numberCell);
-
-
+        const numberCell = document.createElement('td');
+        numberCell.textContent = index + 1; // Row numbering
+        row.appendChild(numberCell);
+    
         const tribers = result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'];
         const classValue = result['C#'];
         const totalDHM = convertHoursToDHM(result['Total (hrs)']);
-
+        // Check if entry used Plan B and amend CP1 value accordingly
+        const cp1Value = result['PB?'] === "planB" ? `${result['cp1']} - B` : result['cp1'];
+    
         // Define the order of keys as per the new structure including calculated or combined fields
         const dataValues = [
             result['YEAR'],
             tribers,
+            classValue,
             result['Group/Gender'],
             result['BOAT'],
-            classValue,
-            result['Total (hrs)'],
-            result['cp1'],
+            cp1Value, // Use amended CP1 value
             result['cp2'],
             result['cp3'],
+            result['finish'],
+            result['Total (hrs)'],
             totalDHM,
         ];
-
-        dataValues.forEach(value => {
+    
+        dataValues.forEach((value, i) => {
             const cell = document.createElement('td');
             cell.textContent = value;
             cell.className = 'myDataClass';
+        
+            // Check if recordTimes is defined and highlight cells accordingly
+            if (window.recordTimes) {
+                let recordTime;
+                switch(i) {
+                    case 5: recordTime = recordTimes.cp1.toFixed(2); break;
+                    case 6: recordTime = recordTimes.cp2.toFixed(2); break;
+                    case 7: recordTime = recordTimes.cp3.toFixed(2); break;
+                    case 8: recordTime = recordTimes.cp4.toFixed(2); break;
+                }
+                if (parseFloat(value).toFixed(2) === recordTime) {
+                    cell.style.backgroundColor = 'yellow';
+                }
+            }
+        
             row.appendChild(cell);
         });
-
+    
         tbody.appendChild(row);
     });
+    
     table.appendChild(tbody);
 
     // Append the table to the resultsDiv
     resultsDiv.appendChild(table);
+
+    // Call linkify after updating the content
+    if (window.linkify) {
+        window.linkify(document.body);
+    }
 }
 
 // Helper function to convert hours to days, hours, minutes
