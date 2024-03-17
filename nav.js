@@ -10,7 +10,7 @@ document.getElementById('navigation').innerHTML = `
             <li><a href="boatdata.html">Boat Data</a></li>
             <li><a href="missingboatinfo.html">Missing Info</a></li> 
             <li><a href="cursedboats.html">Cursed Boats?</a></li> 
-            <li><a href="stats.html">Lucky Tribers</a></li>
+            <li><a href="lucky.html">Lucky Tribers</a></li>
             <li><a href="notes.html">About</a></li> 
             <li><a href="ERRORS.html">Erroneous Data</a></li>
 

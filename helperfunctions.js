@@ -82,27 +82,27 @@ if (/\b\d{4}\b/.test(query)) {
             totalDHM,
         ];
     
-dataValues.forEach((value, i) => {
-    const cell = document.createElement('td');
-    cell.textContent = value;
-    cell.className = 'myDataClass';
-
-    // Check if recordTimes is defined and highlight cells accordingly
-    if (window.recordTimes) {
-        let recordTime;
-        switch(i) {
-            case 5: recordTime = recordTimes.cp1; break;
-            case 6: recordTime = recordTimes.cp2; break;
-            case 7: recordTime = recordTimes.cp3; break;
-            case 8: recordTime = parseFloat(value) === recordTimes.cp4; break;
-        }
-        if (parseFloat(value) === recordTime) {
-            cell.style.backgroundColor = 'yellow';
-        }
-    }
-
-    row.appendChild(cell);
-});
+        dataValues.forEach((value, i) => {
+            const cell = document.createElement('td');
+            cell.textContent = value;
+            cell.className = 'myDataClass';
+        
+            // Check if recordTimes is defined and highlight cells accordingly
+            if (window.recordTimes) {
+                let recordTime;
+                switch(i) {
+                    case 5: recordTime = recordTimes.cp1.toFixed(2); break;
+                    case 6: recordTime = recordTimes.cp2.toFixed(2); break;
+                    case 7: recordTime = recordTimes.cp3.toFixed(2); break;
+                    case 8: recordTime = recordTimes.cp4.toFixed(2); break;
+                }
+                if (parseFloat(value).toFixed(2) === recordTime) {
+                    cell.style.backgroundColor = 'yellow';
+                }
+            }
+        
+            row.appendChild(cell);
+        });
     
         tbody.appendChild(row);
     });
