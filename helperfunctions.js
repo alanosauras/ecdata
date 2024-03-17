@@ -56,6 +56,7 @@ if (/\b\d{4}\b/.test(query)) {
     const tbody = document.createElement('tbody');
     results.forEach((result, index) => {
         const row = document.createElement('tr');
+
         const numberCell = document.createElement('td');
         numberCell.textContent = index + 1; // Row numbering
         row.appendChild(numberCell);
@@ -81,23 +82,27 @@ if (/\b\d{4}\b/.test(query)) {
             totalDHM,
         ];
     
-        dataValues.forEach((value, i) => {
-            const cell = document.createElement('td');
-            cell.textContent = value;
-            cell.className = 'myDataClass';
+dataValues.forEach((value, i) => {
+    const cell = document.createElement('td');
+    cell.textContent = value;
+    cell.className = 'myDataClass';
 
-            // Safely check for recordTimes before attempting to access it
-            if (typeof recordTimes !== 'undefined') {
-                if (i === 5 && parseFloat(value) === recordTimes.cp1 || 
-                    i === 6 && parseFloat(value) === recordTimes.cp2 || 
-                    i === 7 && parseFloat(value) === recordTimes.cp3 || 
-                    i === 8 && parseFloat(value) === recordTimes.cp4) {
-                    cell.style.backgroundColor = 'yellow';
-                }
-            }
-            
-            row.appendChild(cell);
-        });
+    // Check if recordTimes is defined and highlight cells accordingly
+    if (window.recordTimes) {
+        let recordTime;
+        switch(i) {
+            case 5: recordTime = recordTimes.cp1; break;
+            case 6: recordTime = recordTimes.cp2; break;
+            case 7: recordTime = recordTimes.cp3; break;
+            case 8: recordTime = parseFloat(value) === recordTimes.cp4; break;
+        }
+        if (parseFloat(value) === recordTime) {
+            cell.style.backgroundColor = 'yellow';
+        }
+    }
+
+    row.appendChild(cell);
+});
     
         tbody.appendChild(row);
     });
