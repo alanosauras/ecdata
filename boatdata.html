@@ -9,9 +9,12 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-The table below lists all unique boat types in order of number of EC attempts. It excludes DNS's in the calculation.
-<h4>The question mark indicates unidentified boat types. Check the unidentified boat chart to see if you are in there. </h4><br>
-Class Filter Dropdown
+<h4> table below lists all unique boat types in order of number of EC attempts. It excludes DNS's in the calculation.</h4>
+
+<div id="dataNote"></div>
+
+<br>
+Filter by Class:
 <select id="classFilter">
     <option value="ALL">All Classes</option>
     <option value="1">Class 1</option>
@@ -20,24 +23,35 @@ Class Filter Dropdown
     <option value="4">Class 4</option>
     <option value="5">Class 5</option>
 </select>
-<br>
-<br>
-<table id="boatDataTable">
-        
-        <thead>
-            <tr>
-                <th></th>
-                <th>Boat</th>
-                <th>Attempts</th>
-                <th>Finishes</th>
-                <th>Finish Rate</th>
 
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Table rows will be added here by JavaScript -->
-        </tbody>
-    </table>
+<!-- Sorting Dropdown -->
+Sort by:
+<select id="sortFilter">
+    <option value="mostFinishes">Most Finishes</option>
+    <option value="weightedScore">Weighted Score</option>
+    <!-- <option value="finishRate">Highest Finish Rate</option> -->
+</select>
+
+<br>
+<br>
+
+<!-- Table for displaying data -->
+<table id="boatDataTable" class="search-results-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Boat</th>
+            <th>Attempts</th>
+            <th>Finishes</th>
+            <th>Unique Crews</th>
+            <th>Success Rate</th>
+            <th>Weighted Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data rows will be inserted here -->
+    </tbody>
+</table>
 
     <script src="racedata.js"></script>
     <script src="boatdata.js"></script>

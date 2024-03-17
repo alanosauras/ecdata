@@ -4,9 +4,9 @@ document.getElementById('navigation').innerHTML = `
     <nav>
         <ul>
             <li><a href="index.html">Lookup</a></li>
-            <li><a href="records.html">Records</a></li>
-            <li><a href="classchart.html">Charts</a></li>
             <li><a href="ww.html">Wilderness Waterway</a></li>
+            <li><a href="records.html">Stats/Records</a></li>
+            <li><a href="classchart.html">Charts</a></li>
             <li><a href="boatdata.html">Boat Data</a></li>
             <li><a href="missingboatinfo.html">Missing Info</a></li> 
             <li><a href="cursedboats.html">Cursed Boats?</a></li> 
