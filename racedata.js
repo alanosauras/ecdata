@@ -1,4 +1,3 @@
-//racedata.js
 var racedata = [
   {
     "Total (hrs)": 26.2,
@@ -3330,7 +3329,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Modern Proa 18'",
+    "BOAT": "18' Custom Proa by Crazyrussian",
     "cp1": 23.15,
     "cp2": 40.35,
     "cp3": 16.28,
@@ -6490,7 +6489,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Modern Proa 18'",
+    "BOAT": "18' Custom Proa by Crazyrussian",
     "cp1": 24.83,
     "cp2": 51.12,
     "cp3": 24.55,
@@ -6750,7 +6749,7 @@ var racedata = [
     "C#": "C4",
     "Group": "Double",
     "Group/Gender": "Double Male",
-    "BOAT": "O'Day Day sailer",
+    "BOAT": "Buccaneer 18",
     "cp1": 17.55,
     "cp2": 36.28,
     "cp3": 27.55,
@@ -21350,7 +21349,7 @@ var racedata = [
     "C#": "C4",
     "Group": "Double",
     "Group/Gender": "Double Mixed",
-    "BOAT": "Buccaneer",
+    "BOAT": "Buccaneer 18",
     "cp1": 25.9,
     "cp2": 76.52,
     "cp3": "#N/A",
@@ -24590,7 +24589,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Pacific Proa",
+    "BOAT": "18' Custom Proa by Crazyrussian",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
@@ -27430,7 +27429,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Double",
     "Group/Gender": "Double Male",
-    "BOAT": "Homemade Proa",
+    "BOAT": "21' Custom Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
@@ -27870,7 +27869,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "Proa 20",
+    "BOAT": "20' Custom Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
@@ -27890,7 +27889,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Double",
     "Group/Gender": "Double Male",
-    "BOAT": "Proa",
+    "BOAT": "P52 Duckworks Proa",
     "cp1": 29.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
@@ -29250,7 +29249,7 @@ var racedata = [
     "C#": "C5",
     "Group": "Double",
     "Group/Gender": "Double Male",
-    "BOAT": "Pacific Proa",
+    "BOAT": "Mbuli, CLC Pacific Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
@@ -30721,4 +30720,3 @@ var racedata = [
     "Boat Description": "Warren Light Craft 15.5 sailing kayak www.warrenlightcraft.com"
   }
 ];
-  
