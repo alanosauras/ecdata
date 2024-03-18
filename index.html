@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Race Data</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+    <h4>Type a Triber's name to see only their EC results. 
+        <br>or enter a year to see only that year. 2001 was the first. 
+    </h4>
+    <input type="text" id="searchQuery" placeholder="Name or Year" list="nameOptions">
+    <datalist id="nameOptions"></datalist>
+<br><br> Filter by Class, Group, Times, or Boat. 
+    <!-- Class Filter Dropdown -->
+    <br><select id="classFilter">
+        <option value="ALL">All Classes</option>
+        <option value="1">Class 1</option>
+        <option value="2">Class 2</option>
+        <option value="3">Class 3</option>
+        <option value="4">Class 4</option>
+        <option value="5">Class 5</option>
+        <option value="6">Class 6</option>
+    </select>
+
+<!-- Group Filter Dropdown -->
+<select id="groupFilter">
+    <option value="ALL">All Groups</option>
+    <option value="All Single">All Single</option>
+    <option value="All Double">All Double</option>
+    <option value="Single Male">Single Male</option>
+    <option value="Double Male">Double Male</option>
+    <option value="Single Female">Single Female</option>
+    <option value="Double Female">Double Female</option>
+    <option value="Double Mixed">Double Mixed</option>
+    <option value="Triple">Triple</option>
+
+</select>
+
+<!-- Sorting by times -->
+<select id="sortFilter">
+    <option value="fastestTime">Fastest Overall Time (default)</option>
+    <option value="slowestTime">Slowest Overall Time</option>
+    <option value="cp1">Sort by CP1 Time</option>
+    <option value="cp2">Sort by CP2 Time</option>
+    <option value="cp3">Sort by CP3 Time</option>
+    <option value="cp4">Sort by CP4 Time</option>
+</select>
+
+
+    <!-- Boat Filter Input with Datalist for Autocomplete -->
+    <input type="text" id="boatQuery" placeholder="Boat Model" list="boatOptions">
+    <datalist id="boatOptions"></datalist>
+
+    <!-- <button onclick="searchdata()">Search</button> -->
+    <button id="resetButton">Reset Search</button>
+
+    <div id="searchresults"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="racedata.js"></script>
+    <script src="helperfunctions.js"></script>
+    <script src="lookupscript.js"></script>
+
+    <script src="text-links.js"></script>
+    <script src="linkify-text.js"></script>
+    
+
+
+</body>
+</html>
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fishy Numbers</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+    <h4>This table highlights potentially erroneous data. Values for Checkpoint split times that are less than the accepted records as well as negative split times. </h4>
+    <h4>Some of the highlighted times for CP1 are no doubt due to unrecorded instances of a Plan B start. </h4>
+    <br>
+
+    <div id="searchresults"></div>
+    <script src="records.js"></script>
+    <script src="racedata.js"></script>
+
+    <script>
+        // Helper function to convert hours to days, hours, minutes
+        function convertHoursToDHM(totalHours) {
+            const hours = Number(totalHours);
+            const days = Math.floor(hours / 24);
+            const remainderHours = hours % 24;
+            const minutes = Math.floor((remainderHours - Math.floor(remainderHours)) * 60);
+            return `${days}d ${Math.floor(remainderHours)}h ${minutes}m`;
+        }
+
+        // Function to find and display potentially erroneous data
+        function displayFishyResults() {
+            const resultsDiv = document.getElementById('searchresults');
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+const fishyEntries = racedata.filter(entry => {
+    const cp1Value = entry['PB?'] === "planB" ? Infinity : parseFloat(entry['cp1']);
+    const cp2Value = parseFloat(entry['cp2']);
+    const cp3Value = parseFloat(entry['cp3']);
+    const cp4Value = parseFloat(entry['finish']); // Assuming 'finish' represents CP4
+
+    return (cp1Value < recordTimes.cp1 && cp1Value !== Infinity) || 
+           (cp2Value < recordTimes.cp2) || 
+           (cp3Value < recordTimes.cp3) || 
+           (cp4Value < recordTimes.cp4);
+});
+
+
+
+            if (fishyEntries.length === 0) {
+                resultsDiv.innerHTML = 'No fishy numbers found.';
+                return;
+            }
+
+            // Create a table
+            const table = document.createElement('table');
+            table.classList.add('search-results-table');
+
+            // Header
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            const emptyHeader = document.createElement('th');
+            headerRow.appendChild(emptyHeader);
+            ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "Finish", "Total (hrs)", "D:H:M"].forEach(headerText => {
+                const header = document.createElement('th');
+                header.textContent = headerText;
+                header.className = 'myHeaderClass';
+                headerRow.appendChild(header);
+            });
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+
+            // Body
+            const tbody = document.createElement('tbody');
+            fishyEntries.forEach((entry, index) => {
+                const row = document.createElement('tr');
+                const numberCell = document.createElement('td');
+                numberCell.textContent = index + 1; // Row numbering
+                row.appendChild(numberCell);
+
+                const cp1Value = entry['PB?'] === "planB" ? `${entry['cp1']} - B` : entry['cp1'];
+                const dataValues = [
+                    entry['YEAR'],
+                    entry['Crew wt name'] ? `${entry['Captain wt name']} and ${entry['Crew wt name']}` : entry['Captain wt name'],
+                    entry['C#'],
+                    entry['Group/Gender'],
+                    entry['BOAT'],
+                    cp1Value,
+                    entry['cp2'],
+                    entry['cp3'],
+                    entry['finish'],
+                    entry['Total (hrs)'],
+                    convertHoursToDHM(entry['Total (hrs)'])
+                ];
+
+                dataValues.forEach((data, i) => {
+    const cell = document.createElement('td');
+    let actualValue = data;
+    let isPlanB = false;
+    let dataKey = '';
+
+    // Check if the data is an object for CP1 with Plan B consideration
+    if (typeof data === 'object') {
+        actualValue = data.value;
+        isPlanB = data.planB;
+        dataKey = data.key;
+        cell.textContent = isPlanB ? `${actualValue} - B` : actualValue;
+    } else {
+        cell.textContent = actualValue;
+        // Assign dataKey based on the column index
+        if (i === 5) dataKey = 'cp1';
+        else if (i === 6) dataKey = 'cp2';
+        else if (i === 7) dataKey = 'cp3';
+        else if (i === 8) dataKey = 'finish';
+    }
+
+    // Highlight cells based on record times or negative values, avoiding highlighting for Plan B unless negative
+    const recordTime = dataKey === 'finish' ? recordTimes.cp4 : recordTimes[dataKey]; // Adjust for CP4 named as 'finish'
+    if (!isPlanB && actualValue !== Infinity && (parseFloat(actualValue) < recordTime || parseFloat(actualValue) < 0)) {
+        cell.style.backgroundColor = 'orange';
+    }
+
+    cell.className = 'myDataClass';
+    row.appendChild(cell);
+});
+
+
+                tbody.appendChild(row);
+            });
+            table.appendChild(tbody);
+
+            resultsDiv.appendChild(table);
+        }
+
+        document.addEventListener('DOMContentLoaded', displayFishyResults);
+    </script>
+</body>
+</html>

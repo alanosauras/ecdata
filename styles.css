@@ -1,0 +1,122 @@
+/* Existing styles for tables */
+.search-results-table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 8px;
+}
+
+.search-results-table th, .search-results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.search-results-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* New styles */
+body {
+    font-family: Arial, sans-serif; /* Apply a consistent font across your page */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points from navigation */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Aligns nav items horizontally */
+    margin-right: 20px; /* Adds some space between nav items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: blue; /* Sets link color */
+}
+
+h2, h4 {
+    font-weight: normal; /* Adjusts heading boldness */
+    color: #333; /* Sets text color for headings */
+}
+
+input[type="text"], select {
+    padding: 8px;
+    margin-top: 5px; /* Adds space above inputs and selects */
+    border-radius: 4px; /* Optional: Adds rounded corners to inputs and selects */
+    border: 1px solid #ccc; /* Sets the border color */
+}
+
+button {
+    background-color: blue; /* Sets button background color */
+    color: white; /* Sets button text color */
+    padding: 10px 15px; /* Adjusts padding inside the button */
+    border: none; /* Removes button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 4px; /* Optional: Adds rounded corners to the button */
+}
+
+button:hover {
+    background-color: darkblue; /* Darkens button on hover for a visual feedback */
+}
+
+/* Specific styles for your stats divs for consistency */
+#triberInfo, #finishRateInfo, #firstTimeEntrantSuccessRate, #groupSuccessRates {
+    font-size: 16px; /* Sets a consistent font size */
+    margin-bottom: 0px; /* Adds space below each stats div */
+}
+
+.stat-section {
+    margin-bottom: 20px; /* Adds space below each section */
+    padding: 4px; /* Adds some padding inside each section for better readability */
+    font-size: 16px; /* Adjusts the font size for consistency */
+    background-color: #ffffff; /* Optional: adds a background color to each section */
+    border-radius: 5px; /* Optional: rounds the corners of the sections */
+}
+
+.stat-section p {
+    margin: 4px 0; /* Reduces space between paragraphs within each section */
+    line-height: 1.5; /* Adjusts line spacing for better readability */
+}
+
+.chart-container {
+    width: 90%; /* Or any specific width */
+    max-width: 800px; /* Optional: Sets a maximum width */
+    height: auto; /* Keeps the container's height adjustable to the chart */
+    margin: auto; /* Centers the container */
+    aspect-ratio: 4 / 3; /* Optional: Controls the aspect ratio of the chart */
+}
+
+.active-link {
+    color: rgb(85, 82, 82);
+    pointer-events: none; /* Optional: Disables clicking on the active link */
+}
+
+.links-container {
+    margin-top: 10;
+    padding: ; /* Ensure container doesn't add space */
+}
+
+
+.links-container a {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1; /* Adjust this value as needed */
+}
+
+body {
+    font-size: 16px; /* Base font size */
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+}
+
+.container {
+    width: 100%; /* Use relative width */
+    max-width: 1200px; /* Optional: limit the max width */
+    margin: auto; /* Center the container */
+}
