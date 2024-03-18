@@ -13149,7 +13149,7 @@ var racedata = [
     "C#": "C3",
     "Group": "Single",
     "Group/Gender": "Single Female",
-    "BOAT": "Kruger Seawind",
+    "BOAT": "Kruger Dreamcatcher",
     "cp1": 15,
     "cp2": 46,
     "cp3": 67.25,
@@ -15166,7 +15166,7 @@ var racedata = [
     "Crew wt name": "",
     "3rd wt name": "",
     "Given Name/s": "Dennise Mathis",
-    "C#": "C3",
+    "C#": "C1",
     "Group": "Single",
     "Group/Gender": "Single Female",
     "BOAT": "Romany 16",
@@ -30720,4 +30720,3 @@ var racedata = [
     "Boat Description": "Warren Light Craft 15.5 sailing kayak www.warrenlightcraft.com"
   }
 ];
-
