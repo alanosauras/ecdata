@@ -38,10 +38,10 @@ const fishyEntries = racedata.filter(entry => {
     const cp3Value = parseFloat(entry['cp3']);
     const cp4Value = parseFloat(entry['finish']); // Assuming 'finish' represents CP4
 
-    return (cp1Value < recordTimes.cp1 && cp1Value !== Infinity) || 
-           (cp2Value < recordTimes.cp2) || 
-           (cp3Value < recordTimes.cp3) || 
-           (cp4Value < recordTimes.cp4);
+    return (cp1Value < overallRecordTimes.cp1 && cp1Value !== Infinity) || 
+           (cp2Value < overallRecordTimes.cp2) || 
+           (cp3Value < overallRecordTimes.cp3) || 
+           (cp4Value < overallRecordTimes.cp4);
 });
 
 
@@ -114,7 +114,7 @@ const fishyEntries = racedata.filter(entry => {
     }
 
     // Highlight cells based on record times or negative values, avoiding highlighting for Plan B unless negative
-    const recordTime = dataKey === 'finish' ? recordTimes.cp4 : recordTimes[dataKey]; // Adjust for CP4 named as 'finish'
+    const recordTime = dataKey === 'finish' ? overallRecordTimes.cp4 : overallRecordTimes[dataKey]; // Adjust for CP4 named as 'finish'
     if (!isPlanB && actualValue !== Infinity && (parseFloat(actualValue) < recordTime || parseFloat(actualValue) < 0)) {
         cell.style.backgroundColor = 'orange';
     }
