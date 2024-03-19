@@ -120,3 +120,27 @@ body {
     max-width: 1200px; /* Optional: limit the max width */
     margin: auto; /* Center the container */
 }
+
+.highlight {
+    background-color: yellow;
+  }
+  
+  .titleRow th {
+    background-color: rgb(221, 219, 219);
+    border: 0; /* Removes column lines */
+    text-align: left;
+}
+
+.firstColumn {
+    padding-right: 20px; /* Adjust the space in the first column */
+}
+
+.search-results-table th, .search-results-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Adjust as necessary for column lines */
+}
+
+.search-results-table .highlight {
+    background-color: yellow;
+}
