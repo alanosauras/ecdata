@@ -36,9 +36,16 @@ function searchdata() {
     const sortFilterValue = document.getElementById('sortFilter').value;
 
     let results = racedata.filter(entry => {
-        const matchesNameOrYear = entry['Captain wt name'].toLowerCase().includes(query) ||
-                                  entry['Crew wt name'].toLowerCase().includes(query) ||
-                                  entry['YEAR'].toString() === query;
+        let matchesNameOrYear;
+        if (query === '') {
+            // If query is empty, don't filter out any entries based on name/year
+            matchesNameOrYear = true;
+        } else {
+            // Apply exact matching only when there is a query
+            matchesNameOrYear = entry['Captain wt name'].toLowerCase() === query ||
+                                entry['Crew wt name'].toLowerCase() === query ||
+                                entry['YEAR'].toString() === query;
+        }
 
         const matchesClass = classFilterValue === "ALL" || entry['C#'] === `C${classFilterValue}`;
 
@@ -150,7 +157,3 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.reload();
     });
 });
-
-
-
-
