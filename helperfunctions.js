@@ -34,6 +34,7 @@ if (/\b\d{4}\b/.test(query)) {
     // Create a table
     const table = document.createElement('table');
     table.classList.add('search-results-table');
+    table.id = 'outputTable'; // Assign an ID to the table for easier selection
 
     // Create header row and add an empty cell for the "No." column
     const thead = document.createElement('thead');
@@ -112,10 +113,9 @@ if (/\b\d{4}\b/.test(query)) {
     // Append the table to the resultsDiv
     resultsDiv.appendChild(table);
 
-    // Call linkify after updating the content
-    if (window.linkify) {
-        window.linkify(document.body);
-    }
+// Call linkifyTable with the ID of the newly created table
+linkifyTable('#outputTable');
+
 }
 
 // Helper function to convert hours to days, hours, minutes
