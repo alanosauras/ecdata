@@ -81,11 +81,11 @@ button:hover {
 }
 
 .chart-container {
-    width: 90%; /* Or any specific width */
-    max-width: 800px; /* Optional: Sets a maximum width */
+    width: 70%; /* Or any specific width */
+    /* max-width: 95S0px; Optional: Sets a maximum width */
     height: auto; /* Keeps the container's height adjustable to the chart */
     margin: auto; /* Centers the container */
-    aspect-ratio: 4 / 3; /* Optional: Controls the aspect ratio of the chart */
+    aspect-ratio: 4 / 2; /* Optional: Controls the aspect ratio of the chart */
 }
 
 .active-link {

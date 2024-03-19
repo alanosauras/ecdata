@@ -11,9 +11,14 @@
 
 <h4> Below are all unique boat types in order of their number of finshes. Did not starts are not included in attempts.</h4>
 
-<h4> In an attempt to rate the boats from the data a "weighted score" is calculated using a 50/50 weighted average of the number of unique crews for each boat as well as it's success rate. This highlights boats that have a good success rate accross multiple unique crews rather than just one hotshot crew that use the same boat every year. When Sorting by this weighted score, boats with less than 2 unique crews are not shown since data with that few points has little meaning. Generally speaking i'm not sure if this value actually has any use yet and I think a bit more work on this is needed. The Sea Pearl For example should rate higher than the 20mk3 since they have similar finish rates but the sea pearl has a lot more data so, i need to look into that.  </h4>
-
 <div id="dataNote"></div>
+
+<h4> In an attempt to visualize the data, the success rate for boats with more than 5 finishes are plotted on a chart against the percentage of those finishes that were by unique crews. The idea being that boats closest to the upper right of the chart would have the "best" success in the EC with the least correlation to their crews. The chart looks kind of cool but whether it is actually usefull in any way I am not sure. Note also that some boat types can appear in class 1, 2, or 3 depending on how they were set up so the class filter is less usefull in this case. </h4>
+
+
+<div class="chart-container">
+    <canvas id="scatterPlot"></canvas>
+</div>
 
 <br>
 Filter by Class:
@@ -30,7 +35,7 @@ Filter by Class:
 Sort by:
 <select id="sortFilter">
     <option value="mostFinishes">Most Finishes</option>
-    <option value="weightedScore">Weighted Score</option>
+    <option value="mostUniqueCrews">Most Number of Unique Crews</option>
     <!-- <option value="finishRate">Highest Finish Rate</option> -->
 </select>
 
@@ -47,8 +52,9 @@ Sort by:
             <th>Attempts</th>
             <th>Finishes</th>
             <th>Unique Crews</th>
+            <th>Percent Unique</th> <!-- New column -->
             <th>Success Rate</th>
-            <th>Weighted Score</th>
+
         </tr>
     </thead>
     <tbody>
@@ -56,7 +62,10 @@ Sort by:
     </tbody>
 </table>
 
+
     <script src="racedata.js"></script>
     <script src="boatdata.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </body>
 </html>

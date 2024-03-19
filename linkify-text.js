@@ -1,25 +1,16 @@
-// linkify-text.js
-document.addEventListener('DOMContentLoaded', function() {
-    function linkify(element) {
-        if (element.hasChildNodes()) {
-            element.childNodes.forEach(child => {
-                if (child.nodeType === 3) { // Node.TEXT_NODE
-                    let replacedText = child.nodeValue;
-                    textLinks.forEach(link => {
-                        replacedText = replacedText.replace(new RegExp(link.text, "g"), `<a href="${link.url}" target="_blank">${link.text}</a>`);
-                    });
-                    if (replacedText !== child.nodeValue) {
-                        const newElement = document.createElement('span');
-                        newElement.innerHTML = replacedText;
-                        child.parentNode.replaceChild(newElement, child);
-                    }
-                } else if (child.nodeType === 1 && !child.hasAttribute('data-no-linkify')) { // Node.ELEMENT_NODE
-                    linkify(child); // Recurse
-                }
-            });
-        }
-    }
-    window.linkify = linkify; // Make it accessible globally
+function linkifyTable(tableSelector) {
+    const table = document.querySelector(tableSelector);
+    if (!table) return; // Exit if the table isn't found
 
-    linkify(document.body);
-});
+    const rows = table.querySelectorAll('tbody tr'); // Select only rows within tbody to avoid header
+    rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        const boatCell = cells[4]; // Assuming "Boat" is the fifth column
+        if (!boatCell) return; // Skip rows where the boat cell isn't found (just in case)
+        textLinks.forEach(link => {
+            if (boatCell.textContent.trim() === link.text) { // Check for exact match
+                boatCell.innerHTML = `<a href="${link.url}" target="_blank">${boatCell.textContent}</a>`;
+            }
+        });
+    });
+}
