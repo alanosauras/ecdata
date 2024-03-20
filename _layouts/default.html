@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
    
    
 <!-- Google tag (gtag.js) -->
@@ -19,8 +19,9 @@
 </head>
 <body>
     <div id="navigation"></div>
-    <script src="/nav.js"></script>
-    <script src="/activelink.js"></script>
+    <script src="{{ '/nav.js' | relative_url }}"></script>
+    <script src="{{ '/activelink.js' | relative_url }}"></script>
+    
 
     {{ content }}
 
