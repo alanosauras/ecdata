@@ -1,12 +1,18 @@
----
-layout: default
-title: Search Race Data
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Race Data</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
 
     <h4>Type a Triber's name to see only their EC results. 
         <br>or enter a year to see only that year. 2001 was the first. 
     </h4>
-    <input type="text" id="searchQuery" placeholder="Tribe Name or Year" list="nameOptions">
+    <input type="text" id="searchQuery" placeholder="Name or Year" list="nameOptions">
     <datalist id="nameOptions"></datalist>
 <br><br> Filter by Class, Group, Times, or Boat. 
     <!-- Class Filter Dropdown -->
@@ -62,4 +68,8 @@ title: Search Race Data
     <script src="text-links.js"></script>
     <script src="linkify-text.js"></script>
     
+
+
+</body>
+</html>
 
