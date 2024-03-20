@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+   
+   
+    <!-- Include Google Analytics here if needed -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXX');
+    </script>
+    
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="/nav.js"></script>
+    <script src="/activelink.js"></script>
+
+    {{ content }}
+
+    <!-- Your site-wide scripts here -->
+</body>
+</html>
