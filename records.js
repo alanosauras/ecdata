@@ -117,25 +117,47 @@ function displayRecords() {
       let distanceUsedForSpeed;
       let speedKts;
       let speedMph;
-
+  
       if (key === 'overall') {
         time = parseFloat(recordEntry["Total (hrs)"]);
         distanceUsedForSpeed = totalDistance;
       } else {
         time = parseFloat(recordEntry[checkpoints[key]]);
-        distanceUsedForSpeed = distances[`${key}To${checkpoints[key] ? checkpoints[key].replace('cp', 'Cp') : ''}`];
+        // Correctly map the key to the distances for CP1 to CP4
+        switch(key) {
+          case 'cp1':
+            distanceUsedForSpeed = distances.startToCp1;
+            break;
+          case 'cp2':
+            distanceUsedForSpeed = distances.cp1ToCp2;
+            break;
+          case 'cp3':
+            distanceUsedForSpeed = distances.cp2ToCp3;
+            break;
+          case 'cp4':
+            distanceUsedForSpeed = distances.cp3ToFinish;
+            break;
+          default:
+            distanceUsedForSpeed = 0; // Default case to prevent undefined behavior
+        }
       }
-
-      speedKts = (distanceUsedForSpeed / time).toFixed(2);
-      speedMph = knotsToMph(parseFloat(speedKts));
-
+  
+      if (distanceUsedForSpeed > 0 && time > 0) {
+        speedKts = (distanceUsedForSpeed / time).toFixed(2);
+        speedMph = knotsToMph(parseFloat(speedKts)).toFixed(2);
+      } else {
+        speedKts = "N/A";
+        speedMph = "N/A";
+      }
+  
       const crew = recordEntry["Crew wt name"] ? `${recordEntry["Captain wt name"]}, ${recordEntry["Crew wt name"]}` : recordEntry["Captain wt name"];
       const realNames = recordEntry["Given Name/s"];
-
+  
       const row = table.insertRow();
       row.innerHTML = `<td>${key.toUpperCase()}</td><td>${recordEntry.YEAR}</td><td>${crew}</td><td>${realNames}</td><td>${recordEntry.BOAT}</td><td>${time.toFixed(2)}</td><td>${formatTimeDHM(time)}</td><td>${speedKts}</td><td>${speedMph}</td>`;
     }
   });
+  
 
 
 // ENTRIES FOR CLASS
