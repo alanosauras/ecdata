@@ -74,13 +74,12 @@
 
     <div>Page visits: <span id="visits">loading...</span></div>
 
-
     <script>
         function cb(response) {
             document.getElementById('visits').innerText = response.value;
         }
-        </script>
-        <script async src="https://api.countapi.xyz/hit/alanosauras-ecdata/index/visits?callback=cb"></script>
+    </script>
+    <script async src="https://api.countapi.xyz/hit/alanosauras-ecdata/index?callback=cb"></script>
         
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
