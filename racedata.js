@@ -6169,7 +6169,7 @@ var racedata = [
     "C#": "C4",
     "Group": "Single",
     "Group/Gender": "Single Male",
-    "BOAT": "CL 16",
+    "BOAT": "Wayfarer",
     "cp1": 2.83,
     "cp2": 47.92,
     "cp3": 26.33,
