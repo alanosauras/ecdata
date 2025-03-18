@@ -1,3 +1,4 @@
+//test
 var racedata = [
   {
     "Total (hrs)": 26.2,
@@ -117,7 +118,7 @@ var racedata = [
     "either/or": "",
     "PB?": "",
     "WW": "",
-    "Boat Description": "modified tornado"
+    "Boat Description": "modified tornado" 
   },
   {
     "Total (hrs)": 35.67,
