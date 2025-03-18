@@ -1,3 +1,4 @@
+//racedata.js
 var racedata = [
   {
     "Total (hrs)": 26.2,
@@ -8,16 +9,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 5.88,
     "cp2": 8.38,
     "cp3": 6.48,
     "finish": 5.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Tornado Beach cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 27.5,
@@ -28,16 +25,12 @@ var racedata = [
     "Given Name/s": "Ralph Cole and Randy Smyth",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra Carbon 20",
     "cp1": 5.93,
     "cp2": 10.25,
     "cp3": 7.32,
     "finish": 4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacre c20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 28.75,
@@ -48,16 +41,12 @@ var racedata = [
     "Given Name/s": "Ralph Cole and Randy Smyth",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra Carbon 20",
     "cp1": 4.27,
     "cp2": 7.42,
     "cp3": 8.78,
     "finish": 8.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra C20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 33.12,
@@ -68,16 +57,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 7.58,
     "cp2": 13.75,
     "cp3": 7.8,
     "finish": 3.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rodgers 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 35.3,
@@ -88,16 +73,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": 7.43,
     "cp2": 10.77,
     "cp3": 9.88,
     "finish": 7.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' solo Trimaran. Home built for the comfort of getting to Key Largo quickly."
+    "either/or": ""
   },
   {
     "Total (hrs)": 35.43,
@@ -108,16 +89,12 @@ var racedata = [
     "Given Name/s": "Matt Scharl and Marne Smiley",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Tornado",
     "cp1": 7.2,
     "cp2": 14.72,
     "cp3": 8.92,
     "finish": 4.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "modified tornado"
+    "either/or": ""
   },
   {
     "Total (hrs)": 35.8,
@@ -128,16 +105,12 @@ var racedata = [
     "Given Name/s": "Steve Lohmayer and Jamie Livingston",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 8.92,
     "cp2": 14.62,
     "cp3": 6.47,
     "finish": 5.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' beach Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 36.77,
@@ -148,16 +121,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky\nand",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 7.8,
     "cp2": 13.33,
     "cp3": 7.95,
     "finish": 7.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Tampa Bay 22 is a purpose-built rowing sloop designed by OH Rodgers, constructed of cold-molded plywood."
+    "either/or": ""
   },
   {
     "Total (hrs)": 37.67,
@@ -168,16 +137,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock and David Clement",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 19",
     "cp1": 6.87,
     "cp2": 14.83,
     "cp3": 9.95,
     "finish": 6.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": 38.78,
@@ -188,16 +153,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 6.8,
     "cp2": 13.95,
     "cp3": 9.57,
     "finish": 8.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 39.52,
@@ -208,16 +169,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 6.52,
     "cp2": 16.27,
     "cp3": 10.2,
     "finish": 6.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O H Rodgers-designed Tampa Bay Expedition 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 40.23,
@@ -228,16 +185,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": 6.95,
     "cp2": 8.05,
     "cp3": 7,
     "finish": 18.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sizzor' is a home Built,self designed trimaran 21' x 20' x fun"
+    "either/or": ""
   },
   {
     "Total (hrs)": 40.57,
@@ -248,16 +201,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 6.97,
     "cp2": 19.53,
     "cp3": 9,
     "finish": 5.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado 20' beach cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 41.98,
@@ -268,16 +217,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra F17",
     "cp1": 7.32,
     "cp2": 14.85,
     "cp3": 10.08,
     "finish": 9.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NACRA 17 MK1"
+    "either/or": ""
   },
   {
     "Total (hrs)": 43.25,
@@ -288,16 +233,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 8.75,
     "cp2": 18.65,
     "cp3": 9.18,
     "finish": 6.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 47.95,
@@ -308,16 +249,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Paul Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 9.27,
     "cp2": 20.67,
     "cp3": 12.12,
     "finish": 5.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20 'Dawn Patrol' refreshed and ready to cruise down to Florida as fast as possible!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 48.03,
@@ -328,16 +265,12 @@ var racedata = [
     "Given Name/s": "Paul Stewart and Alan Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 9.15,
     "cp2": 21.82,
     "cp3": 10.42,
     "finish": 6.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 48.65,
@@ -348,16 +281,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Steve Lohmayer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 9.22,
     "cp2": 18.88,
     "cp3": 11.4,
     "finish": 9.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado,20' beach cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 49.9,
@@ -368,16 +297,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 11.67,
     "cp2": 21.32,
     "cp3": 11.07,
     "finish": 5.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rodgers 22 with some water ballast"
+    "either/or": ""
   },
   {
     "Total (hrs)": 51.58,
@@ -388,16 +313,12 @@ var racedata = [
     "Given Name/s": "John Federico and Bill Shanley",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Hobie 16",
+    "BOAT": "Hobie AI",
     "cp1": 9.1,
     "cp2": 16.2,
     "cp3": 10.7,
     "finish": 15.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16 with yellow mainsail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 52.42,
@@ -408,16 +329,12 @@ var racedata = [
     "Given Name/s": "Birchard Ohlinger and Guy deBoer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 8.72,
     "cp2": 18.62,
     "cp3": 14.2,
     "finish": 10.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 55.57,
@@ -428,16 +345,12 @@ var racedata = [
     "Given Name/s": "Philip Garland and Dan Neri",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 9.68,
     "cp2": 20.82,
     "cp3": 11.2,
     "finish": 13.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 S"
+    "either/or": ""
   },
   {
     "Total (hrs)": 55.7,
@@ -448,16 +361,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 8.87,
     "cp2": 32.45,
     "cp3": 8,
     "finish": 6.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Tornado Catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 56.03,
@@ -468,16 +377,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 13.77,
     "cp2": 21.7,
     "cp3": 15.22,
     "finish": 5.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rodgers Tampa Bay 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 56.42,
@@ -488,16 +393,12 @@ var racedata = [
     "Given Name/s": "Todd Howe and Ryan Howe",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "ARC-22 Catamaran",
     "cp1": 8.83,
     "cp2": 18.67,
     "cp3": 11.42,
     "finish": 17.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran....Not the prettiest....but a Great Rack!!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 56.75,
@@ -508,16 +409,12 @@ var racedata = [
     "Given Name/s": "Christopher Cecil and Larry Ferber",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra Carbon 20",
     "cp1": 9.9,
     "cp2": 24.5,
     "cp3": 11.93,
     "finish": 10.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra Carbon 20 2010"
+    "either/or": ""
   },
   {
     "Total (hrs)": 56.93,
@@ -528,16 +425,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes and Randy Marshall",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 12.77,
     "cp2": 20.73,
     "cp3": 11,
     "finish": 12.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EC22 by B&B Yacht Designs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 57.5,
@@ -548,16 +441,12 @@ var racedata = [
     "Given Name/s": "John Federico and Jonathan Stewart",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 0,
     "cp2": 30.2,
     "cp3": 19.27,
     "finish": 8.03,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "1985 Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 57.92,
@@ -568,16 +457,12 @@ var racedata = [
     "Given Name/s": "Ron White and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 9.85,
     "cp2": 19.57,
     "cp3": 16.23,
     "finish": 12.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado, modified with hiking racks, EC stuff and a snorky paint job."
+    "either/or": ""
   },
   {
     "Total (hrs)": 58.18,
@@ -588,16 +473,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes and Anthony Vandenberg",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra I-20",
     "cp1": 10.5,
     "cp2": 27.77,
     "cp3": 12.92,
     "finish": 7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra Inter 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 58.22,
@@ -608,16 +489,12 @@ var racedata = [
     "Given Name/s": "Hal Link",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Mystere 4.3",
     "cp1": 9.02,
     "cp2": 26.95,
     "cp3": 11.68,
     "finish": 10.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mystere 4.3 Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 58.43,
@@ -628,16 +505,12 @@ var racedata = [
     "Given Name/s": "Hal Link",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tridarka Raider",
     "cp1": 11.92,
     "cp2": 18.28,
     "cp3": 15.98,
     "finish": 12.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chief's boat slightly reworked"
+    "either/or": ""
   },
   {
     "Total (hrs)": 58.45,
@@ -648,16 +521,12 @@ var racedata = [
     "Given Name/s": "Bill Fite and Jonathan Arthur",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 11.92,
     "cp2": 18.55,
     "cp3": 16.78,
     "finish": 11.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SeaPearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 59,
@@ -668,16 +537,12 @@ var racedata = [
     "Given Name/s": "Matt Scharl and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 12.33,
     "cp2": 22.67,
     "cp3": 18.35,
     "finish": 5.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 59.07,
@@ -688,16 +553,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and John Kohl",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade trimaran 22",
     "cp1": 8.78,
     "cp2": 19.68,
     "cp3": 13.25,
     "finish": 17.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "22' Mosquito Trimaran. Tortured plywood construction. Wet, cold, FAST."
+    "either/or": ""
   },
   {
     "Total (hrs)": 59.37,
@@ -708,16 +569,12 @@ var racedata = [
     "Given Name/s": "Aras Karaitis and Matt Sornson",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 7.82,
     "cp2": 24.02,
     "cp3": 13.68,
     "finish": 13.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 60.28,
@@ -728,16 +585,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Modified Flying Scott",
     "cp1": 10.55,
     "cp2": 19.03,
     "cp3": 16.25,
     "finish": 14.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Flying Scot."
+    "either/or": ""
   },
   {
     "Total (hrs)": 61.13,
@@ -748,16 +601,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": 6.28,
     "cp2": 12.47,
     "cp3": 32.9,
     "finish": 9.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Slippery 21' Trimaran - Green home built"
+    "either/or": ""
   },
   {
     "Total (hrs)": 61.17,
@@ -768,16 +617,12 @@ var racedata = [
     "Given Name/s": "Joel Morgan and Daniel Morgan",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18SX",
     "cp1": 5.78,
     "cp2": 20.13,
     "cp3": 15.07,
     "finish": 20.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18SX with Whirlwind Sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 61.75,
@@ -788,16 +633,12 @@ var racedata = [
     "Given Name/s": "Andrew Hayward and Nate Vilardebo",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "G-Cat 21",
     "cp1": 8.78,
     "cp2": 15.38,
     "cp3": 11.52,
     "finish": 26.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "G Cat 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 62.4,
@@ -808,16 +649,12 @@ var racedata = [
     "Given Name/s": "Tiffany Alponat and Mike Garam",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie Tiger",
     "cp1": 6.1,
     "cp2": 27.08,
     "cp3": 17.48,
     "finish": 11.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tiger, rawr!!!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 62.67,
@@ -828,16 +665,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and William Nye",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 12.48,
     "cp2": 20.68,
     "cp3": 17.32,
     "finish": 12.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified 19' Sharpie design"
+    "either/or": ""
   },
   {
     "Total (hrs)": 63.15,
@@ -848,16 +681,12 @@ var racedata = [
     "Given Name/s": "Ron White and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 7.62,
     "cp2": 18.45,
     "cp3": 12.4,
     "finish": 24.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado....slightly modified"
+    "either/or": ""
   },
   {
     "Total (hrs)": 63.3,
@@ -868,16 +697,12 @@ var racedata = [
     "Given Name/s": "Erik Kristen and Erik Bentzen",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie?",
     "cp1": 14.15,
     "cp2": 27.15,
     "cp3": 14.82,
     "finish": 7.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 64.12,
@@ -888,16 +713,12 @@ var racedata = [
     "Given Name/s": "Roger Mann",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade sailing canoe 19'",
     "cp1": 10.4,
     "cp2": 24.05,
     "cp3": 18.45,
     "finish": 11.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Homebuilt decked Expedition Canoe 19'x 36\", 235 lbs. WT 16' ama's. Hobie TI parts-aka's,mast,sail,drive rudder. 10' wide with amas out. Parts fit under deck for WW. 2 seater and a load hauler."
+    "either/or": ""
   },
   {
     "Total (hrs)": 64.22,
@@ -908,16 +729,12 @@ var racedata = [
     "Given Name/s": "Aras Karaitis and Vytenis Karaitis",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 10.8,
     "cp2": 18.5,
     "cp3": 24.7,
     "finish": 10.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 65.13,
@@ -928,16 +745,12 @@ var racedata = [
     "Given Name/s": "Philip Garland and Dan Neri",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 11.33,
     "cp2": 20.37,
     "cp3": 17.22,
     "finish": 16.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 S Turbo version, no hydrofoils (yet)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 65.65,
@@ -948,16 +761,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Stephen Antworth",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 9.95,
     "cp2": 18.32,
     "cp3": 14.73,
     "finish": 22.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1945 Thistle . Taking the old girl out for another dance."
+    "either/or": ""
   },
   {
     "Total (hrs)": 66,
@@ -968,16 +777,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes and Fred Van Rensburg",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 11.68,
     "cp2": 22.07,
     "cp3": 23.52,
     "finish": 8.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 66.18,
@@ -988,16 +793,12 @@ var racedata = [
     "Given Name/s": "Michael Lingswiler and Tom Bremen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Phil Bolger 21",
     "cp1": 11.1,
     "cp2": 19.65,
     "cp3": 14.98,
     "finish": 20.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' Phil Bolger design"
+    "either/or": ""
   },
   {
     "Total (hrs)": 66.25,
@@ -1008,16 +809,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 16",
     "cp1": 10.67,
     "cp2": 21,
     "cp3": 18.17,
     "finish": 16.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self designed 16ft pilothouse trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 66.58,
@@ -1028,16 +825,12 @@ var racedata = [
     "Given Name/s": "Paul Stewart and Alan Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 19.17,
     "cp2": 23.83,
     "cp3": 12.12,
     "finish": 11.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 68.1,
@@ -1048,16 +841,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Stellar ST 21",
     "cp1": 11.05,
     "cp2": 25.93,
     "cp3": 20.92,
     "finish": 10.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 68.72,
@@ -1068,16 +857,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Michael Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 11.78,
     "cp2": 19.3,
     "cp3": 19.65,
     "finish": 17.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Homemade Core Sound 20, designed by triple winner Graham Byrnes"
+    "either/or": ""
   },
   {
     "Total (hrs)": 69.23,
@@ -1088,16 +873,12 @@ var racedata = [
     "Given Name/s": "david durham and peter durham",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "G-Cat 18",
     "cp1": 10.2,
     "cp2": 24.8,
     "cp3": 24.33,
     "finish": 9.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "G-Cat; an 18' high volume 80's catamaran, but still pretty fast, unless you've dropped the mast and ur paddling against the tide thru the bridge supports at CP1 at midnight!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 69.38,
@@ -1108,16 +889,12 @@ var racedata = [
     "Given Name/s": "Brooks Hall and Stuart Miller",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 0,
     "cp2": 40.68,
     "cp3": 20.13,
     "finish": 8.57,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "17' Core Sound"
+    "either/or": ""
   },
   {
     "Total (hrs)": 69.67,
@@ -1128,16 +905,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 13.38,
     "cp2": 31.45,
     "cp3": 17.07,
     "finish": 7.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 70.1,
@@ -1148,16 +921,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Paul Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 15.87,
     "cp2": 32.18,
     "cp3": 11.65,
     "finish": 10.4,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Borrowing Graham's EC-22 again this year. Originally built in 06 for the 07 EC Dwsb and I got to take a ride on her at the finish in 07 with Graham and Wizard. It was after that that we decided to build our CS-20 Dawn Patrol so this boat has some great meaning for us."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 70.25,
@@ -1168,16 +937,12 @@ var racedata = [
     "Given Name/s": "Ardie Olson",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Rauhine OceanX",
     "cp1": 11.85,
     "cp2": 25.73,
     "cp3": 21.17,
     "finish": 11.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rauhine OceanX"
+    "either/or": ""
   },
   {
     "Total (hrs)": 71.67,
@@ -1188,16 +953,12 @@ var racedata = [
     "Given Name/s": "Andrew Hayward and Nate Vilardebo",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Highlander",
     "cp1": 14.73,
     "cp2": 32.28,
     "cp3": 12.3,
     "finish": 12.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Highlander Class Sailboat # 912 Big reefs, Extra flotation, Asymmetrical spinnaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": 71.75,
@@ -1208,16 +969,12 @@ var racedata = [
     "Given Name/s": "David Helmick and Jeremy Pape",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 22.97,
     "cp2": 27.2,
     "cp3": 15.13,
     "finish": 6.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17 #43"
+    "either/or": ""
   },
   {
     "Total (hrs)": 71.75,
@@ -1228,16 +985,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 10.97,
     "cp2": 28.67,
     "cp3": 18.87,
     "finish": 13.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 cat ketch black hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 71.83,
@@ -1248,16 +1001,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison and John Lorenzen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 14.1,
     "cp2": 34.98,
     "cp3": 14.58,
     "finish": 8.17,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "EC 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 72.03,
@@ -1268,16 +1017,12 @@ var racedata = [
     "Given Name/s": "Hardy Peters and Christopher Payne",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra Carbon 20",
     "cp1": 12.23,
     "cp2": 26.92,
     "cp3": 15.43,
     "finish": 17.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra C20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 72.25,
@@ -1288,16 +1033,12 @@ var racedata = [
     "Given Name/s": "David Furer and Diego Caputi",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 7.2,
     "cp2": 42.05,
     "cp3": 14.55,
     "finish": 8.45,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Hobie Cat Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 72.63,
@@ -1308,16 +1049,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Stellar ST 21",
     "cp1": 10.77,
     "cp2": 26.45,
     "cp3": 18.52,
     "finish": 16.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar ST 21 w/ 1.1 sq m Challenger Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 72.8,
@@ -1328,16 +1065,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Stellar ST 21",
     "cp1": 11.45,
     "cp2": 29.78,
     "cp3": 18.65,
     "finish": 12.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Black Boat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.23,
@@ -1348,16 +1081,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Doug Cameron",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 12.82,
     "cp2": 34.23,
     "cp3": 18.28,
     "finish": 7.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "It looks like we will be back in the Kruger Cruiser that took us to victory in 2004. We hope that we can do it again, but realise that it takes just the right weather conditions for a class 3 boat to win."
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.33,
@@ -1368,16 +1097,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and Tom Dyll",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 18.87,
     "cp2": 22.1,
     "cp3": 18.08,
     "finish": 14.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' sharpie sloop"
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.43,
@@ -1388,16 +1113,12 @@ var racedata = [
     "Given Name/s": "Guy deBoer",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 18SX",
     "cp1": 7.85,
     "cp2": 24.42,
     "cp3": 26.37,
     "finish": 14.8,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18 Magnum, only thing original is the hulls & centerboards. Everything has been replaced new."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 73.52,
@@ -1408,16 +1129,12 @@ var racedata = [
     "Given Name/s": "Scott Baste and Joseph Frohock",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 25.03,
     "cp2": 26.25,
     "cp3": 13.75,
     "finish": 8.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "windrider blue"
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.68,
@@ -1428,16 +1145,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 18.4,
     "cp2": 27.93,
     "cp3": 15.27,
     "finish": 12.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "OH Rodgers 22."
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.8,
@@ -1448,16 +1161,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes and Tristin Hawes",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra I-20",
     "cp1": 6.82,
     "cp2": 21.93,
     "cp3": 20.93,
     "finish": 24.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra Inter 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 73.83,
@@ -1468,16 +1177,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": 5.98,
     "cp2": 14.82,
     "cp3": 11.95,
     "finish": 41.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' x 20' x 175 lb Trimaran. Self designed and built."
+    "either/or": ""
   },
   {
     "Total (hrs)": 74.75,
@@ -1488,16 +1193,12 @@ var racedata = [
     "Given Name/s": "Carter Johnson",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Huki S1-X surfski",
     "cp1": 11.13,
     "cp2": 29.82,
     "cp3": 16.8,
     "finish": 17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Huki S1-X surfski"
+    "either/or": ""
   },
   {
     "Total (hrs)": 74.83,
@@ -1508,16 +1209,12 @@ var racedata = [
     "Given Name/s": "Hardy Peters and James Eaton",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra 580",
     "cp1": 5.95,
     "cp2": 26.22,
     "cp3": 29.5,
     "finish": 13.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NACRA 580"
+    "either/or": ""
   },
   {
     "Total (hrs)": 75.15,
@@ -1528,16 +1225,12 @@ var racedata = [
     "Given Name/s": "Robert Williams and Scott Smith",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Norseboat 17.5",
     "cp1": 14.72,
     "cp2": 26.28,
     "cp3": 25.17,
     "finish": 8.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17.5 foot traditional design (Chuck Payne), composite construction, tandem rowing and sailing vessel. Details available @Norseboat.com."
+    "either/or": ""
   },
   {
     "Total (hrs)": 76.33,
@@ -1548,16 +1241,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 0,
     "cp2": 37.5,
     "cp3": 23.72,
     "finish": 15.12,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "black hull cat ketch"
+    "either/or": ""
   },
   {
     "Total (hrs)": 76.37,
@@ -1568,16 +1257,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock and David Clement\nand Ed Ruark",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Prindle 19",
     "cp1": 14.1,
     "cp2": 35.13,
     "cp3": 12.93,
     "finish": 14.2,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Prindle 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": 76.72,
@@ -1588,16 +1273,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and Dennis Giardina",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 0,
     "cp2": 45.88,
     "cp3": 18.17,
     "finish": 12.67,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Solar powered 1962 Thistle"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.4,
@@ -1608,16 +1289,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Jeffrey Gentzen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 12.42,
     "cp2": 27,
     "cp3": 27.82,
     "finish": 10.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.47,
@@ -1628,16 +1305,12 @@ var racedata = [
     "Given Name/s": "Mark Zollitsch",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 20",
     "cp1": 7.48,
     "cp2": 19.33,
     "cp3": 24.07,
     "finish": 26.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self-designed and built (3 yrs!) 20' Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.53,
@@ -1648,16 +1321,12 @@ var racedata = [
     "Given Name/s": "David Helmick and David Moring",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 10.8,
     "cp2": 21.5,
     "cp3": 19.87,
     "finish": 25.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17 #43"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.63,
@@ -1668,16 +1337,12 @@ var racedata = [
     "Given Name/s": "Guy deBoer and Birchard Ohlinger",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18SX",
     "cp1": 13.23,
     "cp2": 31.77,
     "cp3": 15.13,
     "finish": 17.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18 Magnum Blue Hulls"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.65,
@@ -1688,16 +1353,12 @@ var racedata = [
     "Given Name/s": "Arthur Monahan and Sydney Monahan",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Nacra I-20",
     "cp1": 18.62,
     "cp2": 29.2,
     "cp3": 14.88,
     "finish": 14.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra Inter 20 modified"
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.8,
@@ -1708,16 +1369,12 @@ var racedata = [
     "Given Name/s": "Carter Johnson and Sally Mason",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Huki Double Surfski",
     "cp1": 11.22,
     "cp2": 38.2,
     "cp3": 13.75,
     "finish": 14.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "HUKI prototype Double Surfski with Hatch. 23 feet long, 17 inches wide."
+    "either/or": ""
   },
   {
     "Total (hrs)": 77.98,
@@ -1728,16 +1385,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Doug Cameron",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 28.95,
     "cp2": 24.45,
     "cp3": 14.88,
     "finish": 9.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser with double Balogh sail rig, veteran of 3 challenges -- Less of a sailboat than the SeaPearl RR used in 2003, but much faster in the calms and with the additional benefit of an experienced partner to share decisions and encouragement."
+    "either/or": ""
   },
   {
     "Total (hrs)": 78.17,
@@ -1748,16 +1401,12 @@ var racedata = [
     "Given Name/s": "Larry Melat and Timothy Haskett",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 10.17,
     "cp2": 20.28,
     "cp3": 31.83,
     "finish": 15.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "?"
+    "either/or": ""
   },
   {
     "Total (hrs)": 78.18,
@@ -1768,16 +1417,12 @@ var racedata = [
     "Given Name/s": "Andrew Hayward and Nate Vilardebo",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 24.78,
     "cp2": 29.2,
     "cp3": 15.7,
     "finish": 8.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dovekie"
+    "either/or": ""
   },
   {
     "Total (hrs)": 78.28,
@@ -1788,16 +1433,12 @@ var racedata = [
     "Given Name/s": "William Nye and Amber Nye",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Tanzer 16",
     "cp1": 3.07,
     "cp2": 46.33,
     "cp3": 15.77,
     "finish": 13.12,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "1973 Tanzer 16 Overnighter. Restoration in progress. Light blue hull and deck."
+    "either/or": ""
   },
   {
     "Total (hrs)": 78.5,
@@ -1808,16 +1449,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan and Rod Price",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 12.23,
     "cp2": 37.6,
     "cp3": 15.92,
     "finish": 12.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chesapeake triple kayak; hard-chine 21-foot stitch-and-glue boat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.12,
@@ -1828,16 +1465,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 8.48,
     "cp2": 19.43,
     "cp3": 37.8,
     "finish": 13.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.12,
@@ -1848,16 +1481,12 @@ var racedata = [
     "Given Name/s": "Michael Lingswiler and Tom Bremen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 12.93,
     "cp2": 27.47,
     "cp3": 15.1,
     "finish": 23.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dovekie"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.23,
@@ -1868,16 +1497,12 @@ var racedata = [
     "Given Name/s": "Hal Link",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tridarka Raider",
     "cp1": 18.73,
     "cp2": 33.32,
     "cp3": 12.68,
     "finish": 14.5,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The original Tridarka Raider, built with meticulous care by none other than the Chief, himself. It's been refitted with a taller mast to suit a Hobie 16 sail, roller furling jib, and a few details to make her a bit more comfy."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 79.35,
@@ -1888,16 +1513,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Supercat 19",
     "cp1": 10.08,
     "cp2": 32.93,
     "cp3": 16.88,
     "finish": 19.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Supercat 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.57,
@@ -1908,16 +1529,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Paul Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 8.17,
     "cp2": 21.53,
     "cp3": 37.13,
     "finish": 12.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Probably a Core Sound 20 Mark 3"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.92,
@@ -1928,16 +1545,12 @@ var racedata = [
     "Given Name/s": "John Federico and Jonathan Stewart",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 19.33,
     "cp2": 29.75,
     "cp3": 16.15,
     "finish": 14.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1985 Hobie 16 , Red and White striped Mainsail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 79.98,
@@ -1948,16 +1561,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Eastport Pram",
     "cp1": 12.03,
     "cp2": 33.98,
     "cp3": 19.05,
     "finish": 14.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 80.15,
@@ -1968,16 +1577,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "KayakPro Marlin",
     "cp1": 11.4,
     "cp2": 40.9,
     "cp3": 18.47,
     "finish": 9.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kayakpro Marlin"
+    "either/or": ""
   },
   {
     "Total (hrs)": 80.55,
@@ -1988,16 +1593,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Stephen Antworth",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 15.32,
     "cp2": 20.52,
     "cp3": 26.92,
     "finish": 17.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Thistle #495."
+    "either/or": ""
   },
   {
     "Total (hrs)": 80.67,
@@ -2008,16 +1609,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes and Fred Van Rensburg",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 12.9,
     "cp2": 22.15,
     "cp3": 37.12,
     "finish": 8.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "B & B Yacht Designs Core Sound 17 cat ketch"
+    "either/or": ""
   },
   {
     "Total (hrs)": 81,
@@ -2028,16 +1625,12 @@ var racedata = [
     "Given Name/s": "Tim West",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 0,
     "cp2": 50.92,
     "cp3": 22.07,
     "finish": 8.02,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Sea Peal 21 - Dark Green with red bottom paint. FL 6238 RR"
+    "either/or": ""
   },
   {
     "Total (hrs)": 81.6,
@@ -2048,16 +1641,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry",
     "cp1": 15,
     "cp2": 37.63,
     "cp3": 19.52,
     "finish": 9.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified CLC Skerry"
+    "either/or": ""
   },
   {
     "Total (hrs)": 81.7,
@@ -2068,16 +1657,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes and Randy Marshall",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 12.87,
     "cp2": 20.47,
     "cp3": 16.42,
     "finish": 31.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "B&B Yacht Designs EC22 plywood and epoxy cat ketch."
+    "either/or": ""
   },
   {
     "Total (hrs)": 81.85,
@@ -2088,16 +1673,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Matt Layden Paradox",
     "cp1": 25.58,
     "cp2": 29.08,
     "cp3": 17.08,
     "finish": 10.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Paradox 14' coastal cruising sailboat, with chinese yuloh secondary propulsion. This is a heavy, long-range expedition cruiser and stretches the limits of beach-launchability (I'll be using rollers and block & tackle, should be fun to watch...). She is not fast but can keep sailing in any weather and run hairy inlets safe & dry."
+    "either/or": ""
   },
   {
     "Total (hrs)": 82.15,
@@ -2108,16 +1689,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": 28.2,
     "cp2": 19.9,
     "cp3": 11,
     "finish": 23.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Green carbon trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 82.33,
@@ -2128,16 +1705,12 @@ var racedata = [
     "Given Name/s": "Rod Price and bobby johnson",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 13.33,
     "cp2": 37.48,
     "cp3": 18.58,
     "finish": 12.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 ft. CLC triple kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 82.68,
@@ -2148,16 +1721,12 @@ var racedata = [
     "Given Name/s": "Matt Pinkley and Mark McConnel",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 12.25,
     "cp2": 30.48,
     "cp3": 22.58,
     "finish": 17.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Standard Core Sound 17, sail number 366"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.13,
@@ -2168,16 +1737,12 @@ var racedata = [
     "Given Name/s": "Dan Davies",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 16.92,
     "cp2": 35.92,
     "cp3": 20.72,
     "finish": 9.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran modified for the EC"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.55,
@@ -2188,16 +1753,12 @@ var racedata = [
     "Given Name/s": "Ryan Finn",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 24",
     "cp1": 19.77,
     "cp2": 29.35,
     "cp3": 17.65,
     "finish": 16.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "24' trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.58,
@@ -2208,16 +1769,12 @@ var racedata = [
     "Given Name/s": "Bill Fite and Ron Hoddinott",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 13.63,
     "cp2": 25.92,
     "cp3": 16.05,
     "finish": 27.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.82,
@@ -2228,16 +1785,12 @@ var racedata = [
     "Given Name/s": "Guy deBoer and Kevin Gardiner",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade trimaran 18",
     "cp1": 28.2,
     "cp2": 26.1,
     "cp3": 20.27,
     "finish": 9.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Custom wooden Tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.88,
@@ -2248,16 +1801,12 @@ var racedata = [
     "Given Name/s": "Matt Scharl",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 19'",
     "cp1": 10.3,
     "cp2": 29.87,
     "cp3": 34.28,
     "finish": 9.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Gougeon 19 foot Sailing Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.92,
@@ -2268,16 +1817,12 @@ var racedata = [
     "Given Name/s": "Rod Price and Ardie Olson",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 13.18,
     "cp2": 37.82,
     "cp3": 18.38,
     "finish": 14.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Triple"
+    "either/or": ""
   },
   {
     "Total (hrs)": 83.93,
@@ -2288,16 +1833,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 14.07,
     "cp2": 28.28,
     "cp3": 25.47,
     "finish": 16.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound Mk3 designed by Graham Byrnes of B&B Yacht Designs and built by Aaron Prufal. I acquired this boat almost finished and will have it ready for EC 2018."
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.08,
@@ -2308,16 +1849,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.93,
     "cp2": 25.8,
     "cp3": 25.15,
     "finish": 20.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x no sail white boat with black tip"
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.12,
@@ -2328,16 +1865,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon and Jan Gougeon",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "I550 Sport Boat",
     "cp1": 20.5,
     "cp2": 27.75,
     "cp3": 14.15,
     "finish": 21.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Sloop Sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.25,
@@ -2348,16 +1881,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 8.18,
     "cp2": 32.38,
     "cp3": 32.93,
     "finish": 10.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.6,
@@ -2368,16 +1897,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "KayakPro Marlin",
     "cp1": 14.33,
     "cp2": 38.18,
     "cp3": 24.9,
     "finish": 7.18,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "KayakPro Marlin or Oysterbar"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 84.67,
@@ -2388,16 +1913,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Paul Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 14.63,
     "cp2": 35.3,
     "cp3": 26.65,
     "finish": 8.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20 (under construction) www.sailnaway.blogspot.com"
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.75,
@@ -2408,16 +1929,12 @@ var racedata = [
     "Given Name/s": "Michael Van Hoy and Jeff Williams",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 18-2",
     "cp1": 29.4,
     "cp2": 28.23,
     "cp3": 20.55,
     "finish": 6.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1990 prindle 18-2"
+    "either/or": ""
   },
   {
     "Total (hrs)": 84.88,
@@ -2428,16 +1945,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 4.72,
     "cp2": 44.88,
     "cp3": 28.13,
     "finish": 7.15,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "SOS designed kayak type tri with TI rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.07,
@@ -2448,16 +1961,12 @@ var racedata = [
     "Given Name/s": "Birchard Ohlinger and William Schult",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 23.92,
     "cp2": 29.33,
     "cp3": 23.73,
     "finish": 8.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wind rider 17 trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.17,
@@ -2468,16 +1977,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 11.32,
     "cp2": 31.2,
     "cp3": 25.67,
     "finish": 16.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SEDA Triumph"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.38,
@@ -2488,16 +1993,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 13.13,
     "cp2": 40.1,
     "cp3": 25.35,
     "finish": 6.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.48,
@@ -2508,16 +2009,12 @@ var racedata = [
     "Given Name/s": "Jackson Smith and Larry Ferber",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra I-20",
     "cp1": 11.6,
     "cp2": 42.58,
     "cp3": 23.07,
     "finish": 8.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "I-20 Beach Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.5,
@@ -2528,16 +2025,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha III",
     "cp1": 12.85,
     "cp2": 39.1,
     "cp3": 23.52,
     "finish": 10.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Looksha III"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.55,
@@ -2548,16 +2041,12 @@ var racedata = [
     "Given Name/s": "Jackson Pawlowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 0,
     "cp2": 52.32,
     "cp3": 22.47,
     "finish": 10.77,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Standard AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.58,
@@ -2568,16 +2057,12 @@ var racedata = [
     "Given Name/s": "Tom Glenz",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 1.9,
     "cp2": 48.42,
     "cp3": 24.43,
     "finish": 10.83,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.58,
@@ -2588,16 +2073,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 13.65,
     "cp2": 38.12,
     "cp3": 24.82,
     "finish": 9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x white kayak black bow and stern."
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.6,
@@ -2608,16 +2089,12 @@ var racedata = [
     "Given Name/s": "Stephanie Shaughnessy and Abbey Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "?",
     "cp1": 0,
     "cp2": 52.45,
     "cp3": 22.45,
     "finish": 10.7,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Standard set up"
+    "either/or": ""
   },
   {
     "Total (hrs)": 85.67,
@@ -2628,16 +2105,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Jack Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 0,
     "cp2": 52.52,
     "cp3": 22.2,
     "finish": 10.95,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Standard set up"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.37,
@@ -2648,16 +2121,12 @@ var racedata = [
     "Given Name/s": "Hardy Peters",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Topaz Catamaran 16",
     "cp1": 9.25,
     "cp2": 43.48,
     "cp3": 16.12,
     "finish": 17.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Topaz Cat 16 CX- Reefable main, jib and asymetrical spin,"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.6,
@@ -2668,16 +2137,12 @@ var racedata = [
     "Given Name/s": "Anonymous and",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 0,
     "cp2": 52.27,
     "cp3": 22.72,
     "finish": 11.62,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.63,
@@ -2688,16 +2153,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 0.3,
     "cp2": 48.68,
     "cp3": 29.52,
     "finish": 8.13,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher w/ FEKs 1 Meter Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.67,
@@ -2708,16 +2169,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 13.67,
     "cp2": 27.28,
     "cp3": 24.08,
     "finish": 21.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind #42 BOSS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.72,
@@ -2728,16 +2185,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Matt Layden Elusion",
     "cp1": 16.47,
     "cp2": 35.53,
     "cp3": 21.3,
     "finish": 13.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Elusion, 9' coastal cruiser: enclosed cockpit, roller lug rig, SUP secondary propulsion. Safe and comfy but not real fast."
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.8,
@@ -2748,16 +2201,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 24.75,
     "cp2": 31.37,
     "cp3": 21.35,
     "finish": 9.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound Mk3 yellow with white topsides"
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.92,
@@ -2768,16 +2217,12 @@ var racedata = [
     "Given Name/s": "Craig Runnels and Kyle Weiskircher",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Flying Scott",
     "cp1": 26.33,
     "cp2": 34.17,
     "cp3": 17.92,
     "finish": 8.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Flying Scot. Class legal."
+    "either/or": ""
   },
   {
     "Total (hrs)": 86.95,
@@ -2788,16 +2233,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 15.28,
     "cp2": 37.2,
     "cp3": 25.23,
     "finish": 9.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Ultra"
+    "either/or": ""
   },
   {
     "Total (hrs)": 87,
@@ -2808,16 +2249,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Modified Lightning",
     "cp1": 27.73,
     "cp2": 32.27,
     "cp3": 18.07,
     "finish": 8.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' cat-headed sharpie schooner (ex-Lightning)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 87.02,
@@ -2828,16 +2265,12 @@ var racedata = [
     "Given Name/s": "Gary Lukoski and Bill Wright",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 11.28,
     "cp2": 34.07,
     "cp3": 27.13,
     "finish": 14.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 Monohull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 87.08,
@@ -2848,16 +2281,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.87,
     "cp2": 39,
     "cp3": 25.62,
     "finish": 9.6,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Ultra or something faster."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 87.68,
@@ -2868,16 +2297,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Anthony Archino",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 19.97,
     "cp2": 40.02,
     "cp3": 18,
     "finish": 9.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The woody Thistle #495. Where would one begin...."
+    "either/or": ""
   },
   {
     "Total (hrs)": 88.6,
@@ -2888,16 +2313,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 11.82,
     "cp2": 42.08,
     "cp3": 23.18,
     "finish": 11.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SEDA Triumph (Triple Seat Kayak), 23'6\" x 24"
+    "either/or": ""
   },
   {
     "Total (hrs)": 88.68,
@@ -2908,16 +2329,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Noel Davis",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 13.97,
     "cp2": 26.53,
     "cp3": 26.62,
     "finish": 21.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' by 5' balanced lugsail, single leeboard boat; same as for 2006 EC."
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.02,
@@ -2928,16 +2345,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 11.87,
     "cp2": 40.62,
     "cp3": 21.1,
     "finish": 15.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SEDA Triumph, 23'-6\" by 24\" triple seat kayak, which TheJuice and I paddle as a tandem."
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.33,
@@ -2948,16 +2361,12 @@ var racedata = [
     "Given Name/s": "toby nipper",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.68,
     "cp2": 35.32,
     "cp3": 19.08,
     "finish": 20.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "kruger seawind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.5,
@@ -2968,16 +2377,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 13.33,
     "cp2": 37.33,
     "cp3": 28,
     "finish": 10.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice"
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.8,
@@ -2988,16 +2393,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 24.1,
     "cp2": 31.62,
     "cp3": 25.62,
     "finish": 8.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.95,
@@ -3008,16 +2409,12 @@ var racedata = [
     "Given Name/s": "Jake Mann and Dan Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 16.38,
     "cp2": 41.47,
     "cp3": 23.78,
     "finish": 8.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.98,
@@ -3028,16 +2425,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 14.63,
     "cp2": 40.7,
     "cp3": 26.25,
     "finish": 8.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice"
+    "either/or": ""
   },
   {
     "Total (hrs)": 89.98,
@@ -3048,16 +2441,12 @@ var racedata = [
     "Given Name/s": "Rod Price and Bill Whale",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 11.8,
     "cp2": 43.9,
     "cp3": 22.5,
     "finish": 11.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' CLC Triple Kayak."
+    "either/or": ""
   },
   {
     "Total (hrs)": 90.02,
@@ -3068,16 +2457,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 14.32,
     "cp2": 38.07,
     "cp3": 24.2,
     "finish": 13.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Ultra"
+    "either/or": ""
   },
   {
     "Total (hrs)": 90.2,
@@ -3088,16 +2473,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison and Jeff Williams",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 23.65,
     "cp2": 39.3,
     "cp3": 14.43,
     "finish": 12.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EC 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 90.35,
@@ -3108,16 +2489,12 @@ var racedata = [
     "Given Name/s": "James Devoglaer and Mike Shea",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Spencer Canoes Raptor",
     "cp1": 12.25,
     "cp2": 31.35,
     "cp3": 33.52,
     "finish": 13.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tandem \"Raptor\" by Spencer Canoes, Martindale Texas. The Tandem \"Raptor\" is a Jack Spencer designed carbon fiber unlimited canoe."
+    "either/or": ""
   },
   {
     "Total (hrs)": 90.38,
@@ -3128,16 +2505,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and Steve Prince",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 9.92,
     "cp2": 42.15,
     "cp3": 25.18,
     "finish": 13.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Astus tri with red hulls"
+    "either/or": ""
   },
   {
     "Total (hrs)": 90.67,
@@ -3148,16 +2521,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes and Randy Marshall",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 26.88,
     "cp2": 34.3,
     "cp3": 16.4,
     "finish": 13.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "22' plywood cat ketch by B & B Yacht Designs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 91,
@@ -3168,16 +2537,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 14,
     "cp2": 38.33,
     "cp3": 21.75,
     "finish": 16.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "epic 18x white with black tips"
+    "either/or": ""
   },
   {
     "Total (hrs)": 91.17,
@@ -3188,16 +2553,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 11.63,
     "cp2": 47.47,
     "cp3": 16.95,
     "finish": 15.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X, no sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 92.18,
@@ -3208,16 +2569,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran",
     "cp1": 9.52,
     "cp2": 28.97,
     "cp3": 33.72,
     "finish": 19.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self designed and built Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 92.73,
@@ -3228,16 +2585,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.88,
     "cp2": 40.37,
     "cp3": 24.17,
     "finish": 15.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": 92.73,
@@ -3248,16 +2601,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 13.25,
     "cp2": 41.5,
     "cp3": 22.67,
     "finish": 15.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Double Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 92.73,
@@ -3268,16 +2617,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 13.58,
     "cp2": 41.17,
     "cp3": 22.67,
     "finish": 15.32,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "unknown -- probably class 1"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 92.82,
@@ -3288,16 +2633,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 14,
     "cp2": 46.33,
     "cp3": 23.1,
     "finish": 9.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x with black falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 93.25,
@@ -3308,16 +2649,12 @@ var racedata = [
     "Given Name/s": "John Bell and William Nye",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 11.25,
     "cp2": 26.58,
     "cp3": 39.97,
     "finish": 15.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 93.75,
@@ -3328,16 +2665,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "18' Custom Proa by Crazyrussian",
+    "BOAT": "Modern Proa 18'",
     "cp1": 23.15,
     "cp2": 40.35,
     "cp3": 16.28,
     "finish": 13.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modern proa. 18 ft long, 8 ft wide, Bermudian unirig 12 sq meters sail area. Light at under 200 lbs."
+    "either/or": ""
   },
   {
     "Total (hrs)": 93.87,
@@ -3348,16 +2681,12 @@ var racedata = [
     "Given Name/s": "Jesse Willert",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Dierking Tamanu Trimaran",
     "cp1": 11.15,
     "cp2": 32.57,
     "cp3": 32.02,
     "finish": 18.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tamanu trimaran built by Chief"
+    "either/or": ""
   },
   {
     "Total (hrs)": 94.05,
@@ -3368,16 +2697,12 @@ var racedata = [
     "Given Name/s": "Robert Williams and Scott Smith",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Norseboat 17.5",
     "cp1": 37.92,
     "cp2": 27.42,
     "cp3": 20,
     "finish": 8.72,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "We'll be sailing the new NorseBoat sailing and rowing cruiser. The lightweight, seaworthy NorseBoat is 17'6\" in length with a 5'2\" beam. She is partially decked and designed for good performance in rowing or sailing mode. This craft has lovely Down East lines, two rowing stations, comfortable camping accommodations including a full-size double berth, spray and sun protection, and abundant storage capacity."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 94.12,
@@ -3388,16 +2713,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 34.03,
     "cp2": 25.47,
     "cp3": 24.58,
     "finish": 10.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with Balogh Sail and BOSS. Also, able to catamaran with another Dreamcatcher as part of an ad hoc team."
+    "either/or": ""
   },
   {
     "Total (hrs)": 94.12,
@@ -3408,16 +2729,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 34.03,
     "cp2": 25.47,
     "cp3": 24.58,
     "finish": 10.03,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher catamaraned with another Kruger Dreamcatcher for sleeping or sailing."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 94.38,
@@ -3428,16 +2745,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and Tom Dyll",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Modified Lightning",
     "cp1": 14.98,
     "cp2": 46.7,
     "cp3": 17.85,
     "finish": 14.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified International Lightning 19' sloop"
+    "either/or": ""
   },
   {
     "Total (hrs)": 94.87,
@@ -3448,16 +2761,12 @@ var racedata = [
     "Given Name/s": "John Wood",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 12.68,
     "cp2": 44.75,
     "cp3": 24.7,
     "finish": 12.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 94.98,
@@ -3468,16 +2777,12 @@ var racedata = [
     "Given Name/s": "Rod Price and",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 14.67,
     "cp2": 40.55,
     "cp3": 24.57,
     "finish": 15.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' Chesapeake Light Craft Triple Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 95.12,
@@ -3488,16 +2793,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Stellar ST 21",
     "cp1": 12.63,
     "cp2": 45.77,
     "cp3": 22.93,
     "finish": 13.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar ST21 with black Falcon Sail, 12 sq ft/1.1 sq m"
+    "either/or": ""
   },
   {
     "Total (hrs)": 95.32,
@@ -3508,16 +2809,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.07,
     "cp2": 38.25,
     "cp3": 28.33,
     "finish": 13.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 95.62,
@@ -3528,16 +2825,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 12.82,
     "cp2": 43,
     "cp3": 29.4,
     "finish": 10.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 95.98,
@@ -3548,16 +2841,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 18.12,
     "cp2": 36.88,
     "cp3": 25.55,
     "finish": 15.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Core Sound 17 Mk 3"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.13,
@@ -3568,16 +2857,12 @@ var racedata = [
     "Given Name/s": "Michael Rhodes and Chris Hazard",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wa'apa",
     "cp1": 16.67,
     "cp2": 37.58,
     "cp3": 24.08,
     "finish": 17.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "It's long and narrow with a sail on top. Some might mistake it for a Tri'derka' Raider, but it is much much more than the afore mentioned vessel."
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.13,
@@ -3588,16 +2873,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Matthew Hazard",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wa'apa",
     "cp1": 16.67,
     "cp2": 37.53,
     "cp3": 24.13,
     "finish": 17.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Three board hawaiian sailing canoe. Wa'apa. Double outrigger configuration."
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.32,
@@ -3608,16 +2889,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 11.05,
     "cp2": 27.68,
     "cp3": 37.87,
     "finish": 19.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Core Sound 17 Mk3"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.42,
@@ -3628,16 +2905,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 8.93,
     "cp2": 43.8,
     "cp3": 17.83,
     "finish": 25.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.48,
@@ -3648,16 +2921,12 @@ var racedata = [
     "Given Name/s": "wayne albert",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 11.68,
     "cp2": 29.63,
     "cp3": 34.85,
     "finish": 20.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.5,
@@ -3668,16 +2937,12 @@ var racedata = [
     "Given Name/s": "wayne albert",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 13.38,
     "cp2": 42.82,
     "cp3": 25.62,
     "finish": 14.68,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Either the Silhouette or an 18x..."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 96.58,
@@ -3688,16 +2953,12 @@ var racedata = [
     "Given Name/s": "David Hosler and Joaquin Hosler",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "RS Venture 17",
     "cp1": 2.87,
     "cp2": 52.47,
     "cp3": 26,
     "finish": 15.25,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "17’ RS Venture"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.7,
@@ -3708,16 +2969,12 @@ var racedata = [
     "Given Name/s": "Brett Thomas and Chase Thomas",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 0,
     "cp2": 54.8,
     "cp3": 26.77,
     "finish": 15.13,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 96.98,
@@ -3728,16 +2985,12 @@ var racedata = [
     "Given Name/s": "Dan Davies",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 8.27,
     "cp2": 45.15,
     "cp3": 22.05,
     "finish": 21.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 97.45,
@@ -3748,16 +3001,12 @@ var racedata = [
     "Given Name/s": "J.F. Bedard",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "RoG 15",
     "cp1": 13.52,
     "cp2": 39.23,
     "cp3": 23.7,
     "finish": 21,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bedard Yacht Design"
+    "either/or": ""
   },
   {
     "Total (hrs)": 97.7,
@@ -3768,16 +3017,12 @@ var racedata = [
     "Given Name/s": "Erwan Kerebel and Yannick Delibie",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Liteboat XP 20",
     "cp1": 9.48,
     "cp2": 18.28,
     "cp3": 22.28,
     "finish": 47.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Liteboat XP 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 97.95,
@@ -3788,16 +3033,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and William Snyder",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Outrigger canoe 18'",
     "cp1": 19.17,
     "cp2": 45,
     "cp3": 19.33,
     "finish": 14.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft. Outrigger Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 98.05,
@@ -3808,16 +3049,12 @@ var racedata = [
     "Given Name/s": "David Helmick and Joey Kolisch",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 25.47,
     "cp2": 36.73,
     "cp3": 17,
     "finish": 18.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "WindRider 17 #43 White"
+    "either/or": ""
   },
   {
     "Total (hrs)": 98.2,
@@ -3828,16 +3065,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 11.55,
     "cp2": 44.58,
     "cp3": 23.42,
     "finish": 18.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 98.43,
@@ -3848,16 +3081,12 @@ var racedata = [
     "Given Name/s": "Philip Garland and Hanna Tillotson",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Core Sound 17",
     "cp1": 9.72,
     "cp2": 43.15,
     "cp3": 24.2,
     "finish": 21.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 98.47,
@@ -3868,16 +3097,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 11.42,
     "cp2": 32.23,
     "cp3": 37.47,
     "finish": 17.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18x Ultra; \"Tenacious"
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.33,
@@ -3888,16 +3113,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 10.45,
     "cp2": 50.05,
     "cp3": 23,
     "finish": 15.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700 w/FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.35,
@@ -3908,16 +3129,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C6",
     "Group": "6-Person",
-    "Group/Gender": "6-Person",
     "BOAT": "OC6 Canoe",
     "cp1": 16.85,
     "cp2": 43.23,
     "cp3": 24.25,
     "finish": 15.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "modified Hawiian outrigger with full spry skirt and rudder"
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.5,
@@ -3928,16 +3145,12 @@ var racedata = [
     "Given Name/s": "Frederick Bickley and Doug Corey",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18SX",
     "cp1": 11.57,
     "cp2": 48.67,
     "cp3": 44,
     "finish": -4.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1986 Hobie 18 with wings."
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.65,
@@ -3948,16 +3161,12 @@ var racedata = [
     "Given Name/s": "Guy deBoer",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 17",
     "cp1": 7.57,
     "cp2": 19.13,
     "cp3": 46.65,
     "finish": 26.3,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.7,
@@ -3968,16 +3177,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.78,
     "cp2": 42.53,
     "cp3": 25.82,
     "finish": 18.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Ultra (Tenacious). No sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 99.85,
@@ -3988,16 +3193,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sand Flea",
     "cp1": 16.17,
     "cp2": 37.08,
     "cp3": 22.33,
     "finish": 24.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "8' minimum coastal cruiser."
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.05,
@@ -4008,16 +3209,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 16.75,
     "cp2": 39.55,
     "cp3": 29.53,
     "finish": 14.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with Balogh BOSS."
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.05,
@@ -4028,16 +3225,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 16.75,
     "cp2": 39.55,
     "cp3": 29.53,
     "finish": 14.22,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with catamaran option for add hoc or solo sailing rig. This boat has seen me to Key Largo 3 times and most likely could find it's way without me."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 100.07,
@@ -4048,16 +3241,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 13.37,
     "cp2": 45.03,
     "cp3": 25.8,
     "finish": 15.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Ultra, aka \"Tenacious"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.18,
@@ -4068,16 +3257,12 @@ var racedata = [
     "Given Name/s": "Paul Kral",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 10.4,
     "cp2": 35.17,
     "cp3": 36.83,
     "finish": 17.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2011 Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.2,
@@ -4088,16 +3273,12 @@ var racedata = [
     "Given Name/s": "Chris Ravelo",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.22,
     "cp2": 43.48,
     "cp3": 25.28,
     "finish": 18.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.2,
@@ -4108,16 +3289,12 @@ var racedata = [
     "Given Name/s": "Ryan Ravelo",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.05,
     "cp2": 43.67,
     "cp3": 25.27,
     "finish": 18.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Grey Hobie Adventure Island with Blue sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.2,
@@ -4128,16 +3305,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 12.9,
     "cp2": 43.65,
     "cp3": 25.58,
     "finish": 18.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI Yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.22,
@@ -4148,16 +3321,12 @@ var racedata = [
     "Given Name/s": "Robert Hyde and Robert Hyde",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "hobie 18 Magnum",
+    "BOAT": "Hobie 18",
     "cp1": 25.67,
     "cp2": 36.48,
     "cp3": 17.1,
     "finish": 20.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.25,
@@ -4168,16 +3337,12 @@ var racedata = [
     "Given Name/s": "Steve Kerr and Drew Marting",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 21.45,
     "cp2": 35.8,
     "cp3": 23.25,
     "finish": 19.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI, Dune"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.3,
@@ -4188,16 +3353,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 0.02,
     "cp2": 55.33,
     "cp3": 23.37,
     "finish": 21.58,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.32,
@@ -4208,16 +3369,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 14.52,
     "cp2": 43.38,
     "cp3": 24.15,
     "finish": 18.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.4,
@@ -4228,16 +3385,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg and David Vandenberg",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 19",
     "cp1": 9.25,
     "cp2": 43.2,
     "cp3": 27.28,
     "finish": 20.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 19 While Hull with Black Stripes, Black Sail with USA V2 Insignia Registration number NC 7880 EF"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.5,
@@ -4248,16 +3401,12 @@ var racedata = [
     "Given Name/s": "Derick Bezuidenhout and dylan bezuidenhout",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18",
     "cp1": 27.48,
     "cp2": 25.35,
     "cp3": 25.67,
     "finish": 22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Standard Hobie 18 with white hulls and blue sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.52,
@@ -4268,16 +3417,12 @@ var racedata = [
     "Given Name/s": "Edwin Skinner",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nacra F17",
     "cp1": 2.83,
     "cp2": 46.83,
     "cp3": 24.97,
     "finish": 25.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra F17 catamaran. White hulls, white mast"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.53,
@@ -4288,16 +3433,12 @@ var racedata = [
     "Given Name/s": "Andrew Hayward and Nate Vilardebo",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Highlander",
     "cp1": 2.83,
     "cp2": 24.57,
     "cp3": 60.42,
     "finish": 12.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Highlander Class Sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.58,
@@ -4308,16 +3449,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and Tom Dyll",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 7.98,
     "cp2": 20.33,
     "cp3": 47.05,
     "finish": 25.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Astus 20.2"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.6,
@@ -4328,16 +3465,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 16",
     "cp1": 12.47,
     "cp2": 43.6,
     "cp3": 26.42,
     "finish": 18.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self Designed and built 16 ft. foam and glass pilothouse trimaran."
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.63,
@@ -4348,16 +3481,12 @@ var racedata = [
     "Given Name/s": "Jeff Stringfield and Matt Saxman",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade catamaran 22",
     "cp1": 11.55,
     "cp2": 42.2,
     "cp3": 24.12,
     "finish": 22.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Twenty two foot one off catamaran with a pedal drive system"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.68,
@@ -4368,16 +3497,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 13.97,
     "cp2": 43.2,
     "cp3": 21.25,
     "finish": 22.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 100.68,
@@ -4388,16 +3513,12 @@ var racedata = [
     "Given Name/s": "Joseph Frohock",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 8.17,
     "cp2": 46.62,
     "cp3": 21.75,
     "finish": 24.15,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Not sure yet"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 100.93,
@@ -4408,16 +3529,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "KayakPro Marlin",
     "cp1": 23.98,
     "cp2": 37.53,
     "cp3": 28.68,
     "finish": 10.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kayakpro Marlin 1M Flat earth"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.02,
@@ -4428,16 +3545,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Michael Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 15.37,
     "cp2": 35.95,
     "cp3": 39.3,
     "finish": 10.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20, 20 foot cat ketch designed by double EC winner Graham Byrnes, curently under construction in my shop."
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.08,
@@ -4448,16 +3561,12 @@ var racedata = [
     "Given Name/s": "Thomas Head",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Welsford Pathfinder",
     "cp1": 14.27,
     "cp2": 41.67,
     "cp3": 24.05,
     "finish": 21.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Welsford Pathfinder"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.23,
@@ -4468,16 +3577,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 5.12,
     "cp2": 64.17,
     "cp3": 23.25,
     "finish": 8.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SOS Designed kayak trimaran with Hobie TI sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.27,
@@ -4488,16 +3593,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 13.67,
     "cp2": 40.93,
     "cp3": 20.07,
     "finish": 26.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Thistle Beast sails again!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.28,
@@ -4508,16 +3609,12 @@ var racedata = [
     "Given Name/s": "wayne albert",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 24.02,
     "cp2": 35.98,
     "cp3": 27.15,
     "finish": 14.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "the usual"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.32,
@@ -4528,16 +3625,12 @@ var racedata = [
     "Given Name/s": "Rod Price and Ryan Gillikin",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "CLC Triple",
     "cp1": 14.93,
     "cp2": 33.12,
     "cp3": 41.52,
     "finish": 11.75,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "21 ft. CLC Triple Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.38,
@@ -4548,16 +3641,12 @@ var racedata = [
     "Given Name/s": "Joachim Harpprecht",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade catamaran 14",
     "cp1": 8.33,
     "cp2": 31.48,
     "cp3": 20.43,
     "finish": 41.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14 ft Catamaran made from 3 sheets of plywood within 2 weeks last year. Hope she will bring me to Key Largo again"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.45,
@@ -4568,16 +3657,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and Bill Whale",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 0.05,
     "cp2": 34.37,
     "cp3": 26.3,
     "finish": 40.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Astus 20.2 Tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.48,
@@ -4588,16 +3673,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 9.98,
     "cp2": 31.05,
     "cp3": 36.1,
     "finish": 24.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.53,
@@ -4608,16 +3689,12 @@ var racedata = [
     "Given Name/s": "William Nye and Caleb Nye",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Vanguard Nomad",
     "cp1": 14.27,
     "cp2": 41.22,
     "cp3": 30.38,
     "finish": 15.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Vanguard Nomad (I think). Same as 2013. Or the TI, still on the fence"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.77,
@@ -4628,16 +3705,12 @@ var racedata = [
     "Given Name/s": "Daniel MacElrevey and Daniel MacElrevey",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 11.07,
     "cp2": 24.37,
     "cp3": 49.4,
     "finish": 16.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Dune grey Hobie TI with lime green, blue & white sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 101.93,
@@ -4648,16 +3721,12 @@ var racedata = [
     "Given Name/s": "Trey Reaves and Julie Ardoin",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seaward Passat G3",
     "cp1": 10.37,
     "cp2": 50.05,
     "cp3": 24.88,
     "finish": 16.63,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Seaward Passat g3"
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.15,
@@ -4668,16 +3737,12 @@ var racedata = [
     "Given Name/s": "Anthony Pascone",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Trimaran",
     "cp1": 10.62,
     "cp2": 24.32,
     "cp3": 26.8,
     "finish": 40.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.18,
@@ -4688,16 +3753,12 @@ var racedata = [
     "Given Name/s": "Randall Fleming Fleming",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.13,
     "cp2": 41.95,
     "cp3": 43.3,
     "finish": 5.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tired, broken, worn, refreshed, repaired, leaking, and a trued and tried Ivory TI with Tramps, Haka's, and neverending spirit!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.42,
@@ -4708,16 +3769,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 12.25,
     "cp2": 44.83,
     "cp3": 25.23,
     "finish": 20.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Highly modified JungleJim cast off/oyster bar edition. No sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.5,
@@ -4728,16 +3785,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 15.62,
     "cp2": 41.48,
     "cp3": 22.52,
     "finish": 22.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2018 Hobie TI in dune color with lime, blue and white mainsail, white spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.78,
@@ -4748,16 +3801,12 @@ var racedata = [
     "Given Name/s": "mike Baldwin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 15.97,
     "cp2": 39.03,
     "cp3": 26.12,
     "finish": 21.67,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "new to me Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 102.95,
@@ -4768,16 +3817,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 11.83,
     "cp2": 44.23,
     "cp3": 25.77,
     "finish": 21.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X, no sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.12,
@@ -4788,16 +3833,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran",
     "cp1": 16.58,
     "cp2": 38.7,
     "cp3": 26.72,
     "finish": 21.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self designed and built Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.12,
@@ -4808,16 +3849,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 13,
     "cp2": 44.83,
     "cp3": 24.67,
     "finish": 20.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.25,
@@ -4828,16 +3865,12 @@ var racedata = [
     "Given Name/s": "James Collins and Cathy Shoenfeld",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seda Triumph",
     "cp1": 12.33,
     "cp2": 44.03,
     "cp3": 25.73,
     "finish": 21.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Triumph"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.28,
@@ -4848,16 +3881,12 @@ var racedata = [
     "Given Name/s": "Ardie Olson",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ruahine Ocean X",
     "cp1": 11.83,
     "cp2": 44.4,
     "cp3": 26.1,
     "finish": 20.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ocean X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.88,
@@ -4868,16 +3897,12 @@ var racedata = [
     "Given Name/s": "Jeff Williams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Dart 18",
     "cp1": 2.83,
     "cp2": 47.33,
     "cp3": 37.9,
     "finish": 15.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dart 18 built by Panthercraft"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.92,
@@ -4888,16 +3913,12 @@ var racedata = [
     "Given Name/s": "Ryan Ravelo",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 16.68,
     "cp2": 41.22,
     "cp3": 25.1,
     "finish": 20.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Grey Hobie AI with white and blue sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 103.92,
@@ -4908,16 +3929,12 @@ var racedata = [
     "Given Name/s": "Will Suto",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 16.72,
     "cp2": 41.18,
     "cp3": 24.95,
     "finish": 21.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 104.27,
@@ -4928,16 +3945,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 17.85,
     "cp2": 44.32,
     "cp3": 21.67,
     "finish": 20.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Red AI on its 4th EC"
+    "either/or": ""
   },
   {
     "Total (hrs)": 104.28,
@@ -4948,16 +3961,12 @@ var racedata = [
     "Given Name/s": "Charles Wolfe",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 13.12,
     "cp2": 47.92,
     "cp3": 25.47,
     "finish": 17.78,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind. Uncertrain whether I am going Class 1 or 3 this year."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 104.43,
@@ -4968,16 +3977,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 15'",
     "cp1": 11.32,
     "cp2": 43.15,
     "cp3": 25.17,
     "finish": 24.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Decked sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 104.75,
@@ -4988,16 +3993,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 16",
     "cp1": 13.17,
     "cp2": 40.25,
     "cp3": 43.67,
     "finish": 7.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16-foot self-designed pilot house trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 104.83,
@@ -5008,16 +4009,12 @@ var racedata = [
     "Given Name/s": "Chuck Leinweber and Gary Blankenship",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Welsford Cat ketch 18'",
     "cp1": 12.78,
     "cp2": 51.38,
     "cp3": 33.8,
     "finish": 6.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "John Welsford design. 18 foot open cat ketch."
+    "either/or": ""
   },
   {
     "Total (hrs)": 105,
@@ -5028,16 +4025,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 15.47,
     "cp2": 39.53,
     "cp3": 21.28,
     "finish": 28.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SEDA Triumph"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.13,
@@ -5048,16 +4041,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Rob Royoid Canoe",
     "cp1": 15.3,
     "cp2": 42,
     "cp3": 30.9,
     "finish": 16.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "13.5' x 28\" Rob Royoid decked canoe with downwind lug rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.32,
@@ -5068,16 +4057,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 35.43,
     "cp2": 31.05,
     "cp3": 25.23,
     "finish": 13.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "24' x 24\" SEDA Triumph"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.32,
@@ -5088,16 +4073,12 @@ var racedata = [
     "Given Name/s": "Jason Magness and Daniel Staudigel",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Stellar ST 21",
     "cp1": 33.75,
     "cp2": 37,
     "cp3": 21.18,
     "finish": 13.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar Tandem Kayak ST 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.33,
@@ -5108,16 +4089,12 @@ var racedata = [
     "Given Name/s": "John Bell and Shawn Payment",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 4.52,
     "cp2": 47.2,
     "cp3": 41.58,
     "finish": 12.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.33,
@@ -5128,16 +4105,12 @@ var racedata = [
     "Given Name/s": "John Bell and Greg Thurman",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 18.23,
     "cp2": 45.1,
     "cp3": 20.17,
     "finish": 21.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.33,
@@ -5148,16 +4121,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 14.45,
     "cp2": 40.45,
     "cp3": 33.85,
     "finish": 16.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.52,
@@ -5168,16 +4137,12 @@ var racedata = [
     "Given Name/s": "Kevin Lopez",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 12.33,
     "cp2": 41.3,
     "cp3": 23.47,
     "finish": 28.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 Yellow Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.87,
@@ -5188,16 +4153,12 @@ var racedata = [
     "Given Name/s": "Charles Wolfe",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Pace 18",
     "cp1": 13.13,
     "cp2": 47.05,
     "cp3": 22.35,
     "finish": 23.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tiderace Pace 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.92,
@@ -5208,16 +4169,12 @@ var racedata = [
     "Given Name/s": "Joachim Harpprecht",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade catamaran 14",
     "cp1": 16.88,
     "cp2": 46.63,
     "cp3": 19.93,
     "finish": 22.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran, 14 x 7 ft Plywood/glass/carbon fiber composite"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.95,
@@ -5228,16 +4185,12 @@ var racedata = [
     "Given Name/s": "Roy MacPhail and ArDelia MacPhail",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 12.32,
     "cp2": 43.72,
     "cp3": 30.47,
     "finish": 19.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.95,
@@ -5248,16 +4201,12 @@ var racedata = [
     "Given Name/s": "Roy Edwards and Alex Wilson",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sailbird 18 Trimaran",
     "cp1": 12.68,
     "cp2": 39.82,
     "cp3": 29,
     "finish": 24.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "40 year old, 18' highly modified Sailbird trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 105.98,
@@ -5268,16 +4217,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Flying Scott",
     "cp1": 15.68,
     "cp2": 44.33,
     "cp3": 31.72,
     "finish": 14.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Flying Scot /w double reef point main sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.05,
@@ -5288,16 +4233,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic Endurance 18",
     "cp1": 14.88,
     "cp2": 45.82,
     "cp3": 26.98,
     "finish": 18.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic Endurance 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.13,
@@ -5308,16 +4249,12 @@ var racedata = [
     "Given Name/s": "Joshua Morgan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 11.17,
     "cp2": 49.65,
     "cp3": 511.28,
     "finish": -465.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18S with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.17,
@@ -5328,16 +4265,12 @@ var racedata = [
     "Given Name/s": "William Highsmith",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Kayak",
     "cp1": 11.2,
     "cp2": 45.05,
     "cp3": 42.77,
     "finish": 7.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky w/ Balogh Batwind Sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.3,
@@ -5348,16 +4281,12 @@ var racedata = [
     "Given Name/s": "William Nye and Amber Nye",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Vanguard Nomad",
     "cp1": 11.37,
     "cp2": 60.88,
     "cp3": 26.5,
     "finish": 7.55,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Vanguard Nomad. Sloop rigged open day sailor. White deck, blue topsides, white underside. Blue spinnaker with red stripe."
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.35,
@@ -5368,16 +4297,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.35,
     "cp2": 45.95,
     "cp3": 26.08,
     "finish": 19.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.45,
@@ -5388,16 +4313,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 9.25,
     "cp2": 54.28,
     "cp3": 33.97,
     "finish": 8.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.88,
@@ -5408,16 +4329,12 @@ var racedata = [
     "Given Name/s": "Charlie Scott and Orion Marx",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Tango",
     "cp1": 15.25,
     "cp2": 45.83,
     "cp3": 25.5,
     "finish": 20.3,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango White hull, black trims"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.9,
@@ -5428,16 +4345,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 24,
     "cp2": 36.72,
     "cp3": 28.93,
     "finish": 17.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Ultra"
+    "either/or": ""
   },
   {
     "Total (hrs)": 106.93,
@@ -5448,16 +4361,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie 18SX",
     "cp1": 10.13,
     "cp2": 48.13,
     "cp3": 41.58,
     "finish": 7.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Cat 18XS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.25,
@@ -5468,16 +4377,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Eddyline Whisper XL",
     "cp1": 15.5,
     "cp2": 40.28,
     "cp3": 31.38,
     "finish": 20.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Eddyline Whisper XL 21-6\" by 30"
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.35,
@@ -5488,16 +4393,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 10.98,
     "cp2": 48.6,
     "cp3": 40.75,
     "finish": 7.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.4,
@@ -5508,16 +4409,12 @@ var racedata = [
     "Given Name/s": "Bill Wickman and Steve Morris",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 12.67,
     "cp2": 44.48,
     "cp3": 37.07,
     "finish": 13.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.5,
@@ -5528,16 +4425,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade Rob Roy kayak",
     "cp1": 18.73,
     "cp2": 40.05,
     "cp3": 40.3,
     "finish": 8.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Experimental Rob Roy type cruising kayak, 13.5' x 27.5\" with 16 sqft lug sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.85,
@@ -5548,16 +4441,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll and Erika Dyll",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.98,
     "cp2": 41.73,
     "cp3": 41.6,
     "finish": 10.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Twin masted Kruger Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.95,
@@ -5568,16 +4457,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Chuck Leinweber",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 15.7,
     "cp2": 39.97,
     "cp3": 30.83,
     "finish": 21.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Jim Michalak-designed Frolic2, a leeboard, balanced lug rigged 20 footer. Five foot beam, draws only a few inches with leeboard up, and has a small cabin, Weighs 300-350 pounds empty."
+    "either/or": ""
   },
   {
     "Total (hrs)": 107.98,
@@ -5588,16 +4473,12 @@ var racedata = [
     "Given Name/s": "George Van Sickle",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Expedition 14.5",
     "cp1": 24.47,
     "cp2": 49.87,
     "cp3": 14.55,
     "finish": 19.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition 14.5 dinghy"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.02,
@@ -5608,16 +4489,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bluejay 14",
     "cp1": 16.98,
     "cp2": 37.38,
     "cp3": 27.45,
     "finish": 26.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14ft bluejay with extras."
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.17,
@@ -5628,16 +4505,12 @@ var racedata = [
     "Given Name/s": "Keith Davids and Yvette Davids",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 10.92,
     "cp2": 42.85,
     "cp3": 23.47,
     "finish": 30.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.25,
@@ -5648,16 +4521,12 @@ var racedata = [
     "Given Name/s": "Stan Hanson and Bob Bradford",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 13,
     "cp2": 59.43,
     "cp3": 28.07,
     "finish": 7.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.32,
@@ -5668,16 +4537,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Dawn Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 29.57,
     "cp2": 42.9,
     "cp3": 26.95,
     "finish": 8.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 with a Cabin!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.33,
@@ -5688,16 +4553,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 16.27,
     "cp2": 41.4,
     "cp3": 29.33,
     "finish": 21.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.4,
@@ -5708,16 +4569,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.25,
     "cp2": 48.83,
     "cp3": 22.47,
     "finish": 22.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.68,
@@ -5728,16 +4585,12 @@ var racedata = [
     "Given Name/s": "Matt Pinkley and Chris Elwell",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 25.6,
     "cp2": 39.03,
     "cp3": 20.65,
     "finish": 23.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 built in 2014 but may never be completed."
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.77,
@@ -5748,16 +4601,12 @@ var racedata = [
     "Given Name/s": "William Swezey jr and Sierra Swezey",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Outrigger sailing canoe",
     "cp1": 24.72,
     "cp2": 35.78,
     "cp3": 34.12,
     "finish": 14.15,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Polynesian style double outrigger sailing canoe (with daggerboard)- White hull, teak trim & deck"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.85,
@@ -5768,16 +4617,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 16.25,
     "cp2": 48.42,
     "cp3": 33.05,
     "finish": 11.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 108.97,
@@ -5788,16 +4633,12 @@ var racedata = [
     "Given Name/s": "John Bell and Greg Thurman",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Hobie TI",
+    "BOAT": "?",
     "cp1": 16.08,
     "cp2": 57.45,
     "cp3": 24.12,
     "finish": 11.32,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "It's yellow."
+    "either/or": ""
   },
   {
     "Total (hrs)": 109,
@@ -5808,16 +4649,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 24.33,
     "cp2": 30.5,
     "cp3": 24.67,
     "finish": 29.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SeaPearl 21 \"Moon Shadow\" (cat-ketch w/black hull & red trim)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.15,
@@ -5828,16 +4665,12 @@ var racedata = [
     "Given Name/s": "Paul Stewart and Alan Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 12.07,
     "cp2": 64.42,
     "cp3": 18.07,
     "finish": 14.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EC22 by B&B Yacht Designs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.25,
@@ -5848,16 +4681,12 @@ var racedata = [
     "Given Name/s": "Brooks Hall and Stuart Miller",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 30.92,
     "cp2": 41.98,
     "cp3": 27.7,
     "finish": 8.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.28,
@@ -5868,16 +4697,12 @@ var racedata = [
     "Given Name/s": "Julie Ardoin and Gayle Taylor",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "Seaward Passat",
     "cp1": 16.18,
     "cp2": 41.4,
     "cp3": 32.83,
     "finish": 18.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Passat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.75,
@@ -5888,16 +4713,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski and Elena Barnett",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 12.7,
     "cp2": 46.77,
     "cp3": 27.07,
     "finish": 23.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tandem pedal assisted sailing kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.77,
@@ -5908,16 +4729,12 @@ var racedata = [
     "Given Name/s": "Erik Dykema and George Blaha\nand MItchell Blaha",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Core Sound 20 Mark 3",
     "cp1": 28.35,
     "cp2": 46.1,
     "cp3": 25.55,
     "finish": 9.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 109.93,
@@ -5928,16 +4745,12 @@ var racedata = [
     "Given Name/s": "michael Baldwin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 17 sport",
     "cp1": 9.83,
     "cp2": 44.83,
     "cp3": 25.5,
     "finish": 29.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 17 Sport. Close to stock"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110,
@@ -5948,16 +4761,12 @@ var racedata = [
     "Given Name/s": "Justin Hughes and Robin Hughes",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "prindle 16",
     "cp1": 11.23,
     "cp2": 44.68,
     "cp3": 45.97,
     "finish": 8.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.55,
@@ -5968,16 +4777,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Stephen Antworth",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 9.55,
     "cp2": 63.82,
     "cp3": 17.48,
     "finish": 19.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Thistle #495"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.58,
@@ -5988,16 +4793,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Osprey",
     "cp1": 13.18,
     "cp2": 42.65,
     "cp3": 32.37,
     "finish": 22.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey HP wooden stitch-and-glue, 17.5'. The only boat that has seen the finish of all three Challenges (Everglades, Cross-Florida, Lake Michigan)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.75,
@@ -6008,16 +4809,12 @@ var racedata = [
     "Given Name/s": "Greg Dickenson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.58,
     "cp2": 39.75,
     "cp3": 47.92,
     "finish": 8.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea wind #284"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.75,
@@ -6028,16 +4825,12 @@ var racedata = [
     "Given Name/s": "Larry Langley and Mark Lacey",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 2.93,
     "cp2": 54.53,
     "cp3": 29.07,
     "finish": 24.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19 ft. Lightning class"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.75,
@@ -6048,36 +4841,12 @@ var racedata = [
     "Given Name/s": "Thor Jaquish",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.58,
     "cp2": 39.77,
     "cp3": 47.95,
     "finish": 8.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Two Kruger Seawind canoes \"catted-up\" with Balogh sail rig"
-  },
-  {
-    "Total (hrs)": 110.85,
-    "YEAR": 2024,
-    "Captain wt name": "Waterstrider",
-    "Crew wt name": "Specialk",
-    "3rd wt name": "",
-    "Given Name/s": "Charles Burke and Kellen West",
-    "C#": "C4",
-    "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Interlake 18",
-    "cp1": 32.7,
-    "cp2": 44.22,
-    "cp3": 23.42,
-    "finish": 10.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft Interlake unmodified"
+    "either/or": ""
   },
   {
     "Total (hrs)": 110.87,
@@ -6088,16 +4857,12 @@ var racedata = [
     "Given Name/s": "Paul Kral",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 12.33,
     "cp2": 41.2,
     "cp3": 47.52,
     "finish": 9.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "2011 Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 111.17,
@@ -6108,16 +4873,12 @@ var racedata = [
     "Given Name/s": "Robert Barnett and James Cook",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 28.58,
     "cp2": 42.38,
     "cp3": 24.53,
     "finish": 15.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16 with a Spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 111.28,
@@ -6128,16 +4889,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski and Elena Barnett",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 33.68,
     "cp2": 28.73,
     "cp3": 26.42,
     "finish": 22.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 111.38,
@@ -6148,16 +4905,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 16.78,
     "cp2": 34.8,
     "cp3": 30.27,
     "finish": 29.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Will be in the faithful and trusty Oaracle again; looking forward to seeing everyone on the beach at Ft. DeSoto."
+    "either/or": ""
   },
   {
     "Total (hrs)": 111.6,
@@ -6168,16 +4921,12 @@ var racedata = [
     "Given Name/s": "Charles Burke",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CL 16",
     "cp1": 2.83,
     "cp2": 47.92,
     "cp3": 26.33,
     "finish": 34.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CL 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 111.77,
@@ -6188,16 +4937,12 @@ var racedata = [
     "Given Name/s": "Ted Perron",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 13.83,
     "cp2": 40.58,
     "cp3": 28.18,
     "finish": 29.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Top secret"
+    "either/or": ""
   },
   {
     "Total (hrs)": 112.35,
@@ -6208,16 +4953,12 @@ var racedata = [
     "Given Name/s": "Jorge Blanco and Valeria Blanco",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie 16",
     "cp1": 11.52,
     "cp2": 23.78,
     "cp3": 55.12,
     "finish": 21.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": 112.45,
@@ -6228,16 +4969,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Osprey",
     "cp1": 16.95,
     "cp2": 56.55,
     "cp3": 26.6,
     "finish": 12.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey HP, 17.5'."
+    "either/or": ""
   },
   {
     "Total (hrs)": 112.45,
@@ -6248,16 +4985,12 @@ var racedata = [
     "Given Name/s": "Warren Richey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 16.98,
     "cp2": 56.52,
     "cp3": 26.6,
     "finish": 12.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113,
@@ -6268,16 +5001,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber and Kendra Leibel",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.7,
     "cp2": 48.13,
     "cp3": 36.37,
     "finish": 13.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.27,
@@ -6288,16 +5017,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 13,
     "cp2": 46.98,
     "cp3": 38.57,
     "finish": 14.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "New Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.38,
@@ -6308,16 +5033,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and James Clinchard",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 14.03,
     "cp2": 52.33,
     "cp3": 35.82,
     "finish": 11.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.4,
@@ -6328,16 +5049,12 @@ var racedata = [
     "Given Name/s": "Neil Calore",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Northeaster Dory",
     "cp1": 12.98,
     "cp2": 47.98,
     "cp3": 44.45,
     "finish": 7.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' CLC Northeaster Dory, Lug Rigged"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.47,
@@ -6348,16 +5065,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 15.37,
     "cp2": 43,
     "cp3": 31.67,
     "finish": 23.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island."
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.5,
@@ -6368,16 +5081,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 27.25,
     "cp2": 39.43,
     "cp3": 30.23,
     "finish": 16.58,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Back to roots. Folding catamaran,Russian origin, 15 ft long, 160 lb, 100 sq ft sail area. 1st solo, 2-nd overall in 2002 LMC"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 113.63,
@@ -6388,16 +5097,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 16",
     "cp1": 24,
     "cp2": 48.45,
     "cp3": 25.6,
     "finish": 15.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16ft self designed pilot house trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 113.87,
@@ -6408,16 +5113,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Dart 18",
     "cp1": 14.73,
     "cp2": 43.97,
     "cp3": 43.65,
     "finish": 11.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dart 18 Beach cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 114.4,
@@ -6428,16 +5129,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "",
     "cp1": 24.33,
     "cp2": 37.67,
     "cp3": 31.2,
     "finish": 21.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "KayakPro Marlin no sail needed"
+    "either/or": ""
   },
   {
     "Total (hrs)": 114.88,
@@ -6448,16 +5145,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade pram 8'",
     "cp1": 18.53,
     "cp2": 40.8,
     "cp3": 43.83,
     "finish": 11.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "8' Decked Pram"
+    "either/or": ""
   },
   {
     "Total (hrs)": 115.23,
@@ -6468,16 +5161,12 @@ var racedata = [
     "Given Name/s": "Daniel MacElrevey and Daniel MacElrevey",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 11.75,
     "cp2": 40.87,
     "cp3": 44.17,
     "finish": 18.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "grey Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 115.3,
@@ -6488,16 +5177,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "18' Custom Proa by Crazyrussian",
+    "BOAT": "Modern Proa 18'",
     "cp1": 24.83,
     "cp2": 51.12,
     "cp3": 24.55,
     "finish": 14.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "My experimental modern flying pacific proa. 18 ft x 8 ft, 125 sq ft Bermudian unirig sail, 200 lbs. The boat did well last year, I’m bringing it back almost unchanged, with just a few bugs fixed."
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.05,
@@ -6508,16 +5193,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 15.33,
     "cp2": 47.75,
     "cp3": 32.48,
     "finish": 20.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Ultra red bow and tail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.42,
@@ -6528,16 +5209,12 @@ var racedata = [
     "Given Name/s": "Kris Laurie",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Scorpio",
     "cp1": 20.6,
     "cp2": 50.6,
     "cp3": 34.22,
     "finish": 11,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Scorpio"
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.5,
@@ -6548,16 +5225,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Gary Sabitsch",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 12.27,
     "cp2": 40.05,
     "cp3": 26.57,
     "finish": 37.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Jim Michalak-designed Frolic2, 20-foot leeboarder with a balanced lug sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.68,
@@ -6568,16 +5241,12 @@ var racedata = [
     "Given Name/s": "Justin Schaay",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 14.25,
     "cp2": 51.08,
     "cp3": 33.35,
     "finish": 18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.68,
@@ -6588,16 +5257,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Noel Davis",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 18.43,
     "cp2": 32.98,
     "cp3": 53.42,
     "finish": 11.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A 20-foot long by 5-foot beam Jim Michalak Frolic2 design. Balanced lug sail & single leeboard. Entrant in 2004 and finisher in 2006&7."
+    "either/or": ""
   },
   {
     "Total (hrs)": 116.83,
@@ -6608,16 +5273,12 @@ var racedata = [
     "Given Name/s": "Val Chapa",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seda kayak",
     "cp1": 14.23,
     "cp2": 51.05,
     "cp3": 33.52,
     "finish": 18.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda"
+    "either/or": ""
   },
   {
     "Total (hrs)": 117.07,
@@ -6628,16 +5289,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 15.3,
     "cp2": 48.2,
     "cp3": 35,
     "finish": 18.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser fully covered with spray skirts. capable of sleeping two on board."
+    "either/or": ""
   },
   {
     "Total (hrs)": 117.07,
@@ -6648,16 +5305,12 @@ var racedata = [
     "Given Name/s": "toby nipper",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 18.67,
     "cp2": 47.33,
     "cp3": 34.25,
     "finish": 16.82,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger seawind,Balough 32.If I don't destroy either of them by next year. That Ain't to going to happen. Both are tougher then I am."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 117.55,
@@ -6668,16 +5321,12 @@ var racedata = [
     "Given Name/s": "Matt Layden",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homeade kayak 12'",
     "cp1": 16.67,
     "cp2": 46.48,
     "cp3": 36.82,
     "finish": 17.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "12' x 24\" light touring kayak. Low drag at comfortable cruising speed, but not real fast."
+    "either/or": ""
   },
   {
     "Total (hrs)": 118.17,
@@ -6688,16 +5337,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.95,
     "cp2": 48.98,
     "cp3": 36.57,
     "finish": 17.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Fully decked kruger cruiser with front and rear rudder controls.canoe is capable of sleeping two people on board."
+    "either/or": ""
   },
   {
     "Total (hrs)": 118.45,
@@ -6708,16 +5353,12 @@ var racedata = [
     "Given Name/s": "MIKE GUTIERREZ and Rod Price",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wenonah double canoe",
     "cp1": 17.65,
     "cp2": 50.35,
     "cp3": 28.33,
     "finish": 22.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nootka - Double We-No_Nah racing canoe with Balogh BOSS sail rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 118.55,
@@ -6728,16 +5369,12 @@ var racedata = [
     "Given Name/s": "John Bell and Scott Widmier",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 17.77,
     "cp2": 36.97,
     "cp3": 25.88,
     "finish": 37.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 118.78,
@@ -6748,16 +5385,12 @@ var racedata = [
     "Given Name/s": "Geoffrey Chambers and Laurie Sanders, Jr.",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Buccaneer 18",
+    "BOAT": "O'Day Day sailer",
     "cp1": 17.55,
     "cp2": 36.28,
     "cp3": 27.55,
     "finish": 37.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Restored 1970s daysailer"
+    "either/or": ""
   },
   {
     "Total (hrs)": 119.05,
@@ -6768,16 +5401,12 @@ var racedata = [
     "Given Name/s": "Robert Waddell and John MacDonald",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 11.48,
     "cp2": 40.07,
     "cp3": 39.62,
     "finish": 27.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 Dovekie 21 ft semi decked dory with single mainsail and jib 3x previous EC challenges completed with previous owner."
+    "either/or": ""
   },
   {
     "Total (hrs)": 119.25,
@@ -6788,16 +5417,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.12,
     "cp2": 44.58,
     "cp3": 30.3,
     "finish": 30.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Fully decked Kruger Cruiser with front and rear rudder controls"
+    "either/or": ""
   },
   {
     "Total (hrs)": 119.6,
@@ -6808,16 +5433,12 @@ var racedata = [
     "Given Name/s": "Kevin Lopez",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 14.28,
     "cp2": 39.82,
     "cp3": 38.87,
     "finish": 26.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 119.83,
@@ -6828,16 +5449,12 @@ var racedata = [
     "Given Name/s": "Bill Herrmann",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 20.8,
     "cp2": 47.37,
     "cp3": 17,
     "finish": 34.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Jack Cramer's SeaWind with a 38 sq ft Balogh. Kruger makes a stable forgiving boat, add a Balogh and the set-up is complete."
+    "either/or": ""
   },
   {
     "Total (hrs)": 119.98,
@@ -6848,16 +5465,12 @@ var racedata = [
     "Given Name/s": "Michael Lingswiler and Tom Bremen",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Holopuni Outrigger Sailing Canoe",
+    "BOAT": "Holopuni Sailing Canoe",
     "cp1": 24.65,
     "cp2": 50.47,
     "cp3": 22.8,
     "finish": 22.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Holopuni Outrigger Sailing Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 120.13,
@@ -6868,16 +5481,12 @@ var racedata = [
     "Given Name/s": "Daniel MacElrevey and Daniel MacElrevey",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 26.8,
     "cp2": 33.75,
     "cp3": 45.3,
     "finish": 14.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "grey Hobie TI with green, white & blue sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 120.37,
@@ -6888,16 +5497,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and toby nipper",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.32,
     "cp2": 43.38,
     "cp3": 47.72,
     "finish": 15.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Crusier. Finished a few, same boat that holds the world record for the Mississippi River."
+    "either/or": ""
   },
   {
     "Total (hrs)": 120.38,
@@ -6908,16 +5513,12 @@ var racedata = [
     "Given Name/s": "Jake Mann and Blake Price",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 27.37,
     "cp2": 47.23,
     "cp3": 34.62,
     "finish": 11.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Grey Hobie Tandem Island with spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 120.87,
@@ -6928,16 +5529,12 @@ var racedata = [
     "Given Name/s": "Joseph Murphy and Joseph Frohock",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 2.83,
     "cp2": 49.5,
     "cp3": 44.53,
     "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17 (blue)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 120.88,
@@ -6948,16 +5545,12 @@ var racedata = [
     "Given Name/s": "Mark Rowe and Lauren Fry",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.68,
     "cp2": 53.17,
     "cp3": 38.73,
     "finish": 15.3,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with Balogh sail and outriggers"
+    "either/or": ""
   },
   {
     "Total (hrs)": 121.08,
@@ -6968,16 +5561,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 4,
     "cp2": 51.83,
     "cp3": 38.28,
     "finish": 26.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Red AI with spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 121.17,
@@ -6988,16 +5577,12 @@ var racedata = [
     "Given Name/s": "Chris Forrest",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.53,
     "cp2": 64.53,
     "cp3": 29.27,
     "finish": 15.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI with a Brit on it"
+    "either/or": ""
   },
   {
     "Total (hrs)": 121.33,
@@ -7008,16 +5593,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 2.95,
     "cp2": 51.9,
     "cp3": 38.27,
     "finish": 28.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 121.65,
@@ -7028,16 +5609,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18",
     "cp1": 10.72,
     "cp2": 38.12,
     "cp3": 31.92,
     "finish": 40.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 122.12,
@@ -7048,16 +5625,12 @@ var racedata = [
     "Given Name/s": "Dave Martin and Shawn Payment",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 12.93,
     "cp2": 45.13,
     "cp3": 21.33,
     "finish": 42.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 122.83,
@@ -7068,16 +5641,12 @@ var racedata = [
     "Given Name/s": "Marty Worline",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Scamp",
     "cp1": 15.05,
     "cp2": 40.48,
     "cp3": 44.8,
     "finish": 22.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP 11'11"
+    "either/or": ""
   },
   {
     "Total (hrs)": 122.97,
@@ -7088,16 +5657,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber and Kendra Leibel",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.72,
     "cp2": 59.25,
     "cp3": 28.27,
     "finish": 20.73,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": 123,
@@ -7108,16 +5673,12 @@ var racedata = [
     "Given Name/s": "Anthony Pascone",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 18",
     "cp1": 25.17,
     "cp2": 34.42,
     "cp3": 39.17,
     "finish": 24.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "New Build.. 18.5' triaran with Nacra 5.2 hulls.."
+    "either/or": ""
   },
   {
     "Total (hrs)": 123.22,
@@ -7128,16 +5689,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 13.55,
     "cp2": 49.25,
     "cp3": 42.37,
     "finish": 18.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Design Stratus 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 123.22,
@@ -7148,16 +5705,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore",
     "cp1": 21.5,
     "cp2": 41.95,
     "cp3": 41.95,
     "finish": 17.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 123.6,
@@ -7168,16 +5721,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev and Johna Till Johnson",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Inflatable Catamaran",
     "cp1": 11.4,
     "cp2": 52.38,
     "cp3": 36.95,
     "finish": 22.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Folding catamaran with inflatable hulls. 200 lbs, 16 ft, 100 sq ft main sail + gennaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": 124,
@@ -7188,16 +5737,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 16.37,
     "cp2": 48.47,
     "cp3": 37.35,
     "finish": 21.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nordkapp Jubilee 17.5 With Skeg"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.2,
@@ -7208,16 +5753,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 24.92,
     "cp2": 38.45,
     "cp3": 20.45,
     "finish": 40.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "There are finishing touches being put on my latest understanding of fast folding sailboats. It is a catamaran, inflatable hulls, 16 ft long, 102 sq ft mainsail + gennaker. Much prettier than the previous version, better sailor and, I hope, as reliable. The boat still needs to cross Atlantic, which we will do soon, as a luggage, of course."
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.32,
@@ -7228,16 +5769,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson and Kilby Smith",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20 Mark 3",
     "cp1": 29.23,
     "cp2": 43.22,
     "cp3": 27.3,
     "finish": 24.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20 MKIII"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.6,
@@ -7248,16 +5785,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 12.73,
     "cp2": 40.52,
     "cp3": 14.83,
     "finish": 56.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 Mark 3 'Carlita' A self righting water ballasted cat ketch cruiser."
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.63,
@@ -7268,16 +5801,12 @@ var racedata = [
     "Given Name/s": "Jonathan Coble",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 18.9,
     "cp2": 38.82,
     "cp3": 43.45,
     "finish": 23.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.68,
@@ -7288,16 +5817,12 @@ var racedata = [
     "Given Name/s": "Kyle Milton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 14.48,
     "cp2": 53.75,
     "cp3": 48.02,
     "finish": 8.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "STELLAR 18R KAYAK WITH YELLOW DECK FALCON SAILS 1.0 METER SAIL"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.75,
@@ -7308,16 +5833,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 17.08,
     "cp2": 49.05,
     "cp3": 40.67,
     "finish": 17.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.78,
@@ -7328,16 +5849,12 @@ var racedata = [
     "Given Name/s": "Joseph Frohock and Robert Wetmore",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 18-2",
     "cp1": 10.3,
     "cp2": 49.73,
     "cp3": 43.6,
     "finish": 21.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 18.2"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.82,
@@ -7348,16 +5865,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 14.17,
     "cp2": 60.32,
     "cp3": 32.97,
     "finish": 17.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 124.88,
@@ -7368,16 +5881,12 @@ var racedata = [
     "Given Name/s": "Daniel Wyns",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Prijon Kodiak",
     "cp1": 18,
     "cp2": 59,
     "cp3": 37.25,
     "finish": 10.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prijon Kodiak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.5,
@@ -7388,16 +5897,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 13.3,
     "cp2": 52.32,
     "cp3": 33.42,
     "finish": 26.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.53,
@@ -7408,16 +5913,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 15.18,
     "cp2": 57.62,
     "cp3": 36.07,
     "finish": 16.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher #2 with FEKs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.55,
@@ -7428,16 +5929,12 @@ var racedata = [
     "Given Name/s": "Jaime Smyth",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kai Waa Gemini",
     "cp1": 22.45,
     "cp2": 54.92,
     "cp3": 37,
     "finish": 11.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kai Waa Gemini"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.67,
@@ -7448,16 +5945,12 @@ var racedata = [
     "Given Name/s": "Justin Blais",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 13.75,
     "cp2": 51.7,
     "cp3": 33.7,
     "finish": 26.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.67,
@@ -7468,16 +5961,12 @@ var racedata = [
     "Given Name/s": "ron hess",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 15.5,
     "cp2": 48,
     "cp3": 40,
     "finish": 22.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island. A SOT kayak/trimaran that can/will be paddled,peddled & sailed (Did I say sailed!)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.72,
@@ -7488,16 +5977,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.42,
     "cp2": 45.33,
     "cp3": 51.5,
     "finish": 15.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Red Hobie AI with prototype spinaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.75,
@@ -7508,16 +5993,12 @@ var racedata = [
     "Given Name/s": "Philip Lee",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Finn Dinghy",
     "cp1": 17.22,
     "cp2": 41.3,
     "cp3": 54,
     "finish": 13.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "finn dinghy"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.8,
@@ -7528,16 +6009,12 @@ var racedata = [
     "Given Name/s": "jim and lori gabbert and Anonymous",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seda Tango",
     "cp1": 15.55,
     "cp2": 44.53,
     "cp3": 40.07,
     "finish": 25.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda tango double sea kayak with many miles and races under her belt.will use boss sail and other sail options."
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.87,
@@ -7548,16 +6025,12 @@ var racedata = [
     "Given Name/s": "Rick Haller",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.97,
     "cp2": 58.53,
     "cp3": 23.42,
     "finish": 27.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Verlen Kruger Sea Wind with Balogh Expedition Sail and outriggers for solo and catamaran poles for Ad Hoc Team member."
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.9,
@@ -7568,16 +6041,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 15.58,
     "cp2": 48.6,
     "cp3": 44.23,
     "finish": 17.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.92,
@@ -7588,16 +6057,12 @@ var racedata = [
     "Given Name/s": "Andrew Hustrulid and Stefan Hustrulid",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 24.37,
     "cp2": 56.17,
     "cp3": 26.7,
     "finish": 18.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.95,
@@ -7608,16 +6073,12 @@ var racedata = [
     "Given Name/s": "Donald Polakovics",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Chesapeake 16LT",
     "cp1": 15.82,
     "cp2": 60.68,
     "cp3": 27.63,
     "finish": 21.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chesapeake 16LT with Balogh Sail Rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": 125.95,
@@ -7628,16 +6089,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Michael Collins",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 15.32,
     "cp2": 38.6,
     "cp3": 44.25,
     "finish": 27.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "An 18 foot Kruger cruising canoe with Balogh BOSS sailing rig, including two leeboards, two masts and sails, hiking decks and a jib. This is the boat that won the 2004 EC without significant modifications."
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.03,
@@ -7648,16 +6105,12 @@ var racedata = [
     "Given Name/s": "Andrew Findlay",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "X-Cat",
     "cp1": 8.58,
     "cp2": 70.15,
     "cp3": 20.25,
     "finish": 27.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "X-CAT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.15,
@@ -7668,16 +6121,12 @@ var racedata = [
     "Given Name/s": "Chris Forrest",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.87,
     "cp2": 57.02,
     "cp3": 36.02,
     "finish": 21.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Orange Hobie TI with a Brit on it."
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.23,
@@ -7688,16 +6137,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 24.17,
     "cp2": 28.33,
     "cp3": 32.5,
     "finish": 41.23,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "I have Kruger Cruiser ordered. Brian and I plan to sail it as much as possible."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 126.25,
@@ -7708,16 +6153,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll and Erika Dyll",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 17.62,
     "cp2": 40.98,
     "cp3": 51.65,
     "finish": 16,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with BSD twin masted sailing rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.28,
@@ -7728,16 +6169,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.1,
     "cp2": 40.27,
     "cp3": 51.1,
     "finish": 21.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie AI, red with stock spinaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.28,
@@ -7748,16 +6185,12 @@ var racedata = [
     "Given Name/s": "Dan Bickford",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 21.5,
     "cp2": 45.08,
     "cp3": 24.42,
     "finish": 35.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.33,
@@ -7768,16 +6201,12 @@ var racedata = [
     "Given Name/s": "Vance Elshire",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Southwestern Dory",
     "cp1": 14.73,
     "cp2": 62.78,
     "cp3": 31.85,
     "finish": 16.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 foot Southwestern Dory CLC"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.37,
@@ -7788,16 +6217,12 @@ var racedata = [
     "Given Name/s": "Bob Nichols",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 16.77,
     "cp2": 50.02,
     "cp3": 40.92,
     "finish": 18.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie T.I."
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.38,
@@ -7808,16 +6233,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 16.07,
     "cp2": 49.92,
     "cp3": 51.58,
     "finish": 8.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.4,
@@ -7828,16 +6249,12 @@ var racedata = [
     "Given Name/s": "Josh Bowers and Denise Parris",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "?",
     "cp1": 18.68,
     "cp2": 53.25,
     "cp3": 33.22,
     "finish": 21.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.4,
@@ -7848,16 +6265,12 @@ var racedata = [
     "Given Name/s": "George Van Sickle",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Escape Expedition 14.5",
     "cp1": 32.52,
     "cp2": 44.38,
     "cp3": 25.75,
     "finish": 23.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition 14.5 sailing dinghy, fitted out for cruising."
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.58,
@@ -7868,16 +6281,12 @@ var racedata = [
     "Given Name/s": "Shawn Payment and Dana Vihlen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "West Wight Potter 15",
     "cp1": 20.08,
     "cp2": 56.75,
     "cp3": 32.12,
     "finish": 17.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1989 West Wight Potter 15'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.82,
@@ -7888,16 +6297,12 @@ var racedata = [
     "Given Name/s": "Mark Rowe and Lauren Fry",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 12,
     "cp2": 40.5,
     "cp3": 45.95,
     "finish": 28.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with Balogh sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.9,
@@ -7908,16 +6313,12 @@ var racedata = [
     "Given Name/s": "Brian W Weber Weber and Marissa Weber",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.62,
     "cp2": 59.4,
     "cp3": 46.67,
     "finish": 7.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser with Balogh Outrigger Sail System (BOSS)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.9,
@@ -7928,16 +6329,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski and Donna Busch",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.57,
     "cp2": 59.45,
     "cp3": 46.67,
     "finish": 7.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser BOSS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.92,
@@ -7948,16 +6345,12 @@ var racedata = [
     "Given Name/s": "Paul Kral",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 29.58,
     "cp2": 44.48,
     "cp3": 29.97,
     "finish": 22.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2011 Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 126.98,
@@ -7968,16 +6361,12 @@ var racedata = [
     "Given Name/s": "Mark Rowe and Lauren Fry",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.5,
     "cp2": 58.57,
     "cp3": 39.08,
     "finish": 15.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with Balogh sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127,
@@ -7988,16 +6377,12 @@ var racedata = [
     "Given Name/s": "Butch Newell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 16.92,
     "cp2": 49.93,
     "cp3": 38.32,
     "finish": 21.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2013 Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127,
@@ -8008,16 +6393,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 27.97,
     "cp2": 42.95,
     "cp3": 29.3,
     "finish": 26.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.05,
@@ -8028,16 +6409,12 @@ var racedata = [
     "Given Name/s": "Colin Brown",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 14.72,
     "cp2": 66,
     "cp3": 29.17,
     "finish": 17.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.13,
@@ -8048,16 +6425,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Mark Hall",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 13.33,
     "cp2": 45.08,
     "cp3": 48.27,
     "finish": 20.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.2,
@@ -8068,16 +6441,12 @@ var racedata = [
     "Given Name/s": "Thomas Bastis and Karl Royer",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 17.13,
     "cp2": 59.62,
     "cp3": 33.52,
     "finish": 16.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "New Seda design triple enclosed deck, expedition,kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.23,
@@ -8088,16 +6457,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.07,
     "cp2": 32.82,
     "cp3": 40.43,
     "finish": 42.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.5,
@@ -8108,16 +6473,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bluejay 14",
     "cp1": 19.05,
     "cp2": 47.45,
     "cp3": 41.5,
     "finish": 19.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Old bluejay slowly getting overloaded with addtional comforts each year."
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.52,
@@ -8128,16 +6489,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 24.5,
     "cp2": 48.33,
     "cp3": 28.05,
     "finish": 26.63,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Either the famous inflatable catamaran or the new wooden catamaran"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 127.58,
@@ -8148,16 +6505,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Stephanie Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 0.05,
     "cp2": 56.68,
     "cp3": 31.13,
     "finish": 39.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.6,
@@ -8168,16 +6521,12 @@ var racedata = [
     "Given Name/s": "Jackson Pawlowski and James Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 0.05,
     "cp2": 56.27,
     "cp3": 31.75,
     "finish": 39.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.63,
@@ -8188,16 +6537,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 13.78,
     "cp2": 64.78,
     "cp3": 30.85,
     "finish": 18.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with 1sqm FEKS."
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.7,
@@ -8208,16 +6553,12 @@ var racedata = [
     "Given Name/s": "Denny Thorley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Pace 17",
     "cp1": 14.17,
     "cp2": 65.35,
     "cp3": 29.6,
     "finish": 18.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tiderace Pace Tour 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.75,
@@ -8228,16 +6569,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore-L",
     "cp1": 14.77,
     "cp2": 63.05,
     "cp3": 32.68,
     "finish": 17.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 127.83,
@@ -8248,16 +6585,12 @@ var racedata = [
     "Given Name/s": "Bill Whale",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 14.13,
     "cp2": 54.03,
     "cp3": 45,
     "finish": 14.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128,
@@ -8268,16 +6601,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 27.17,
     "cp2": 51.83,
     "cp3": 23.08,
     "finish": 25.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The famous inflatable catamaran, currently packed in three ski bags. 15 ft long, 6.5 wide, 160 lbs, 100 sq ft sail area, oars."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.05,
@@ -8288,16 +6617,12 @@ var racedata = [
     "Given Name/s": "Randall Fleming Fleming",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 9.55,
     "cp2": 68.62,
     "cp3": 26.38,
     "finish": 23.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Beat up TI with a few new parts"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.07,
@@ -8308,16 +6633,12 @@ var racedata = [
     "Given Name/s": "William Highsmith",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17",
     "cp1": 24.18,
     "cp2": 35.57,
     "cp3": 36.65,
     "finish": 31.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.17,
@@ -8328,16 +6649,12 @@ var racedata = [
     "Given Name/s": "Daniel MacElrevey and Daniel MacElrevey",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "QCC 700",
     "cp1": 26.3,
     "cp2": 33.15,
     "cp3": 51.28,
     "finish": 17.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.22,
@@ -8348,16 +6665,12 @@ var racedata = [
     "Given Name/s": "Kent Morse",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 13.77,
     "cp2": 66.07,
     "cp3": 25.17,
     "finish": 23.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2011 Hobie Tandem Island with a variety of modifications (ongoing project there)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.25,
@@ -8368,16 +6681,12 @@ var racedata = [
     "Given Name/s": "Kevin Anderson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.2,
     "cp2": 63.52,
     "cp3": 36.43,
     "finish": 14.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind with Bulogh sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.25,
@@ -8388,16 +6697,12 @@ var racedata = [
     "Given Name/s": "Matt Turner",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.75,
     "cp2": 62.97,
     "cp3": 36.78,
     "finish": 13.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind with Balogh Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.32,
@@ -8408,16 +6713,12 @@ var racedata = [
     "Given Name/s": "toby nipper",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 20.2,
     "cp2": 35.97,
     "cp3": 61.53,
     "finish": 10.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Seawind with BSD."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.42,
@@ -8428,16 +6729,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nacra F17",
     "cp1": 8.4,
     "cp2": 44.15,
     "cp3": 30.58,
     "finish": 45.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra F17, white hulls and mast, sail number 002"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.45,
@@ -8448,16 +6745,12 @@ var racedata = [
     "Given Name/s": "Vance Elshire and Patrick Rausch",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Mariner 19",
     "cp1": 27.12,
     "cp2": 28.67,
     "cp3": 22.93,
     "finish": 49.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Oday Mariner 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.5,
@@ -8468,16 +6761,12 @@ var racedata = [
     "Given Name/s": "Paul Shaw",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Nomad",
     "cp1": 15.97,
     "cp2": 60.07,
     "cp3": 34.5,
     "finish": 17.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Nomad with a 1.0 meter Falcon sail(probably)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.55,
@@ -8488,16 +6777,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie Getaway",
     "cp1": 13.28,
     "cp2": 55.48,
     "cp3": 41.22,
     "finish": 18.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.6,
@@ -8508,16 +6793,12 @@ var racedata = [
     "Given Name/s": "Kyle Milton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 20.38,
     "cp2": 52.03,
     "cp3": 42.83,
     "finish": 13.35,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Stellar 18 R Sea Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.6,
@@ -8528,16 +6809,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry",
     "cp1": 24.82,
     "cp2": 37.12,
     "cp3": 22.97,
     "finish": 43.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified CLC Skerry"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.75,
@@ -8548,16 +6825,12 @@ var racedata = [
     "Given Name/s": "Mark Rowe and Lauren Fry",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 13.67,
     "cp2": 60.82,
     "cp3": 40.82,
     "finish": 13.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with BSD 36 Batwing sail and BOSS outriggers"
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.75,
@@ -8568,16 +6841,12 @@ var racedata = [
     "Given Name/s": "David Bolduc",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Matt Layden Sharpie",
     "cp1": 25.05,
     "cp2": 34.92,
     "cp3": 40.2,
     "finish": 28.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "12' cruising sharpie by Matt Layden."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.75,
@@ -8588,16 +6857,12 @@ var racedata = [
     "Given Name/s": "Dan Lockwood and David Wicks",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 19.17,
     "cp2": 39.5,
     "cp3": 24.17,
     "finish": 45.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Double-banked, 21 foot cat ketch (Sea Pearl). Oars made by paddlemaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": 128.95,
@@ -8608,16 +6873,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.98,
     "cp2": 45.87,
     "cp3": 38.87,
     "finish": 29.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger 2 person canoe with full spray cover,and rudder"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129,
@@ -8628,16 +6889,12 @@ var racedata = [
     "Given Name/s": "Brett Thomas and Chase Thomas",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 0.05,
     "cp2": 54.63,
     "cp3": 35,
     "finish": 39.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.12,
@@ -8648,16 +6905,12 @@ var racedata = [
     "Given Name/s": "Mark Rowe and Lauren Fry",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 24.3,
     "cp2": 48.9,
     "cp3": 45.4,
     "finish": 10.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser canoe with balogh rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.32,
@@ -8668,16 +6921,12 @@ var racedata = [
     "Given Name/s": "Joseph Schemenauer",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 0.05,
     "cp2": 54.82,
     "cp3": 34.82,
     "finish": 39.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.42,
@@ -8688,16 +6937,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bluejay 14",
     "cp1": 26.88,
     "cp2": 51.95,
     "cp3": 24.08,
     "finish": 26.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14 ft bluejay \"mini lightning"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.43,
@@ -8708,16 +6953,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 11.25,
     "cp2": 62.13,
     "cp3": 30.37,
     "finish": 25.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.47,
@@ -8728,16 +6969,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry",
     "cp1": 14.25,
     "cp2": 41.75,
     "cp3": 24.08,
     "finish": 49.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Skerry"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.58,
@@ -8748,16 +6985,12 @@ var racedata = [
     "Given Name/s": "Andrew Hayward and Nate Vilardebo",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 28.25,
     "cp2": 46.27,
     "cp3": 40.52,
     "finish": 14.55,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dovekie"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.6,
@@ -8768,16 +7001,12 @@ var racedata = [
     "Given Name/s": "Joe Tousignant",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 19.18,
     "cp2": 60.12,
     "cp3": 31.45,
     "finish": 18.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Sea Wind #50"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.67,
@@ -8788,16 +7017,12 @@ var racedata = [
     "Given Name/s": "Eric Heilshorn and George Claxton",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 13.33,
     "cp2": 64.33,
     "cp3": 27.58,
     "finish": 24.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Lightning w/kick up rudder, lots of reserve floatation, and 9' oars."
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.68,
@@ -8808,16 +7033,12 @@ var racedata = [
     "Given Name/s": "Lance Pamperin and Tom Pamperin",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Phoenix III 15'",
     "cp1": 24.67,
     "cp2": 52.73,
     "cp3": 42.4,
     "finish": 9.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15' Phoenix III beach cruiser designed by Ross Lillistone."
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.75,
@@ -8828,16 +7049,12 @@ var racedata = [
     "Given Name/s": "Jerry Jones and Ray Jones",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade trimaran 21",
     "cp1": 10.95,
     "cp2": 52.58,
     "cp3": 38.22,
     "finish": 28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 ft trimaran, 13 ft beam home built"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.77,
@@ -8848,16 +7065,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 11.5,
     "cp2": 54.9,
     "cp3": 38.6,
     "finish": 24.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.78,
@@ -8868,16 +7081,12 @@ var racedata = [
     "Given Name/s": "Salli O'Donnell",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Eddyline Falcon S18",
     "cp1": 13.93,
     "cp2": 58.38,
     "cp3": 36.15,
     "finish": 21.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Eddyline S18 without sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.85,
@@ -8888,16 +7097,12 @@ var racedata = [
     "Given Name/s": "Scott Prosuch",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 11.75,
     "cp2": 64.13,
     "cp3": 30.63,
     "finish": 23.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Greg Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.85,
@@ -8908,16 +7113,12 @@ var racedata = [
     "Given Name/s": "Patrick Rohde",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 13.73,
     "cp2": 54.32,
     "cp3": 39.05,
     "finish": 22.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Necky Looksha with amas and Falcon sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 129.87,
@@ -8928,16 +7129,12 @@ var racedata = [
     "Given Name/s": "Vance Elshire and Patrick Rausch",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Mariner 19",
     "cp1": 10.4,
     "cp2": 46.1,
     "cp3": 43.32,
     "finish": 30.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19'Oday Mariner"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.03,
@@ -8948,16 +7145,12 @@ var racedata = [
     "Given Name/s": "Justin Blais",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Chesapeake 17",
     "cp1": 13.02,
     "cp2": 61.57,
     "cp3": 8584.25,
     "finish": -8528.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Chesapeake 17Lt 1sqm FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.1,
@@ -8968,16 +7161,12 @@ var racedata = [
     "Given Name/s": "jim and lori gabbert and Anonymous",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seda Tango",
     "cp1": 14.93,
     "cp2": 62.25,
     "cp3": 34.07,
     "finish": 18.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango sea kayak with BOSS sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.13,
@@ -8988,16 +7177,12 @@ var racedata = [
     "Given Name/s": "Dan Cahalane",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Skin on Frame Kayak",
     "cp1": 14.6,
     "cp2": 50.33,
     "cp3": 41.53,
     "finish": 23.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Skin on Frame Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.15,
@@ -9008,16 +7193,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey and Bryan Cornwall",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sandpiper 18.5",
     "cp1": 33.18,
     "cp2": 33.32,
     "cp3": 22.52,
     "finish": 41.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Since I was able to haul her up onto beach rollers without any assistance , Erige, aka my \"sad sack of sadness\" is joining the challenge. She is 18.5' Sandpiper fractional sloop with a retractable keel. Like me, she is fat and slow, and hopes for favorable winds."
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.17,
@@ -9028,16 +7209,12 @@ var racedata = [
     "Given Name/s": "Ed Nelson and Don Maddox",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "modified Hobie TI 'Catamaran'",
     "cp1": 27.53,
     "cp2": 50.65,
     "cp3": 28.33,
     "finish": 23.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Two Hobie TIs connected to become a Catamaran. Center deck is 42\" wide. Not fast, but a place for all of our gear."
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.2,
@@ -9048,16 +7225,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": 15.42,
     "cp2": 65.7,
     "cp3": 40.45,
     "finish": 8.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.25,
@@ -9068,16 +7241,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 15.08,
     "cp2": 62.78,
     "cp3": 28.93,
     "finish": 23.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.28,
@@ -9088,16 +7257,12 @@ var racedata = [
     "Given Name/s": "Joe Tousignant",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Clipper Sea-1",
     "cp1": 17.33,
     "cp2": 46.93,
     "cp3": 41.95,
     "finish": 24.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Clipper Sea 1, the Canadian take on the ultimate expedition canoe, equipped with a Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.5,
@@ -9108,16 +7273,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 14.1,
     "cp2": 63.08,
     "cp3": 31.68,
     "finish": 21.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "fully decked Kruger Cruiser with spray skirts. made up to sleep in the canoe if needed."
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.55,
@@ -9128,16 +7289,12 @@ var racedata = [
     "Given Name/s": "Benjamin Algera Algera",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.17,
     "cp2": 59.3,
     "cp3": 37.2,
     "finish": 18.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Sea Wind #266 with 1M sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.57,
@@ -9148,16 +7305,12 @@ var racedata = [
     "Given Name/s": "John Algera",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Redfish SpringRun Cedarstrip",
     "cp1": 15.2,
     "cp2": 59.2,
     "cp3": 37.27,
     "finish": 18.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Redfish SpringRun Cedarstrip w/ 1 M sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.63,
@@ -9168,16 +7321,12 @@ var racedata = [
     "Given Name/s": "Thomas Head",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Northeaster Dory",
     "cp1": 18.08,
     "cp2": 60.87,
     "cp3": 35.33,
     "finish": 16.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Chesapeake Light Craft Northeaster Dory"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.63,
@@ -9188,16 +7337,12 @@ var racedata = [
     "Given Name/s": "Rick Haller",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Solitair Wildcard",
     "cp1": 20.73,
     "cp2": 58.27,
     "cp3": 40,
     "finish": 11.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Solitair Wildcard"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.67,
@@ -9208,16 +7353,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 20.73,
     "cp2": 58.27,
     "cp3": 40,
     "finish": 11.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane"
+    "either/or": ""
   },
   {
     "Total (hrs)": 130.97,
@@ -9228,16 +7369,12 @@ var racedata = [
     "Given Name/s": "Joshua Morgan",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 30.12,
     "cp2": 48.67,
     "cp3": 27,
     "finish": 25.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131,
@@ -9248,16 +7385,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 11.8,
     "cp2": 64.7,
     "cp3": 30.5,
     "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Fully decked Kruger Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.07,
@@ -9268,16 +7401,12 @@ var racedata = [
     "Given Name/s": "Michael Prince",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 26.25,
     "cp2": 53.97,
     "cp3": 40.03,
     "finish": 10.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.08,
@@ -9288,16 +7417,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 26.32,
     "cp2": 54.02,
     "cp3": 39.9,
     "finish": 10.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with a FEKs 1-meter sail and lots of stickers."
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.08,
@@ -9308,16 +7433,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 16.03,
     "cp2": 58.63,
     "cp3": 40.75,
     "finish": 15.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.25,
@@ -9328,16 +7449,12 @@ var racedata = [
     "Given Name/s": "Rick Newcombe",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 17.65,
     "cp2": 61.25,
     "cp3": 26.75,
     "finish": 25.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger canoe Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.25,
@@ -9348,16 +7465,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 17.65,
     "cp2": 61.08,
     "cp3": 26.92,
     "finish": 25.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2t-Kruger Canoe designed Dreamcatchers catamaraned and rigged"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.42,
@@ -9368,16 +7481,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 30.87,
     "cp2": 64.57,
     "cp3": 23.38,
     "finish": 12.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.57,
@@ -9388,16 +7497,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C6",
     "Group": "6-Person",
-    "Group/Gender": "6-Person",
     "BOAT": "OC6 Canoe",
     "cp1": 20.67,
     "cp2": 58.05,
     "cp3": 32.43,
     "finish": 20.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "modified Hawiian outrigger with full spry skirt and rudder"
+    "either/or": ""
   },
   {
     "Total (hrs)": 131.92,
@@ -9408,16 +7513,12 @@ var racedata = [
     "Given Name/s": "Larry Ferber and Zack Panetti\nand Levi Ferber",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Nacra Carbon 20",
     "cp1": 9.42,
     "cp2": 51.57,
     "cp3": 43.1,
     "finish": 27.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White Nacra Carbon 20 with white sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.05,
@@ -9428,16 +7529,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp",
     "cp1": 14.75,
     "cp2": 49.25,
     "cp3": 49.5,
     "finish": 18.55,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Same Old soft-hulled Nordkapp, if she lasts. Unless Valley wants to sponsor me a new one!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.1,
@@ -9448,16 +7545,12 @@ var racedata = [
     "Given Name/s": "Alexander Mehran Jr and Drew McMillan",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 24,
     "cp2": 49.9,
     "cp3": 31.4,
     "finish": 26.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Turbo Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.25,
@@ -9468,16 +7561,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes and Richard Hawes",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Nacra I-20",
     "cp1": 27.47,
     "cp2": 32.63,
     "cp3": 38.03,
     "finish": 34.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra Inter 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.25,
@@ -9488,16 +7577,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 22.9,
     "cp2": 38.77,
     "cp3": 38.58,
     "finish": 32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SeaPearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.28,
@@ -9508,16 +7593,12 @@ var racedata = [
     "Given Name/s": "Jackson Pawlowski and James Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 2.25,
     "cp2": 59.82,
     "cp3": 21.93,
     "finish": 48.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.3,
@@ -9528,16 +7609,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski and",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 2.25,
     "cp2": 60.88,
     "cp3": 19.87,
     "finish": 49.3,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI (color TBD)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.37,
@@ -9548,16 +7625,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Jack Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 2.25,
     "cp2": 60.17,
     "cp3": 21.58,
     "finish": 48.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.37,
@@ -9568,16 +7641,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 0,
     "cp2": 74.58,
     "cp3": 36.08,
     "finish": 21.7,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "ww",
-    "Boat Description": "EPIC 18X SPORT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.37,
@@ -9588,16 +7657,12 @@ var racedata = [
     "Given Name/s": "JOSHUA TINNEL",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Solstice GT HV",
     "cp1": 0,
     "cp2": 74.57,
     "cp3": 35.95,
     "finish": 21.85,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "ww",
-    "Boat Description": "CD Solstice GT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.4,
@@ -9608,16 +7673,12 @@ var racedata = [
     "Given Name/s": "Charles Wolfe",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 22.58,
     "cp2": 43.08,
     "cp3": 45.23,
     "finish": 21.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Seawind #0252. Plan to have a BSD rig soon."
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.47,
@@ -9628,16 +7689,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 11.02,
     "cp2": 45.03,
     "cp3": 50.92,
     "finish": 25.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.47,
@@ -9648,16 +7705,12 @@ var racedata = [
     "Given Name/s": "Ted Perron",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 11.63,
     "cp2": 42.65,
     "cp3": 48.87,
     "finish": 29.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stelar S18RF"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.47,
@@ -9668,16 +7721,12 @@ var racedata = [
     "Given Name/s": "Bill Whale",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 20.13,
     "cp2": 54.28,
     "cp3": 37.48,
     "finish": 20.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with BSD"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.7,
@@ -9688,16 +7737,12 @@ var racedata = [
     "Given Name/s": "mike Baldwin and Angie Baldwin",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
-    "BOAT": "hobie 18 Magnum",
+    "BOAT": "Hobie 18SX",
     "cp1": 20.83,
     "cp2": 59.98,
     "cp3": 44.75,
     "finish": 7.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18 with wings"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.72,
@@ -9708,16 +7753,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 17.13,
     "cp2": 64.28,
     "cp3": 41.88,
     "finish": 9.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI with a Brit on it"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.75,
@@ -9728,16 +7769,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 15.68,
     "cp2": 64.23,
     "cp3": 43.18,
     "finish": 9.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Red Hobie AI with spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.78,
@@ -9748,16 +7785,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 16.68,
     "cp2": 65.08,
     "cp3": 41.43,
     "finish": 9.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mango Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.97,
@@ -9768,16 +7801,12 @@ var racedata = [
     "Given Name/s": "Michael Van Hoy and Andrey Tikunov",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 18-2",
     "cp1": 24.23,
     "cp2": 53.27,
     "cp3": 47,
     "finish": 8.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1990 prindle 18-2"
+    "either/or": ""
   },
   {
     "Total (hrs)": 132.97,
@@ -9788,16 +7817,12 @@ var racedata = [
     "Given Name/s": "Bill Herrmann",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Northwest Discover",
     "cp1": 18.9,
     "cp2": 60.7,
     "cp3": 41.12,
     "finish": 12.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Discover by NorthWest Kayak.."
+    "either/or": ""
   },
   {
     "Total (hrs)": 133.13,
@@ -9808,16 +7833,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 23.8,
     "cp2": 57.85,
     "cp3": 38.9,
     "finish": 12.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI Papaya"
+    "either/or": ""
   },
   {
     "Total (hrs)": 133.33,
@@ -9828,16 +7849,12 @@ var racedata = [
     "Given Name/s": "Chris Forrest",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 26.05,
     "cp2": 51.8,
     "cp3": 28.6,
     "finish": 26.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Orange (Papaya) TI with a Brit on it"
+    "either/or": ""
   },
   {
     "Total (hrs)": 133.77,
@@ -9848,16 +7865,12 @@ var racedata = [
     "Given Name/s": "Duncan Vaughan",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "O'Day Day sailer",
     "cp1": 24.33,
     "cp2": 34.92,
     "cp3": 43.05,
     "finish": 31.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O Day Sailor 17ft mono hull white uppers, light blue hull, GRP teak flooring. main + jib 1970s"
+    "either/or": ""
   },
   {
     "Total (hrs)": 133.78,
@@ -9868,16 +7881,12 @@ var racedata = [
     "Given Name/s": "Thomas Head",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Mill Creek 16.5",
     "cp1": 16.43,
     "cp2": 59.77,
     "cp3": 35.67,
     "finish": 21.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Mill Creek 16.5"
+    "either/or": ""
   },
   {
     "Total (hrs)": 133.92,
@@ -9888,16 +7897,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 16.32,
     "cp2": 59.92,
     "cp3": 35.6,
     "finish": 22.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 134,
@@ -9908,16 +7913,12 @@ var racedata = [
     "Given Name/s": "Wayne Flatt and Kyle Friauf",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 28.92,
     "cp2": 34.85,
     "cp3": 22.88,
     "finish": 47.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A B&B Core Sound 17 MK-3/Bones A special little vessel of discerning lineage."
+    "either/or": ""
   },
   {
     "Total (hrs)": 134.25,
@@ -9928,16 +7929,12 @@ var racedata = [
     "Given Name/s": "Charles Colvin",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 31.65,
     "cp2": 63.42,
     "cp3": 22.85,
     "finish": 16.33,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Last year I paddled a Prijon Seayak because of familiarity and seaworthyness. This year I'll be going for speed with a boat from Current Designs or Sweetwater Kayaks. My lesson last year though... Build a better kayaker, not a better kayak."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 134.5,
@@ -9948,16 +7945,12 @@ var racedata = [
     "Given Name/s": "jim and lori gabbert and jim and lori gabbert",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seda Tango",
     "cp1": 20.25,
     "cp2": 57.75,
     "cp3": 30.87,
     "finish": 25.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Seda tango"
+    "either/or": ""
   },
   {
     "Total (hrs)": 134.52,
@@ -9968,16 +7961,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 24.57,
     "cp2": 54.77,
     "cp3": 44.17,
     "finish": 11.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 134.7,
@@ -9988,16 +7977,28 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 24.37,
     "cp2": 51.38,
     "cp3": 32.25,
     "finish": 26.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "LightChaser - Kruger Cruiser"
+    "either/or": ""
+  },
+  {
+    "Total (hrs)": 134.85,
+    "YEAR": 2024,
+    "Captain wt name": "Waterstrider",
+    "Crew wt name": "Specialk",
+    "3rd wt name": "",
+    "Given Name/s": "Charles Burke and Kellen West",
+    "C#": "C4",
+    "Group": "Double",
+    "BOAT": "Interlake 18",
+    "cp1": 32.7,
+    "cp2": 44.22,
+    "cp3": 23.42,
+    "finish": 34.52,
+    "either/or": ""
   },
   {
     "Total (hrs)": 134.98,
@@ -10008,16 +8009,12 @@ var racedata = [
     "Given Name/s": "Mark Cecil and Maxfield Seixas",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wenonah Skookumchuck",
     "cp1": 14.4,
     "cp2": 64.88,
     "cp3": 46.78,
     "finish": 8.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1994 Skookumchuck Tandem with Falcon Sail and Smart Track Rudder upgrades."
+    "either/or": ""
   },
   {
     "Total (hrs)": 135,
@@ -10028,16 +8025,12 @@ var racedata = [
     "Given Name/s": "toby nipper",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "kruger",
     "cp1": 18.12,
     "cp2": 59.88,
     "cp3": 34.67,
     "finish": 22.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "kruger with balogh."
+    "either/or": ""
   },
   {
     "Total (hrs)": 135,
@@ -10048,16 +8041,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 5.92,
     "cp2": 57.32,
     "cp3": 57.02,
     "finish": 14.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 AI, red with production spinnaker"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.1,
@@ -10068,16 +8057,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 11.05,
     "cp2": 58.3,
     "cp3": 55.85,
     "finish": 9.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.13,
@@ -10088,16 +8073,12 @@ var racedata = [
     "Given Name/s": "Larry Ferber",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 15.98,
     "cp2": 65.03,
     "cp3": 44.02,
     "finish": 10.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.63,
@@ -10108,16 +8089,12 @@ var racedata = [
     "Given Name/s": "Judy Perkins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "QCC 500",
     "cp1": 27.32,
     "cp2": 61.52,
     "cp3": -3,
     "finish": 49.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC500"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.65,
@@ -10128,16 +8105,12 @@ var racedata = [
     "Given Name/s": "Bill Herrmann",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Northwest Discover",
     "cp1": 18.08,
     "cp2": 60.92,
     "cp3": 44.67,
     "finish": 11.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NW Discover-Without a sail.."
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.73,
@@ -10148,16 +8121,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and James Clinchard",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 32.93,
     "cp2": 48.6,
     "cp3": 40.9,
     "finish": 13.3,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Astus 20.2 Tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.77,
@@ -10168,16 +8137,12 @@ var racedata = [
     "Given Name/s": "Scott Smith",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 12.92,
     "cp2": 70.37,
     "cp3": 41.98,
     "finish": 10.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.83,
@@ -10188,16 +8153,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 16.18,
     "cp2": 39.15,
     "cp3": 50.33,
     "finish": 30.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18\"X28\" tandem"
+    "either/or": ""
   },
   {
     "Total (hrs)": 135.9,
@@ -10208,16 +8169,12 @@ var racedata = [
     "Given Name/s": "Roy Edwards and Ray Jones",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 24.2,
     "cp2": 51.02,
     "cp3": 38.57,
     "finish": 22.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bright red 21' Sea Pearl Cat ketch rig monohull. New sails and staysail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.15,
@@ -10228,16 +8185,12 @@ var racedata = [
     "Given Name/s": "Joshua Morgan",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Superior Expedition Canoe",
     "cp1": 15.45,
     "cp2": 51.43,
     "cp3": 56.02,
     "finish": 13.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Superior Expedition canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.2,
@@ -10248,16 +8201,12 @@ var racedata = [
     "Given Name/s": "Kyle Milton and Sarah Bonito",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Stellar ST 21",
     "cp1": 25.87,
     "cp2": 55.98,
     "cp3": 41.18,
     "finish": 13.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar ST 21 Tandem Kayak with a 1M Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.25,
@@ -10268,16 +8217,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Tiderace Xplore",
     "cp1": 14.45,
     "cp2": 52.25,
     "cp3": 56.22,
     "finish": 13.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Tiderace Explore with FEKs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.25,
@@ -10288,16 +8233,12 @@ var racedata = [
     "Given Name/s": "Joe Spooner",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 15.3,
     "cp2": 51.6,
     "cp3": 56.02,
     "finish": 13.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC700 with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.48,
@@ -10308,16 +8249,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 15.37,
     "cp2": 61.05,
     "cp3": 46.17,
     "finish": 13.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Designs 15Ft kayak with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.5,
@@ -10328,16 +8265,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 34.33,
     "cp2": 45.17,
     "cp3": 42.5,
     "finish": 14.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 -- I bought hull number 31 last summer, manufactured in 1983. It's a leeboard cat ketch modeled off a whale boat. She draws about three inches with boards up. I have been scraping off barnicles and updating some equipment. VanMan took one of these to explore the fijords of Patagonia and wrote a great article for Cruising World. They are now manufactured in Tarpon Springs by Marine Concepts (http://www.marine-concepts.com/)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 136.98,
@@ -10348,16 +8281,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and Per Lorentzen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Modified Lightning",
     "cp1": 35.78,
     "cp2": 44.38,
     "cp3": 45.25,
     "finish": 11.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' cat-headed sharpie schooner (ex-Lightning)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 137.25,
@@ -10368,16 +8297,12 @@ var racedata = [
     "Given Name/s": "Michael Monies and Andrew Linn",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Laguna",
     "cp1": 14.48,
     "cp2": 40.85,
     "cp3": 45.3,
     "finish": 36.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "23 foot Michalak Laguna, twin masted, blue hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 137.37,
@@ -10388,16 +8313,12 @@ var racedata = [
     "Given Name/s": "JOSHUA TINNEL",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Solstice GT HV",
     "cp1": 23.63,
     "cp2": 53.1,
     "cp3": 49.27,
     "finish": 11.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Solstice GT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 137.52,
@@ -10408,16 +8329,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and john wright",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 34.25,
     "cp2": 42.73,
     "cp3": 24.62,
     "finish": 35.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' balanced lug rig with a small cabin, Jim Michalak design."
+    "either/or": ""
   },
   {
     "Total (hrs)": 137.6,
@@ -10428,16 +8345,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski and Elena Barnett",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 25.67,
     "cp2": 64,
     "cp3": 28.58,
     "finish": 19.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "custom tandem sailing mirage kayak -crew, Elena gets Medium shirt please Captain is PenguinMan, team name is WaterTigers but not able to make change on web-form"
+    "either/or": ""
   },
   {
     "Total (hrs)": 138.5,
@@ -10448,16 +8361,12 @@ var racedata = [
     "Given Name/s": "ron hess",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 16.37,
     "cp2": 35.38,
     "cp3": 60.25,
     "finish": 26.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC700 with a Spirit Sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 138.73,
@@ -10468,16 +8377,12 @@ var racedata = [
     "Given Name/s": "david durham",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp HM",
     "cp1": 27.07,
     "cp2": 54.32,
     "cp3": 43.25,
     "finish": 14.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nordkapp HM, Fibreglass, 17'8\", Swift paddle"
+    "either/or": ""
   },
   {
     "Total (hrs)": 138.73,
@@ -10488,16 +8393,12 @@ var racedata = [
     "Given Name/s": "peter durham",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Rapide 16.5",
     "cp1": 27.07,
     "cp2": 54.32,
     "cp3": 43.25,
     "finish": 14.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mega carbon/Kevlar Rapide, 16.5 feet, Werner paddle"
+    "either/or": ""
   },
   {
     "Total (hrs)": 139.47,
@@ -10508,16 +8409,12 @@ var racedata = [
     "Given Name/s": "Hajo Smulders and Shawn Payment",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 25.38,
     "cp2": 49.37,
     "cp3": 24.92,
     "finish": 39.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Astus 20.2 Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 139.5,
@@ -10528,16 +8425,12 @@ var racedata = [
     "Given Name/s": "ron hess",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 600",
     "cp1": 15.02,
     "cp2": 60.9,
     "cp3": 48.83,
     "finish": 14.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC600 WITH A SPIRIT SAIL"
+    "either/or": ""
   },
   {
     "Total (hrs)": 139.8,
@@ -10548,16 +8441,12 @@ var racedata = [
     "Given Name/s": "wayne albert",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 25.93,
     "cp2": 55.82,
     "cp3": 47.88,
     "finish": 10.17,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NFD Silhouette or Tahe Marine Greenland (iff it comes in on time & still floats when loaded with the required equipment)"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 140,
@@ -10568,16 +8457,12 @@ var racedata = [
     "Given Name/s": "Marc Stewart",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seda kayak",
     "cp1": 18.97,
     "cp2": 63.2,
     "cp3": 45.87,
     "finish": 11.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "seda"
+    "either/or": ""
   },
   {
     "Total (hrs)": 140.2,
@@ -10588,16 +8473,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Gary Sabitsch",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak balanced lugger",
     "cp1": 23.95,
     "cp2": 51.28,
     "cp3": 32.73,
     "finish": 32.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' x 5' leeboard balanced lugger, Jim Michalak design"
+    "either/or": ""
   },
   {
     "Total (hrs)": 140.5,
@@ -10608,16 +8489,12 @@ var racedata = [
     "Given Name/s": "Chris Keller and Derek Torrey",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Precision 185",
     "cp1": 9.92,
     "cp2": 69.88,
     "cp3": 38.78,
     "finish": 21.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Precision 18.5 Center Board LOA: 18.5' Beam 6' Sails: Main (double reef), Roller Furling Jibe, Asymmetric on Sprit"
+    "either/or": ""
   },
   {
     "Total (hrs)": 141.08,
@@ -10628,16 +8505,12 @@ var racedata = [
     "Given Name/s": "Timothy Finkenbinder",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 22.58,
     "cp2": 59.92,
     "cp3": 39.93,
     "finish": 18.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Performance Lay-Up"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.17,
@@ -10648,16 +8521,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 3.45,
     "cp2": 56.88,
     "cp3": 41.17,
     "finish": 40.67,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "SeaPearl"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.25,
@@ -10668,16 +8537,12 @@ var racedata = [
     "Given Name/s": "Christian Patrick",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie Bravo",
     "cp1": 30.17,
     "cp2": 49.33,
     "cp3": 47.5,
     "finish": 15.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie Bravo with a boom and pink sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.33,
@@ -10688,16 +8553,12 @@ var racedata = [
     "Given Name/s": "Gil Hidalgo",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 23.62,
     "cp2": 58.72,
     "cp3": 45.52,
     "finish": 14.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "An awesome Stellar S 18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.33,
@@ -10708,16 +8569,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 39.5,
     "cp2": 42.37,
     "cp3": 27.57,
     "finish": 32.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.78,
@@ -10728,16 +8585,12 @@ var racedata = [
     "Given Name/s": "Josh Collins",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 16.22,
     "cp2": 61.28,
     "cp3": 48.12,
     "finish": 17.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kings 19 Unlimited SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.82,
@@ -10748,16 +8601,12 @@ var racedata = [
     "Given Name/s": "Scott Baste",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 18.43,
     "cp2": 58.97,
     "cp3": 48.27,
     "finish": 17.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "16’ custom designed SUP by the legendary Florida shaper Ricky Carrol"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.87,
@@ -10768,16 +8617,12 @@ var racedata = [
     "Given Name/s": "Chris Ravelo",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 25.7,
     "cp2": 50.07,
     "cp3": 50.77,
     "finish": 16.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "2015 AI2"
+    "either/or": ""
   },
   {
     "Total (hrs)": 142.95,
@@ -10788,16 +8633,12 @@ var racedata = [
     "Given Name/s": "Linda Wright",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Weta",
     "cp1": 24.15,
     "cp2": 57.32,
     "cp3": 29.07,
     "finish": 32.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 143,
@@ -10808,16 +8649,12 @@ var racedata = [
     "Given Name/s": "Anthony Pascone",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 19",
     "cp1": 31.32,
     "cp2": 42.62,
     "cp3": 27.62,
     "finish": 41.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Angry Beaver 1.0 + 19' amas"
+    "either/or": ""
   },
   {
     "Total (hrs)": 143.05,
@@ -10828,16 +8665,12 @@ var racedata = [
     "Given Name/s": "William Nye and Amber Nye",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 24.03,
     "cp2": 50.47,
     "cp3": 52.3,
     "finish": 16.25,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Hobie TI, the orange color"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 143.33,
@@ -10848,16 +8681,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 23.95,
     "cp2": 63.2,
     "cp3": 29.8,
     "finish": 26.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 144,
@@ -10868,16 +8697,12 @@ var racedata = [
     "Given Name/s": "Mark Wiggins and THEODORE MASTERS",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'Day Day Sailer 3",
     "cp1": 15.75,
     "cp2": 56.75,
     "cp3": 29,
     "finish": 42.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O'Day Day Sailer III - 17' sloop rig monohull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 144.13,
@@ -10888,16 +8713,12 @@ var racedata = [
     "Given Name/s": "William King",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "Hobie TI",
+    "BOAT": "Hobie Oasis",
     "cp1": 22.95,
     "cp2": 57.63,
     "cp3": 45.67,
     "finish": 17.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Papaya Yellow Hobie Oasis Tandem with outriggers, yellow/orange sail, and 400W @ 24V. Solar PVA for solar propulsion."
+    "either/or": ""
   },
   {
     "Total (hrs)": 145.02,
@@ -10908,16 +8729,12 @@ var racedata = [
     "Given Name/s": "Charles Wolfe",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 38.17,
     "cp2": 39.28,
     "cp3": 33.25,
     "finish": 34.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind with BSD 38"
+    "either/or": ""
   },
   {
     "Total (hrs)": 145.17,
@@ -10928,16 +8745,12 @@ var racedata = [
     "Given Name/s": "Gil Hidalgo",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 15.7,
     "cp2": 73.97,
     "cp3": 31.5,
     "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White Stellar S18 R with custom built day hatch. Gelcoat finished heat-cured epoxy Kevlar and Fiberglass laminate with Nomex Honeycomb Core."
+    "either/or": ""
   },
   {
     "Total (hrs)": 145.38,
@@ -10948,16 +8761,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 27.3,
     "cp2": 61.3,
     "cp3": 32.93,
     "finish": 23.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 145.43,
@@ -10968,16 +8777,12 @@ var racedata = [
     "Given Name/s": "Timothy Finkenbinder",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 15.68,
     "cp2": 74.02,
     "cp3": 31.85,
     "finish": 23.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Performance Layup"
+    "either/or": ""
   },
   {
     "Total (hrs)": 145.62,
@@ -10988,16 +8793,12 @@ var racedata = [
     "Given Name/s": "George Blaha and Erik Dykema",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bonston Whaler Harpoon 5.2",
     "cp1": 5.1,
     "cp2": 70.55,
     "cp3": 43.43,
     "finish": 26.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Boston Whaler Harpoon 5.2 (17')"
+    "either/or": ""
   },
   {
     "Total (hrs)": 146.12,
@@ -11008,16 +8809,12 @@ var racedata = [
     "Given Name/s": "Daniel Wyns",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Prijon 16",
     "cp1": 30.75,
     "cp2": 56.33,
     "cp3": 38.5,
     "finish": 20.53,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16' Prijon Seayak W/ midsize spirit sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 146.42,
@@ -11028,16 +8825,12 @@ var racedata = [
     "Given Name/s": "Dimitri Krinos",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 7.45,
     "cp2": 66.2,
     "cp3": 28.67,
     "finish": 44.1,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "#9, Green Hull with Tan Deck"
+    "either/or": ""
   },
   {
     "Total (hrs)": 146.57,
@@ -11048,16 +8841,12 @@ var racedata = [
     "Given Name/s": "Bill Herrmann",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Northwest Discover",
     "cp1": 24.42,
     "cp2": 62.5,
     "cp3": 42.47,
     "finish": 17.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NW Discover. She's sporting a new gel coat and some mods to make her a little more comfortable."
+    "either/or": ""
   },
   {
     "Total (hrs)": 146.63,
@@ -11068,16 +8857,12 @@ var racedata = [
     "Given Name/s": "David Williams",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Perception Eclipse",
     "cp1": 29.37,
     "cp2": 57.55,
     "cp3": 42.47,
     "finish": 17.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception Eclipse"
+    "either/or": ""
   },
   {
     "Total (hrs)": 146.75,
@@ -11088,16 +8873,12 @@ var racedata = [
     "Given Name/s": "Tony Pocklington",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.28,
     "cp2": 49.88,
     "cp3": 1.83,
     "finish": 70.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Edge"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147,
@@ -11108,16 +8889,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 17.95,
     "cp2": 62.05,
     "cp3": 56.97,
     "finish": 10.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Maggie\" Sea Pearl 21 #334"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147,
@@ -11128,16 +8905,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and Dennis Giardina",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Electric Bolger Sneakeasy",
     "cp1": 14.83,
     "cp2": 61.47,
     "cp3": 47.95,
     "finish": 22.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bolger Sneakeasy powered by an electric outboard/solar panels"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.27,
@@ -11148,16 +8921,12 @@ var racedata = [
     "Given Name/s": "J.F. Bedard",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "RoG 15",
     "cp1": 30.8,
     "cp2": 48.65,
     "cp3": 26.2,
     "finish": 41.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "River of Grass Cat Ketch"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.4,
@@ -11168,16 +8937,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 18.83,
     "cp2": 9.17,
     "cp3": 98.25,
     "finish": 21.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.4,
@@ -11188,16 +8953,12 @@ var racedata = [
     "Given Name/s": "Denny Thorley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Legend",
     "cp1": 18.83,
     "cp2": 9.17,
     "cp3": 98.25,
     "finish": 21.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Nigel Foster Legend w/PAS sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.5,
@@ -11208,16 +8969,12 @@ var racedata = [
     "Given Name/s": "Salli O'Donnell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Eddyline Falcon S18",
     "cp1": 13,
     "cp2": 57.58,
     "cp3": 60.93,
     "finish": 15.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Eddyline S18 Falcon"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.6,
@@ -11228,16 +8985,12 @@ var racedata = [
     "Given Name/s": "Michael Dunlap and Tyler Dunlap",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 18.63,
     "cp2": 54.12,
     "cp3": 29.53,
     "finish": 45.32,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Dune Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.95,
@@ -11248,16 +9001,12 @@ var racedata = [
     "Given Name/s": "Stan Hanson and Rick Haller",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 33.45,
     "cp2": 51.05,
     "cp3": 36,
     "finish": 27.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser with Baylogh 32 Expedition sail and BOSS System. Will be her maiden voyage. This is my first Challenge and glad to have Porky with me. We are going for a gator tooth too. Hopefully presented by Chief at the end and not a gator along the way!!!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 147.98,
@@ -11268,16 +9017,12 @@ var racedata = [
     "Given Name/s": "Scott Baste",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 19.77,
     "cp2": 58.7,
     "cp3": 40.67,
     "finish": 28.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SIC Maui RS (rocket ship) 14x28"
+    "either/or": ""
   },
   {
     "Total (hrs)": 148.1,
@@ -11288,16 +9033,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "tandem kayak",
     "cp1": 29.67,
     "cp2": 27.2,
     "cp3": 35.63,
     "finish": 55.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tandem pedal assisted sailing kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 148.53,
@@ -11308,16 +9049,12 @@ var racedata = [
     "Given Name/s": "Scott Baste",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 14.57,
     "cp2": 54.75,
     "cp3": 55.32,
     "finish": 23.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft. custom designed SUP made in California by Hovie sup"
+    "either/or": ""
   },
   {
     "Total (hrs)": 148.63,
@@ -11328,16 +9065,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 13.98,
     "cp2": 52.17,
     "cp3": 62.57,
     "finish": 19.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Design Stratus 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 148.67,
@@ -11348,16 +9081,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 11.83,
     "cp2": 46.67,
     "cp3": 68.5,
     "finish": 21.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with 1sqm FES."
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.15,
@@ -11368,16 +9097,12 @@ var racedata = [
     "Given Name/s": "Kevin Lopez",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.02,
     "cp2": 60.28,
     "cp3": 32.67,
     "finish": 44.18,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.17,
@@ -11388,16 +9113,12 @@ var racedata = [
     "Given Name/s": "Ken Boydstun and James Hurst",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 5.8,
     "cp2": 72.95,
     "cp3": 39.47,
     "finish": 30.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.3,
@@ -11408,16 +9129,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 17.93,
     "cp2": 60.53,
     "cp3": 57.42,
     "finish": 13.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.33,
@@ -11428,16 +9145,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 12.5,
     "cp2": 50.33,
     "cp3": 48.75,
     "finish": 37.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Design Stratus"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.33,
@@ -11448,16 +9161,12 @@ var racedata = [
     "Given Name/s": "Denny Thorley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Pace 17",
     "cp1": 12.58,
     "cp2": 50.25,
     "cp3": 48.62,
     "finish": 37.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Tide Race Pace 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.35,
@@ -11468,16 +9177,12 @@ var racedata = [
     "Given Name/s": "Mike Dey and Michael Gordon",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 21.38,
     "cp2": 71.12,
     "cp3": 31,
     "finish": 25.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.37,
@@ -11488,16 +9193,12 @@ var racedata = [
     "Given Name/s": "Pete vanWaveren",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 17.85,
     "cp2": 60.52,
     "cp3": 51.13,
     "finish": 19.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Oldie but a goody,I hope!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.37,
@@ -11508,16 +9209,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 13.83,
     "cp2": 48.68,
     "cp3": 65.23,
     "finish": 21.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Dreamcatcher with FEKs sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.37,
@@ -11528,16 +9225,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Passat",
     "cp1": 17.88,
     "cp2": 57.5,
     "cp3": 53.87,
     "finish": 20.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Solo paddling my tandem 22' Seaward Passat from the front cockpit with rudder controls. Using a PAS 1.0. Lots of liquid ballast in the stern to keep me on track."
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.58,
@@ -11548,16 +9241,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and Dennis Giardina",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "electric Catamaran",
     "cp1": 23.12,
     "cp2": 66.12,
     "cp3": 37.1,
     "finish": 23.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Solar Catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.72,
@@ -11568,16 +9257,12 @@ var racedata = [
     "Given Name/s": "Jaime Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 36.33,
     "cp2": 46.58,
     "cp3": 30.08,
     "finish": 36.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.8,
@@ -11588,16 +9273,12 @@ var racedata = [
     "Given Name/s": "Scott Baste",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 24.03,
     "cp2": 63.57,
     "cp3": 33.77,
     "finish": 28.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14 ft SIC Okeanos"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.85,
@@ -11608,16 +9289,12 @@ var racedata = [
     "Given Name/s": "Gil Hidalgo",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar 18",
     "cp1": 0.05,
     "cp2": 58.2,
     "cp3": 70.53,
     "finish": 21.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Stellar 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 149.87,
@@ -11628,16 +9305,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 0.05,
     "cp2": 58.22,
     "cp3": 70.37,
     "finish": 21.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150,
@@ -11648,16 +9321,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 23.83,
     "cp2": 54.67,
     "cp3": 35.5,
     "finish": 36,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Vivianne"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.13,
@@ -11668,16 +9337,12 @@ var racedata = [
     "Given Name/s": "grant fenner",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 28.5,
     "cp2": 66.5,
     "cp3": 32.33,
     "finish": 22.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Looksha IV (I'm paddling in your boat accompanied by your spirit Michael)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.13,
@@ -11688,16 +9353,12 @@ var racedata = [
     "Given Name/s": "Karl Grass",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Eddyline Falcon S18",
     "cp1": 28.5,
     "cp2": 66.5,
     "cp3": 32.5,
     "finish": 22.63,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Kevlar/Graphite Eddyline Falcon 18'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.25,
@@ -11708,16 +9369,12 @@ var racedata = [
     "Given Name/s": "Mary Mangiapia",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 0.05,
     "cp2": 58.23,
     "cp3": 70.37,
     "finish": 21.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "My trusty Epic 18X sport named Lotus. No sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.33,
@@ -11728,16 +9385,12 @@ var racedata = [
     "Given Name/s": "Lauren Demos",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Valley Nordkapp",
     "cp1": 26.37,
     "cp2": 76.13,
     "cp3": 30.32,
     "finish": 17.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' green over white Valley Nordkapp Sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.33,
@@ -11748,16 +9401,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore",
     "cp1": 26.37,
     "cp2": 76.65,
     "cp3": 29.8,
     "finish": 17.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.5,
@@ -11768,16 +9417,12 @@ var racedata = [
     "Given Name/s": "Patrick Rohde",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 14.93,
     "cp2": 54.15,
     "cp3": 57.58,
     "finish": 23.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red composite Necky Looksha - amas, Falcon & PAS sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.57,
@@ -11788,16 +9433,12 @@ var racedata = [
     "Given Name/s": "J.F. Bedard",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "RoG 15",
     "cp1": 24.15,
     "cp2": 52.57,
     "cp3": 37.83,
     "finish": 36.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bedard Yacht Design RoG 15'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 150.92,
@@ -11808,16 +9449,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 13.83,
     "cp2": 63.67,
     "cp3": 47.67,
     "finish": 25.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey Triple Sponsored by Pygmy Boats http://www.pygmyboats.com/ and Pacific Action Sails http://www.pacificaction.com/"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.02,
@@ -11828,16 +9465,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 27.3,
     "cp2": 52.28,
     "cp3": 61.35,
     "finish": 10.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mostly standard Core Sound 17 MK1"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.03,
@@ -11848,16 +9481,12 @@ var racedata = [
     "Given Name/s": "Dana Vihlen",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.02,
     "cp2": 64.08,
     "cp3": 37.03,
     "finish": 25.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 TI, Papaya"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.07,
@@ -11868,16 +9497,12 @@ var racedata = [
     "Given Name/s": "bobby johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 37.25,
     "cp2": 67.92,
     "cp3": 54.83,
     "finish": -8.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "epic 18x with black falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.37,
@@ -11888,16 +9513,12 @@ var racedata = [
     "Given Name/s": "Terry Tomalin and Jon Willis",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "NDK Triton Tandem",
     "cp1": 31.65,
     "cp2": 68,
     "cp3": 29,
     "finish": 22.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Triton II Tandem Kayak by NDK"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.37,
@@ -11908,16 +9529,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 32.42,
     "cp2": 67.25,
     "cp3": 28.98,
     "finish": 22.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.37,
@@ -11928,16 +9545,12 @@ var racedata = [
     "Given Name/s": "George Stovall",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Extreme",
     "cp1": 31.65,
     "cp2": 68,
     "cp3": 29,
     "finish": 22.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs \"Extreme\" model"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.37,
@@ -11948,16 +9561,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 27.75,
     "cp2": 71.9,
     "cp3": 29,
     "finish": 22.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.63,
@@ -11968,16 +9577,12 @@ var racedata = [
     "Given Name/s": "David Miner",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 25.73,
     "cp2": 57.15,
     "cp3": 47.25,
     "finish": 21.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EPIC 18x sea kayak. Yellow deck with white hull."
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.67,
@@ -11988,16 +9593,12 @@ var racedata = [
     "Given Name/s": "Brian Calhoun and Trueman Sharp",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 29.02,
     "cp2": 52.65,
     "cp3": 44.43,
     "finish": 25.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.7,
@@ -12008,16 +9609,12 @@ var racedata = [
     "Given Name/s": "Rod Price",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Superior Expedition Canoe",
     "cp1": 30.6,
     "cp2": 75,
     "cp3": 30.22,
     "finish": 15.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Superior Expedition Canoe with sailing rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.83,
@@ -12028,16 +9625,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 0.05,
     "cp2": 58.28,
     "cp3": 75.78,
     "finish": 17.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Libra XT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.85,
@@ -12048,16 +9641,12 @@ var racedata = [
     "Given Name/s": "Colin Brown",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 32.25,
     "cp2": 46.95,
     "cp3": 33.8,
     "finish": 38.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SP 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.92,
@@ -12068,16 +9657,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": 25.7,
     "cp2": 57.2,
     "cp3": 47.37,
     "finish": 21.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.92,
@@ -12088,16 +9673,12 @@ var racedata = [
     "Given Name/s": "Marty Worline and Jamie Worline",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Scamp",
     "cp1": 15.6,
     "cp2": 63.3,
     "cp3": 47.05,
     "finish": 25.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.95,
@@ -12108,16 +9689,12 @@ var racedata = [
     "Given Name/s": "Daniel MacElrevey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 23.97,
     "cp2": 54.32,
     "cp3": 48.27,
     "finish": 25.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC 700 w/ FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 151.97,
@@ -12128,16 +9705,12 @@ var racedata = [
     "Given Name/s": "Matthew Stalnaker",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 40.83,
     "cp2": 64.33,
     "cp3": 30.7,
     "finish": 16.1,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "At this point, I'm hoping to be paddling something new by next year."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 151.98,
@@ -12148,16 +9721,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": 17.15,
     "cp2": 63.07,
     "cp3": 40.02,
     "finish": 31.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sirocco 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.1,
@@ -12168,16 +9737,12 @@ var racedata = [
     "Given Name/s": "Tom Glenz",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 14.5,
     "cp2": 64.7,
     "cp3": 47.58,
     "finish": 25.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island Golden Papaya"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.12,
@@ -12188,16 +9753,12 @@ var racedata = [
     "Given Name/s": "Michael Prince",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Mad River Monarch",
     "cp1": 18,
     "cp2": 58.75,
     "cp3": 62.02,
     "finish": 13.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "MicroTom's cool camo Mad River Monarch"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.13,
@@ -12208,16 +9769,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 14.17,
     "cp2": 46.08,
     "cp3": 68,
     "finish": 23.88,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "A NZ Grahame Sisson 'Arctic Raider', 5.32m. With (NZ) PAS sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.23,
@@ -12228,16 +9785,12 @@ var racedata = [
     "Given Name/s": "Bill Whale",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 16.43,
     "cp2": 60.35,
     "cp3": 51.32,
     "finish": 24.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.25,
@@ -12248,16 +9801,12 @@ var racedata = [
     "Given Name/s": "James Connell and Victoria Connell",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 14.12,
     "cp2": 60.85,
     "cp3": 53.13,
     "finish": 24.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.25,
@@ -12268,16 +9817,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 14.1,
     "cp2": 60.1,
     "cp3": 53.72,
     "finish": 24.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Design Stratus"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.38,
@@ -12288,16 +9833,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and Ricky Hammer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 14.95,
     "cp2": 84.52,
     "cp3": 31.13,
     "finish": 21.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI formerly sailed and peddled by the awesome Veteranvoyage360."
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.4,
@@ -12308,16 +9849,12 @@ var racedata = [
     "Given Name/s": "Jonathan Wolf",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 14.72,
     "cp2": 71.07,
     "cp3": 41.37,
     "finish": 25.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2016 Hobie TI, Dune"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.47,
@@ -12328,16 +9865,12 @@ var racedata = [
     "Given Name/s": "Bryan Tindell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 34.08,
     "cp2": 44.25,
     "cp3": 34.4,
     "finish": 39.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobe AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.5,
@@ -12348,16 +9881,12 @@ var racedata = [
     "Given Name/s": "Robert Hobkirk",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 16.75,
     "cp2": 66.17,
     "cp3": 47.08,
     "finish": 22.5,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Undecided"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 152.5,
@@ -12368,16 +9897,12 @@ var racedata = [
     "Given Name/s": "Bill Whale",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": 16.75,
     "cp2": 66.17,
     "cp3": 47.08,
     "finish": 22.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CD Solstice GT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.75,
@@ -12388,16 +9913,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and Mark Cecil",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wenonah Skookumchuck",
     "cp1": 0,
     "cp2": 74.52,
     "cp3": 52.23,
     "finish": 26,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Wenonah Skookumchuck with BOSS rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.83,
@@ -12408,16 +9929,12 @@ var racedata = [
     "Given Name/s": "Sonya Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 19,
     "cp2": 63.5,
     "cp3": 42.75,
     "finish": 27.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Foster Designed Silhouette"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.92,
@@ -12428,16 +9945,12 @@ var racedata = [
     "Given Name/s": "Bryan Tindell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 18.58,
     "cp2": 60.68,
     "cp3": 52,
     "finish": 21.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobe AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.98,
@@ -12448,16 +9961,12 @@ var racedata = [
     "Given Name/s": "Harry Tomlinson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bufflehead Sailing Canoe",
     "cp1": 17.73,
     "cp2": 61.42,
     "cp3": 52,
     "finish": 21.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bufflehead Sailing Canoe. The first round bilged Bufflehead. Strip planked from Atlantic White Cedar. White hull. Red sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 152.98,
@@ -12468,16 +9977,12 @@ var racedata = [
     "Given Name/s": "Sonya Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Nigel Foster Vyneck",
     "cp1": 16.45,
     "cp2": 62.38,
     "cp3": 49.83,
     "finish": 24.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Foster Vyneck"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153,
@@ -12488,16 +9993,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Tango",
     "cp1": 16.83,
     "cp2": 63.63,
     "cp3": 35.8,
     "finish": 36.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153,
@@ -12508,16 +10009,12 @@ var racedata = [
     "Given Name/s": "Ed Francavilla and Shari Francavilla",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Bayrunner SOT",
     "cp1": 17.75,
     "cp2": 65,
     "cp3": 47.55,
     "finish": 22.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bayrunner 20 ft fiberglass double SOT seakayak, no sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.08,
@@ -12528,16 +10025,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 16.83,
     "cp2": 60.17,
     "cp3": 52.92,
     "finish": 23.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Nordkapp Jubilee; paddle what brought you here! Using the Pacific Action Sail \"feels like cheating."
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.08,
@@ -12548,16 +10041,12 @@ var racedata = [
     "Given Name/s": "Denny Thorley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Legend",
     "cp1": 16.83,
     "cp2": 60.17,
     "cp3": 52.83,
     "finish": 23.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Seaward / Nigel Foster Legend Blue deck and white hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.1,
@@ -12568,16 +10057,12 @@ var racedata = [
     "Given Name/s": "Brooke Longval",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Mirage 580",
     "cp1": 3.53,
     "cp2": 70.63,
     "cp3": 53.62,
     "finish": 25.32,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Mirage 580 sea kayak with 0.8 m2 Sea Dog sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.25,
@@ -12588,16 +10073,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 16.92,
     "cp2": 60.08,
     "cp3": 52.75,
     "finish": 23.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.25,
@@ -12608,16 +10089,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Grand Diva",
     "cp1": 16.92,
     "cp2": 60.08,
     "cp3": 52.75,
     "finish": 23.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "B&B Yachts design Grand Diva seakayak with PAS, if we get it built in time."
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.25,
@@ -12628,16 +10105,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 26.8,
     "cp2": 54.87,
     "cp3": 52.83,
     "finish": 18.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nordkapp Jubilee; paddle what brought you here! Using the Pacific Action Sail \"feels like cheating."
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.27,
@@ -12648,16 +10121,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 11.53,
     "cp2": 68.6,
     "cp3": 45,
     "finish": 28.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Upgraded to the Starboard Phantom 380 with a volume of 295L"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.33,
@@ -12668,16 +10137,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 15.5,
     "cp2": 64.83,
     "cp3": 50.5,
     "finish": 22.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "double sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.33,
@@ -12688,16 +10153,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 12.45,
     "cp2": 67.68,
     "cp3": 32.88,
     "finish": 40.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Starboard Phantom Race 380 Windsurfing Raceboard"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.38,
@@ -12708,16 +10169,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and Ricky Hammer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 2.83,
     "cp2": 88.07,
     "cp3": 38.87,
     "finish": 23.62,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.58,
@@ -12728,16 +10185,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 17.63,
     "cp2": 82.53,
     "cp3": 59.83,
     "finish": -6.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Design Stratus 18 - a proven finisher."
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.75,
@@ -12748,16 +10201,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 27.83,
     "cp2": 53.83,
     "cp3": 53.5,
     "finish": 18.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.75,
@@ -12768,16 +10217,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 27.85,
     "cp2": 53.98,
     "cp3": 54.67,
     "finish": 17.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "NDK Explorer seakayak with PAS sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.97,
@@ -12788,16 +10233,12 @@ var racedata = [
     "Given Name/s": "Ken Boydstun",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 24.02,
     "cp2": 76.87,
     "cp3": 28.5,
     "finish": 24.58,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Boreal with Falcon sail or my Stellar S18S surfski if I can master it!"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 153.97,
@@ -12808,16 +10249,12 @@ var racedata = [
     "Given Name/s": "John Sims",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 14.02,
     "cp2": 63.87,
     "cp3": 45.08,
     "finish": 31,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "07 Hobie AI - yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.97,
@@ -12828,16 +10265,12 @@ var racedata = [
     "Given Name/s": "James Hurst",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 24.03,
     "cp2": 76.95,
     "cp3": 28.4,
     "finish": 24.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "qcc700 with falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 153.98,
@@ -12848,16 +10281,12 @@ var racedata = [
     "Given Name/s": "Rodney Dutton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 24.02,
     "cp2": 76.88,
     "cp3": 28.4,
     "finish": 24.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154,
@@ -12868,16 +10297,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 15'",
     "cp1": 25.15,
     "cp2": 62.58,
     "cp3": 23.92,
     "finish": 42.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15 ft decked sailing sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.1,
@@ -12888,16 +10313,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart and Kristen Greenaway",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "Seda Tango",
     "cp1": 23.98,
     "cp2": 59.02,
     "cp3": 45.72,
     "finish": 25.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango, with FEKs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.12,
@@ -12908,16 +10329,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 11.82,
     "cp2": 44.62,
     "cp3": 70.57,
     "finish": 27.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "2015 Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.13,
@@ -12928,16 +10345,12 @@ var racedata = [
     "Given Name/s": "Marc Stewart",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seda Glider",
     "cp1": 30.85,
     "cp2": 59.82,
     "cp3": 40.33,
     "finish": 23.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Glider"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.17,
@@ -12948,16 +10361,12 @@ var racedata = [
     "Given Name/s": "Laurens Willard",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 29.98,
     "cp2": 50.12,
     "cp3": 48.48,
     "finish": 25.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.17,
@@ -12968,16 +10377,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 18.9,
     "cp2": 59.4,
     "cp3": 50.27,
     "finish": 25.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.17,
@@ -12988,16 +10393,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 16.57,
     "cp2": 62.77,
     "cp3": 50.83,
     "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey Triple"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.27,
@@ -13008,16 +10409,12 @@ var racedata = [
     "Given Name/s": "Jesse Taylor",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 5.08,
     "cp2": 71.42,
     "cp3": 28.92,
     "finish": 48.85,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Hoobie Adventure Island yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.33,
@@ -13028,16 +10425,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski and Emily Drouin",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 23.88,
     "cp2": 55.78,
     "cp3": 44.08,
     "finish": 30.58,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser with sail and BOSS outrigger. On loan from Verlen Kruger, this canoe has finished two previous WaterTribe Challenges and won the Mississippi River Race for Rett Research in 2001. We thank Verlen for letting us once again use #17."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.4,
@@ -13048,16 +10441,12 @@ var racedata = [
     "Given Name/s": "Timothy Finkenbinder",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 16.17,
     "cp2": 64.47,
     "cp3": 50.37,
     "finish": 23.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.4,
@@ -13068,16 +10457,12 @@ var racedata = [
     "Given Name/s": "David May and Michael May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 0,
     "cp2": 74.28,
     "cp3": 54.43,
     "finish": 25.68,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "CD Libra XT, red tandem"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.4,
@@ -13088,16 +10473,12 @@ var racedata = [
     "Given Name/s": "Gil Hidalgo",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 16.18,
     "cp2": 64.45,
     "cp3": 63.7,
     "finish": 10.07,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.42,
@@ -13108,16 +10489,12 @@ var racedata = [
     "Given Name/s": "James Connell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 27.45,
     "cp2": 52.3,
     "cp3": 50.25,
     "finish": 24.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC 700 again."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.47,
@@ -13128,16 +10505,12 @@ var racedata = [
     "Given Name/s": "Paul Shaw",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Nomad",
     "cp1": 27.43,
     "cp2": 52.32,
     "cp3": 50.32,
     "finish": 24.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Design Nomad with PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.5,
@@ -13148,16 +10521,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Female",
-    "BOAT": "Kruger Dreamcatcher",
+    "BOAT": "Kruger Seawind",
     "cp1": 15,
     "cp2": 46,
     "cp3": 67.25,
     "finish": 26.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger SeaWind with Balogh Sail Rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.53,
@@ -13168,16 +10537,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 27.92,
     "cp2": 53.5,
     "cp3": 43.08,
     "finish": 30.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tandem Hobie Mirage"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.57,
@@ -13188,16 +10553,12 @@ var racedata = [
     "Given Name/s": "Edward Engel and Joseph Mullen",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Double Kayak 22",
     "cp1": 15.75,
     "cp2": 66.25,
     "cp3": 48,
     "finish": 24.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Double, made in New Zealand 22' long by 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.58,
@@ -13208,16 +10569,12 @@ var racedata = [
     "Given Name/s": "John Craun",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade kayak",
     "cp1": 24.97,
     "cp2": 56.53,
     "cp3": 40.83,
     "finish": 32.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A long and narrow sea kayak that I designed and built."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.67,
@@ -13228,16 +10585,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Cetus",
     "cp1": 25.63,
     "cp2": 57.73,
     "cp3": 45.3,
     "finish": 26,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P & H Cetus with PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.67,
@@ -13248,16 +10601,12 @@ var racedata = [
     "Given Name/s": "Dennise Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 21.63,
     "cp2": 61.73,
     "cp3": 45.3,
     "finish": 26,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Dennis Explorer with a PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.7,
@@ -13268,16 +10617,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.8,
     "cp2": 47.78,
     "cp3": 72.83,
     "finish": 19.28,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind with Balogh sail and Boss plus Hobie Mirage pedal drive."
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.82,
@@ -13288,16 +10633,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 27.28,
     "cp2": 53.13,
     "cp3": 49.58,
     "finish": 24.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Necky Looksha IV"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.87,
@@ -13308,16 +10649,12 @@ var racedata = [
     "Given Name/s": "Jeff Prideaux",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Triak",
     "cp1": 13.38,
     "cp2": 67.03,
     "cp3": 45.67,
     "finish": 28.78,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Triak (18 foot trimaran)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.87,
@@ -13328,16 +10665,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 29.68,
     "cp2": 60.67,
     "cp3": 40.95,
     "finish": 23.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane with mid size Spirit Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.9,
@@ -13348,16 +10681,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 24,
     "cp2": 77.15,
     "cp3": 32.35,
     "finish": 21.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Libra XT With Falcon 1.3 sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 154.93,
@@ -13368,16 +10697,12 @@ var racedata = [
     "Given Name/s": "Igor Kononchuk",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 54.08,
     "cp2": 51.63,
     "cp3": 39.25,
     "finish": 9.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran with inflatable hulls. Vitamin."
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.05,
@@ -13388,16 +10713,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 17.92,
     "cp2": 68.18,
     "cp3": 41.97,
     "finish": 26.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Libra XT"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.08,
@@ -13408,16 +10729,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Arluk 1.9",
     "cp1": 30.03,
     "cp2": 51.05,
     "cp3": 47.27,
     "finish": 26.73,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Arluk 1.9 or Q700"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 155.13,
@@ -13428,16 +10745,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 17.55,
     "cp2": 61.45,
     "cp3": 53,
     "finish": 23.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kordkapp Jubilee 17.5'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.17,
@@ -13448,16 +10761,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Kayak",
     "cp1": 19.83,
     "cp2": 62.78,
     "cp3": 37.33,
     "finish": 35.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.35,
@@ -13468,16 +10777,12 @@ var racedata = [
     "Given Name/s": "Michael Lynskey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nautiraid Greenlander folding kayak",
     "cp1": 29.88,
     "cp2": 57.95,
     "cp3": 48.5,
     "finish": 19.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nautiraid \"Greenlander\" MKIII folding kayak w/mid-size Spirit Sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.58,
@@ -13488,16 +10793,12 @@ var racedata = [
     "Given Name/s": "royd whedon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 12.72,
     "cp2": 67.77,
     "cp3": 45.27,
     "finish": 29.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.67,
@@ -13508,16 +10809,12 @@ var racedata = [
     "Given Name/s": "Ryan Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 18.72,
     "cp2": 81.1,
     "cp3": 34.03,
     "finish": 21.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport w/PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.7,
@@ -13528,16 +10825,12 @@ var racedata = [
     "Given Name/s": "Janet Talbot and Julia Ocasio",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "Hobie TI",
     "cp1": 28.82,
     "cp2": 67.25,
     "cp3": 32.65,
     "finish": 26.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.78,
@@ -13548,16 +10841,12 @@ var racedata = [
     "Given Name/s": "John Craun",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade kayak",
     "cp1": 34.25,
     "cp2": 52.98,
     "cp3": 42.75,
     "finish": 25.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Strip built 20 foot by 20 inch sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.83,
@@ -13568,16 +10857,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Jackson Pawlowski",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 28.75,
     "cp2": 67.4,
     "cp3": 32.33,
     "finish": 27.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 155.83,
@@ -13588,16 +10873,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Raleigh Perry, Jr.",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 31.17,
     "cp2": 57.85,
     "cp3": 34.95,
     "finish": 31.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Custom tandem sailing mirage kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.08,
@@ -13608,16 +10889,12 @@ var racedata = [
     "Given Name/s": "Joseph Ittah and Eric Hough",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 5.13,
     "cp2": 71.47,
     "cp3": 28.83,
     "finish": 50.65,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "2020 Hobie tandem island red"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.1,
@@ -13628,16 +10905,12 @@ var racedata = [
     "Given Name/s": "Gray Harrison and Lowell Harrison",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 29.13,
     "cp2": 58.95,
     "cp3": 38.58,
     "finish": 29.43,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.1,
@@ -13648,16 +10921,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 21.42,
     "cp2": 75.92,
     "cp3": 39.8,
     "finish": 18.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Cruiser canoe with Balogh sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.15,
@@ -13668,16 +10937,12 @@ var racedata = [
     "Given Name/s": "Omar Beceiro",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 36,
     "cp2": 45.38,
     "cp3": 48.12,
     "finish": 26.65,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind with Balogh sail rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.17,
@@ -13688,16 +10953,12 @@ var racedata = [
     "Given Name/s": "Paul Lausell and Steven Lausell",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bell Northwoods Canoe",
     "cp1": 20.5,
     "cp2": 57.42,
     "cp3": 44.08,
     "finish": 34.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bell Northwoods 18\"-6\" Kevlar 46lbs., with full canvas cover, using homemade reefable mizzen sail on a mast and homemade mainsail built with tent poles similarly shaped to a Pacific Action sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.32,
@@ -13708,16 +10969,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Clipper Sea-1",
     "cp1": 26.3,
     "cp2": 60.45,
     "cp3": -0.25,
     "finish": 69.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Clipper Sea-1 with Falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.52,
@@ -13728,16 +10985,12 @@ var racedata = [
     "Given Name/s": "Bryan Tindell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 27.58,
     "cp2": 49.33,
     "cp3": 66.27,
     "finish": 13.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.52,
@@ -13748,16 +11001,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 21.33,
     "cp2": 70.83,
     "cp3": 41.83,
     "finish": 22.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie tandem island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.67,
@@ -13768,16 +11017,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 26.35,
     "cp2": 64.48,
     "cp3": 45.67,
     "finish": 20.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "My faithful Kruger Dreamcatcher with Tridarka Raider Conversion (TRC). I'll be using the Basic 16 Amas. TRC is class 3 taken to the extreme limits of what is possible."
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.68,
@@ -13788,16 +11033,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Jackson Pawlowski",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 6.18,
     "cp2": 75.32,
     "cp3": 49.45,
     "finish": 25.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.77,
@@ -13808,16 +11049,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Philip Slama",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 14.12,
     "cp2": 40.37,
     "cp3": 43.02,
     "finish": 59.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.87,
@@ -13828,16 +11065,12 @@ var racedata = [
     "Given Name/s": "Peter Oudheusden",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 18.6,
     "cp2": 81.23,
     "cp3": 34.05,
     "finish": 22.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane 19' Sea Kayak - white"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.97,
@@ -13848,16 +11081,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 16.08,
     "cp2": 84.95,
     "cp3": 31,
     "finish": 24.93,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.98,
@@ -13868,16 +11097,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 18.05,
     "cp2": 83.1,
     "cp3": 30.88,
     "finish": 24.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A Big One"
+    "either/or": ""
   },
   {
     "Total (hrs)": 156.98,
@@ -13888,16 +11113,12 @@ var racedata = [
     "Given Name/s": "Mary Mangiapia",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 16.45,
     "cp2": 84.57,
     "cp3": 31.02,
     "finish": 24.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157,
@@ -13908,16 +11129,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 27.38,
     "cp2": 62.62,
     "cp3": 37.33,
     "finish": 29.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A pygmy osprey Triple with pacific action sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.07,
@@ -13928,36 +11145,12 @@ var racedata = [
     "Given Name/s": "Kevin Sauvage and Bill Salter",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 18SX",
     "cp1": 25.47,
     "cp2": 53.9,
     "cp3": 44.13,
     "finish": 33.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18 w/ wing decks. Yellow hulls and decks. Sunburst sails MC 5032 PE"
-  },
-  {
-    "Total (hrs)": 157.12,
-    "YEAR": 2024,
-    "Captain wt name": "Saltymoose",
-    "Crew wt name": "",
-    "3rd wt name": "",
-    "Given Name/s": "Casey Woods",
-    "C#": "C5",
-    "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "Windrider 17",
-    "cp1": 38.83,
-    "cp2": 32.77,
-    "cp3": 55.32,
-    "finish": 30.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.33,
@@ -13968,16 +11161,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis and Dennise Mathis",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "NDK Triton Tandem",
     "cp1": 19.25,
     "cp2": 73.5,
     "cp3": 36.5,
     "finish": 28.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Triton II"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.38,
@@ -13988,16 +11177,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 30.83,
     "cp2": 58.67,
     "cp3": 39.75,
     "finish": 28.13,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17.5 Nordkapp Jubilee"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.42,
@@ -14008,16 +11193,12 @@ var racedata = [
     "Given Name/s": "Stewart Creaser and Robert Gray",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Cygnus 20",
     "cp1": 50.43,
     "cp2": 56.85,
     "cp3": 26.88,
     "finish": 23.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Cygnus 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.5,
@@ -14028,16 +11209,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 25.9,
     "cp2": 73.1,
     "cp3": 40,
     "finish": 18.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A Pygmey Osprey Triple with two pacific action sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.53,
@@ -14048,16 +11225,12 @@ var racedata = [
     "Given Name/s": "Scott Burian",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Capella",
     "cp1": 28.88,
     "cp2": 59.03,
     "cp3": 47.45,
     "finish": 22.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Capella RM"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.55,
@@ -14068,16 +11241,12 @@ var racedata = [
     "Given Name/s": "Deborah Walters",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic Endurance 18",
     "cp1": 28.88,
     "cp2": 59.03,
     "cp3": 47.45,
     "finish": 22.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic Endurance 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.55,
@@ -14088,16 +11257,12 @@ var racedata = [
     "Given Name/s": "David Toppi",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "NDK Explorer",
     "cp1": 28.52,
     "cp2": 59.42,
     "cp3": 47.62,
     "finish": 22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.55,
@@ -14108,16 +11273,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 28.88,
     "cp2": 59.05,
     "cp3": 47.62,
     "finish": 22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer 17ft seakayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.57,
@@ -14128,16 +11289,12 @@ var racedata = [
     "Given Name/s": "gregg berman",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 18.9,
     "cp2": 65.82,
     "cp3": 50.83,
     "finish": 22.02,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "unknown yet"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 157.63,
@@ -14148,16 +11305,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 14.8,
     "cp2": 65.38,
     "cp3": 48.85,
     "finish": 28.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.73,
@@ -14168,16 +11321,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 17.58,
     "cp2": 59.92,
     "cp3": 46.42,
     "finish": 33.82,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Looksha IV"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.75,
@@ -14188,16 +11337,12 @@ var racedata = [
     "Given Name/s": "James Connell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 17.58,
     "cp2": 60,
     "cp3": 46.33,
     "finish": 33.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.77,
@@ -14208,16 +11353,12 @@ var racedata = [
     "Given Name/s": "Joe Tousignant",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Clipper Sea-1",
     "cp1": 13.95,
     "cp2": 41.05,
     "cp3": 61.2,
     "finish": 41.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Clipper Sea 1, the Canadian take on the expedition canoe. Equipped with a Falcon 1M sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.78,
@@ -14228,16 +11369,12 @@ var racedata = [
     "Given Name/s": "Alain Cormier",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 18.32,
     "cp2": 65.3,
     "cp3": 45.13,
     "finish": 29.03,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Foster Silhouette with Epic Wayfarer paddle."
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.87,
@@ -14248,16 +11385,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar 18",
     "cp1": 19.48,
     "cp2": 67.47,
     "cp3": 52.8,
     "finish": 18.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "White & Grey Stellar 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.87,
@@ -14268,16 +11401,12 @@ var racedata = [
     "Given Name/s": "Josh Bowers and Denise Parris",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 16.18,
     "cp2": 81.95,
     "cp3": 36.27,
     "finish": 23.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 157.88,
@@ -14288,16 +11417,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 19.38,
     "cp2": 67.67,
     "cp3": 52.45,
     "finish": 18.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Epic 18x Sport named Lotus"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.02,
@@ -14308,16 +11433,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 19.33,
     "cp2": 67.58,
     "cp3": 52.83,
     "finish": 18.27,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Epic 18X Sport or my trusty Seaward Ascente'"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 158.15,
@@ -14328,16 +11449,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 24.02,
     "cp2": 76.93,
     "cp3": 35.35,
     "finish": 21.85,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Either my trusty Seaward Ascente' or my Sawyer Loon"
+    "either/or": "True"
   },
   {
     "Total (hrs)": 158.17,
@@ -14348,16 +11465,12 @@ var racedata = [
     "Given Name/s": "Mary Mangiapia",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 24.02,
     "cp2": 76.98,
     "cp3": 35.33,
     "finish": 21.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.22,
@@ -14368,16 +11481,12 @@ var racedata = [
     "Given Name/s": "Shane Perrin",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 16.5,
     "cp2": 85.27,
     "cp3": 36.07,
     "finish": 20.38,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "18' custom Stand up paddle board by Pau Hana Surf Supply. Custom deck rigging by Surfco Hawaii."
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.25,
@@ -14388,16 +11497,12 @@ var racedata = [
     "Given Name/s": "clayton kent",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Eddyline Raven",
     "cp1": 24.05,
     "cp2": 76.93,
     "cp3": 35.37,
     "finish": 21.9,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "eddyline raven"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.28,
@@ -14408,16 +11513,12 @@ var racedata = [
     "Given Name/s": "Keith Fowler",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": 24.05,
     "cp2": 76.95,
     "cp3": 59,
     "finish": -1.72,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.53,
@@ -14428,16 +11529,12 @@ var racedata = [
     "Given Name/s": "David May",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.12,
     "cp2": 79.53,
     "cp3": 34.78,
     "finish": 29.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind w/ FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.7,
@@ -14448,16 +11545,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nordkapp Jubilee",
     "cp1": 16.75,
     "cp2": 64.75,
     "cp3": 47.5,
     "finish": 29.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nordkapp Jubilee, paddle what brought you here! Using the Pacific Action Sail, \"feels like cheating."
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.75,
@@ -14468,16 +11561,12 @@ var racedata = [
     "Given Name/s": "Dan Lockwood and David Wicks",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 42.25,
     "cp2": 45.83,
     "cp3": 34.42,
     "finish": 36.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21. Twenty-one foot, 600 lb, leeboard cat ketch with oars made by PaddleMaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.78,
@@ -14488,16 +11577,12 @@ var racedata = [
     "Given Name/s": "Chris Palinski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 29.88,
     "cp2": 56.28,
     "cp3": 49.85,
     "finish": 22.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher (super)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.78,
@@ -14508,16 +11593,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 29.88,
     "cp2": 56.28,
     "cp3": 49.85,
     "finish": 22.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Designed, solo, 17 1/2 foot Dreamcatcher. BOSS outrigger and sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 158.92,
@@ -14528,16 +11609,12 @@ var racedata = [
     "Given Name/s": "Beau Evans and Malcolm Aycock",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 29.82,
     "cp2": 47.03,
     "cp3": 53.02,
     "finish": 29.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bacon's old TI but with twice the man power!"
+    "either/or": ""
   },
   {
     "Total (hrs)": 159,
@@ -14548,16 +11625,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland and William Southerland",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 24.08,
     "cp2": 75.5,
     "cp3": 60.92,
     "finish": -1.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 159.5,
@@ -14568,16 +11641,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 12.2,
     "cp2": 65.8,
     "cp3": 54.63,
     "finish": 26.87,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 159.5,
@@ -14588,16 +11657,12 @@ var racedata = [
     "Given Name/s": "Griff Griffin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.73,
     "cp2": 66.05,
     "cp3": 54.73,
     "finish": 26.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "hobie ti"
+    "either/or": ""
   },
   {
     "Total (hrs)": 159.65,
@@ -14608,16 +11673,12 @@ var racedata = [
     "Given Name/s": "Danny Laboy",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 19.4,
     "cp2": 60.48,
     "cp3": 57.68,
     "finish": 22.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Sea Wind #265. BSD and PAS sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": 160.07,
@@ -14628,16 +11689,12 @@ var racedata = [
     "Given Name/s": "Lauren Demos",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Nordkapp",
     "cp1": 14,
     "cp2": 65.33,
     "cp3": 53.07,
     "finish": 27.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Green over white Valley Nordkapp sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 160.1,
@@ -14648,16 +11705,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore-L",
     "cp1": 14.17,
     "cp2": 65.2,
     "cp3": 52.93,
     "finish": 27.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 162.5,
@@ -14668,16 +11721,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 53.03,
     "cp2": 44.55,
     "cp3": 41.17,
     "finish": 23.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15 Ft. Current Designs kayak with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 162.95,
@@ -14688,16 +11737,12 @@ var racedata = [
     "Given Name/s": "Lee Havins and Kimberly Havins",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 14.22,
     "cp2": 68.23,
     "cp3": 55.05,
     "finish": 25.45,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "stock Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": 162.98,
@@ -14708,16 +11753,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": 27.1,
     "cp2": 56.33,
     "cp3": 53.13,
     "finish": 26.42,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sirocco 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": 163.42,
@@ -14728,16 +11769,12 @@ var racedata = [
     "Given Name/s": "Benjamin Algera Algera and Emily Algera",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "XRC Sailing Canoe",
     "cp1": 31.67,
     "cp2": 47.13,
     "cp3": 57.7,
     "finish": 26.92,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "18.5' XCR sailing canoe. 5M Balogh sail with inflatable amas."
+    "either/or": ""
   },
   {
     "Total (hrs)": 163.55,
@@ -14748,16 +11785,12 @@ var racedata = [
     "Given Name/s": "Mike Barnett",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Custom Trimaran",
     "cp1": 26.95,
     "cp2": 52.6,
     "cp3": 70.67,
     "finish": 13.33,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Clarity is a 40 year old 18' trimaran. Used in our first attempt, she will be modified and even more seaworthy (no internal centerboard to leak!)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.62,
@@ -14768,16 +11801,12 @@ var racedata = [
     "Given Name/s": "James Hurst",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 17.52,
     "cp2": 66.17,
     "cp3": 68.95,
     "finish": 11.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC700 18ft by 21in"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.62,
@@ -14788,16 +11817,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 18.6,
     "cp2": 65.72,
     "cp3": 59.32,
     "finish": 20.98,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.62,
@@ -14808,16 +11833,12 @@ var racedata = [
     "Given Name/s": "Rodney Dutton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tempest Pro 165",
     "cp1": 17.57,
     "cp2": 66.13,
     "cp3": 59.9,
     "finish": 21.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Wilderness Systems Tempest Pro 165"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.7,
@@ -14828,16 +11849,12 @@ var racedata = [
     "Given Name/s": "Jeffrey Duzan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 18.73,
     "cp2": 65.35,
     "cp3": 59.88,
     "finish": 20.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Black 19 foot Kajak Sport Vivian"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.75,
@@ -14848,16 +11865,12 @@ var racedata = [
     "Given Name/s": "Mary Mangiapia",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 18.58,
     "cp2": 65.5,
     "cp3": 59.57,
     "finish": 21.1,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kayak, no sail. Will most likely be using an Epic 18x or 18xs."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 164.75,
@@ -14868,16 +11881,12 @@ var racedata = [
     "Given Name/s": "Ken Boydstun",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Boreal Saguenay 18",
     "cp1": 17.48,
     "cp2": 66.22,
     "cp3": 59.88,
     "finish": 21.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "18ft Seguenay by Boreal Designs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 164.87,
@@ -14888,16 +11897,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 17.52,
     "cp2": 84.35,
     "cp3": 30.3,
     "finish": 32.7,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Pygmy Osprey Triple Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 165.73,
@@ -14908,16 +11913,12 @@ var racedata = [
     "Given Name/s": "Larry Ferber",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 27.52,
     "cp2": 77.68,
     "cp3": 46.7,
     "finish": 13.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "QCC 700 Kayak with a code 0 0.8 meter sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": 166.2,
@@ -14928,16 +11929,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Eastport Pram",
     "cp1": 16.82,
     "cp2": 77.85,
     "cp3": 43.68,
     "finish": 27.85,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC's Eastport Pram"
+    "either/or": ""
   },
   {
     "Total (hrs)": 166.58,
@@ -14948,16 +11945,12 @@ var racedata = [
     "Given Name/s": "James Connell and Will Schaet",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Double Kayak",
     "cp1": 19,
     "cp2": 68.5,
     "cp3": 61,
     "finish": 18.08,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "CLC Chesapeake Double with two PAS sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": 166.65,
@@ -14968,16 +11961,12 @@ var racedata = [
     "Given Name/s": "HENRY NOYES",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Legend",
     "cp1": 18.13,
     "cp2": 77.5,
     "cp3": 53.83,
     "finish": 17.18,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Foster Legend"
+    "either/or": ""
   },
   {
     "Total (hrs)": 166.92,
@@ -14988,16 +11977,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dennis Pidgeon",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 34.33,
     "cp2": 68.32,
     "cp3": 40.77,
     "finish": 23.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Ospey Triple with Pacific Action Sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": 167.35,
@@ -15008,16 +11993,12 @@ var racedata = [
     "Given Name/s": "Marek Uliasz",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 32.68,
     "cp2": 58.98,
     "cp3": 51.92,
     "finish": 23.77,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger's Sea Wind with 1 sq m Pacific Action downwind sail. Winter training in Colorado and vicinity (pictures & video): http://www.frii.com/~uliasz/wayfarer"
+    "either/or": ""
   },
   {
     "Total (hrs)": 167.75,
@@ -15028,16 +12009,12 @@ var racedata = [
     "Given Name/s": "Jerry Pratt and Anna Pratt",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 31.83,
     "cp2": 66.4,
     "cp3": 43.35,
     "finish": 26.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 167.85,
@@ -15048,16 +12025,12 @@ var racedata = [
     "Given Name/s": "Linda Wright",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Weta",
     "cp1": 9.88,
     "cp2": 69.17,
     "cp3": 68.97,
     "finish": 19.83,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": 167.97,
@@ -15068,16 +12041,12 @@ var racedata = [
     "Given Name/s": "John Craun",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade kayak",
     "cp1": 14.5,
     "cp2": 43.72,
     "cp3": 49.27,
     "finish": 60.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "I'm designing a new kayak to use in this EC"
+    "either/or": ""
   },
   {
     "Total (hrs)": 168,
@@ -15088,16 +12057,12 @@ var racedata = [
     "Given Name/s": "Josh Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 23.93,
     "cp2": 88.78,
     "cp3": 35.72,
     "finish": 19.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 Ft Stand up Paddleboard"
+    "either/or": ""
   },
   {
     "Total (hrs)": 168.02,
@@ -15108,16 +12073,12 @@ var racedata = [
     "Given Name/s": "Charles Colvin",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 27.25,
     "cp2": 53.58,
     "cp3": 49.17,
     "finish": 38.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "I'm looking into this now; I'll update as soon as possible."
+    "either/or": ""
   },
   {
     "Total (hrs)": 168.02,
@@ -15128,16 +12089,12 @@ var racedata = [
     "Given Name/s": "gregg berman",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 29.17,
     "cp2": 51.67,
     "cp3": 49.17,
     "finish": 38.02,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Stratus. As no boat can do it all I've found this boat to be excellent in it's abitlity for speed and allowing you to sit in a racing position. However it also lets you switch seating positions easily when the seas get bigger and you find a need for more stability and control."
+    "either/or": ""
   },
   {
     "Total (hrs)": 168.12,
@@ -15148,16 +12105,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Sport Tandem",
     "cp1": 18.5,
     "cp2": 80,
     "cp3": 50.5,
     "finish": 19.12,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chesapeake Light Craft \"Sport Tandem"
+    "either/or": ""
   },
   {
     "Total (hrs)": 168.55,
@@ -15166,18 +12119,14 @@ var racedata = [
     "Crew wt name": "",
     "3rd wt name": "",
     "Given Name/s": "Dennise Mathis",
-    "C#": "C1",
+    "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Romany 16",
     "cp1": 24.08,
     "cp2": 75.42,
     "cp3": 43,
     "finish": 26.05,
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Romany 16 or 18ft strip built kayak."
+    "either/or": "True"
   },
   {
     "Total (hrs)": 168.73,
@@ -15188,16 +12137,12 @@ var racedata = [
     "Given Name/s": "Peter Oudheusden",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Alden Ocean 18",
     "cp1": 14.8,
     "cp2": 71.03,
     "cp3": 65.33,
     "finish": 17.57,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Alden Ocean 18' open water rowing shell, fitted with spray deck and PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 169.43,
@@ -15208,16 +12153,12 @@ var racedata = [
     "Given Name/s": "Christian Patrick",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nacra 18",
     "cp1": 0.05,
     "cp2": 75.7,
     "cp3": 49.08,
     "finish": 44.6,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NACRA 18 square with a radial traveler and a jib with pedal drive."
+    "either/or": ""
   },
   {
     "Total (hrs)": 169.5,
@@ -15228,16 +12169,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 13.83,
     "cp2": 86.03,
     "cp3": 45.63,
     "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft OCC kayak (red and white) with 3M red and white and white Falcon Sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 170,
@@ -15248,16 +12185,12 @@ var racedata = [
     "Given Name/s": "Kathy Kenley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Kayakpro Nemo",
     "cp1": 33.53,
     "cp2": 68.47,
     "cp3": 52.03,
     "finish": 15.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "My trusty Nemo. I'm going to have to paint fish eyes, mouth and fins on it."
+    "either/or": ""
   },
   {
     "Total (hrs)": 170.15,
@@ -15268,16 +12201,12 @@ var racedata = [
     "Given Name/s": "tim gamble",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 20,
     "cp2": 78.28,
     "cp3": 35.72,
     "finish": 36.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nigel Foster Silhouette Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 171.05,
@@ -15288,16 +12217,12 @@ var racedata = [
     "Given Name/s": "John Hippe",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Scamp",
     "cp1": 31.73,
     "cp2": 53.1,
     "cp3": 47.12,
     "finish": 39.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Scamp"
+    "either/or": ""
   },
   {
     "Total (hrs)": 171.57,
@@ -15308,16 +12233,12 @@ var racedata = [
     "Given Name/s": "Shawn Evans",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 14.97,
     "cp2": 73.82,
     "cp3": 44.68,
     "finish": 38.1,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "14' SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": 171.57,
@@ -15328,16 +12249,12 @@ var racedata = [
     "Given Name/s": "Rick Rhyne",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.97,
     "cp2": 73.85,
     "cp3": 44.6,
     "finish": 38.15,
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 172.17,
@@ -15348,16 +12265,12 @@ var racedata = [
     "Given Name/s": "David Williams",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Perception Eclipse",
     "cp1": 29.43,
     "cp2": 62.38,
     "cp3": 53.83,
     "finish": 26.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception Eclipse, Taking the Wilderness Waterway"
+    "either/or": ""
   },
   {
     "Total (hrs)": 172.42,
@@ -15368,16 +12281,12 @@ var racedata = [
     "Given Name/s": "GREG GREGORY",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 18.15,
     "cp2": 54.7,
     "cp3": 54.4,
     "finish": 45.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2010 Hobie TI; papaya yellow hulls; White-Blue-Yellow Hobie furling sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 172.43,
@@ -15388,16 +12297,12 @@ var racedata = [
     "Given Name/s": "Michael Dunlap",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 13.17,
     "cp2": 68.22,
     "cp3": 50.58,
     "finish": 40.47,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "UL SUP built by Barefoot-Adventures (Me)"
+    "either/or": ""
   },
   {
     "Total (hrs)": 172.75,
@@ -15408,16 +12313,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 16.77,
     "cp2": 73.8,
     "cp3": 53.67,
     "finish": 28.52,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey Triple"
+    "either/or": ""
   },
   {
     "Total (hrs)": 173.5,
@@ -15428,16 +12329,12 @@ var racedata = [
     "Given Name/s": "Thad Rice",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 173.5,
     "cp2": 0,
     "cp3": 0,
     "finish": 0,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 173.72,
@@ -15448,16 +12345,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": 34.13,
     "cp2": 44.45,
     "cp3": 48.82,
     "finish": 46.32,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.03,
@@ -15468,16 +12361,12 @@ var racedata = [
     "Given Name/s": "Thad Rice",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.97,
     "cp2": 72.22,
     "cp3": 61.48,
     "finish": 24.37,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger SeaWind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.03,
@@ -15488,16 +12377,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 15.88,
     "cp2": 66.07,
     "cp3": 63.6,
     "finish": 28.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcer with FEKs"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.08,
@@ -15508,16 +12393,12 @@ var racedata = [
     "Given Name/s": "Charles Wolfe",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Rockpool Taran",
     "cp1": 13.5,
     "cp2": 64.13,
     "cp3": 54.65,
     "finish": 41.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rockpool Taran with 1m Falcon"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.15,
@@ -15528,16 +12409,12 @@ var racedata = [
     "Given Name/s": "Mark Cecil and Andrew Hustrulid",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wenonah Skookumchuck",
     "cp1": 24.33,
     "cp2": 79.43,
     "cp3": 52.33,
     "finish": 18.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wildness Systems Skookumchuck"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.15,
@@ -15548,16 +12425,12 @@ var racedata = [
     "Given Name/s": "Laurie Sanders, Jr.",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 25.1,
     "cp2": 86.65,
     "cp3": 44.25,
     "finish": 18.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700X"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.18,
@@ -15568,16 +12441,12 @@ var racedata = [
     "Given Name/s": "Geoffrey Chambers",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Extreme",
     "cp1": 26.22,
     "cp2": 79.67,
     "cp3": 48.55,
     "finish": 19.75,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Extreme"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.27,
@@ -15588,16 +12457,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 40.5,
     "cp2": 49.92,
     "cp3": 55.17,
     "finish": 28.68,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Mirage sit-on-top with pedal apparatus and stock Hobie sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.33,
@@ -15608,16 +12473,12 @@ var racedata = [
     "Given Name/s": "John Flegg",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 17.05,
     "cp2": 66.28,
     "cp3": 65.5,
     "finish": 25.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind - Boat #46 - Beautiful red deck - With PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.33,
@@ -15628,16 +12489,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Female",
-    "BOAT": "Kruger Dreamcatcher",
+    "BOAT": "kruger Dreamcatcher",
     "cp1": 17.05,
     "cp2": 66.28,
     "cp3": 65.5,
     "finish": 25.5,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Kruger Dreamcatcher #2 with Balogh BOSS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.33,
@@ -15648,16 +12505,12 @@ var racedata = [
     "Given Name/s": "Brian W Weber Weber and Marissa Weber",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 17.75,
     "cp2": 81.22,
     "cp3": 31.12,
     "finish": 44.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Cruiser Canoe with a Balogh BOSS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.33,
@@ -15668,16 +12521,12 @@ var racedata = [
     "Given Name/s": "Mark Przedwojewski",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 17.75,
     "cp2": 81.22,
     "cp3": 31.12,
     "finish": 44.25,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind #42 with BOSS"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.58,
@@ -15688,16 +12537,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": 18.97,
     "cp2": 58.65,
     "cp3": 53.82,
     "finish": 43.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sirocco 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": 174.95,
@@ -15708,16 +12553,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Tango",
     "cp1": 32.73,
     "cp2": 73.25,
     "cp3": 47.57,
     "finish": 21.4,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango with the sail and outriggers designed by PaddleCarver"
+    "either/or": ""
   },
   {
     "Total (hrs)": 175.07,
@@ -15728,16 +12569,12 @@ var racedata = [
     "Given Name/s": "John Sims",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 26.03,
     "cp2": 69.82,
     "cp3": 47.27,
     "finish": 31.95,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI - papaya yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": 175.13,
@@ -15748,16 +12585,12 @@ var racedata = [
     "Given Name/s": "Sandy Krueger",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Kruger Seawind",
     "cp1": 17.83,
     "cp2": 74.17,
     "cp3": 55.47,
     "finish": 27.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind"
+    "either/or": ""
   },
   {
     "Total (hrs)": 175.85,
@@ -15768,16 +12601,12 @@ var racedata = [
     "Given Name/s": "Judy Perkins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "kayak",
     "cp1": 25.18,
     "cp2": 83.15,
     "cp3": 48.28,
     "finish": 19.23,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "gray sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": 178.48,
@@ -15788,36 +12617,12 @@ var racedata = [
     "Given Name/s": "Nicolas Duvoisin",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie Revolution 16",
     "cp1": 53.93,
     "cp2": 67.9,
     "cp3": 36.92,
     "finish": 19.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie Mirage Revolution 16"
-  },
-  {
-    "Total (hrs)": 178.5,
-    "YEAR": 2024,
-    "Captain wt name": "The18Thcamel",
-    "Crew wt name": "",
-    "3rd wt name": "",
-    "Given Name/s": "Igor Kononchuk",
-    "C#": "C5",
-    "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "Inflatable Catamaran",
-    "cp1": 49.25,
-    "cp2": 76.45,
-    "cp3": 28.8,
-    "finish": 24,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran with inflatable hulls. \"Vitamin\"."
+    "either/or": ""
   },
   {
     "Total (hrs)": 178.9,
@@ -15828,16 +12633,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 18.37,
     "cp2": 84.53,
     "cp3": 53.73,
     "finish": 22.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Highly modified BustedRudder cast off."
+    "either/or": ""
   },
   {
     "Total (hrs)": 179.25,
@@ -15848,16 +12649,12 @@ var racedata = [
     "Given Name/s": "Michael Gordon",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Huki S1-X surfski",
     "cp1": 15.88,
     "cp2": 83.97,
     "cp3": 60.43,
     "finish": 18.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Huki SX-1. Coral Snake Paint"
+    "either/or": ""
   },
   {
     "Total (hrs)": 179.5,
@@ -15868,16 +12665,12 @@ var racedata = [
     "Given Name/s": "Neil Calore",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Northeaster Dory",
     "cp1": 33.02,
     "cp2": 73.53,
     "cp3": 43.98,
     "finish": 28.97,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' CLC Northeaster Dory, Lug Rigged"
+    "either/or": ""
   },
   {
     "Total (hrs)": 180.1,
@@ -15888,16 +12681,12 @@ var racedata = [
     "Given Name/s": "Patrick Forrester",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 16.95,
     "cp2": 85.77,
     "cp3": 53.28,
     "finish": 24.1,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport with a 1 meter Falcon Sail rig with a carbon fiber mast and boom. Expedition rigged by Falcon Sails LLC."
+    "either/or": ""
   },
   {
     "Total (hrs)": 180.25,
@@ -15908,16 +12697,12 @@ var racedata = [
     "Given Name/s": "Paul Lausell and Steven Lausell",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bell Northwoods Canoe",
     "cp1": 22,
     "cp2": 66,
     "cp3": 51.58,
     "finish": 40.67,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bell Northwoods 18'6\" Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": 181,
@@ -15928,16 +12713,12 @@ var racedata = [
     "Given Name/s": "KELLY GREEN and Jose Bosque",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 34.38,
     "cp2": 87.97,
     "cp3": 36.5,
     "finish": 22.15,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 181.03,
@@ -15948,16 +12729,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 14.07,
     "cp2": 65.03,
     "cp3": 74.58,
     "finish": 27.35,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Current Designs Libra XT with a 1.35 sqm Falcon sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": 182.35,
@@ -15968,16 +12745,12 @@ var racedata = [
     "Given Name/s": "Vladimir Brezina",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Feathercraft Heron",
     "cp1": 19.32,
     "cp2": 74.75,
     "cp3": 54.08,
     "finish": 34.2,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Feathercraft Heron single folding kayak, length 17'7\", red deck, black hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": 182.5,
@@ -15988,16 +12761,12 @@ var racedata = [
     "Given Name/s": "Johna Till Johnson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "?",
     "cp1": 19.2,
     "cp2": 74.83,
     "cp3": 54.25,
     "finish": 34.22,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow-and-white Explore. May swap out for a similar class boat (e.g. Nordkapp)."
+    "either/or": ""
   },
   {
     "Total (hrs)": 188.23,
@@ -16008,16 +12777,12 @@ var racedata = [
     "Given Name/s": "Kathy Kenley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "kayakpro Nemo",
     "cp1": 21.3,
     "cp2": 62.28,
     "cp3": 56.92,
     "finish": 47.73,
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "18' Kayakpro Nemo"
+    "either/or": ""
   },
   {
     "Total (hrs)": 192.17,
@@ -16028,16 +12793,12 @@ var racedata = [
     "Given Name/s": "Tom Turner and Debbie Turner",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 14.18,
     "cp2": 66.35,
     "cp3": 92.37,
     "finish": 19.27,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": 192.37,
@@ -16048,16 +12809,12 @@ var racedata = [
     "Given Name/s": "John Haugen-Wente and Bob Holloway",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seaward Passat G3",
     "cp1": 12.92,
     "cp2": 85,
     "cp3": 55.4,
     "finish": 39.05,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seward Passat GS with 36 sq. ft. Balogh Sail Rig and Boss Outriggers"
+    "either/or": ""
   },
   {
     "Total (hrs)": 193.55,
@@ -16068,16 +12825,12 @@ var racedata = [
     "Given Name/s": "gregg berman",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 18.85,
     "cp2": 68.23,
     "cp3": 42.3,
     "finish": 64.17,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 193.55,
@@ -16088,16 +12841,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 34.2,
     "cp2": 69.85,
     "cp3": 42.7,
     "finish": 46.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer"
+    "either/or": ""
   },
   {
     "Total (hrs)": 193.55,
@@ -16108,16 +12857,12 @@ var racedata = [
     "Given Name/s": "dawn keller",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "?",
     "cp1": 34.2,
     "cp2": 69.85,
     "cp3": 42.7,
     "finish": 46.8,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": 196.13,
@@ -16128,16 +12873,12 @@ var racedata = [
     "Given Name/s": "Verlen Kruger and Eric Kocher",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kruger Cruiser",
     "cp1": 66.42,
     "cp2": 60.9,
     "cp3": 31.33,
     "finish": 37.48,
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Paddling a Kruger Cruiser which is a double canoe 18.5 feet long with a beam of 36 inches. The WaterTribe Cruising Challenge is a warm up for the Great Mississippi River Race which takes place this spring."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16148,16 +12889,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 25.77,
     "cp2": 80.73,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16168,16 +12905,12 @@ var racedata = [
     "Given Name/s": "James Eaton and Jessica Jennings",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Nacra 570",
     "cp1": 21.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NACRA 570 catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16188,16 +12921,12 @@ var racedata = [
     "Given Name/s": "Rob Bean",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Angus Rowcruiser",
     "cp1": 43.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Angus Row Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16208,16 +12937,12 @@ var racedata = [
     "Given Name/s": "Robbie Stone and JT Hawk",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tremolino Trimaran",
     "cp1": 49.5,
     "cp2": 50.08,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tremelino Trimaran Modified for this race. This will be the \"Mother ship\" for at least one other boat on a Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16228,16 +12953,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 39.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16248,16 +12969,12 @@ var racedata = [
     "Given Name/s": "William Robinson and Dewayne Cowles",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Precision 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Precision 15 Sailboat, White"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16268,16 +12985,12 @@ var racedata = [
     "Given Name/s": "Michael Duskin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island Modified Jib"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16288,16 +13001,12 @@ var racedata = [
     "Given Name/s": "John Osborne",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 26.27,
     "cp2": 56.57,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta Trimaran with reefing modifications"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16308,16 +13017,12 @@ var racedata = [
     "Given Name/s": "David Yepez",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ascend Sit on Top",
     "cp1": 37.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Grey Ascend Sit on Top Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16328,16 +13033,12 @@ var racedata = [
     "Given Name/s": "David Hosler and Joaquin Hosler",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "RS Venture 17",
     "cp1": 32.58,
     "cp2": 67.55,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17’ RS Venture"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16348,16 +13049,12 @@ var racedata = [
     "Given Name/s": "David Johnson and Noah Johnson",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'Day Day sailer",
     "cp1": 44.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O'Day Daysailer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16368,16 +13065,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21’ cat ketch with black hull and red trim"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16388,16 +13081,12 @@ var racedata = [
     "Given Name/s": "Richard Stanton and Andy Daunhauer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade trimaran 22",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "22' Custom Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16408,16 +13097,12 @@ var racedata = [
     "Given Name/s": "Joe Bousquet",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "49er",
     "cp1": 24.47,
     "cp2": 53.58,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified 49er"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16428,16 +13113,12 @@ var racedata = [
     "Given Name/s": "Robert Aumer and Mike Zubelewicz",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 32.33,
     "cp2": 72.05,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16448,16 +13129,12 @@ var racedata = [
     "Given Name/s": "Mark Cecil and Matt Bladecki",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 39.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16468,16 +13145,12 @@ var racedata = [
     "Given Name/s": "Kevin Lopez",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 22.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16488,16 +13161,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley and Mary Mangiapia",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Dovekie",
     "cp1": 51.6,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dovekie"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16508,16 +13177,12 @@ var racedata = [
     "Given Name/s": "Matt Pinkley and Chris Elwell",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 29.93,
     "cp2": 51.47,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mostly standard Core Sound 17 MK1"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16528,16 +13193,12 @@ var racedata = [
     "Given Name/s": "Chris Pruett",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "kayak",
     "cp1": 38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16548,16 +13209,12 @@ var racedata = [
     "Given Name/s": "Daniel Soderstrom",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 44.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16568,16 +13225,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 8750.82,
     "cp2": -8644.67,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SeaPearl"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16588,16 +13241,28 @@ var racedata = [
     "Given Name/s": "Greg Matt",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
+  },
+  {
+    "Total (hrs)": "DNF",
+    "YEAR": 2024,
+    "Captain wt name": "Saltymoose",
+    "Crew wt name": "",
+    "3rd wt name": "",
+    "Given Name/s": "Casey Woods",
+    "C#": "C5",
+    "Group": "Single",
+    "BOAT": "Windrider 17",
+    "cp1": 38.83,
+    "cp2": 32.77,
+    "cp3": 55.32,
+    "finish": "#N/A",
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16608,16 +13273,12 @@ var racedata = [
     "Given Name/s": "David Miller",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Zenith 18",
     "cp1": 14.72,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Zenith"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16628,16 +13289,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 22.67,
     "cp2": 56.05,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sos designed TI crushing tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16648,16 +13305,12 @@ var racedata = [
     "Given Name/s": "William Anderson",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16668,16 +13321,12 @@ var racedata = [
     "Given Name/s": "Tim West",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 32.8,
     "cp2": 73.22,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Green Sea Peal 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16688,16 +13337,28 @@ var racedata = [
     "Given Name/s": "Anthony Archino and Louise Chaplin\nand Scott Murphy",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "St. Ayles Skiff",
     "cp1": 35.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "RowBeast is 3rd crew member. St Ayles skiff, a 22ft coastal rowboat, modified to include floatation foward, aft and under the seats"
+    "either/or": ""
+  },
+  {
+    "Total (hrs)": "DNF",
+    "YEAR": 2024,
+    "Captain wt name": "The18Thcamel",
+    "Crew wt name": "",
+    "3rd wt name": "",
+    "Given Name/s": "Igor Kononchuk",
+    "C#": "C5",
+    "Group": "Single",
+    "BOAT": "Inflatable Catamaran",
+    "cp1": 49.25,
+    "cp2": 76.45,
+    "cp3": "#N/A",
+    "finish": "#N/A",
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16708,16 +13369,12 @@ var racedata = [
     "Given Name/s": "Paul Stephan",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 46.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dune Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16728,16 +13385,12 @@ var racedata = [
     "Given Name/s": "Tom Glenz and Chris Tejirian",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": 50.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17\" O'Day DS2 White with Aqua trim"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16748,16 +13401,12 @@ var racedata = [
     "Given Name/s": "William Nye and Michael Hendrickson",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tanzer 16",
     "cp1": 25.63,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1973 Tanzer 16 Overnighter. Light Blue with a dark blue boot stripe. Classic plastic but with a few modern tricks up her sleeve."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16768,16 +13417,12 @@ var racedata = [
     "Given Name/s": "Edwin Skinner",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "VX Evo 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "VX Evo 16 ft, number 017 on bow, white hull, blue and grey sail, going fast!"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16788,16 +13433,12 @@ var racedata = [
     "Given Name/s": "Evan Adams and Steve Adams",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 HobieTI red"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16808,16 +13449,12 @@ var racedata = [
     "Given Name/s": "Derek Kozlowski and Justin Hughes",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 26.18,
     "cp2": 35.48,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Core sound 17 mk3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16828,16 +13465,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie?",
     "cp1": 15.78,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Hobie Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16848,16 +13481,12 @@ var racedata = [
     "Given Name/s": "Tyler White and Austin White",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Mariner 19",
     "cp1": 11.63,
     "cp2": 64.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "O'Day Mariner 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16868,16 +13497,12 @@ var racedata = [
     "Given Name/s": "Jake Wyman",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 0,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Red Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16888,16 +13513,12 @@ var racedata = [
     "Given Name/s": "Andy Daunhauer and Adan Scarpetta",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Mariner 19",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "1978 Oday Mariner"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16908,16 +13529,12 @@ var racedata = [
     "Given Name/s": "Rob Lins and Adam Cwiklin",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Capri 14",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14’ Capri sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16928,16 +13545,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 22.22,
     "cp2": 81.88,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16948,16 +13561,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.13,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16968,16 +13577,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 47.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -16988,16 +13593,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar S18",
     "cp1": 27.02,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18 Advantage Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17008,16 +13609,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 24.08,
     "cp2": 56.53,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 MK1"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17028,16 +13625,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous\nand Anonymous",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Hobie 21 SE",
     "cp1": 11.03,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 21SE with asymmetrical spinnaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17048,16 +13641,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 51.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Green/Tan Core Sound 17MK3 \"Summer Breeze"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17068,16 +13657,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 55.58,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A red Hobie TI."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17088,16 +13673,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 33.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Libra XT"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17108,16 +13689,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 15.8,
     "cp2": 59.4,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17128,16 +13705,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 18.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "white hull Windrider 17 with black & white screecher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17148,16 +13721,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bonston Whaler Harpoon 5.2",
     "cp1": 21.65,
     "cp2": 73.98,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Boston Whaler Harpoon 5.2 (1982)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17168,16 +13737,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 35.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17188,16 +13753,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar S18",
     "cp1": 27.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17208,16 +13769,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 25.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17228,16 +13785,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 52.22,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red TI."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17248,16 +13801,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 13.73,
     "cp2": 44.28,
     "cp3": 33.72,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17268,16 +13817,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 17.7,
     "cp2": 111.63,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Tandem Island, Red."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17288,16 +13833,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "SUP",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14’ SIC Maui RS SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17308,16 +13849,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": 16.53,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "o'day"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17328,16 +13865,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Fulmar 19",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Fulmar 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17348,16 +13881,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": 26.77,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17368,16 +13897,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "RS Venture 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' RS Venture"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17388,16 +13913,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Marin Trek 18",
     "cp1": 47.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Headland Marin Trek 18 w/ Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17408,16 +13929,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar S18S",
     "cp1": 33.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18S G2"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17428,16 +13945,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "14' Jetsetter Inflatable",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14' Jetsetter Inflatable"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17448,16 +13961,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 53.48,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17468,16 +13977,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'Day Day sailer",
     "cp1": 17.88,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O'Day Daysailer I"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17488,16 +13993,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Highlander",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' Highlander monohull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17508,16 +14009,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 22.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17528,16 +14025,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Pace 18",
     "cp1": 33.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tiderace Pace 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17548,16 +14041,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Mirage 580",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mirage 580 (Australian built sea kayak) with Sea Dog sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17568,16 +14057,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Mariner 19",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mariner 19 monohull sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17588,16 +14073,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seaward Passat Tandem",
     "cp1": 19.32,
     "cp2": 82.85,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Passat G3 with Falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17608,16 +14089,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Clipper Sea-1",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Clipper Sea-1 with Falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17628,16 +14105,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 33.35,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 Hobie TI red"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17648,16 +14121,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 52.22,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17668,16 +14137,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha III",
     "cp1": 49.73,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Looksha III"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17688,16 +14153,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 24.37,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17708,16 +14169,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Solstice GT HV",
     "cp1": 33.32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Solstice GT HV"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17728,16 +14185,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "?",
     "cp1": 52.22,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17748,16 +14201,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 22.88,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2014 Hobie Tandem Island Ivory Dune color"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17768,16 +14217,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "?",
     "cp1": 26.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Very pretty"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17788,16 +14233,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Superior Expedition Canoe",
     "cp1": 19.42,
     "cp2": 67.5,
     "cp3": 52.75,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Superior Expedition Canoe with two-meter Spirit sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17808,16 +14249,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17828,16 +14265,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17848,16 +14281,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 13.7,
     "cp2": 38.37,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17 white #43"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17868,16 +14297,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous\nand Anonymous",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Hobie Getaway",
     "cp1": 34.23,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17888,16 +14313,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17908,16 +14329,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 13.78,
     "cp2": 64.52,
     "cp3": 52.7,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SOS designed tri kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17928,16 +14345,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 18.88,
     "cp2": 82.6,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17948,16 +14361,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 10.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16 w Kite"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17968,16 +14377,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 29.48,
     "cp2": 97.18,
     "cp3": 47,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "inflatable catamaran Vitamin"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -17988,16 +14393,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Precision 185",
     "cp1": 16.7,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Precision 185"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18008,16 +14409,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "20' Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18028,16 +14425,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 22.3,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CoreSound 17 Mk I"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18048,16 +14441,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 20.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18068,16 +14457,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Interlake 18",
     "cp1": 14.37,
     "cp2": 60.97,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Interlake one design"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18088,16 +14473,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18108,16 +14489,12 @@ var racedata = [
     "Given Name/s": "John Schoppaul and Anthony Forte",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 27.45,
     "cp2": 63.08,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Silver Hobie Ti"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18128,16 +14505,12 @@ var racedata = [
     "Given Name/s": "Randy Smith",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 0.05,
     "cp2": 57.35,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind, with Balough sail kit."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18148,16 +14521,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 11.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "3.77M Starboard Batwing Raceboard Light Red and blue Deck, with Red bow dry bag 9.5M2 Severne Raceboard Sail red"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18168,16 +14537,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 12.97,
     "cp2": 40.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' something or other"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -18188,16 +14553,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock and David Clement\nand Shawn Evans",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Prindle 19",
     "cp1": 5.75,
     "cp2": 27.75,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1985 Prindle 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18208,16 +14569,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 0.05,
     "cp2": 21.37,
     "cp3": 30.95,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18228,16 +14585,12 @@ var racedata = [
     "Given Name/s": "Jerry Pratt and Anna Pratt",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 38.33,
     "cp2": 60.55,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18248,16 +14601,12 @@ var racedata = [
     "Given Name/s": "David Hosler and Rich Hart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "RS Venture 17",
     "cp1": 3.85,
     "cp2": 72.52,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "RS Venture 17'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18268,16 +14617,12 @@ var racedata = [
     "Given Name/s": "Scott Stovall",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Marin Trek 18",
     "cp1": 0.05,
     "cp2": 85.52,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Headland Marin Trek 18 w/ Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18288,16 +14633,12 @@ var racedata = [
     "Given Name/s": "Jennie Dudziak",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar 18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar 18R white with red stripe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18308,16 +14649,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 0,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 with black hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18328,16 +14665,12 @@ var racedata = [
     "Given Name/s": "Richard Stanton",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": 0.05,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Day Sailer ll"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18346,18 +14679,14 @@ var racedata = [
     "Crew wt name": "",
     "3rd wt name": "",
     "Given Name/s": "Derek Kozlowski",
-    "C#": "C5",
+    "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Angus Rowcruiser",
     "cp1": 5.95,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Angus sailing rowcruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18368,16 +14697,12 @@ var racedata = [
     "Given Name/s": "Shawn Payment",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 14.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2017 Mango Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18388,16 +14713,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann\nand Lee Agnew",
     "C#": "C5",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Hobie 21 SE",
     "cp1": 3.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 21SE"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18408,16 +14729,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 0.05,
     "cp2": 57.3,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher with a BSD sail rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18428,16 +14745,12 @@ var racedata = [
     "Given Name/s": "Erik Dykema and George Blaha",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20 Mark 3",
     "cp1": 13.88,
     "cp2": 36.88,
     "cp3": 25.27,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chessie, Core Sound 20 mk 3, built by Pete McCrary."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18448,16 +14761,12 @@ var racedata = [
     "Given Name/s": "Matt Pinkley and Chris Elwell",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 14.52,
     "cp2": 41.15,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 sail # 366"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18468,16 +14777,12 @@ var racedata = [
     "Given Name/s": "Rod Price and KJ Millhone\nand Casey Millhone",
     "C#": "C1",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Kevlar Canoe",
     "cp1": 12.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "23 ft. Kevlar canoe with rudder and spray skirts."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18488,16 +14793,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 28.93,
     "cp2": 47.43,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18508,16 +14809,12 @@ var racedata = [
     "Given Name/s": "Jeff Davis",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Scamp",
     "cp1": 10.02,
     "cp2": 115.68,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18528,16 +14825,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Thistle",
     "cp1": 1.88,
     "cp2": 36.52,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Thistle #495"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18548,16 +14841,12 @@ var racedata = [
     "Given Name/s": "Ted Perron",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 12.95,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Something yellow and fast"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18568,16 +14857,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 10.35,
     "cp2": 44.72,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SOS designed 18' kayak tri with TI sails orange hulls wood/epoxy construction"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -18588,16 +14873,12 @@ var racedata = [
     "Given Name/s": "John Boushall and Guy deBoer",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 12.93,
     "cp2": 21.15,
     "cp3": 18.1,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Unfortunately, the Centennial Vulture 5.1 was found to have more cavities than first expected, amongst other non-boat issues. A late stand-in has been found in the Dovekie Southern Cross (Thx Andyman and Natedog!)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18608,16 +14889,12 @@ var racedata = [
     "Given Name/s": "Chris Firriolo and Philip Brackett",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Highlander",
     "cp1": 11.65,
     "cp2": 65.58,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Highlander"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18628,16 +14905,12 @@ var racedata = [
     "Given Name/s": "Thomas Smith",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": 0.05,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Oday DSII"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18648,16 +14921,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 11.85,
     "cp2": 41.88,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18668,16 +14937,12 @@ var racedata = [
     "Given Name/s": "Ted Mellnik and John Mellnik",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 10.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Blue hull CS 20 with cabin"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18688,16 +14953,12 @@ var racedata = [
     "Given Name/s": "Edwin Skinner",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nacra F17",
     "cp1": 8,
     "cp2": 45.2,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Nacra F17 catamaran. White hulls and mast. Black crossbar and trampoline. Offwhite main sail #02. No jib. Blue or black spinnaker."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -18708,16 +14969,12 @@ var racedata = [
     "Given Name/s": "John Schoppaul and Anthony Forte",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 16.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Silver Tandem Island."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18728,16 +14985,12 @@ var racedata = [
     "Given Name/s": "Anthony Pascone",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 19",
     "cp1": 10.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19 foot home built trimaran."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18748,16 +15001,12 @@ var racedata = [
     "Given Name/s": "Lewis deWitt and Chris DeWitt",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Alpha 18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18\"alpha dory with gunter main and jib"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18768,16 +15017,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 9.3,
     "cp2": 90.2,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "3.8 Meter International Class Raceboard Windsurfer (black Excocet Elite) with Severne 9.5M2 Raceboard Sail (orange/red/black sail #: USA #1)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18788,16 +15033,12 @@ var racedata = [
     "Given Name/s": "Wayne Flatt and Kyle Friauf",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 22.52,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CS 17 MK 3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18808,16 +15049,12 @@ var racedata = [
     "Given Name/s": "Brian Sheridan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Clipper Sea-1",
     "cp1": 22.88,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Clipper Sea-1 with a 1meter falcon sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18828,16 +15065,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": 4.13,
     "cp2": 7.6,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18848,16 +15081,12 @@ var racedata = [
     "Given Name/s": "Justin Hughes",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "perception 17",
     "cp1": 27.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception 17 with Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18868,16 +15097,12 @@ var racedata = [
     "Given Name/s": "Michael Dunlap",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 13.35,
     "cp2": 74.4,
     "cp3": 46.18,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Custom 16-18’ expedition SUP designed and built by me, Barefoot-Adventures"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18888,16 +15113,12 @@ var racedata = [
     "Given Name/s": "Andrew Hustrulid and Kristian Hustrulid",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 7.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18908,16 +15129,12 @@ var racedata = [
     "Given Name/s": "Thomas Head",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.93,
     "cp2": 7.9,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18928,16 +15145,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 2.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI w Spinnaker attachment"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18948,16 +15161,12 @@ var racedata = [
     "Given Name/s": "Jackson Pawlowski and James Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 2.83,
     "cp2": 98.78,
     "cp3": 38.47,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18968,16 +15177,12 @@ var racedata = [
     "Given Name/s": "Mike Forsythe",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "X-Cat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "X-Cat Catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -18988,16 +15193,12 @@ var racedata = [
     "Given Name/s": "Frank Stapleton and Nancy Dickmon",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 4.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19008,16 +15209,12 @@ var racedata = [
     "Given Name/s": "David Hosler and Joaquin Hosler",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "RS Venture 17",
     "cp1": 9.08,
     "cp2": 80.02,
     "cp3": 26.35,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17’ RS Venture"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19028,16 +15225,12 @@ var racedata = [
     "Given Name/s": "Shane Hamilton",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 6.3,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow 2017 Tandem Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19048,16 +15241,12 @@ var racedata = [
     "Given Name/s": "Erik Kristen and Mark Thynes",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wayfarer",
     "cp1": 11.53,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wayfarer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19068,16 +15257,12 @@ var racedata = [
     "Given Name/s": "Robin Hughes and Katie Hughes",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seaward Passat G3",
     "cp1": 28.27,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Passat G3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19088,16 +15273,12 @@ var racedata = [
     "Given Name/s": "David May",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 2.83,
     "cp2": 92.35,
     "cp3": 53.42,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19108,16 +15289,12 @@ var racedata = [
     "Given Name/s": "Miles Wilding and JT Jones",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sailboat",
     "cp1": 11.97,
     "cp2": 68.43,
     "cp3": 42.07,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "400 pounds of molded fiberglass and heart.."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19128,16 +15305,12 @@ var racedata = [
     "Given Name/s": "Philip Lee",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Calendar Island Yawl",
     "cp1": 27.3,
     "cp2": 75.03,
     "cp3": 44.33,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "calendar island yawl"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19148,16 +15321,12 @@ var racedata = [
     "Given Name/s": "Steve Adams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 25.87,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI Yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19168,16 +15337,12 @@ var racedata = [
     "Given Name/s": "Marty Worline and Kaelynn Bischoff",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Scamp",
     "cp1": 25.07,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19188,16 +15353,12 @@ var racedata = [
     "Given Name/s": "Roger Horton and Will Crane\nand Nicholas Chambers",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "Custom Sharpie",
     "cp1": 2.83,
     "cp2": 23.12,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "25'X 5'6\" sea going sharpie, ketch, sliding gunter rig, 2 slide-seat sweeps, 18 cubic foot foam floatation. Double dagger-boards, leeboards, foil."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19208,16 +15369,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Julia Ocasio",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 4.63,
     "cp2": 97.13,
     "cp3": 38.43,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19228,16 +15385,12 @@ var racedata = [
     "Given Name/s": "Gray Harrison and Lowell Harrison",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 4.08,
     "cp2": 75.38,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19248,16 +15401,12 @@ var racedata = [
     "Given Name/s": "Stephanie Shaughnessy and Abbey Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "?",
     "cp1": 4.58,
     "cp2": 97.13,
     "cp3": 42.62,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19268,16 +15417,12 @@ var racedata = [
     "Given Name/s": "Ed Nelson and Don Maddox",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 11.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Take two TI hulls, connect with a center deck and you are seeing double."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19288,16 +15433,12 @@ var racedata = [
     "Given Name/s": "Jeff Roskey",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 30.2,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19308,16 +15449,12 @@ var racedata = [
     "Given Name/s": "Rod Price and Matthew Stalnaker",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "outrigger sailing canoe 17.5",
     "cp1": 17.47,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17.6 ft., carbon fiber, twin-mast with outriggers, sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19328,16 +15465,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 8.23,
     "cp2": 93.15,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seapearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19348,16 +15481,12 @@ var racedata = [
     "Given Name/s": "Ed Ruark and David Clement",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 19",
     "cp1": 7.47,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19368,16 +15497,12 @@ var racedata = [
     "Given Name/s": "Jim Slauson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 14.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Core Sound 17 Mk 3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19388,16 +15513,12 @@ var racedata = [
     "Given Name/s": "Todd Howe and Ryan Howe",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "unknown catamaran",
     "cp1": 2.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19408,16 +15529,12 @@ var racedata = [
     "Given Name/s": "Jim Jacobsen",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.53,
     "cp2": 52.28,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sand color hobie TI. Blue trim sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19428,16 +15545,12 @@ var racedata = [
     "Given Name/s": "Dan Lockwood and David Wicks",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 5.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 with leeboards and water tanks."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19448,16 +15561,12 @@ var racedata = [
     "Given Name/s": "Tiffany Alponat and Mike Garam",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie Tiger",
     "cp1": 7.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tiger"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19468,16 +15577,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 9.2,
     "cp2": 90.1,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windsurfer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19488,16 +15593,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Stephen Antworth",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Thistle 495"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19508,16 +15609,12 @@ var racedata = [
     "Given Name/s": "Kyle Milton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 2.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow with white stripe Stellar 18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19528,16 +15625,12 @@ var racedata = [
     "Given Name/s": "James CANFIELD",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Flat Iron Skiff 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15 foot flat iron skiff"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19548,16 +15641,12 @@ var racedata = [
     "Given Name/s": "Shawn Evans",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 13.4,
     "cp2": 86.47,
     "cp3": 42.63,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17'4\" SIC Bullet"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19568,16 +15657,12 @@ var racedata = [
     "Given Name/s": "Ron White and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 5.65,
     "cp2": 31.52,
     "cp3": 15.67,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Tornado"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19588,16 +15673,12 @@ var racedata = [
     "Given Name/s": "John Churchill",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 16",
     "cp1": 11.43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "WindRider 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19608,16 +15689,12 @@ var racedata = [
     "Given Name/s": "John Federico and Jonathan Stewart",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 5.97,
     "cp2": 11.28,
     "cp3": 10.12,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1985 Hobie 16 with Spin"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19628,16 +15705,12 @@ var racedata = [
     "Given Name/s": "Chris Firriolo and Philip Brackett\nand Dan McDonough",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "E Scow",
     "cp1": 7.72,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Melges E-Scow"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19648,16 +15721,12 @@ var racedata = [
     "Given Name/s": "Beau Evans and Bill Dull",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "American Sail 14.6",
     "cp1": 5.02,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "American 14.6"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19668,16 +15737,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": 6.28,
     "cp2": 11.92,
     "cp3": 12.88,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tampa Bay 22 designed by OH Rodgers"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19688,16 +15753,12 @@ var racedata = [
     "Given Name/s": "Eric Dahlkamp and Peter Lange",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Cross 18 Trimaran",
     "cp1": 23.72,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Cross 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19708,16 +15769,12 @@ var racedata = [
     "Given Name/s": "Josh Collins",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 24.3,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kings Unlimited SUP (19')"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19728,16 +15785,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis and Sierra Inglis",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "?",
     "cp1": 15.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19748,16 +15801,12 @@ var racedata = [
     "Given Name/s": "Brett Thomas and Chase Thomas",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 5.93,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19768,16 +15817,12 @@ var racedata = [
     "Given Name/s": "Ted Mellnik and John Mellnik",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 8.92,
     "cp2": 22.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dawn Patrol"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19788,16 +15833,12 @@ var racedata = [
     "Given Name/s": "Tom Glenz",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.9,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Papaya Orange Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19808,16 +15849,12 @@ var racedata = [
     "Given Name/s": "Robert Zonies and Mike Koughan",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 2.83,
     "cp2": 20.33,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19828,16 +15865,12 @@ var racedata = [
     "Given Name/s": "John Schoppaul and Anthony Forte",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sailbird 18 Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18’ Sailbird, finished....mostly. TACOCAT is blue and white."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19848,16 +15881,12 @@ var racedata = [
     "Given Name/s": "GREG GREGORY",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 27.58,
     "cp2": 75.18,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2010 Hobie TI, papaya hulls, papaya & blue sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19868,16 +15897,12 @@ var racedata = [
     "Given Name/s": "Richard Lea",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2014 Hobie Tandem Island sand colored."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19888,16 +15913,12 @@ var racedata = [
     "Given Name/s": "Randall Fleming Fleming",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 25.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Extremely Experienced and proven Ivory TI with established scars, injuries, and repairs, not limited to broken bones, hull penetrations, stitches, etc."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19908,16 +15929,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 22.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCCC Kayak 18 ft"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19928,16 +15945,12 @@ var racedata = [
     "Given Name/s": "Michael Dunlap",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 26.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16' Custom Expedition SUP Designed by Big Pond Boatworks"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19948,16 +15961,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 32.12,
     "cp2": 53.52,
     "cp3": 36.13,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI with standard sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19968,16 +15977,12 @@ var racedata = [
     "Given Name/s": "Chip Walter",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -19988,16 +15993,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind with PAS sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20008,16 +16009,12 @@ var racedata = [
     "Given Name/s": "David Hosler",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Dory 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' CLC Dory"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20028,16 +16025,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 25.08,
     "cp2": 43.43,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 with black hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20048,16 +16041,12 @@ var racedata = [
     "Given Name/s": "Julia Ocasio and Abbey Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "Hobie TI",
     "cp1": 42.8,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Orange Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20068,16 +16057,12 @@ var racedata = [
     "Given Name/s": "Joseph Shaughnessy and Jackson Pawlowski",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 39.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20088,16 +16073,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Savage River Falcon",
     "cp1": 17.78,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Savage River Falcon."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20108,16 +16089,12 @@ var racedata = [
     "Given Name/s": "Mark Cecil and Maxfield Seixas",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wenonah Skookumchuck",
     "cp1": 18.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' Skookumchuck circa 1995 with Falcon Sail and Smart Trak rudder upgrades."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20128,16 +16105,12 @@ var racedata = [
     "Given Name/s": "Philip Lee",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Finn Dinghy",
     "cp1": 33.13,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Finn Dinghy"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20148,16 +16121,12 @@ var racedata = [
     "Given Name/s": "Steve Adams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 32.17,
     "cp2": 53.85,
     "cp3": 35.92,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dune TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20168,16 +16137,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and James Shaughnessy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 38.32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20188,16 +16153,12 @@ var racedata = [
     "Given Name/s": "Joseph Frohock and Joseph Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade trimaran",
     "cp1": 15.07,
     "cp2": 32.78,
     "cp3": 30.73,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Home made Tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20208,16 +16169,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 39.62,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20228,16 +16185,12 @@ var racedata = [
     "Given Name/s": "Jim Slauson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 36.3,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20248,16 +16201,12 @@ var racedata = [
     "Given Name/s": "erik dyer",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 14",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14 ft hobie"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20268,16 +16217,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sos designed 18'tri kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20288,16 +16233,12 @@ var racedata = [
     "Given Name/s": "Shawn Evans",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 29.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14' JP Australia Allwater Race SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20308,16 +16249,12 @@ var racedata = [
     "Given Name/s": "William Highsmith",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20328,16 +16265,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": 38.03,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "An antique \"Newport 16\" swing keel sailboat."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20348,16 +16281,12 @@ var racedata = [
     "Given Name/s": "tim gamble and Juan-Carlos Sobrino",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windmill 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windmill 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20368,16 +16297,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.1,
     "cp2": 78.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20388,16 +16313,12 @@ var racedata = [
     "Given Name/s": "Brett Thomas and Joseph Schemenauer",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2018 Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20408,16 +16329,12 @@ var racedata = [
     "Given Name/s": "Tom Glenz",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 24.12,
     "cp2": 58.32,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20428,16 +16345,12 @@ var racedata = [
     "Given Name/s": "Alex Caslow",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "X-Cat",
     "cp1": 11.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "XCAT Multi-Sport Catamaran Outfitted for sailing and rowing."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20448,16 +16361,12 @@ var racedata = [
     "Given Name/s": "Thomas Finley",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 10.07,
     "cp2": 65.53,
     "cp3": 97.67,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Weta named \"Miss Sugar"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20468,16 +16377,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 25.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dune colored Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20488,16 +16393,12 @@ var racedata = [
     "Given Name/s": "Keith Fowler",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": 18.13,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20508,16 +16409,12 @@ var racedata = [
     "Given Name/s": "Dave Gentry",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Outrigger sailing canoe",
     "cp1": 18.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Indonesian Perahu Katir double outrigger sailing canoe."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20528,16 +16425,12 @@ var racedata = [
     "Given Name/s": "David Hosler and Joaquin Hosler",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Northeaster Dory",
     "cp1": 16.03,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Northeaster Dory"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20548,16 +16441,12 @@ var racedata = [
     "Given Name/s": "Gil Hidalgo",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Cetus",
     "cp1": 19.58,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Cetus LV"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20568,16 +16457,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 11.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20588,16 +16473,12 @@ var racedata = [
     "Given Name/s": "Steve Adams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.48,
     "cp2": 51.8,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie AI Yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20608,16 +16489,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 27.2,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seapearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20628,16 +16505,12 @@ var racedata = [
     "Given Name/s": "Cork Friedman",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "laser 2",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition converted Laser II with sliding seat row station."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20648,16 +16521,12 @@ var racedata = [
     "Given Name/s": "Bob George",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Spongebob Trimaran",
     "cp1": 9.53,
     "cp2": 65.4,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SOS designed tri"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20668,16 +16537,12 @@ var racedata = [
     "Given Name/s": "Ron White and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 6.88,
     "cp2": 20.42,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Tornado"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20688,16 +16553,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": 28.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot Newport swing keel sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20708,16 +16569,12 @@ var racedata = [
     "Given Name/s": "Timothy Finkenbinder",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "NDK Pilgrim Expedition 17",
     "cp1": 19.58,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Pilgrim Expedition 17'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20728,16 +16585,12 @@ var racedata = [
     "Given Name/s": "Josh Collins",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 14.35,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19 ft Kings Unlimited Stand Up Paddleboard"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20748,16 +16601,12 @@ var racedata = [
     "Given Name/s": "WILEY PARKER and weston wilkins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SeaPearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20768,16 +16617,12 @@ var racedata = [
     "Given Name/s": "John Haugen-Wente",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Valley Nordkapp",
     "cp1": 14.62,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Valley Nordkapp with Balogh Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20788,16 +16633,12 @@ var racedata = [
     "Given Name/s": "Chris Forrest",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 28.32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "solo Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20808,16 +16649,12 @@ var racedata = [
     "Given Name/s": "Wayne Flatt",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 24.08,
     "cp2": 37.03,
     "cp3": 40.8,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island, 2017. Dune color"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20828,16 +16665,12 @@ var racedata = [
     "Given Name/s": "Al Becker",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 24.55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Blue Necky Looksha 17 with white sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20848,16 +16681,12 @@ var racedata = [
     "Given Name/s": "Frederick Bickley",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 27.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 for sailing kayak with hobie mirage drives"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20868,16 +16697,12 @@ var racedata = [
     "Given Name/s": "Scott Gosnell and Scott Widmier",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak IMB",
     "cp1": 24.85,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Lug rigged Michalak IMB"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20888,16 +16713,12 @@ var racedata = [
     "Given Name/s": "Dave Gentry",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Chautauqua Decked Sailing Canoe",
     "cp1": 24.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chautauqua decked sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20908,16 +16729,12 @@ var racedata = [
     "Given Name/s": "Jaime Smyth",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 24.02,
     "cp2": 102.32,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20928,16 +16745,12 @@ var racedata = [
     "Given Name/s": "Matthew r Hudson Hudson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 17.02,
     "cp2": 65.9,
     "cp3": 41.45,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17ft sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20948,16 +16761,12 @@ var racedata = [
     "Given Name/s": "Sergiy Duko",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 22.75,
     "cp2": 63.72,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20968,16 +16777,12 @@ var racedata = [
     "Given Name/s": "steven price",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Angus Rowcruiser",
     "cp1": 44.32,
     "cp2": 81.23,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' RowCruiser, oars only."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -20988,16 +16793,12 @@ var racedata = [
     "Given Name/s": "Julia Ocasio and Janet Talbot",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "?",
     "cp1": 27,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21008,16 +16809,12 @@ var racedata = [
     "Given Name/s": "Shawn Payment",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "West Wight Potter 15",
     "cp1": 25.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1989 West Wight Potter 15' #1823"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21028,16 +16825,12 @@ var racedata = [
     "Given Name/s": "Ryan Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 25.8,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport Sea Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21048,16 +16841,12 @@ var racedata = [
     "Given Name/s": "Mike Simpson",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 24.07,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17'6 Bark expedition SUP. This board was designed for a odyssey from Key West Florida to Portland Maine in 2011. 90 days of paddling 131 days total expedition."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21068,16 +16857,12 @@ var racedata = [
     "Given Name/s": "James Hart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 24.03,
     "cp2": 102.47,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seawind deep hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21088,16 +16873,12 @@ var racedata = [
     "Given Name/s": "Bob Bradford and Janet Bradford",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Kruger Cruiser",
     "cp1": 24.12,
     "cp2": 81.07,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Fully covered with bow and stern spray skirts"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21108,16 +16889,12 @@ var racedata = [
     "Given Name/s": "Graham Byrnes",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": 24.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 17 mk3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21128,16 +16905,12 @@ var racedata = [
     "Given Name/s": "Richard Moran",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 24,
     "cp2": 102.37,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bark 17'6\" SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21148,16 +16921,12 @@ var racedata = [
     "Given Name/s": "Ted Perron",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": 24.12,
     "cp2": 36.68,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21168,16 +16937,12 @@ var racedata = [
     "Given Name/s": "Eric Heilshorn and George Claxton",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Drascombe Longboat Cruiser",
     "cp1": 25.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Drascombe Longboat Cruiser"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21188,16 +16953,12 @@ var racedata = [
     "Given Name/s": "James Connell and Vicky Connell",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 24.38,
     "cp2": 75.35,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21208,16 +16969,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": 48.73,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Newport 16,a registered antique,16 foot mono hull fiberglass sailboat."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21228,16 +16985,12 @@ var racedata = [
     "Given Name/s": "John Federico and Bill Shanley",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 5.25,
     "cp2": 9.37,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Relatively stock Hobie 16 , Yellow Mainsail, Red Kite ,furling jib , dry bags and canoe paddles"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21248,16 +17001,12 @@ var racedata = [
     "Given Name/s": "Joshua Morgan",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie Revolution 16",
     "cp1": 24.02,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Revolution 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21268,16 +17017,12 @@ var racedata = [
     "Given Name/s": "Walter Isenberg",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 25.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18XS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21288,16 +17033,12 @@ var racedata = [
     "Given Name/s": "Chris Forrest",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 10.5,
     "cp2": 78.53,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "straight out the box, papaya"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21308,16 +17049,12 @@ var racedata = [
     "Given Name/s": "Laurie Sanders, Jr.",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Slipstream",
     "cp1": 32.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Slipstream (16')"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21328,16 +17065,12 @@ var racedata = [
     "Given Name/s": "Randy Smith",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 13.37,
     "cp2": 75.6,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2016 Hobie TI Dune color with black trampolines"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21348,16 +17081,12 @@ var racedata = [
     "Given Name/s": "kirsten davis and Mike Dalton",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
-    "BOAT": "Buccaneer 18",
+    "BOAT": "Buccaneer",
     "cp1": 25.9,
     "cp2": 76.52,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Buccaneer 18ft monohull."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21368,16 +17097,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 10.82,
     "cp2": 41.97,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "3.8 Meter Race Board (hopefully have 2015 model by then)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21388,16 +17113,12 @@ var racedata = [
     "Given Name/s": "Tom Lachner",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 12.02,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie Tandem Island, Torqueedo ultralight 403 electric motor with Speed Fairing and solar charging panels."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21408,16 +17129,12 @@ var racedata = [
     "Given Name/s": "Alexander Michiels and Gustavo Passa",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21428,16 +17145,12 @@ var racedata = [
     "Given Name/s": "Al Becker",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Blue 17 foot Necky Looksha sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21448,16 +17161,12 @@ var racedata = [
     "Given Name/s": "Colin Brown",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 23.8,
     "cp2": 59.2,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21468,16 +17177,12 @@ var racedata = [
     "Given Name/s": "Brian Mrachek and",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tanzer 16",
     "cp1": 12.33,
     "cp2": 76.35,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tanzer 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21488,16 +17193,12 @@ var racedata = [
     "Given Name/s": "Randall Fleming Fleming",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.75,
     "cp2": 66.13,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White TI with Haka Benches"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21508,16 +17209,12 @@ var racedata = [
     "Given Name/s": "royd whedon",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.5,
     "cp2": 91.28,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "red 2014 Hobie Tandem Island sailing kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21528,16 +17225,12 @@ var racedata = [
     "Given Name/s": "Thomas Head",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Dory 17",
     "cp1": 12.77,
     "cp2": 60.73,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC 17 Dory"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21548,16 +17241,12 @@ var racedata = [
     "Given Name/s": "Josh Bowers and Denise Parris",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "?",
     "cp1": 16.02,
     "cp2": 63.83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21568,16 +17257,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21588,16 +17273,12 @@ var racedata = [
     "Given Name/s": "Keith Fowler",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": 18.58,
     "cp2": 91.45,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "newly finished Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21608,16 +17289,12 @@ var racedata = [
     "Given Name/s": "Patrick Forrester",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 15.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport with a 1.0 square meter Falcon Sail with a carbon fiber mast and boom."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21628,16 +17305,12 @@ var racedata = [
     "Given Name/s": "Kurt Fisher",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic Endurance 18",
     "cp1": 18.82,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic endurance 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21648,16 +17321,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 29.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "epic 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21668,16 +17337,12 @@ var racedata = [
     "Given Name/s": "Frank Webber and Kathy Kenley",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "Perception Caretta Tandem",
     "cp1": 13.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception Caretta tandem"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21688,16 +17353,12 @@ var racedata = [
     "Given Name/s": "James Hurst",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 14.87,
     "cp2": 73.32,
     "cp3": 61.5,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC700"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21708,16 +17369,12 @@ var racedata = [
     "Given Name/s": "steven price",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Angus Rowcruiser",
     "cp1": 25.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' RowCruiser sliding seat rowboat, designed by Colin Angus of Angus Adventures. Has 6' sleeping berth, with multi flotation/bulkheads. Have rowed multi-day/night in Georgia Straits, Vancouver, B.C., as well as rivers/lakes in Tennessee and Oklahoma."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21728,16 +17385,12 @@ var racedata = [
     "Given Name/s": "John Sims",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry Expedition",
     "cp1": 14.23,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Skerry Expedition"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21748,16 +17401,12 @@ var racedata = [
     "Given Name/s": "john wright",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 25.87,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "23' DOUBLE ENDED"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21768,16 +17417,12 @@ var racedata = [
     "Given Name/s": "Kirsten Corcoran",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar S18R",
     "cp1": 18.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21788,16 +17433,12 @@ var racedata = [
     "Given Name/s": "Julia Ocasio and Janet Talbot",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Female",
     "BOAT": "?",
     "cp1": 13.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21808,16 +17449,12 @@ var racedata = [
     "Given Name/s": "Geoffrey Chambers",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Extreme",
     "cp1": 32.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Extreme"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21828,16 +17465,12 @@ var racedata = [
     "Given Name/s": "duane millar and",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'Day Day sailer",
     "cp1": 23.7,
     "cp2": 49.02,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "DS1"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21848,16 +17481,12 @@ var racedata = [
     "Given Name/s": "Dana Vihlen",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 12.28,
     "cp2": 52.13,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21868,16 +17497,12 @@ var racedata = [
     "Given Name/s": "William Fishbein",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI - RED Boat Name: Neuron"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21888,16 +17513,12 @@ var racedata = [
     "Given Name/s": "Steve Adams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 14.93,
     "cp2": 86.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2016 Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21908,16 +17529,12 @@ var racedata = [
     "Given Name/s": "HENRY NOYES",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Northeaster Dory",
     "cp1": 14.58,
     "cp2": 64.83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Northeastern Dory"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21928,16 +17545,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 18.52,
     "cp2": 91.8,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21948,16 +17561,12 @@ var racedata = [
     "Given Name/s": "Nick Hall and Jackson Pawlowski",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 13.35,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21968,16 +17577,12 @@ var racedata = [
     "Given Name/s": "Stewart Creaser",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Perception kayak",
     "cp1": 30.1,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception kayak with stowable amas and akas"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -21988,16 +17593,12 @@ var racedata = [
     "Given Name/s": "Ray Thomas and Kenny Smith",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 27.85,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22008,16 +17609,12 @@ var racedata = [
     "Given Name/s": "Yovan Sanchez and",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Goat Island Skiff",
     "cp1": 27.22,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Goat Island Skiff"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22028,16 +17625,12 @@ var racedata = [
     "Given Name/s": "Larry Langley and Mark Lacey",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 17.05,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' Lightning green hull red bottom"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22048,16 +17641,12 @@ var racedata = [
     "Given Name/s": "Matthew Stalnaker",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Aquaterra Sea Lion 17",
     "cp1": 17.58,
     "cp2": 81.1,
     "cp3": 59.1,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Aquaterra Sea Lion"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22068,16 +17657,12 @@ var racedata = [
     "Given Name/s": "Richard Moran",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 18.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bark custom 17'6\" SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22088,16 +17673,12 @@ var racedata = [
     "Given Name/s": "Robert Clendening",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ocean Kayak Scupper Pro 15",
     "cp1": 15.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15' Ocean kayak scupper pro: Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22108,16 +17689,12 @@ var racedata = [
     "Given Name/s": "Dan Lockwood and David Wicks",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Triple",
     "cp1": 13.73,
     "cp2": 71.18,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy triple kayak with one Falcon sail a midship and a pacific action sail on the bow."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22128,16 +17705,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 10.17,
     "cp2": 43.82,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windsurfer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22148,16 +17721,12 @@ var racedata = [
     "Given Name/s": "James Connell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 12.6,
     "cp2": 66.8,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Same TI as the last two years."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22168,16 +17737,12 @@ var racedata = [
     "Given Name/s": "Henry Ovares",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.42,
     "cp2": 66.57,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22188,16 +17753,12 @@ var racedata = [
     "Given Name/s": "Ken Boydstun",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Boreal Saguenay 18",
     "cp1": 14.85,
     "cp2": 73.25,
     "cp3": 61.7,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Boreal Saguenay"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22208,16 +17769,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": 14.23,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1972 Newport 16 fiberglass swing keel sailboat."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22228,16 +17785,12 @@ var racedata = [
     "Given Name/s": "Rodney Dutton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 14.85,
     "cp2": 73.33,
     "cp3": 61.58,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22248,16 +17801,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "West Wight Potter 15",
     "cp1": 14.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "West Wight Potter 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22268,16 +17817,12 @@ var racedata = [
     "Given Name/s": "Scott Knapp and Steve Baum",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Mikesboat",
     "cp1": 13.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Michalak \"Mikesboat\" 17'\"Super Pram\" Cat/Yawl rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22288,16 +17833,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 14.15,
     "cp2": 74.9,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock TI with Watertribe mods"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22308,16 +17849,12 @@ var racedata = [
     "Given Name/s": "Trey Flemer",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": 14.45,
     "cp2": 63.08,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition style windsurfer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22328,16 +17865,12 @@ var racedata = [
     "Given Name/s": "Patrick Rohde",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 12.65,
     "cp2": 77.6,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie Adventure Island (AI) Yellow"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22348,16 +17881,12 @@ var racedata = [
     "Given Name/s": "Bryan Tindell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22368,16 +17897,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs 15",
     "cp1": 16.9,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 15Ft kayak with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22388,16 +17913,12 @@ var racedata = [
     "Given Name/s": "Anonymous and Curtis Pack",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 15,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22408,16 +17929,12 @@ var racedata = [
     "Given Name/s": "Bob Nichols",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "TriRaid 560",
     "cp1": 14.82,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "TriRaid560"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22428,16 +17945,12 @@ var racedata = [
     "Given Name/s": "Bob Vollhaber",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 25.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22448,16 +17961,12 @@ var racedata = [
     "Given Name/s": "Thad Rice",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 18.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Seawind"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22468,16 +17977,12 @@ var racedata = [
     "Given Name/s": "Richard Lea",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CL 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CL16 similar to a Wayfarer dingy."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22488,16 +17993,12 @@ var racedata = [
     "Given Name/s": "Mary Mangiapia",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport Expedition Layup"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22508,16 +18009,12 @@ var racedata = [
     "Given Name/s": "Randall Fleming Fleming",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 9.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ivory Hobie Tandem Island blue/ white sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22528,16 +18025,12 @@ var racedata = [
     "Given Name/s": "Lauren Demos",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "P&H Cetus",
     "cp1": 17.63,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17'6\" P&H Cetus purple over white. 1 m2 Falcon Sail purple with white."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22548,16 +18041,12 @@ var racedata = [
     "Given Name/s": "Bill Wickman",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 9.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dune Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22568,16 +18057,12 @@ var racedata = [
     "Given Name/s": "Scott Rice and Ned Goss",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "EC-22",
     "cp1": 8.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EC 22 with extensive sail inventory."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22588,16 +18073,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager and David May",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Current Designs Libra XT",
     "cp1": 16,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Libra XT, schooner rigged with Falcon sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22608,16 +18089,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22628,16 +18105,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 8,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22648,16 +18121,12 @@ var racedata = [
     "Given Name/s": "Frederick Bickley and Fred Bickley Jr",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "I550 Sport Boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified I-550"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22668,16 +18137,12 @@ var racedata = [
     "Given Name/s": "Matt Thomas",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22688,16 +18153,12 @@ var racedata = [
     "Given Name/s": "channing boswell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 16",
     "cp1": 10.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Self designed, Built and still evolving 16 ft pilothouse foam and glass Trimaran."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22708,16 +18169,12 @@ var racedata = [
     "Given Name/s": "royd whedon",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2014 Red Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22728,16 +18185,12 @@ var racedata = [
     "Given Name/s": "Danny Laboy",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 17.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind w FEKS."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22748,16 +18201,12 @@ var racedata = [
     "Given Name/s": "Salli O'Donnell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Stellar S18R",
     "cp1": 16.3,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18R"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22768,16 +18217,12 @@ var racedata = [
     "Given Name/s": "Edward Kacura",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Solstice",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs 17' 7\" Solstice GT Titan."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22788,16 +18233,12 @@ var racedata = [
     "Given Name/s": "Scott Donovan",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Chesapeake 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Chesapeake 17 w/sail rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22808,16 +18249,12 @@ var racedata = [
     "Given Name/s": "Tom Turner and Debbie Turner",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 11.58,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2010 Tandem island unless Santa brings us a 2015 TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22828,16 +18265,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 15.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' '69 turbo wuzza-Lightning sharpie. Schoonerized MkV ('EC15) version. Think love child of Flying Cloud and Flying Fish."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22848,16 +18281,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland and William Southerland",
     "C#": "C6",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 12.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17 with Torqeedo 1003 Electric Engine and Solar Panel"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22868,16 +18297,12 @@ var racedata = [
     "Given Name/s": "James Nichols and Chris Jordan",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "I550 Sport Boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "i550 #129 class boat with modified keel"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22888,16 +18313,12 @@ var racedata = [
     "Given Name/s": "Patrick Forrester",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 18.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport with a 1 square meter Falcon Sail. www.falconsails.com"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22908,16 +18329,12 @@ var racedata = [
     "Given Name/s": "Kurt Fisher",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Not Sure, an old epic Endurance 18"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -22928,16 +18345,12 @@ var racedata = [
     "Given Name/s": "Linda Wright",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Weta",
     "cp1": 7.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22948,16 +18361,12 @@ var racedata = [
     "Given Name/s": "Jorge Blanco and Francisco Blanco",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O'Day Daysailer II"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22968,16 +18377,12 @@ var racedata = [
     "Given Name/s": "Carolyn Firth and Bill Firth",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 12.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Islander"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -22988,16 +18393,12 @@ var racedata = [
     "Given Name/s": "Michael Lingswiler and Tom Bremen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": 10.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dovekie 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23008,16 +18409,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 13.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Design Stratus"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23028,16 +18425,12 @@ var racedata = [
     "Given Name/s": "Butch Newell",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 2015 Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23048,16 +18441,12 @@ var racedata = [
     "Given Name/s": "Libby Wolf and Kathy Kenley",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Perception Caretta Tandem",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception Caretta Tandem with a .7 meter FEKS and a .89 meter WindPaddle Scout sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23068,16 +18457,12 @@ var racedata = [
     "Given Name/s": "Robert Finlay and Druce Finlay",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Triumph",
     "cp1": 12.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "23'6\" SEDA Triumph"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23088,16 +18473,12 @@ var racedata = [
     "Given Name/s": "dan bond",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23108,16 +18489,12 @@ var racedata = [
     "Given Name/s": "James Hurst",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC-700"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23128,16 +18505,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": 15.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 cat ketch with black hull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23148,16 +18521,12 @@ var racedata = [
     "Given Name/s": "Harry Tomlinson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bufflehead Sailing Canoe",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bufflehead Sailing Canoe with white hull and red sail. The first strip planked Bufflehead. No stabilizing outriggers."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23168,16 +18537,12 @@ var racedata = [
     "Given Name/s": "john wright",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' double ended \"THANG"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23188,16 +18553,12 @@ var racedata = [
     "Given Name/s": "Kirsten Corcoran",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "P&H Sirius",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Sirius if I don't find another boat before"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23208,16 +18569,12 @@ var racedata = [
     "Given Name/s": "Greg Stamer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 12.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Ultra (no-sail)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23228,16 +18585,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": 13.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider' with 1sqm FEKS."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23248,16 +18601,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore-L",
     "cp1": 17.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23268,16 +18617,12 @@ var racedata = [
     "Given Name/s": "Nora Jones and Robert Williams",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "CLC Double Kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 foot CLC tandem kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23288,16 +18633,12 @@ var racedata = [
     "Given Name/s": "Shawn Payment",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Saroca 16.5",
     "cp1": 14.07,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Saroca, 16'6\", http://saroca.com/"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23308,16 +18649,12 @@ var racedata = [
     "Given Name/s": "Dan Mann and Jake Mann",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 12.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Papaya Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23328,16 +18665,12 @@ var racedata = [
     "Given Name/s": "Benjamin Algera Algera",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 14.9,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger SeaWind with Class 3 sails from Flat Earth Kayak Sails."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23348,16 +18681,12 @@ var racedata = [
     "Given Name/s": "Tom Dyll",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 17.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23368,16 +18697,12 @@ var racedata = [
     "Given Name/s": "John Bell and Gary Blankenship",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17",
     "cp1": 15.48,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mistermoon's Core Sound 17 BANDALOOP...unless it's going to be cold like 2010, then we'll go in Lugnut's Frolic 20 OARACLE. Both boats know the way!"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23388,16 +18713,12 @@ var racedata = [
     "Given Name/s": "Lee Havins and Kimberly Havins",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 18.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23408,16 +18729,12 @@ var racedata = [
     "Given Name/s": "wayne albert",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Silhouette",
     "cp1": 13.88,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Silhouette"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23428,16 +18745,12 @@ var racedata = [
     "Given Name/s": "Cal Landau",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 11.58,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2007 Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23448,16 +18761,12 @@ var racedata = [
     "Given Name/s": "Miles Wilding and Kenneth Taylor",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "American Sail 14.6",
     "cp1": 14.1,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hot Stuff 2 is an American 14.6 shallow draft, fiberglass hull, dinghy; built by American Sail out of South Carolina. She is sloop rigged and is undergoing many upgrades to meet EC requirements."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23468,16 +18777,12 @@ var racedata = [
     "Given Name/s": "Marty Worline and Demosthenes Lorandos",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Scamp",
     "cp1": 17.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23488,16 +18793,12 @@ var racedata = [
     "Given Name/s": "Griff Griffin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 12.87,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Papaya Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23508,16 +18809,12 @@ var racedata = [
     "Given Name/s": "Kelsey Wogan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "?",
     "cp1": 31.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23528,16 +18825,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Ascente'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23548,16 +18841,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Osprey Triple",
     "cp1": 16.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Triple - Osprey kayak with two falcon sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23568,16 +18857,12 @@ var racedata = [
     "Given Name/s": "Paul Shaw",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Nomad",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "New seat and new rudder cables. Otherwise the same old Current Designs Nomad with Falcon sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23588,16 +18873,12 @@ var racedata = [
     "Given Name/s": "Nathan Mutu and",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "tandem kayak",
     "cp1": 17.78,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tandem Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23608,16 +18889,12 @@ var racedata = [
     "Given Name/s": "Roy MacPhail and Mandolin MacPhail",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 9.43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Standard Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23628,16 +18905,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 12.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stock AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23648,16 +18921,12 @@ var racedata = [
     "Given Name/s": "Jim Czarnowski",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 10,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2015 Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23668,16 +18937,12 @@ var racedata = [
     "Given Name/s": "John Whittier",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 11.55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Standard Hobie TI with some mods to make it more robust and safe."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23688,16 +18953,12 @@ var racedata = [
     "Given Name/s": "Michael Prince and James Clinchard",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Astus 20.2 Tri",
     "cp1": 6.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Astus 20.2"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23708,16 +18969,12 @@ var racedata = [
     "Given Name/s": "Joseph Frohock",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Moth with outriggers",
     "cp1": 24.53,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Moth with outriggers"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23728,16 +18985,12 @@ var racedata = [
     "Given Name/s": "Ray Thomas",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 13.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2007 Hobie AI unless I can get a 2015 AI before the race starts."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23748,16 +19001,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Michael Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20 Mark 3",
     "cp1": 10.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A Core Sound 20 Mark III. - self-righting and optimized for rowing with a cabin to jump into for the night."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23768,16 +19017,12 @@ var racedata = [
     "Given Name/s": "Rod Price and Wally Werderich",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "CLC Triple",
     "cp1": 13.55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' CLC TRIPLE KAYAK"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23788,16 +19033,12 @@ var racedata = [
     "Given Name/s": "Marian Buszko",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry",
     "cp1": 15.92,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Skerry"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23808,16 +19049,12 @@ var racedata = [
     "Given Name/s": "Todd Howe and Ryan Howe",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "ARC-22 Catamaran",
     "cp1": 5.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "ARC 22 Beach Cat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23828,16 +19065,12 @@ var racedata = [
     "Given Name/s": "Robert Clendening",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ocean Kayak Scupper Pro 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ocean kayak scupper pro/1 meter falcon sail kit"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23848,16 +19081,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Tiderace Xplore",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "TideRace Xplore with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23868,16 +19097,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 15'",
     "cp1": 11.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Decked sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23888,16 +19113,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Passat Tandem",
     "cp1": 17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Passat Tandem - Paddling it solo again!!!"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23908,16 +19129,12 @@ var racedata = [
     "Given Name/s": "Sean Hawes and Richard Hawes",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 10.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23928,16 +19145,12 @@ var racedata = [
     "Given Name/s": "Kent Morse and Justin Morse",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 15.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI with Hakas and some modifications to strengthen it for the rigors of the Everglades Challenge."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23948,16 +19161,12 @@ var racedata = [
     "Given Name/s": "John Naser",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23968,16 +19177,12 @@ var racedata = [
     "Given Name/s": "Roy Edwards",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 10.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -23988,16 +19193,12 @@ var racedata = [
     "Given Name/s": "Kilby Smith and Stephen Antworth",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Thistle",
     "cp1": 13.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Thistle #495 ,1945 woodie,encapsulated, kicked,sprited,trapped,furled and locked. Not your average Thistle"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24008,16 +19209,12 @@ var racedata = [
     "Given Name/s": "Alan Stewart and Paul Stewart",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 8.98,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Core Sound 20 modified with cuddy cabin, bowsprit and asymmetrical spinnaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24028,16 +19225,12 @@ var racedata = [
     "Given Name/s": "Travis Knight",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Perception Eclipse",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' Perception Eclipse Sea Lion RM w/ 1m Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24048,16 +19241,12 @@ var racedata = [
     "Given Name/s": "Ian Wogan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 31.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SUP baby"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24068,16 +19257,12 @@ var racedata = [
     "Given Name/s": "Van Day",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry Expedition",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Skerry, 15' Quarter decks fore and aft Balanced lug with 2 reefs. additional buoyancy. Tent for sleeping aboard."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24088,16 +19273,12 @@ var racedata = [
     "Given Name/s": "Robert Wetmore and",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 18-2",
     "cp1": 5.47,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 18-2 with modifications that will allow for less challenges from last year but with unknown benefit or challenges for this years upcoming event."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -24108,16 +19289,12 @@ var racedata = [
     "Given Name/s": "James Connell and Marissa Connell",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": 13.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24128,16 +19305,12 @@ var racedata = [
     "Given Name/s": "Henry Ovares",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 9.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24148,16 +19321,12 @@ var racedata = [
     "Given Name/s": "Ken Boydstun",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Boreal Saguenay 18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18ft Boreal"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24168,16 +19337,12 @@ var racedata = [
     "Given Name/s": "Ron White and Mike McGarry",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado with wings",
     "cp1": 5.2,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24188,16 +19353,12 @@ var racedata = [
     "Given Name/s": "William Highsmith",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Kayak",
     "cp1": 25.82,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "32 yr old Necky w/2 Bolgh Sails, 32 sq. ft. & 18 sq. ft."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24208,16 +19369,12 @@ var racedata = [
     "Given Name/s": "Duff Bassett",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2013 Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24228,16 +19385,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Newport 16: Sixteen foot fiberglass monohull sailboat with swing keel. Minimum draft 10 inches. Built circa 1972 Florida antique registration."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24248,16 +19401,12 @@ var racedata = [
     "Given Name/s": "John Federico and Bill Shanley",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 5.78,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24268,16 +19417,12 @@ var racedata = [
     "Given Name/s": "Rodney Dutton",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "White QCC 700X with Falcon Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24288,16 +19433,12 @@ var racedata = [
     "Given Name/s": "Joshua Morgan",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 12.53,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24308,16 +19449,12 @@ var racedata = [
     "Given Name/s": "Mark Lacey and Larry Langley",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 12.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' Lightning"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24328,16 +19465,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 9.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24348,16 +19481,12 @@ var racedata = [
     "Given Name/s": "Joseph Mullen and Edward Engel",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seda Tango",
     "cp1": 11.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "seda tango with hobie sail,armas"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24368,16 +19497,12 @@ var racedata = [
     "Given Name/s": "Valeria Blanco",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sunfish",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "sunfish"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24388,16 +19513,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 13,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI with significant seat mod"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24408,16 +19529,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and Dennis Giardina",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade sailing canoe 18'",
     "cp1": 16.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Cypress Sailing Outrigger Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24428,16 +19545,12 @@ var racedata = [
     "Given Name/s": "Bill Whale",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 13.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Dreamcatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24448,16 +19561,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": 15.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sirocco 15"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24468,16 +19577,12 @@ var racedata = [
     "Given Name/s": "Carl Karickhoff",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kayak with Falcon sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24488,16 +19593,12 @@ var racedata = [
     "Given Name/s": "Joel Hurley",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Laser",
     "cp1": 11.88,
     "cp2": 42.88,
     "cp3": 20.53,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "outfitted Laser Standard"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24508,16 +19609,12 @@ var racedata = [
     "Given Name/s": "Bert Weston",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Perception Eclipse",
     "cp1": 28.43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Perception Eclipse 17.0"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24528,16 +19625,12 @@ var racedata = [
     "Given Name/s": "Thad Rice",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Folbot Greenland II",
     "cp1": 20.55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Folbot Greenland II"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24548,16 +19641,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado 20' catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24568,16 +19657,12 @@ var racedata = [
     "Given Name/s": "Scott Rice and Ned Goss",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "C Scow",
     "cp1": 11.48,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "C Scow Modified"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24588,16 +19673,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "18' Custom Proa by Crazyrussian",
+    "BOAT": "Pacific Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft by 10 ft Pacific proa. Stayed mast, single sail 125 sq ft."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24608,16 +19689,12 @@ var racedata = [
     "Given Name/s": "royd whedon",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 13.57,
     "cp2": 66.83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "red 2013 Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24628,16 +19705,12 @@ var racedata = [
     "Given Name/s": "Charles (Chip) Southerland",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 15.65,
     "cp2": 84.22,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24648,16 +19721,12 @@ var racedata = [
     "Given Name/s": "Jon Hinson",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Chesapeake 18",
     "cp1": 17.43,
     "cp2": 73.73,
     "cp3": 85.38,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Chesapeake 18 with sail rig"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24668,16 +19737,12 @@ var racedata = [
     "Given Name/s": "James Nichols and Chris Jordan",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "I550 Sport Boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "i550 #129 built by Jeffrey Dalsin"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24688,16 +19753,12 @@ var racedata = [
     "Given Name/s": "Kurt Fisher",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 18.67,
     "cp2": 86.67,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "old epic 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24708,16 +19769,12 @@ var racedata = [
     "Given Name/s": "Susan Fox",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24728,16 +19785,12 @@ var racedata = [
     "Given Name/s": "Hal Link",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 16.15,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16' sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24748,16 +19801,12 @@ var racedata = [
     "Given Name/s": "john wright",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20' decked sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24768,16 +19817,12 @@ var racedata = [
     "Given Name/s": "Kirsten Corcoran",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "P&H Sirius",
     "cp1": 18.7,
     "cp2": 86.63,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Sirius"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24788,16 +19833,12 @@ var racedata = [
     "Given Name/s": "Ray Jones",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 15.65,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Standard Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24808,16 +19849,12 @@ var racedata = [
     "Given Name/s": "Gary Hirsch",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wayfarer",
     "cp1": 13.22,
     "cp2": 54.42,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16' Wayfarer Dinghy - Sail #4573"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24828,16 +19865,12 @@ var racedata = [
     "Given Name/s": "Bill Wright and Gary Lukoski",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "I550 Sport Boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "i550 Sport Boat.. Built by Gougeon Brothers."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24848,16 +19881,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Mary Sullivan Exped17 kayak",
     "cp1": 14,
     "cp2": 49.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "My design, 17.5' \"Exped17\" stitch-and-glue. Panels cut by Roo, Graham Byrne."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24868,16 +19897,12 @@ var racedata = [
     "Given Name/s": "John Naser",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24888,16 +19913,12 @@ var racedata = [
     "Given Name/s": "Ted Perron",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.02,
     "cp2": 63.37,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Not sure at this time."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -24908,16 +19929,12 @@ var racedata = [
     "Given Name/s": "Trey Flemer",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 30.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Custom designed for multi-day camping and adventure."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24928,16 +19945,12 @@ var racedata = [
     "Given Name/s": "John Sullivan and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "E Scow",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified E Scow cutter/sloop"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24948,16 +19961,12 @@ var racedata = [
     "Given Name/s": "Jim Quinlan",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24968,16 +19977,12 @@ var racedata = [
     "Given Name/s": "Marvin Brager",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Arluk III",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Arluk III"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -24988,16 +19993,12 @@ var racedata = [
     "Given Name/s": "David Miner",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x sea kayak."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25008,16 +20009,12 @@ var racedata = [
     "Given Name/s": "Jon Hinson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homeade kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Homemade Wadefish 15-32 Kayak from JEM Watercraft with Kuvia Sail System"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25028,16 +20025,12 @@ var racedata = [
     "Given Name/s": "Kurt Fisher",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic endurance 18 packing light"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25048,16 +20041,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "viv vs epic"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25068,16 +20057,12 @@ var racedata = [
     "Given Name/s": "Nanci LaMarre and Jack LaMarre",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Necky Nootka Plus",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Nootka Plus with no sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25088,16 +20073,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore-L",
     "cp1": 14.95,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Tide Race, Explore. Orange over gray 18' sea kayak. White Flat Earth Designed sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25108,16 +20089,12 @@ var racedata = [
     "Given Name/s": "Ryan Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 15.35,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18x Sport with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25128,16 +20105,12 @@ var racedata = [
     "Given Name/s": "Jeffrey Duzan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19' Black kajak sports viviane"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25148,16 +20121,12 @@ var racedata = [
     "Given Name/s": "David Wicks and Dan Lockwood",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pygmy Triple",
     "cp1": 14.07,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Pygmy Triple"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25168,16 +20137,12 @@ var racedata = [
     "Given Name/s": "Joseph Frohock",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Prindle 19",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19 foot Beach Catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25188,16 +20153,12 @@ var racedata = [
     "Given Name/s": "Mike Barnett",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "AMF Puffer",
     "cp1": 23.62,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "12' 6\" AMF Puffer, suitably modified for camp-cruising and expedition sailing."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25208,16 +20169,12 @@ var racedata = [
     "Given Name/s": "Joe Spooner",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "QCC 700 with FEKS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25228,16 +20185,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 15'",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15 ft decked sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25248,16 +20201,12 @@ var racedata = [
     "Given Name/s": "Paul Schatz",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho Hi"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25268,16 +20217,12 @@ var racedata = [
     "Given Name/s": "Denny Thorley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nigel Foster Legend",
     "cp1": 14.9,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "ww",
-    "Boat Description": "Nigel Foster Legend"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25288,16 +20233,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sizzor",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sizzor is a home built trimaran that is forever evolving. After last years calamity, Sizzor is sporting faster flat bottom amas, a better righting system and one more year of experience."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25308,16 +20249,12 @@ var racedata = [
     "Given Name/s": "Scott Schulte",
     "C#": "C6",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17, solar electric"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25328,16 +20265,12 @@ var racedata = [
     "Given Name/s": "Roy Edwards and Ted Eversoll",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sailbird 18 Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' Sailbird Trimaran modified to be wider and faster :)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25348,16 +20281,12 @@ var racedata = [
     "Given Name/s": "James Connell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Probably the QCC 700"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25368,16 +20297,12 @@ var racedata = [
     "Given Name/s": "Ron White",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified Stellar S18R Sea Kayak, Floats, Leeboard & powered with Kites"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25388,16 +20313,12 @@ var racedata = [
     "Given Name/s": "KELLY GREEN and Rod Merritt",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 30.17,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25408,16 +20329,12 @@ var racedata = [
     "Given Name/s": "Nadir Diomedi",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Elaho",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Elaho"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25428,16 +20345,12 @@ var racedata = [
     "Given Name/s": "Tony Pernas and William Snyder",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 12.92,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sailing Outrigger Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25448,16 +20361,12 @@ var racedata = [
     "Given Name/s": "John Sullivan and Anonymous",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "E Scow",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified E Scow sloop/cutter"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25468,16 +20377,12 @@ var racedata = [
     "Given Name/s": "Bob Nichols",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 32.82,
     "cp2": 45.05,
     "cp3": 52.77,
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "still finalizing my entry"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -25488,16 +20393,12 @@ var racedata = [
     "Given Name/s": "Philip McLean and Wally Le",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Norseboat 17.5",
     "cp1": 59.73,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Norseboat 17.5"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25508,16 +20409,12 @@ var racedata = [
     "Given Name/s": "Peter Oudheusden",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Alden Ocean 18",
     "cp1": 33.63,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Alden Ocean 18' Open Water Rowing Shell"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25528,16 +20425,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 34.47,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25548,16 +20441,12 @@ var racedata = [
     "Given Name/s": "Eddie Mack and Joshua Murphy",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie Getaway",
     "cp1": 54.53,
     "cp2": 34.08,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Getaway"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25568,16 +20457,12 @@ var racedata = [
     "Given Name/s": "Danny Laboy",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 57.48,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind w BSD and PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25588,16 +20473,12 @@ var racedata = [
     "Given Name/s": "Denise Parris and Josh Bowers",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "?",
     "cp1": 60.15,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "We are still undecided of which boat we will use. Can selection be done on check in/ day of race?"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -25608,16 +20489,12 @@ var racedata = [
     "Given Name/s": "Per Lorentzen and Tom Dyll",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": 32.6,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Modified 19' International Lightning"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25628,16 +20505,12 @@ var racedata = [
     "Given Name/s": "David Robertson and Benjamin Wheatley",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 47.93,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25648,16 +20521,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "viv vs epic"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25668,16 +20537,12 @@ var racedata = [
     "Given Name/s": "Nanci LaMarre and Jack LaMarre",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Necky Nootka Plus",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Nootka Plus"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25688,16 +20553,12 @@ var racedata = [
     "Given Name/s": "Will Schaet",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Design Stratus 18",
     "cp1": 33.63,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Design Stratus 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25708,16 +20569,12 @@ var racedata = [
     "Given Name/s": "Hal Link",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 16, Tequila Sunrise"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25728,16 +20585,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21 (cat ketch w/black hull)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25748,16 +20601,12 @@ var racedata = [
     "Given Name/s": "Jared Tetreault",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Eddyline Raven",
     "cp1": 35.25,
     "cp2": 70.67,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Eddyline Raven"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25768,16 +20617,12 @@ var racedata = [
     "Given Name/s": "Kristen Greenaway",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Sisson Arctic Raider",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NZ Grahame Sisson 5.32m 'Arctic Raider', with 1sqm Flat Earth Sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25788,16 +20633,12 @@ var racedata = [
     "Given Name/s": "Ryan Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 34.87,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17 ft Kevlar Expedition Sea Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25808,16 +20649,12 @@ var racedata = [
     "Given Name/s": "Matt McGee",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "unknown catamaran",
     "cp1": 18.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "This is an 18 foot, single person catamaran with a single sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25828,16 +20665,12 @@ var racedata = [
     "Given Name/s": "Andy Bartley",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Ascente",
     "cp1": 58.55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Ascente"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25848,16 +20681,12 @@ var racedata = [
     "Given Name/s": "Scott Widmier",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Puddle Duck Racer \"PDR",
     "cp1": 43.68,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Puddle Duck Racer (pdracer.com) specially designed and built for the Everglades Challenge."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25868,16 +20697,12 @@ var racedata = [
     "Given Name/s": "Doug Cameron and Michael Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 20",
     "cp1": 40.32,
     "cp2": 22.4,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "probably Core Sound 20"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25888,16 +20713,12 @@ var racedata = [
     "Given Name/s": "R Kevin Appier and Eddy Racine",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Seaward Passat Tandem",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "seaward tandem kayak passat G3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25908,16 +20729,12 @@ var racedata = [
     "Given Name/s": "Joe Spooner and Louis Gaston",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Necky Tofino",
     "cp1": 61.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Tofino tandem kayak with BSD sail rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25928,16 +20745,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 15'",
     "cp1": 57.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15' Long Canoe 31\" Wide with Sail 43 sq ft"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25948,16 +20761,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Passat Tandem",
     "cp1": 58.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Big and Nice Tandem Seaward Passat that I will solo paddle from front cockpit. Using a 1.0 sq meter PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25968,16 +20777,12 @@ var racedata = [
     "Given Name/s": "Kevin Bailey and ANTHONY SIMONETTI",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 30.07,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -25988,16 +20793,12 @@ var racedata = [
     "Given Name/s": "David Shropshire",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Nutshell Pram",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "9'6\" Nutshell Pram"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26008,16 +20809,12 @@ var racedata = [
     "Given Name/s": "Roy Edwards and Brooke Edwards",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Sailbird 18 Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "1974 18' Sailbird Fold trimaran with a few tricks up our sleeves"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26028,16 +20825,12 @@ var racedata = [
     "Given Name/s": "Thomas Smith and John Rude",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Norseboat 17.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Norseboat 17.5"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26048,16 +20841,12 @@ var racedata = [
     "Given Name/s": "Robert Wetmore and Joseph Frohock",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 19",
     "cp1": 29.43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 19"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26068,16 +20857,12 @@ var racedata = [
     "Given Name/s": "James Connell",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The QCC 700 if I don't totally destroy it by then."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26088,16 +20873,12 @@ var racedata = [
     "Given Name/s": "Jerry Jones and Ray Jones",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homemade catamaran 18",
     "cp1": 31.65,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 ft home built cat, with mirage drives"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26108,16 +20889,12 @@ var racedata = [
     "Given Name/s": "KELLY GREEN and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie 16",
     "cp1": 56.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "HOBIE 16 80468"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26128,16 +20905,12 @@ var racedata = [
     "Given Name/s": "Christine Cochran",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Tempest Pro 165",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "wilderness systems Tempest with PAS."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26148,16 +20921,12 @@ var racedata = [
     "Given Name/s": "David Damon II and David Damon",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26168,16 +20937,12 @@ var racedata = [
     "Given Name/s": "Scott Henderson",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sirocco 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "15' Decked Sloop-Modified"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26188,16 +20953,12 @@ var racedata = [
     "Given Name/s": "Patrick Rohde",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 55.43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind, BSD 38 Batwing Expedition, BOSS/Amas Extreme, PAS, trained Manatee"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26208,16 +20969,12 @@ var racedata = [
     "Given Name/s": "Alexandru Oancea",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Vision 150",
     "cp1": 28.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Vision 150"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26228,16 +20985,12 @@ var racedata = [
     "Given Name/s": "Anthony Steward",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta 14ft Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26248,16 +21001,12 @@ var racedata = [
     "Given Name/s": "Ardie Olson",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ruahine Ocean X",
     "cp1": 14.25,
     "cp2": 43.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ruahine OceanX"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26268,16 +21017,12 @@ var racedata = [
     "Given Name/s": "Peter Oudheusden",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Echo Islander 18' Rowing Shell",
     "cp1": 35.48,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Echo Islander 18' Sliding Seat Rowing Shell Designed for Open Water"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26288,16 +21033,12 @@ var racedata = [
     "Given Name/s": "Colin Doggett",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Something that has been in more Missouri River mud than salt water. NC17, Epic 18, (WSBT Thunderbolt (Not Likly))."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26308,16 +21049,12 @@ var racedata = [
     "Given Name/s": "Charlie Fast",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 32.57,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Adventure Island."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26328,16 +21065,12 @@ var racedata = [
     "Given Name/s": "Paul Myers",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": 25.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island golden papaya color with blue and yellow sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26348,16 +21081,12 @@ var racedata = [
     "Given Name/s": "bob waters",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Arluk 1.9",
     "cp1": 17.72,
     "cp2": 61.22,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Arluk 1.9"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26368,16 +21097,12 @@ var racedata = [
     "Given Name/s": "Thomas Finley",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 30.55,
     "cp2": 50.72,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Red 14 Weta Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26388,16 +21113,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": 19.87,
     "cp2": 56.67,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26408,16 +21129,12 @@ var racedata = [
     "Given Name/s": "royd whedon",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Extreme",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current designs extreme with wind paddle sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26428,16 +21145,12 @@ var racedata = [
     "Given Name/s": "Paul Kral",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": 19.02,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26448,16 +21161,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 33.75,
     "cp2": 71.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26468,16 +21177,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "viv or epic"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -26488,16 +21193,12 @@ var racedata = [
     "Given Name/s": "Forrest Morrow",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 55.2,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Orange, with an EC greenhorn at the wheel..."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26508,16 +21209,12 @@ var racedata = [
     "Given Name/s": "Laurens Willard",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wilderness Systems Epic",
     "cp1": 18.67,
     "cp2": 63.83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wilderness Systems Model Epic"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26528,16 +21225,12 @@ var racedata = [
     "Given Name/s": "Randy Kroeck",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 33.73,
     "cp2": 69,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind with Balough Sail rig and PAS rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26548,16 +21241,12 @@ var racedata = [
     "Given Name/s": "john wright",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Michalak Laguna",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Laguna by Michalak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26568,16 +21257,12 @@ var racedata = [
     "Given Name/s": "Steven Bailey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tiderace Xplore-L",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tide Race Xplore delivered 48 hrs ago, never seen open water. Nordkapp-Retired!) No longer paddling what brought me here (oops)! Pacific Action Sail:\"feels like cheating."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26588,16 +21273,12 @@ var racedata = [
     "Given Name/s": "Ray Jones and Roy Edwards",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": 43.75,
     "cp2": 12.75,
     "cp3": 35,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Tandem Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26608,16 +21289,12 @@ var racedata = [
     "Given Name/s": "Andrew Linn and Michael Monies",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Scamp",
     "cp1": 24.9,
     "cp2": 42.4,
     "cp3": 37.42,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SCAMP 11' 11\" sailboat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26628,16 +21305,12 @@ var racedata = [
     "Given Name/s": "Ian Wogan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 34.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26648,16 +21321,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Scott Gosnell",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Michalak Frolic 2",
     "cp1": 29.28,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Jim Michalak-designed Folic2, lightweight 20-foot balanced lugger."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26668,16 +21337,12 @@ var racedata = [
     "Given Name/s": "Benjamin Algera Algera and Emily Algera",
     "C#": "C3",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "XRC Sailing Canoe",
     "cp1": 28.33,
     "cp2": 50.12,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "XCR Sailing Canoe designed by Chris Ostlind with roller furling sail and inflatable amas: http://bensboats.blogspot.com"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26688,16 +21353,12 @@ var racedata = [
     "Given Name/s": "Chip Walter",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SUP",
     "cp1": 49.65,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SUP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26708,16 +21369,12 @@ var racedata = [
     "Given Name/s": "John Bell",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "O'day Day Sailer 2",
     "cp1": 29.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "O'Day Daysailer II, 17' \"Alobar"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26728,16 +21385,12 @@ var racedata = [
     "Given Name/s": "Scott Widmier",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Bateau C12 Catboat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Heavily modified bateau.com C12. V bottom 12' Catboat with dodger shelter."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26748,16 +21401,12 @@ var racedata = [
     "Given Name/s": "Roger Thomas Mann",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "RagWing Catamaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Proof of concept 13'2\" wooden cabin catamaran prototype. Biplane riged(150 sq.ft.)or single rig(75 sq.ft.) Can be rowed or paddled. 6'wide.360 lbs. Not real fast but stable and enough room to move around. Shallow draft. Sails two on day trips or one with provisions for up to one month."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -26768,16 +21417,12 @@ var racedata = [
     "Given Name/s": "Douglas Hartley",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade Rob Roy kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Rob Roy style kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26788,16 +21433,12 @@ var racedata = [
     "Given Name/s": "Michael Lynskey",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Gulfstream",
     "cp1": 25,
     "cp2": 84.42,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Gulfstream w/Spirit Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26808,16 +21449,12 @@ var racedata = [
     "Given Name/s": "Mike Barnett and Susan Barnett",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Sailbird 18 Trimaran",
     "cp1": 55,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Clarity is a modified-for-expedition-cruising 18' Sailbird trimaran. A perfect vessel for an adventure!"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26828,16 +21465,12 @@ var racedata = [
     "Given Name/s": "Tony Pettit",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "outrigger sailing canoe 23'",
     "cp1": 51.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "23 foot single outrigger sailing canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26848,16 +21481,12 @@ var racedata = [
     "Given Name/s": "Dennise Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 33.87,
     "cp2": 71.13,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer Elite with PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26868,16 +21497,12 @@ var racedata = [
     "Given Name/s": "Dawn Stewart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "NDK Explorer",
     "cp1": 30.27,
     "cp2": 48.32,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer with Flat Earth Kayak Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26888,16 +21513,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Passat",
     "cp1": 32.77,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Paddling my Seaward Passat as a Solo captain, but now with front cockpit rudder controls. I will take my PAS 1.0 sail. May bring Nomadic outriggers with 1.5 PAS - we'll see"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26908,16 +21529,12 @@ var racedata = [
     "Given Name/s": "Bob Dalton and robert dalton",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wa'apa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "24 foot DOUBLE outrigger sailing canoe. Gary Dierking design, Wa'apa"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26928,16 +21545,12 @@ var racedata = [
     "Given Name/s": "Royd Whedon",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Capella",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "P&H Capella"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26948,16 +21561,12 @@ var racedata = [
     "Given Name/s": "John Naser and Kenneth Winders",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wayfarer",
     "cp1": 31.85,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wayfarer 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26968,16 +21577,12 @@ var racedata = [
     "Given Name/s": "Eric Heilshorn",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Saroca 16.5",
     "cp1": 32.83,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Saroca - 17' sailing canoe. Main sail only, unstayed mast, daggerboard"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -26988,16 +21593,12 @@ var racedata = [
     "Given Name/s": "Wade Tarzia",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade sailing canoe 16'",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot long outrigger sharpie-canoe (home built) with cat-ketch standing-lug rig (~90 sq. ft.)converted to a trimaran via TRC 16 foot large inflatable amas."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27008,16 +21609,12 @@ var racedata = [
     "Given Name/s": "Paul Lausell and Steven Lausell",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bell Northwoods Canoe",
     "cp1": 32.08,
     "cp2": 70,
     "cp3": 57.92,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bell Northwoods 18'-6\" Kevlar 47 lbs."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27028,16 +21625,12 @@ var racedata = [
     "Given Name/s": "Anthony Steward",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "weta",
     "cp1": 11.4,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27048,16 +21641,12 @@ var racedata = [
     "Given Name/s": "Paul Myers and Roderick Hesse",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 25.17,
     "cp2": 30.75,
     "cp3": 67.08,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seapearl 21 blue hull cream decks white sails #415 two masts"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27068,16 +21657,12 @@ var racedata = [
     "Given Name/s": "Thomas Finley",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": 14.77,
     "cp2": 61.13,
     "cp3": 57.1,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta Trimaran 4.4 meters/14 feet long, approx. 12 feet wide, gennaker, jib, and main. This is a very stable production trimaran."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27088,16 +21673,12 @@ var racedata = [
     "Given Name/s": "Cliff Alfiche",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 13.5,
     "cp2": 68.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Fiberglass composite red/white 18'."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27108,16 +21689,12 @@ var racedata = [
     "Given Name/s": "David Combs",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Maggie\" Sea Pearl 21#334"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27128,16 +21705,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 16.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak sport Viv"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27148,16 +21721,12 @@ var racedata = [
     "Given Name/s": "David Schoonmaker",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Mirage 19",
     "cp1": 16.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mirage 19 Sea Kayak w/ PAS"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27168,16 +21737,12 @@ var racedata = [
     "Given Name/s": "Adam Bright,MD",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "QCC 700",
     "cp1": 16.17,
     "cp2": 60.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "qcc700 single kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27188,16 +21753,12 @@ var racedata = [
     "Given Name/s": "john wright",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade scow",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14' x 4’ scow sailboat self bailing cockpit \"coffin\" cabin little “different”"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27208,16 +21769,12 @@ var racedata = [
     "Given Name/s": "jim and lori gabbert and jim and lori gabbert",
     "C#": "C2",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Seda Tango",
     "cp1": 16,
     "cp2": 46.92,
     "cp3": 43.83,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seda Tango Sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27228,16 +21785,12 @@ var racedata = [
     "Given Name/s": "Paul Shaw",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Nomad",
     "cp1": 19.67,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Designs Nomad GTS with a PAS and a somewhat lighter crew."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27248,16 +21801,12 @@ var racedata = [
     "Given Name/s": "Meade Gougeon",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17 ft sailboat with sloop rig. Main& jib = 75 sq ft area."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27268,16 +21817,12 @@ var racedata = [
     "Given Name/s": "Brad Lockhart",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward - Hopefully the Ascente' HV, most likely Solo Paddling my Passat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27288,16 +21833,12 @@ var racedata = [
     "Given Name/s": "Bob Dalton and robert dalton",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wa'apa",
     "cp1": 38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "24 foot DOUBLE outrigger sailing canoe. Gary Dierking design, Wa'apa"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27308,16 +21849,12 @@ var racedata = [
     "Given Name/s": "John Naser and Kenneth Winders",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Wayfarer",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wayfarer 16, sail # 10195, sloop rigged, fiberglass monohull, centerboard,"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27328,16 +21865,12 @@ var racedata = [
     "Given Name/s": "Paul Lausell and Steven Lausell",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Bell Northwoods Canoe",
     "cp1": 21.88,
     "cp2": 52.72,
     "cp3": 53.57,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Bell Northwoods 18'-6\" Kevlar 47 lbs."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27348,16 +21881,12 @@ var racedata = [
     "Given Name/s": "Trey Flemer",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Matt Layden designed, Trey Flemer built (kinda straight)expediton style windsurfer that can be paddled as a sit-on-top, a stand-up-paddle board or sailed as a windsurfer. With five water tight compartments for storage it has the capability of multi-day camping trips."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -27368,16 +21897,12 @@ var racedata = [
     "Given Name/s": "Algene Koh",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition Kayak or Canoe"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -27388,16 +21913,12 @@ var racedata = [
     "Given Name/s": "jason biondi and michael kirk",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 24.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27408,16 +21929,12 @@ var racedata = [
     "Given Name/s": "Kirk Maute",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 14",
     "cp1": 27.77,
     "cp2": 50.08,
     "cp3": 17.15,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobiecat 14 catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27428,16 +21945,12 @@ var racedata = [
     "Given Name/s": "Carlos Solanilla and Wade Tarzia",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "21' Custom Proa",
+    "BOAT": "Homemade Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21 ft by 19 inches modified pacific proa into a double otrigger Philipine paraw with 19 ft long 6 inches wide bamboo amas"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27448,16 +21961,12 @@ var racedata = [
     "Given Name/s": "Brian Faulk",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' sea wind with hobie peddle drive and pac sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27468,16 +21977,12 @@ var racedata = [
     "Given Name/s": "Jonathan Coble",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "An absolutly incredible cat ketch humbly called a Sea Pearl."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27488,16 +21993,12 @@ var racedata = [
     "Given Name/s": "George Stovall and Terry Tomalin",
     "C#": "C6",
     "Group": "6-Person",
-    "Group/Gender": "6-Person",
     "BOAT": "Outrigger Canoe",
     "cp1": 19.63,
     "cp2": 63.12,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hawaiian Outrigger Canoe with sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27508,16 +22009,12 @@ var racedata = [
     "Given Name/s": "Randy Smyth",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 21",
     "cp1": 8.63,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Home built 21 foot trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27528,16 +22025,12 @@ var racedata = [
     "Given Name/s": "Nigel Koh",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Expedition Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27548,16 +22041,12 @@ var racedata = [
     "Given Name/s": "Mike Ford",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "NDK Explorer",
     "cp1": 36,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "NDK Explorer Single Male"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27568,16 +22057,12 @@ var racedata = [
     "Given Name/s": "John Johns",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Adventure Island"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27588,16 +22073,12 @@ var racedata = [
     "Given Name/s": "Mark Zollitsch",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Raptor 16 Proa",
     "cp1": 11.88,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Turbocharged Raptor 16 proa(more sail area and downwind sail)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27608,16 +22089,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Tridarka Raider",
     "cp1": 28,
     "cp2": 52.25,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Tridarka Raider - a trimaran for coastal vagabonds. Designed by Wizard and built by me. I hope my sailing abilities do her justice."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27628,16 +22105,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "kayak",
     "cp1": 18.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Kayak of some sort with a Pacific Action Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27648,16 +22121,12 @@ var racedata = [
     "Given Name/s": "David Taylor",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Virus Yole rowing scull",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "virus yole class rowing scull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27668,16 +22137,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 8.52,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27688,16 +22153,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "kayak",
     "cp1": 13.72,
     "cp2": 64.28,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "solo kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27708,16 +22169,12 @@ var racedata = [
     "Given Name/s": "Dennise Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "kayak",
     "cp1": 18.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Kayak of some sort with a Pacific Action Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27728,16 +22185,12 @@ var racedata = [
     "Given Name/s": "James Connell and Will Schaet",
     "C#": "C1",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kaskazi Skua Tandom SOT",
     "cp1": 17.33,
     "cp2": 87.67,
     "cp3": 51.92,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kaskazi Skua Tandem SOT 19'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27748,16 +22201,12 @@ var racedata = [
     "Given Name/s": "Mike Beck",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Surf Ski",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Surf Ski or long kayak with cockpit"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -27768,16 +22217,12 @@ var racedata = [
     "Given Name/s": "Charles Colvin",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 16.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger Sea Wind #228. I'm still undecided which sail, Balogh 32 or PAS 2.2."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -27788,16 +22233,12 @@ var racedata = [
     "Given Name/s": "james andersen and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Windrider 17",
     "cp1": 15.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider-17ft trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27808,16 +22249,12 @@ var racedata = [
     "Given Name/s": "Neal Graneau",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Incept K-40s inflatable kayak",
     "cp1": 16.88,
     "cp2": 80.62,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Incept k-40s inflatable kayak with Balogh sail and BOSS outriggers"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27828,16 +22265,12 @@ var racedata = [
     "Given Name/s": "Bill Fite and wheeler baker",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": 15.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27848,16 +22281,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27868,16 +22297,12 @@ var racedata = [
     "Given Name/s": "Carlos Solanilla",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "20' Custom Proa",
+    "BOAT": "Proa 20",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20 ft home grown Pacific Proa inspired by Gilbertese and Kiribati sailing canoes. Strip plank/epoxy construction 2004"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27888,16 +22313,12 @@ var racedata = [
     "Given Name/s": "Milton Johnson and Chuck Leinweber",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "P52 Duckworks Proa",
+    "BOAT": "Proa",
     "cp1": 29.45,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "6.99 meter Proa"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27908,16 +22329,12 @@ var racedata = [
     "Given Name/s": "Hannon Didier",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Ruahine Ocean X",
     "cp1": 18.52,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ruahine Ocean X Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27928,16 +22345,12 @@ var racedata = [
     "Given Name/s": "John Flegg",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 16.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger canoe-#46-with Pacific Action sail-the cockpit has been capped so it resembles a DreamCatcher"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27948,16 +22361,12 @@ var racedata = [
     "Given Name/s": "W. Dick and Frank Jones",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' Seapearl (Marine Concepts, Tarpon Springs FL). Older centerboard model. Black hull, light grey deck, yellow sails. \"Bandersnatch\" in silver on hull sides."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27968,16 +22377,12 @@ var racedata = [
     "Given Name/s": "Kelly Green and Mark Palmieri",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "?",
     "cp1": 11.5,
     "cp2": 43.27,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Two hulls with sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -27988,16 +22393,12 @@ var racedata = [
     "Given Name/s": "Bill Herrmann",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Prijon Kodiak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sponsored by Prijon/Wildwasser with a Prijon Kodiak with a Nomadic Sail Rig. ... ... ... See www.wildnet.com.... or see a video at http://video.google.com/videoplay?docid=6541628225942500019&q=prijon"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28008,16 +22409,12 @@ var racedata = [
     "Given Name/s": "Charles Colvin",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 23.12,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane Expedition"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28028,16 +22425,12 @@ var racedata = [
     "Given Name/s": "tom drake",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "JEM Watercraft 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stitch & glue 17'X28\" row/sail trimaran. Fwd facing rower. Hull by JEM Watercraft. Gunter rig w/47 sf batwing by Duckworks."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28048,16 +22441,12 @@ var racedata = [
     "Given Name/s": "Wykie Wise",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot monohull"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28068,16 +22457,12 @@ var racedata = [
     "Given Name/s": "BARRY NEWELL",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Easy Rider Eskimo 19",
     "cp1": 15.5,
     "cp2": 83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "ESKIMO 19 CRX HARPOON R"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28088,16 +22473,12 @@ var racedata = [
     "Given Name/s": "Lonny Higgins",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Raptor 16 Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "foil stabilized sailing outrigger"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28108,16 +22489,12 @@ var racedata = [
     "Given Name/s": "Charles LaPradd",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wilderness systems kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "wilderness systems-kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28128,16 +22505,12 @@ var racedata = [
     "Given Name/s": "David Higgins",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Raptor 16 Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "foil stabilized sailing outrigger"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28148,16 +22521,12 @@ var racedata = [
     "Given Name/s": "Alan Chappuis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Triton TS 14'",
     "cp1": 27.92,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "14' TRITON TS sail/paddle tri made by BackBay Boatworks in CA"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28168,16 +22537,12 @@ var racedata = [
     "Given Name/s": "Bill Salter and Vladimir Eremeev",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Pintail 14",
     "cp1": 43,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pintail 14"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28188,16 +22553,12 @@ var racedata = [
     "Given Name/s": "tom drake",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Custom Trimaran Jem Watercraft",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17'X 28\" hybrid. Hull custom designed by JEM Watercraft. My 8-ft amas; 2-47 sf gunter batwing sails (Duckworks); fwd facing sliding rig rower"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28208,16 +22569,12 @@ var racedata = [
     "Given Name/s": "Marek Uliasz",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 31.67,
     "cp2": 67.83,
     "cp3": 54,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Wind #127 probably with some modifications, Pacific Action sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28228,16 +22585,12 @@ var racedata = [
     "Given Name/s": "david durham and peter durham",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "G-Cat 18",
     "cp1": 17.7,
     "cp2": 42.63,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "G-cat: an 18' non-board catamaran with double trampoline and double trapeze. It is a high volume german design built in Florida."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28248,16 +22601,12 @@ var racedata = [
     "Given Name/s": "Lonny Higgins",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Raptor 16 Proa",
     "cp1": 16.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Raptor 16, foil-stabilized sailing outrigger"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28268,16 +22617,12 @@ var racedata = [
     "Given Name/s": "Stan Hanson",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": 15.97,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Verlen Kruger Sea Wind with Balogh Expedition Sail and outriggers for solo and catamaran poles for Ad Hoc Team member."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28288,16 +22633,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 12.9,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Not sure yet"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28308,16 +22649,12 @@ var racedata = [
     "Given Name/s": "David Higgins",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Raptor 16 Proa",
     "cp1": 16.37,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot, hydrofoil-stabilized sailing outrigger"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28328,16 +22665,12 @@ var racedata = [
     "Given Name/s": "Michael Harrow",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Homemade Proa",
     "cp1": 21.8,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A proa, sailed like a Malibu outrigger (a modified version of what I have not finished in yet!)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28348,16 +22681,12 @@ var racedata = [
     "Given Name/s": "Bill Lanning",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Quest",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Quest X3"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28368,16 +22697,12 @@ var racedata = [
     "Given Name/s": "BARRY NEWELL",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Easy Rider Eskimo 19",
     "cp1": 34.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EASY RIDER ESKIMO 19 CRX 4G HARPOON R I WILL BE PADDLING HAWAIIAN STYLE"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28388,16 +22713,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 29.65,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28408,16 +22729,12 @@ var racedata = [
     "Given Name/s": "Gary Blankenship and Helen Snell",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Michalak Frolic 2",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "20 foot by 5 foot Jim Michalak-designed Frolic2 rowing-sailing beach cruiser. Balanced lug rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28428,16 +22745,12 @@ var racedata = [
     "Given Name/s": "David Higgins",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Raptor 16 Proa",
     "cp1": 32.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot, hydrofoil stabilized, sailing outrigger canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28448,16 +22761,12 @@ var racedata = [
     "Given Name/s": "Michael Harrow",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 54.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "somthing with an outrigger(proa),and a stronger bottom, that will float past sarasota this time!"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28468,16 +22777,12 @@ var racedata = [
     "Given Name/s": "Trey Flemer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "kayak",
     "cp1": 32.38,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' single sea kayak."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28488,16 +22793,12 @@ var racedata = [
     "Given Name/s": "Andrew Farquhar",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "custom sailing canoe",
     "cp1": 37.75,
     "cp2": 58.1,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18.5' Ply and glass sailing canoe. This is the same boat as last year, but with a new deck, glass skin and leeboard bracket. I'm using a single sail - a standing lug with a sprit boom - and a kick-up, push-pull rudder. My new sail is slightly smaller than last year's and has a deeper reef. I'm bringing a small jib to play with in light wind and to use alone as a storm sail. I'm traveling with a much lighter kit, ultralight backpacking stuff."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28508,16 +22809,12 @@ var racedata = [
     "Given Name/s": "BARRY NEWELL",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Quest",
     "cp1": 31.25,
     "cp2": 72.75,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaward Quest"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28528,16 +22825,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 24,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport Viviane"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28548,16 +22841,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 14.68,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28568,16 +22857,12 @@ var racedata = [
     "Given Name/s": "Daniel Rowland",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 31.25,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18 Kajak Sport, Spirit mid sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28588,16 +22873,12 @@ var racedata = [
     "Given Name/s": "Michael Harrow",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28608,16 +22889,12 @@ var racedata = [
     "Given Name/s": "dawn keller",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Dagger Cortez",
     "cp1": 30.72,
     "cp2": 73.28,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dagger Cortez and Aquabound paddle"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28628,16 +22905,12 @@ var racedata = [
     "Given Name/s": "Marek Uliasz",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Surfrigger 24",
     "cp1": 36.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Surfrigger - 24' solo outrigger canoe from Savage River Works. My goal is to test a new concept for light and fast cruising - outrigger canoe. I will also try to finish the race but in a training/testing/cruising mode rather than racing. Originally, I was planning to enter Lake Michigan Challenge, so I had to speed up preparations. More information on my paddling (including Surfrigger): http://www.frii.com/~uliasz/wayfarer/index.html"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28648,16 +22921,12 @@ var racedata = [
     "Given Name/s": "Andy Farquhar",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homeade canoe",
     "cp1": 32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The Exxon Valdez II, an 18 1/2 foot glued-lapstrake, wooden canoe. I recently cut down the sheer and added a partial deck. She has a removable leeboard thwart, kick-up rudder and 65 sq. ft. standung lugsail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28668,16 +22937,12 @@ var racedata = [
     "Given Name/s": "BARRY NEWELL",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Quest",
     "cp1": 32.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "seaward quest"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28688,16 +22953,12 @@ var racedata = [
     "Given Name/s": "grant fenner",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Looksha IV",
     "cp1": 24.67,
     "cp2": 69.33,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Necky Looksha IV (kevlar)- Yellow deck and Oyster hull with Navy Blue hatch covers."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28708,16 +22969,12 @@ var racedata = [
     "Given Name/s": "William Meares III",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wenonah Advantage",
     "cp1": 31.33,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wenonah Advantage, with spray cover and flotation bags, or possibly decked."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28728,16 +22985,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": 28.22,
     "cp2": 76.28,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Ultra light catamaran with inflatable hulls"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28748,16 +23001,12 @@ var racedata = [
     "Given Name/s": "david durham",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "single fibreglass sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28768,16 +23017,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 17.75,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Probably 19 foot sea kayak with rudder. Will pack much lighter this time. More info on boat when available."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28788,16 +23033,12 @@ var racedata = [
     "Given Name/s": "Henry (Harry) Ohleyer",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 19.23,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "undecided"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28808,16 +23049,12 @@ var racedata = [
     "Given Name/s": "Jonathan Rucker",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Outrigger canoe 18.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18.5' outrigger canoe w/ sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28828,16 +23065,12 @@ var racedata = [
     "Given Name/s": "Michael Maddux",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28848,16 +23081,12 @@ var racedata = [
     "Given Name/s": "Nick Hall",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie Mirage",
     "cp1": 32.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie Mirage with pedal option"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28868,16 +23097,12 @@ var racedata = [
     "Given Name/s": "peter durham",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 32,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "fibreglass or plastic single sea kayak"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -28888,16 +23113,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28908,16 +23129,12 @@ var racedata = [
     "Given Name/s": "Rick Haller",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Dagger Cortez",
     "cp1": 19,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Dagger Cortez"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28928,16 +23145,12 @@ var racedata = [
     "Given Name/s": "Daniel Rowland",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": 32.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kajak Sport"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28948,16 +23161,12 @@ var racedata = [
     "Given Name/s": "Marty Sullivan",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Osprey HP",
     "cp1": 26.42,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Osprey HP"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28968,16 +23177,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 52.08,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -28988,16 +23193,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29008,16 +23209,12 @@ var racedata = [
     "Given Name/s": "Paul Burroughs",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wilderness system pro Cape Horn",
     "cp1": 36.5,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17 ft wilderness system pro cap horn kevlar"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29028,16 +23225,12 @@ var racedata = [
     "Given Name/s": "Karl Grass",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Eddyline Falcon S18",
     "cp1": 24.67,
     "cp2": 80.83,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Kevlar/Graphite Eddyline Falcon 18'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29048,16 +23241,12 @@ var racedata = [
     "Given Name/s": "Kevin O'Neill",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC kayak trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Lovely CLC tri with a Sailrig. Can't wait to meet her."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29068,16 +23257,12 @@ var racedata = [
     "Given Name/s": "BARRY NEWELL",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaward Quest",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "seaward quest"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29088,16 +23273,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 49.15,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29108,16 +23289,12 @@ var racedata = [
     "Given Name/s": "William Meares III",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wenona Advantage",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Either: Wenona Advantage, a kevlar solo canoe. or: K158, a 3mm plywood kayak very similar to a Chesapeak Light Craft Yare model."
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -29128,16 +23305,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Dreamcatcher",
     "cp1": 41.82,
     "cp2": 45.92,
     "cp3": 63.92,
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "I have a Verlen Kruger Dreamcatcher with BOSS outriggers and sail from Balogh Sail Designs. This combination performed flawlessly during the Everglades 2001 Challenge. My goal is to finish the 2002 Everglades Challenge in 6 days."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29148,16 +23321,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29168,16 +23337,12 @@ var racedata = [
     "Given Name/s": "Leon Mathis",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Viviane Expedition",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19 foot X 21.5 inches SOLID BLACK Kayak Sport Vivian sea kayak with rudder. Will pack much lighter this time."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29188,16 +23353,12 @@ var racedata = [
     "Given Name/s": "michael leneman and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "homeade catamaran 18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A sit-in (one person in each hull), pedal and sail powered, catamaran of approx. 18 ft in length. Twin sailing rigs, free standing, one in each hull as well as twin pedal props. Each hull can be converted into a trimaran for individual paddling."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29208,16 +23369,12 @@ var racedata = [
     "Given Name/s": "Rick Tobin and Edward Engel",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Kayak Catamaran Team 18'",
     "cp1": 55.37,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "One 18' Kanoe Latvia double and one 18' VCP Aquila rigged together as a sailing cataramaran."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29228,16 +23385,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29248,16 +23401,12 @@ var racedata = [
     "Given Name/s": "John C. Harris and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
-    "BOAT": "Mbuli, CLC Pacific Proa",
+    "BOAT": "Pacific Proa",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Mbuli is a 20-foot Pacific proa with camping accommodations. It is schooner rigged with two 125sqft full-battened sails set on 28-foot carbon wing masts. Here's hoping this race is mostly offwind....."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29268,16 +23417,12 @@ var racedata = [
     "Given Name/s": "Svenja Harms and Anonymous",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double",
     "BOAT": "homemade catamaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "catamaran style boat, with windsurfing rig or maybe kit"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -29288,16 +23433,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": 78.15,
     "cp2": 71.5,
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "#N/A"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29308,16 +23449,12 @@ var racedata = [
     "Given Name/s": "michael jensen",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Current Designs Gulfstream",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CURRENT DESIGN \"GULFSTREAM\" LENGTH 16'10\" YELLOW AND WHITE."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29328,16 +23465,12 @@ var racedata = [
     "Given Name/s": "Vladimir Eremeev",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Inflatable Albatross Catamaran",
     "cp1": 64.65,
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Russian made folding inflatable catamaran \"Albatross\". leight-16 ft, sail area - 82 sq ft, weight - 150 lb"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29348,16 +23481,12 @@ var racedata = [
     "Given Name/s": "Jea Chapman",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "Current Designs Slipstream",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Current Design Slipstream, or West Side Boat Works--EFT"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNF",
@@ -29368,16 +23497,12 @@ var racedata = [
     "Given Name/s": "Stephen Brainard",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "West Side Boat Shop Kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "EFT Made by West Side Boat Shop 19' X 21\" touring sea kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNF",
@@ -29388,16 +23513,12 @@ var racedata = [
     "Given Name/s": "Karl Grass",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Eddyline Falcon S18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Eddyline Falcon 18 - Kevlar/Graphite Composite"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29408,16 +23529,12 @@ var racedata = [
     "Given Name/s": "Josh Bowers and Denise Parris",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Yellow Hobie TI!"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29428,16 +23545,12 @@ var racedata = [
     "Given Name/s": "Michael Collins and Brian Collins",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Core Sound 17 Mark 3",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "B&B Yacht Designs Core Sound Mk3 - Yellow and white Previous first place in class 4"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29448,16 +23561,12 @@ var racedata = [
     "Given Name/s": "Geoffrey Chambers",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
-    "BOAT": "?",
+    "BOAT": "BOAT",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The cheapest boat I can find at Walmart on my drive to St. Pete. It will be rigged up the day before the event with a blue tarp sail on a PVC pipe mast. Any foam floatation that comes with the boat will be removed to make room for the required equipment."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29468,16 +23577,12 @@ var racedata = [
     "Given Name/s": "Marvin Davis",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "18' T-craft",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Jenna is a 1975 18' T-craft. Fiberglass, swing-keeled, mono-hull, built in Titusville, Fl."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29488,16 +23593,12 @@ var racedata = [
     "Given Name/s": "John Boushall",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Capri 16.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Massaged Capri 16.5. Ver 2"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29508,16 +23609,12 @@ var racedata = [
     "Given Name/s": "Whitney Sanford",
     "C#": "CS",
     "Group": "Single",
-    "Group/Gender": "Single Female",
     "BOAT": "SUP",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "14’ RS SIC"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29528,16 +23625,12 @@ var racedata = [
     "Given Name/s": "Jonathan Foster and David Foster",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Modified Lightning",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Lightning dinghy from a previous EC finisher refit for extended cruising. Mast modified to deck-stepped, rigging up-sized, old spreader bar removed, mast reinforced, Star foil spreaders and bracket added. Black bottom paint, black topsides, gray deck with red stripes. Bouyancy built into bow and seats."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29548,16 +23641,12 @@ var racedata = [
     "Given Name/s": "Larry Langley and",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Lightning",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "19ft Lightning"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29568,16 +23657,12 @@ var racedata = [
     "Given Name/s": "Ralph Bush",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "True",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "Have not decided yet"
+    "either/or": "True"
   },
   {
     "Total (hrs)": "DNS",
@@ -29588,16 +23673,12 @@ var racedata = [
     "Given Name/s": "John Boushall",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Capri 16.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A lightly massaged Capri 16.5 (rev 2)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29608,16 +23689,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29628,16 +23705,12 @@ var racedata = [
     "Given Name/s": "Thomas Smith",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 17",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "planB",
-    "WW": "",
-    "Boat Description": "WIND RIDER 17"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29648,16 +23721,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21’ cat ketch with black hull and white sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29668,16 +23737,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 22",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "22Ft Custom Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29688,16 +23753,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Crescent Kayaks LiteTackle",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "modified Crescent Kayaks LiteTackle"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29708,16 +23769,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Epic 18x",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Epic 18X Sport white, black stern and bow with white SOLAS tape"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29728,16 +23785,12 @@ var racedata = [
     "Given Name/s": "Anonymous",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Stellar S18R",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Stellar S18 Sea Kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29748,16 +23801,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Necky Tofino",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "A Necky Tofino with a BSD sail rig and outriggers."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29768,16 +23817,12 @@ var racedata = [
     "Given Name/s": "Craig Runnels",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Laser",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Laser - with reefing system"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29788,16 +23833,12 @@ var racedata = [
     "Given Name/s": "Jamey Liddell",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Dovekie",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21’ Dovekie designed by Phil Bolger. Hull has positive floatation, an enclosed area, stern hung rudder and lee boards. She has a stayed mast and a sprit rig with three reefs in the mainsail. She’s been slightly modified to allow two people to row at one time."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29808,16 +23849,12 @@ var racedata = [
     "Given Name/s": "Joseph Waits and Zachary Berman",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Warren Light Craft 15.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "7 days a week...Warren Light Craft Little Wing Tandem Sail"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29828,16 +23865,12 @@ var racedata = [
     "Given Name/s": "Gavin Watson",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 22",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "22 foot custom trimaran https://photos.app.goo.gl/J7LmLG24yCdttJPWA"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29848,16 +23881,12 @@ var racedata = [
     "Given Name/s": "Jay Vedelli",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Newport 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Newport16 mono hull sailboat. (Antique)"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29868,16 +23897,12 @@ var racedata = [
     "Given Name/s": "Igor Kononchuk",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Inflatable Catamaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Catamaran \"Vitamin\", inflatable hulls, 5,2 m (17 ft) long, 8 sq m (86 sq ft) mainsail + spinaker."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29888,16 +23913,12 @@ var racedata = [
     "Given Name/s": "Christian Patrick and Nina Bluhm",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Tremolino Trimaran",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tremolino trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29908,16 +23929,12 @@ var racedata = [
     "Given Name/s": "Matt Scharl",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Gougeon Sailing Canoe 19'",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Gougeon Canoe"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29928,16 +23945,12 @@ var racedata = [
     "Given Name/s": "Steven Thoreson",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie 18",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie 18"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29948,16 +23961,12 @@ var racedata = [
     "Given Name/s": "Andrew Hustrulid and Stefan Hustrulid",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2018 Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29968,16 +23977,12 @@ var racedata = [
     "Given Name/s": "Joachim Roesler",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Angus Rowcruiser",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Angus RowCruiser, 19 ft"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -29988,16 +23993,12 @@ var racedata = [
     "Given Name/s": "Randy Smith",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "2016 dune Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30008,16 +24009,12 @@ var racedata = [
     "Given Name/s": "Russ Matter",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homeade row boat",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "ama stabilized tornado hull row boat"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30028,16 +24025,12 @@ var racedata = [
     "Given Name/s": "Anthony Vandenberg",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windsurfer",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "3.8 Meter Raceboard"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30048,16 +24041,12 @@ var racedata = [
     "Given Name/s": "Thad Rice",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Kruger Seawind",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Kruger SeaWind"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30068,16 +24057,12 @@ var racedata = [
     "Given Name/s": "Jamie Livingston and Kenny Pierce",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Tornado",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tornado 20 foot catamaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30088,16 +24073,12 @@ var racedata = [
     "Given Name/s": "Chris Growcock and David Clement",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Prindle 19",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Prindle 19 Catamaran 19 ft red/white"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30108,16 +24089,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30128,16 +24105,12 @@ var racedata = [
     "Given Name/s": "Michael Lingswiler and Tom Bremen",
     "C#": "C4",
     "Group": "Double",
-    "Group/Gender": "Double Male",
     "BOAT": "Dovekie",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Phil Bolger Dovekie 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30148,16 +24121,12 @@ var racedata = [
     "Given Name/s": "Bill Fite",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "21' cat ketch with black hull and red bottom paint."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30168,16 +24137,12 @@ var racedata = [
     "Given Name/s": "James Collins",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30188,16 +24153,12 @@ var racedata = [
     "Given Name/s": "Guy deBoer",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade trimaran 22",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Custom 22' trimaran design"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30208,16 +24169,12 @@ var racedata = [
     "Given Name/s": "Steve Adams",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30228,16 +24185,12 @@ var racedata = [
     "Given Name/s": "Griff Griffin",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie TI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Hobie TI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30248,16 +24201,12 @@ var racedata = [
     "Given Name/s": "Matthew Vanecek",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Sea Pearl",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Sea Pearl 21"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30268,16 +24217,12 @@ var racedata = [
     "Given Name/s": "Cork Friedman",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade Wherry",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' custom Wherry with row wing and sail rig."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30288,16 +24233,12 @@ var racedata = [
     "Given Name/s": "John Naser",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30308,16 +24249,12 @@ var racedata = [
     "Given Name/s": "Mark Ellison",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Weta trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30328,16 +24265,12 @@ var racedata = [
     "Given Name/s": "Jeff Linton and Jahn Tihansky\nand unknown",
     "C#": "C4",
     "Group": "Triple",
-    "Group/Gender": "Triple",
     "BOAT": "O.H. Rodgers 22 'Spawn'",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Tampa Bay 22"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30348,16 +24281,12 @@ var racedata = [
     "Given Name/s": "Steve Inglis",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "No Description Given"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30368,16 +24297,12 @@ var racedata = [
     "Given Name/s": "Jim Mackenzie",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Seaclipper 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Seaclipper 16 trimaran built with leftovers of other projects"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30388,16 +24313,12 @@ var racedata = [
     "Given Name/s": "Ed Lawlor",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "P&H Cetus",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "17' 11\" P&H Cetus"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30408,16 +24329,12 @@ var racedata = [
     "Given Name/s": "Heidt Adams",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "SLI Daysailer",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "SLI DaySailer"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30428,16 +24345,12 @@ var racedata = [
     "Given Name/s": "James Kirkpatrick",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Parker Ohio Sharpie",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "19ft modified Parker Ohio Sharpie"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30448,16 +24361,12 @@ var racedata = [
     "Given Name/s": "Steven Isaac",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "The new Hobie AI with my patented hakas."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30468,16 +24377,12 @@ var racedata = [
     "Given Name/s": "John Sims",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "CLC Skerry",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "CLC Skerry 15'"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30488,16 +24393,12 @@ var racedata = [
     "Given Name/s": "John Craun",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homeade kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "stripbuilt"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30508,16 +24409,12 @@ var racedata = [
     "Given Name/s": "Archie Jones",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Home made kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30528,16 +24425,12 @@ var racedata = [
     "Given Name/s": "William Highsmith",
     "C#": "C3",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "18' kayak w/sails"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30548,16 +24441,12 @@ var racedata = [
     "Given Name/s": "harry giddings",
     "C#": "C1",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Wilderness Systems Seacret 15",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Wilderness Systems Seacret 15ft. sit-in kayak"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30568,16 +24457,12 @@ var racedata = [
     "Given Name/s": "Michael Daughtery",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Pygmy Coho",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Pygmy Coho"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30588,16 +24473,12 @@ var racedata = [
     "Given Name/s": "John Craun",
     "C#": "C2",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "homemade kayak",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "My strip built kayak that's done two EC's. I might build another kayak to use this year."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30608,16 +24489,12 @@ var racedata = [
     "Given Name/s": "Anthony Steward",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Weta",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "WETA 14ft Trimaran"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30628,16 +24505,12 @@ var racedata = [
     "Given Name/s": "Tom Berry",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Hobie AI",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Well Used Yellow Tandem AI"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30648,16 +24521,12 @@ var racedata = [
     "Given Name/s": "Scollay Whitney",
     "C#": "C4",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "?",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16' decked Sharpie. BSD 36 sail."
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30668,16 +24537,12 @@ var racedata = [
     "Given Name/s": "John Naser",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Windrider 16",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Windrider 16"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30688,16 +24553,12 @@ var racedata = [
     "Given Name/s": "Ray Aldridge and Nancy Aldridge",
     "C#": "C5",
     "Group": "Double",
-    "Group/Gender": "Double Mixed",
     "BOAT": "Ray Aldridge Catamaran 16'",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "16 foot open cruising catamaran designed by Ray Aldridge"
+    "either/or": ""
   },
   {
     "Total (hrs)": "DNS",
@@ -30708,15 +24569,11 @@ var racedata = [
     "Given Name/s": "Mark Trumbull",
     "C#": "C5",
     "Group": "Single",
-    "Group/Gender": "Single Male",
     "BOAT": "Warren Light Craft 15.5",
     "cp1": "#N/A",
     "cp2": "#N/A",
     "cp3": "#N/A",
     "finish": "#N/A",
-    "either/or": "",
-    "PB?": "",
-    "WW": "",
-    "Boat Description": "Warren Light Craft 15.5 sailing kayak www.warrenlightcraft.com"
+    "either/or": ""
   }
 ];

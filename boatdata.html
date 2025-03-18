@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-603N0XSSEK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-603N0XSSEK');
+</script>
+
+    <title>Boat Data</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+<h4> Below are all unique boat types in order of their number of finshes. Did not starts are not included in attempts.</h4>
+
+<div id="dataNote"></div>
+
+<h4> In an attempt to visualize the data, the success rate for boats with more than 5 finishes are plotted on a chart against the percentage of those finishes that were by unique crews. The idea being that boats closest to the upper right of the chart would have the "best" success in the EC with the least correlation to their crews. The chart looks kind of cool but whether it is actually usefull in any way I am not sure. Note also that some boat types can appear in class 1, 2, or 3 depending on how they were set up so the class filter is less usefull in this case. </h4>
+
+
+<div class="chart-container">
+    <canvas id="scatterPlot"></canvas>
+</div>
+
+<br>
+Filter by Class:
+<select id="classFilter">
+    <option value="ALL">All Classes</option>
+    <option value="1">Class 1</option>
+    <option value="2">Class 2</option>
+    <option value="3">Class 3</option>
+    <option value="4">Class 4</option>
+    <option value="5">Class 5</option>
+</select>
+
+<!-- Sorting Dropdown -->
+Sort by:
+<select id="sortFilter">
+    <option value="mostFinishes">Most Finishes</option>
+    <option value="mostUniqueCrews">Most Number of Unique Crews</option>
+    <!-- <option value="finishRate">Highest Finish Rate</option> -->
+</select>
+
+<br>
+<br>
+
+<!-- Table for displaying data -->
+<table id="boatDataTable" class="search-results-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Class</th>
+            <th>Boat</th>
+            <th>Attempts</th>
+            <th>Finishes</th>
+            <th>Unique Crews</th>
+            <th>Percent Unique</th> <!-- New column -->
+            <th>Success Rate</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data rows will be inserted here -->
+    </tbody>
+</table>
+
+
+    <script src="racedata.js"></script>
+    <script src="boatdata.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>

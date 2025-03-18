@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+   
+   
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-603N0XSSEK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-603N0XSSEK');
+</script>
+    
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="{{ '/nav.js' | relative_url }}"></script>
+    <script src="{{ '/activelink.js' | relative_url }}"></script>
+    
+
+    {{ content }}
+
+    <!-- Your site-wide scripts here -->
+</body>
+</html>

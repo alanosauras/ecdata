@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-603N0XSSEK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-603N0XSSEK');
+</script>
+
+    <title>Wilderness Waterway Finishers</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+    <h2>Wilderness Waterway Finishers</h2>
+    <div>
+        <label for="sortOptions">Sort by:</label>
+        <select id="sortOptions">
+            <option value="fastestOverall">Fastest Overall Time</option>
+            <option value="fastestCP2toCP3">Fastest Time from CP2 to CP3</option>
+        </select>
+    </div>
+    <br>
+    <div id="searchresults"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="racedata.js"></script>
+    <script src="helperfunctions.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const wwFinishers = racedata.filter(entry => entry.WW === 'ww');
+    displayWWResults(sortResults(wwFinishers, "fastestOverall"));
+
+    document.getElementById('sortOptions').addEventListener('change', function() {
+        const sortOption = this.value;
+        const sortedResults = sortResults(wwFinishers, sortOption);
+        displayWWResults(sortedResults);
+    });
+});
+
+function sortResults(results, sortBy) {
+    if (sortBy === "fastestOverall") {
+        return results.sort((a, b) => parseFloat(a['Total (hrs)']) - parseFloat(b['Total (hrs)']));
+    } else if (sortBy === "fastestCP2toCP3") {
+        return results.sort((a, b) => parseFloat(a['cp3']) - parseFloat(b['cp3']));
+    } else {
+        return results; // Default to no sorting if an unexpected value is passed
+    }
+}
+
+
+        function displayWWResults(results) {
+            const resultsDiv = document.getElementById('searchresults');
+            resultsDiv.innerHTML = '';
+
+            if (results.length === 0) {
+                resultsDiv.innerHTML = 'No wilderness waterway finishes found.';
+                return;
+            }
+
+            const table = document.createElement('table');
+            table.classList.add('search-results-table');
+
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            const headers = ["No.", "Year", "Triber/s", "Group/Gender", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"];
+            headers.forEach(headerText => {
+                const header = document.createElement('th');
+                header.textContent = headerText;
+                headerRow.appendChild(header);
+            });
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+
+            const tbody = document.createElement('tbody');
+            results.forEach((result, index) => {
+                const row = document.createElement('tr');
+                const numberCell = document.createElement('td');
+                numberCell.textContent = index + 1;
+                row.appendChild(numberCell);
+
+                const dataValues = [
+                    result['YEAR'],
+                    result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'],
+                    result['Group/Gender'],
+                    result['BOAT'],
+                    result['C#'],
+                    result['Total (hrs)'],
+                    result['cp1'],
+                    result['cp2'],
+                    result['cp3'],
+                    convertHoursToDHM(result['Total (hrs)'])
+                ];
+
+                dataValues.forEach(value => {
+                    const cell = document.createElement('td');
+                    cell.textContent = value || '-';
+                    row.appendChild(cell);
+                });
+
+                tbody.appendChild(row);
+            });
+            table.appendChild(tbody);
+            resultsDiv.appendChild(table);
+        }
+
+        function convertHoursToDHM(totalHours) {
+            const hours = Number(totalHours);
+            const days = Math.floor(hours / 24);
+            const remainderHours = hours % 24;
+            const minutes = Math.floor((remainderHours - Math.floor(remainderHours)) * 60);
+            return `${days}d ${Math.floor(remainderHours)}h ${minutes}m`;
+        }
+    </script>
+</body>
+</html>
