@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Timers Success Rates</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="racedata.js"></script> <!-- Load racedata FIRST -->
+</head>
+<body>
+    <h1>First Timers Success Rates</h1>
+    <p id="summary-text"></p>
+
+    <div>
+        <h2>Overall First-Time Success Rate</h2>
+        <canvas id="overallSuccessRateChart"></canvas>
+        
+    </div>
+    <div>
+        <h2>Class 1</h2>
+        <canvas id="successRateChart-C1"></canvas>
+    </div>
+    <div>
+        <h2>Class 2</h2>
+        <canvas id="successRateChart-C2"></canvas>
+    </div>
+    <div>
+        <h2>Class 3</h2>
+        <canvas id="successRateChart-C3"></canvas>
+    </div>
+    <div>
+        <h2>Class 4</h2>
+        <canvas id="successRateChart-C4"></canvas>
+    </div>
+    <div>
+        <h2>Class 5</h2>
+        <canvas id="successRateChart-C5"></canvas>
+    </div>
+
+    <!-- ✅ Ensure `first-timers.js` runs AFTER `racedata.js` -->
+    <script src="first-timers.js"></script>
+</body>
+</html>

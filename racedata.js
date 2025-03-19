@@ -4736,7 +4736,7 @@ var racedata = [
     "finish": 13.83,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "grey hobieTI with green, blue & white sail"
   },
   {
@@ -9196,7 +9196,7 @@ var racedata = [
     "finish": 9.82,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Sea Wind with sail"
   },
   {
@@ -9216,7 +9216,7 @@ var racedata = [
     "finish": 9.9,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Kruger Seawind w/ a 1 meter FEKS sail"
   },
   {
@@ -11896,7 +11896,7 @@ var racedata = [
     "finish": 28.57,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Yellow 'Current Designs' Sirocco kayak with Falcon Sail"
   },
   {
@@ -11936,7 +11936,7 @@ var racedata = [
     "finish": 28.62,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "17'9\" Superior Expedition Canoe"
   },
   {
@@ -11956,7 +11956,7 @@ var racedata = [
     "finish": 28.58,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Epic 18x Sport, no sail"
   },
   {
@@ -12776,7 +12776,7 @@ var racedata = [
     "finish": 27.85,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Epic 18X double"
   },
   {
@@ -12796,7 +12796,7 @@ var racedata = [
     "finish": 27.85,
     "either/or": "",
     "PB?": "",
-    "WW": "",
+    "WW": "ww",
     "Boat Description": "Epic 18x Tandem"
   },
   {

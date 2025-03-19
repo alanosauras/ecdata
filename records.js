@@ -3,7 +3,7 @@ const overallRecordTimes = {
   cp1: 4.13, // hours
   cp2: 7.42,
   cp3: 6.47,
-  cp4: 3.98
+  cp4: 3.93
 };
 
 // New structure for overall (top) records
@@ -12,7 +12,7 @@ const topRecords = {
   cp1: { year: 2020, captain: "Bumpy" },
   cp2: { year: 2020, captain: "Chaos" },
   cp3: { year: 2008, captain: "Lumpy" },
-  cp4: { year: 2021, captain: "Twobeers" }
+  cp4: { year: 2025, captain: "Gamera" }
 };
 
 // Distances between checkpoints in nautical miles (nm)
