@@ -21,7 +21,7 @@
     <script src="nav.js"></script>
     <script src="activelink.js"></script>
 
-    <h4>Tribers who have never not finished. While this includes a fair amount of luck it is still impressive. Note that the year 2015 was omitted from the tally since there were no "official" finshers that year. </h4>
+    <h4>Tribers who have never not finished. While this includes a fair amount of luck it is still impressive. Note that the year 2015 was omitted from the tally since there were no "official" finishers that year. </h4>
     <table id="hallOfFameTable" class="search-results-table">
         <thead>
             <tr>
@@ -35,14 +35,19 @@
         </tbody>
     </table>
 
-    <!-- <script src="racedata.js"></script> -->
-    <script src="racedatano2015.js"></script>
+    <script src="racedata.js"></script>
     <script>
 document.addEventListener('DOMContentLoaded', updateHallOfFame);
 
 function updateHallOfFame() {
+    // Ensure racedata is loaded before processing
+    if (typeof racedata === 'undefined') {
+        console.error("Error: racedata.js is not loaded.");
+        return;
+    }
+
     // Step 1: Filter out DNS entries and entries from the year 2015
-    const relevantData = racedatano2015.filter(entry => entry['Total (hrs)'] !== "DNS" && entry['YEAR'] !== "2015");
+    const relevantData = racedata.filter(entry => entry['Total (hrs)'] !== "DNS" && entry['YEAR'] !== 2015);
 
     // Step 2: Compile an object with captain and crew names and their finish counts
     const triberFinishes = {}; // Object to store each triber's finish count
@@ -88,8 +93,6 @@ function updateHallOfFame() {
         finishesCell.textContent = finishes;
     });
 }
-
-
 
     </script>
     
