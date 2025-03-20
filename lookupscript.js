@@ -55,8 +55,12 @@ function searchdata() {
                              (groupFilterValue === "All Double" && entry['Group/Gender'].includes("Double")) ||
                              entry['Group/Gender'].toLowerCase().includes(groupFilterValue.toLowerCase());
 
-        const matchesBoat = !boatFilterValue || entry['BOAT'].toLowerCase().includes(boatFilterValue);
+                             const exactMatchChecked = document.getElementById('exactBoatMatch').checked;
 
+                             const matchesBoat = !boatFilterValue || 
+                                                 (exactMatchChecked ? entry['BOAT'].toLowerCase() === boatFilterValue : 
+                                                                      entry['BOAT'].toLowerCase().includes(boatFilterValue));
+                             
         return matchesNameOrYear && matchesClass && matchesGroup && matchesBoat;
     });
 
@@ -156,4 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('resetButton').addEventListener('click', function() {
         window.location.reload();
     });
+
+    // ✅ Add event listener for "Exact Match" checkbox
+    document.getElementById('exactBoatMatch').addEventListener('change', searchdata);
 });
