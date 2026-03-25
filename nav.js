@@ -5,7 +5,6 @@ document.getElementById('navigation').innerHTML = `
         <ul>
             <li><a href="index.html">Lookup</a></li>
             <li><a href="ww.html">Wilderness Waterway</a></li>
-            <li><a href="ufc.html">UFC Data</a></li>
             <li><a href="records.html">Stats/Records</a></li>
             <li><a href="other.html">Other Stats</a></li>
             <li><a href="classchart.html">Charts</a></li>
@@ -15,8 +14,7 @@ document.getElementById('navigation').innerHTML = `
             <li><a href="lucky.html">Lucky Tribers</a></li>
             <li><a href="notes.html">About</a></li> 
             <li><a href="ERRORS.html">Erroneous Data</a></li>
-
-
+            <li><a href="ufc.html" style="border: 1.5px solid blue; padding: 2px 7px; border-radius: 3px;">UFC Data</a></li>
         </ul>
     </nav>
     <hr>
