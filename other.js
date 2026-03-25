@@ -81,11 +81,52 @@ document.addEventListener('DOMContentLoaded', function () {
     // Sort by streak length descending, break ties by most finishes
     results.sort((a, b) => b.streak - a.streak || b.finishes - a.finishes);
 
-    // --- Render top 10 ---
-    const container = document.getElementById('consecutiveStreaks');
-    const top10 = results.slice(0, 10);
+    // --- Render top 10 consecutive streaks ---
+    renderTable(
+        document.getElementById('consecutiveStreaks'),
+        results.slice(0, 10),
+        ['#', 'Triber', 'Consecutive Entries', 'Successful', 'DNF', 'Years'],
+        r => [r.name, r.streak + ' consecutive attempt' + (r.streak !== 1 ? 's' : ''), r.finishes + ' successful', r.dnfs + ' DNF', r.start + ' to ' + r.end]
+    );
 
-    if (top10.length === 0) {
+    // -------------------------------------------------------
+    // SECTION 2: Top 10 by total finishes (all-time)
+    // -------------------------------------------------------
+    const triberStats = {};
+
+    racedata.forEach(entry => {
+        const finished =
+            entry['Total (hrs)'] !== '' &&
+            entry['Total (hrs)'] !== null &&
+            entry['Total (hrs)'] !== undefined &&
+            !isNaN(entry['Total (hrs)']) &&
+            entry['Total (hrs)'] > 0;
+
+        ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(field => {
+            const name = (entry[field] || '').trim();
+            if (!name) return;
+            if (!triberStats[name]) triberStats[name] = { finishes: 0, entries: 0 };
+            triberStats[name].entries++;
+            if (finished) triberStats[name].finishes++;
+        });
+    });
+
+    const finishResults = Object.entries(triberStats)
+        .map(([name, s]) => ({ name, finishes: s.finishes, entries: s.entries, dnfs: s.entries - s.finishes }))
+        .sort((a, b) => b.finishes - a.finishes || a.dnfs - b.dnfs);
+
+    renderTable(
+        document.getElementById('mostFinishes'),
+        finishResults.slice(0, 10),
+        ['#', 'Triber', 'Total Finishes', 'Total Entries', 'DNF'],
+        r => [r.name, r.finishes + ' finish' + (r.finishes !== 1 ? 'es' : ''), r.entries + ' total entr' + (r.entries !== 1 ? 'ies' : 'y'), r.dnfs + ' DNF']
+    );
+
+});
+
+// --- Shared table renderer ---
+function renderTable(container, rows, headers, rowFn) {
+    if (!rows.length) {
         container.innerHTML = '<p>No data found.</p>';
         return;
     }
@@ -95,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
-    ['#', 'Triber', 'Consecutive Entries', 'Successful', 'DNF', 'Years'].forEach(text => {
+    headers.forEach(text => {
         const th = document.createElement('th');
         th.textContent = text;
         headerRow.appendChild(th);
@@ -104,30 +145,15 @@ document.addEventListener('DOMContentLoaded', function () {
     table.appendChild(thead);
 
     const tbody = document.createElement('tbody');
-    top10.forEach((r, idx) => {
+    rows.forEach((r, idx) => {
         const row = document.createElement('tr');
-
-        const rank = document.createElement('td');
-        rank.textContent = idx + 1;
-
-        const name = document.createElement('td');
-        name.textContent = r.name;
-
-        const streakCell = document.createElement('td');
-        streakCell.textContent = r.streak + ' consecutive attempt' + (r.streak !== 1 ? 's' : '');
-
-        const finishCell = document.createElement('td');
-        finishCell.textContent = r.finishes + ' successful';
-
-        const dnfCell = document.createElement('td');
-        dnfCell.textContent = r.dnfs + ' DNF';
-
-        const yearsCell = document.createElement('td');
-        yearsCell.textContent = r.start + ' to ' + r.end;
-
-        [rank, name, streakCell, finishCell, dnfCell, yearsCell].forEach(td => row.appendChild(td));
+        [idx + 1, ...rowFn(r)].forEach(val => {
+            const td = document.createElement('td');
+            td.textContent = val;
+            row.appendChild(td);
+        });
         tbody.appendChild(row);
     });
     table.appendChild(tbody);
     container.appendChild(table);
-});
+}
