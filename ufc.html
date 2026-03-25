@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-603N0XSSEK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-603N0XSSEK');
+</script>
+
+    <title>UFC Data</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="navigation"></div>
+    <script src="nav.js"></script>
+    <script src="activelink.js"></script>
+
+    <h2>Ultimate Florida Challenge Results</h2>
+    <!-- Edit the description below as needed -->
+    <h4>The Ultimate Florida Challenge is a circumnavigation of Florida, held concurrently with the Everglades Challenge in select years. Stage 1 covers the same route as the EC. Results below include all UFC entries sorted by total finish time. DNF entries are listed at the bottom.</h4>
+
+    <div>
+        <label for="ufcYearFilter">Filter by Year:</label>
+        <select id="ufcYearFilter">
+            <option value="ALL">All Years</option>
+        </select>
+    </div>
+    <br>
+    <div id="ufcresults"></div>
+
+    <script src="ufcracedata.js"></script>
+    <script src="ufc.js"></script>
+
+</body>
+</html>

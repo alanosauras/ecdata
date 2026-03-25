@@ -103,6 +103,68 @@ if (sortFilterValue !== "None") {
 
 displayResults(results);
 
+// Show UFC results if this is a triber name search (not a year, not empty)
+const ufcDiv = document.getElementById('ufcsearchresults');
+ufcDiv.innerHTML = '';
+if (query && !/^\d{4}$/.test(query)) {
+    const ufcResults = ufcracedata.filter(entry =>
+        (entry['Captain wt name'] || '').toLowerCase() === query ||
+        (entry['Crew wt name'] || '').toLowerCase() === query ||
+        (entry['3rd wt name'] || '').toLowerCase() === query
+    );
+    if (ufcResults.length > 0) {
+        ufcResults.sort((a, b) => a.YEAR - b.YEAR);
+        const heading = document.createElement('p');
+        heading.innerHTML = `<strong>${ufcResults[0]['Captain wt name'] || query}: ${ufcResults.length} Ultimate Florida Challenge entr${ufcResults.length !== 1 ? 'ies' : 'y'}.</strong>`;
+        ufcDiv.appendChild(heading);
+
+        const table = document.createElement('table');
+        table.classList.add('search-results-table');
+
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        ['#', 'Year', 'Triber/s', 'Class', 'Group', 'Boat', 'S1', 'S2', 'S3', 'S4', 'Total (hrs)', 'D:H:M'].forEach(text => {
+            const th = document.createElement('th');
+            th.textContent = text;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        ufcResults.forEach((entry, idx) => {
+            const row = document.createElement('tr');
+            const tribers = [entry['Captain wt name'], entry['Crew wt name'], entry['3rd wt name']]
+                .filter(n => n && n.trim()).join(' and ');
+
+            const isValidTime = v => v !== null && v !== undefined && v !== '' && v !== 'DNF' && !isNaN(v) && v > 0;
+            const fmt = v => isValidTime(v) ? v : 'DNF';
+
+            [
+                idx + 1,
+                entry['YEAR'],
+                tribers,
+                entry['C#'],
+                entry['Group/Gender'],
+                entry['BOAT'],
+                fmt(entry['S1']),
+                fmt(entry['S2']),
+                fmt(entry['S3']),
+                fmt(entry['S4']),
+                fmt(entry['Total (hrs)']),
+                isValidTime(entry['Total (hrs)']) ? convertHoursToDHM(entry['Total (hrs)']) : 'DNF',
+            ].forEach(val => {
+                const td = document.createElement('td');
+                td.textContent = val;
+                row.appendChild(td);
+            });
+            tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+        ufcDiv.appendChild(table);
+    }
+}
+
 // Call linkify after updating the content
 if (window.linkify) {
     window.linkify(document.body);

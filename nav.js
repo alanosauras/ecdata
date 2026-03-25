@@ -5,6 +5,7 @@ document.getElementById('navigation').innerHTML = `
         <ul>
             <li><a href="index.html">Lookup</a></li>
             <li><a href="ww.html">Wilderness Waterway</a></li>
+            <li><a href="ufc.html">UFC Data</a></li>
             <li><a href="records.html">Stats/Records</a></li>
             <li><a href="other.html">Other Stats</a></li>
             <li><a href="classchart.html">Charts</a></li>

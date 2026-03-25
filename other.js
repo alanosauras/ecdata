@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // -------------------------------------------------------
-    // SECTION 1: Top 20 by total finishes (all-time)
+    // SECTION 1: Most Finishes (All-Time) — EC + UFC S1
     // -------------------------------------------------------
     const triberStats = {};
 
+    // Count EC finishes
     racedata.forEach(entry => {
         const finished =
             entry['Total (hrs)'] !== '' &&
@@ -16,21 +17,53 @@ document.addEventListener('DOMContentLoaded', function () {
         ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(field => {
             const name = (entry[field] || '').trim();
             if (!name) return;
-            if (!triberStats[name]) triberStats[name] = { finishes: 0, entries: 0 };
+            if (!triberStats[name]) triberStats[name] = { ecFinishes: 0, entries: 0, ufcS1: 0 };
             triberStats[name].entries++;
-            if (finished) triberStats[name].finishes++;
+            if (finished) triberStats[name].ecFinishes++;
+        });
+    });
+
+    // Count UFC S1 finishes (valid S1 time = EC-equivalent finish)
+    ufcracedata.forEach(entry => {
+        const s1Finished =
+            entry['S1'] !== null &&
+            entry['S1'] !== undefined &&
+            entry['S1'] !== '' &&
+            entry['S1'] !== 'DNF' &&
+            !isNaN(entry['S1']) &&
+            entry['S1'] > 0;
+
+        ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(field => {
+            const name = (entry[field] || '').trim();
+            if (!name) return;
+            if (!triberStats[name]) triberStats[name] = { ecFinishes: 0, entries: 0, ufcS1: 0 };
+            if (s1Finished) triberStats[name].ufcS1++;
         });
     });
 
     const finishResults = Object.entries(triberStats)
-        .map(([name, s]) => ({ name, finishes: s.finishes, entries: s.entries, dnfs: s.entries - s.finishes }))
-        .sort((a, b) => b.finishes - a.finishes || a.dnfs - b.dnfs);
+        .map(([name, s]) => ({
+            name,
+            ecFinishes: s.ecFinishes,
+            ufcS1: s.ufcS1,
+            totalFinishes: s.ecFinishes + s.ufcS1,
+            entries: s.entries,
+            dnfs: s.entries - s.ecFinishes
+        }))
+        .sort((a, b) => b.totalFinishes - a.totalFinishes || a.dnfs - b.dnfs);
 
     renderTable(
         document.getElementById('mostFinishes'),
         finishResults.slice(0, 20),
-        ['#', 'Triber', 'Total Finishes', 'Total Entries', 'DNF'],
-        r => [r.name, r.finishes + ' finish' + (r.finishes !== 1 ? 'es' : ''), r.entries + ' total entr' + (r.entries !== 1 ? 'ies' : 'y'), r.dnfs + ' DNF']
+        ['#', 'Triber', 'Total Finishes', 'EC Finishes', 'UFC S1', 'EC Entries', 'EC DNF'],
+        r => [
+            r.name,
+            r.totalFinishes + ' finish' + (r.totalFinishes !== 1 ? 'es' : ''),
+            r.ecFinishes + ' EC',
+            r.ufcS1 > 0 ? r.ufcS1 + ' UFC' : '—',
+            r.entries + ' total entr' + (r.entries !== 1 ? 'ies' : 'y'),
+            r.dnfs + ' DNF'
+        ]
     );
 
     // -------------------------------------------------------
