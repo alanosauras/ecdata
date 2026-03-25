@@ -95,10 +95,17 @@ document.addEventListener('DOMContentLoaded', function () {
     );
 
     // -------------------------------------------------------
-    // SECTION 3: Most different boats used (top 20)
+    // SECTION 3: Most different boats finished in (top 20)
     // -------------------------------------------------------
     const triberBoats = {};
     racedata.forEach(entry => {
+        const finished =
+            entry['Total (hrs)'] !== '' &&
+            entry['Total (hrs)'] !== null &&
+            entry['Total (hrs)'] !== undefined &&
+            !isNaN(entry['Total (hrs)']) &&
+            entry['Total (hrs)'] > 0;
+        if (!finished) return;
         const boat = (entry.BOAT || '').trim();
         if (!boat || boat === '?') return;
         ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(field => {
@@ -121,10 +128,17 @@ document.addEventListener('DOMContentLoaded', function () {
     );
 
     // -------------------------------------------------------
-    // SECTION 4: Most different classes raced (top 20)
+    // SECTION 4: Most different classes finished in (top 20)
     // -------------------------------------------------------
     const triberClasses = {};
     racedata.forEach(entry => {
+        const finished =
+            entry['Total (hrs)'] !== '' &&
+            entry['Total (hrs)'] !== null &&
+            entry['Total (hrs)'] !== undefined &&
+            !isNaN(entry['Total (hrs)']) &&
+            entry['Total (hrs)'] > 0;
+        if (!finished) return;
         const cls = (entry['C#'] || '').trim();
         if (!cls) return;
         ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(field => {
