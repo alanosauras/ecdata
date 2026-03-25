@@ -81,16 +81,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Sort by streak length descending, break ties by most finishes
     results.sort((a, b) => b.streak - a.streak || b.finishes - a.finishes);
 
-    // --- Render top 10 consecutive streaks ---
-    renderTable(
-        document.getElementById('consecutiveStreaks'),
-        results.slice(0, 10),
-        ['#', 'Triber', 'Consecutive Entries', 'Successful', 'DNF', 'Years'],
-        r => [r.name, r.streak + ' consecutive attempt' + (r.streak !== 1 ? 's' : ''), r.finishes + ' successful', r.dnfs + ' DNF', r.start + ' to ' + r.end]
-    );
-
     // -------------------------------------------------------
-    // SECTION 2: Top 10 by total finishes (all-time)
+    // SECTION 1: Top 20 by total finishes (all-time)
     // -------------------------------------------------------
     const triberStats = {};
 
@@ -117,9 +109,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     renderTable(
         document.getElementById('mostFinishes'),
-        finishResults.slice(0, 10),
+        finishResults.slice(0, 20),
         ['#', 'Triber', 'Total Finishes', 'Total Entries', 'DNF'],
         r => [r.name, r.finishes + ' finish' + (r.finishes !== 1 ? 'es' : ''), r.entries + ' total entr' + (r.entries !== 1 ? 'ies' : 'y'), r.dnfs + ' DNF']
+    );
+
+    // --- Render top 20 consecutive streaks ---
+    renderTable(
+        document.getElementById('consecutiveStreaks'),
+        results.slice(0, 20),
+        ['#', 'Triber', 'Consecutive Entries', 'Successful', 'DNF', 'Years'],
+        r => [r.name, r.streak + ' consecutive attempt' + (r.streak !== 1 ? 's' : ''), r.finishes + ' successful', r.dnfs + ' DNF', r.start + ' to ' + r.end]
     );
 
 });
