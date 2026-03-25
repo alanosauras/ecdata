@@ -14,6 +14,22 @@
 
     <title>Other Stats</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .show-more-btn {
+            background: none;
+            color: blue;
+            border: none;
+            padding: 6px 0;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: underline;
+            border-radius: 0;
+        }
+        .show-more-btn:hover {
+            color: darkblue;
+            background: none;
+        }
+    </style>
 </head>
 <body>
     <div id="navigation"></div>
@@ -23,15 +39,27 @@
     <h2>Other Stats</h2>
 
     <div class="stat-section">
-        <h4>Top 20 Most Finishes (All-Time)</h4>
+        <h4>Most Finishes (All-Time)</h4>
         <p>Ranked by total number of successful finishes across all years including 2015. Unlike the Lucky Tribers list, this includes participants who have also DNF'd.</p>
         <div id="mostFinishes"></div>
     </div>
 
     <div class="stat-section">
-        <h4>Top 20 Longest Consecutive Entry Streaks</h4>
+        <h4>Longest Consecutive Entry Streaks</h4>
         <p>Ranked by the longest unbroken run of entries (every year the race was held). Finishes and DNFs are counted within that streak window.</p>
         <div id="consecutiveStreaks"></div>
+    </div>
+
+    <div class="stat-section">
+        <h4>Most Different Boats Used</h4>
+        <p>Tribers who have raced on the most variety of different boat models.</p>
+        <div id="mostBoats"></div>
+    </div>
+
+    <div class="stat-section">
+        <h4>Most Different Classes Raced</h4>
+        <p>Tribers who have competed across the most different classes (C1–C6, CS). Nobody has raced all 7, but a few have hit 5.</p>
+        <div id="mostClasses"></div>
     </div>
 
     <script src="racedata.js"></script>
