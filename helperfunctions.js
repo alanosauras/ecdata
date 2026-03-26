@@ -26,7 +26,12 @@ if (/\b\d{4}\b/.test(query)) {
 } else {
     // Prepend a summary line with the total number of races entered
     const summaryLine = document.createElement('p');
-    summaryLine.textContent = `${query}: ${results.length} Everglades Challenge Entries.`;
+    const wwCount = results.filter(entry => entry.WW === 'ww').length;
+    let summaryHTML = `${query}: ${results.length} Everglades Challenge Entr${results.length !== 1 ? 'ies' : 'y'}.`;
+    if (wwCount > 0) {
+        summaryHTML += `<br>${wwCount} Wilderness Waterway Finish${wwCount !== 1 ? 'es' : ''}.`;
+    }
+    summaryLine.innerHTML = summaryHTML;
     resultsDiv.appendChild(summaryLine);
 }
 
@@ -44,7 +49,7 @@ if (/\b\d{4}\b/.test(query)) {
     const emptyHeader = document.createElement('th');
     headerRow.appendChild(emptyHeader);
 
-    ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "CP4", "Total (hr)", "D:H:M"].forEach(headerText => {
+    ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "CP4", "Total (hr)", "D:H:M", "WW"].forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;
         header.className = 'myHeaderClass';
@@ -104,6 +109,19 @@ if (/\b\d{4}\b/.test(query)) {
         
             row.appendChild(cell);
         });
+
+        // WW tooth icon cell
+        const wwCell = document.createElement('td');
+        wwCell.className = 'myDataClass';
+        if (result['WW'] === 'ww') {
+            const tooth = document.createElement('img');
+            tooth.src = 'alligator_tooth.JPG';
+            tooth.alt = 'Wilderness Waterway';
+            tooth.title = 'Wilderness Waterway Finish';
+            tooth.style.cssText = 'height:22px; width:auto; display:block; margin:auto;';
+            wwCell.appendChild(tooth);
+        }
+        row.appendChild(wwCell);
     
         tbody.appendChild(row);
     });
