@@ -111,7 +111,7 @@ if (/\b\d{4}\b/.test(query)) {
                 tooth.src = 'alligator_tooth.JPG';
                 tooth.alt = 'WW';
                 tooth.title = 'Wilderness Waterway Finish';
-                tooth.style.cssText = 'height:18px; width:auto; vertical-align:middle; margin-left:4px;';
+                tooth.style.cssText = 'height:26px; width:auto; vertical-align:middle; margin-left:4px;';
                 cell.appendChild(span);
                 cell.appendChild(tooth);
             } else {
