@@ -14,6 +14,9 @@ function calculateAndDisplayUniqueTribers() {
         if (entry['Crew wt name'] && entry['Crew wt name'].trim() !== "") {
             uniqueTribers.add(entry['Crew wt name'].trim().toLowerCase());
         }
+        if (entry['3rd wt name'] && entry['3rd wt name'].trim() !== "") {
+            uniqueTribers.add(entry['3rd wt name'].trim().toLowerCase());
+        }
     });
 
     // Display the count of unique Tribers
