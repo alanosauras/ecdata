@@ -12,19 +12,18 @@ function displayResults(results) {
 
 // Check if the query is a year
 if (/\b\d{4}\b/.test(query)) {
-    const dnsEntries = results.filter(entry => entry['Total (hrs)'] === "DNS").length; // Count DNS entries
-    const startedEntries = results.length - dnsEntries; // Calculate started entries by excluding DNS
+    const dnsEntries = results.filter(entry => entry['Total (hrs)'] === "DNS").length;
+    const startedEntries = results.length - dnsEntries;
     const finishers = results.filter(entry => !isNaN(entry['Total (hrs)'])).length;
-    const nonFinishers = startedEntries - finishers; // Adjust nonFinishers to only include started entries
-    const successRate = startedEntries > 0 ? (finishers / startedEntries) * 100 : 0; // Calculate success rate based on started entries
+    const nonFinishers = startedEntries - finishers;
+    const successRate = startedEntries > 0 ? (finishers / startedEntries) * 100 : 0;
 
     const summaryLine = document.createElement('p');
     summaryLine.innerHTML = `In ${query}, ${startedEntries} entries started the EC. ${dnsEntries} entries did not start.<br>` +
                             `${finishers} entries completed the challenge, while ${nonFinishers} entries did not.<br>` +
-                            `The overall success rate was ${successRate.toFixed(1)}%.<br>` 
-                            resultsDiv.appendChild(summaryLine);
+                            `The overall success rate was ${successRate.toFixed(1)}%.<br>`;
+    resultsDiv.appendChild(summaryLine);
 } else {
-    // Prepend a summary line with the total number of races entered
     const summaryLine = document.createElement('p');
     const wwCount = results.filter(entry => entry.WW === 'ww').length;
     let summaryHTML = `${query}: ${results.length} Everglades Challenge Entr${results.length !== 1 ? 'ies' : 'y'}.`;
@@ -35,21 +34,20 @@ if (/\b\d{4}\b/.test(query)) {
     resultsDiv.appendChild(summaryLine);
 }
 
-
     // Create a table
     const table = document.createElement('table');
     table.classList.add('search-results-table');
-    table.id = 'outputTable'; // Assign an ID to the table for easier selection
+    table.id = 'outputTable';
 
-    // Create header row and add an empty cell for the "No." column
+    // Create header row
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
     
-    // Add an empty header for the number sequence column
+    // Empty header for the number column
     const emptyHeader = document.createElement('th');
     headerRow.appendChild(emptyHeader);
 
-    ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "CP4", "Total (hr)", "D:H:M", "WW"].forEach(headerText => {
+    ["Year", "Triber/s", "Class", "Group", "Boat", "CP1", "CP2", "CP3", "CP4", "Total (hr)", "D:H:M"].forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;
         header.className = 'myHeaderClass';
@@ -58,29 +56,41 @@ if (/\b\d{4}\b/.test(query)) {
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
+    // Legend line under the header
+    const legendRow = document.createElement('tr');
+    const legendCell = document.createElement('td');
+    legendCell.colSpan = 12;
+    legendCell.style.cssText = 'font-size:12px; color:#666; padding:2px 8px 4px;';
+    const toothLegend = document.createElement('img');
+    toothLegend.src = 'alligator_tooth.JPG';
+    toothLegend.alt = 'WW';
+    toothLegend.style.cssText = 'height:14px; width:auto; vertical-align:middle; margin-right:4px;';
+    legendCell.appendChild(toothLegend);
+    legendCell.appendChild(document.createTextNode('Alligator tooth symbol denotes a Wilderness Waterway finish'));
+    legendRow.appendChild(legendCell);
+    thead.appendChild(legendRow);
+
     // Create and fill table body
     const tbody = document.createElement('tbody');
     results.forEach((result, index) => {
         const row = document.createElement('tr');
 
         const numberCell = document.createElement('td');
-        numberCell.textContent = index + 1; // Row numbering
+        numberCell.textContent = index + 1;
         row.appendChild(numberCell);
     
         const tribers = result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'];
         const classValue = result['C#'];
         const totalDHM = convertHoursToDHM(result['Total (hrs)']);
-        // Check if entry used Plan B and amend CP1 value accordingly
         const cp1Value = result['PB?'] === "planB" ? `${result['cp1']} - B` : result['cp1'];
     
-        // Define the order of keys as per the new structure including calculated or combined fields
         const dataValues = [
             result['YEAR'],
             tribers,
             classValue,
             result['Group/Gender'],
             result['BOAT'],
-            cp1Value, // Use amended CP1 value
+            cp1Value,
             result['cp2'],
             result['cp3'],
             result['finish'],
@@ -90,10 +100,25 @@ if (/\b\d{4}\b/.test(query)) {
     
         dataValues.forEach((value, i) => {
             const cell = document.createElement('td');
-            cell.textContent = value;
             cell.className = 'myDataClass';
+
+            // CP3 column (index 7): place tooth inline if WW finish
+            if (i === 7 && result['WW'] === 'ww') {
+                cell.style.whiteSpace = 'nowrap';
+                const span = document.createElement('span');
+                span.textContent = value;
+                const tooth = document.createElement('img');
+                tooth.src = 'alligator_tooth.JPG';
+                tooth.alt = 'WW';
+                tooth.title = 'Wilderness Waterway Finish';
+                tooth.style.cssText = 'height:18px; width:auto; vertical-align:middle; margin-left:4px;';
+                cell.appendChild(span);
+                cell.appendChild(tooth);
+            } else {
+                cell.textContent = value;
+            }
         
-            // Check if recordTimes is defined and highlight cells accordingly
+            // Highlight record times if defined
             if (window.recordTimes) {
                 let recordTime;
                 switch(i) {
@@ -109,31 +134,15 @@ if (/\b\d{4}\b/.test(query)) {
         
             row.appendChild(cell);
         });
-
-        // WW tooth icon cell
-        const wwCell = document.createElement('td');
-        wwCell.className = 'myDataClass';
-        if (result['WW'] === 'ww') {
-            const tooth = document.createElement('img');
-            tooth.src = 'alligator_tooth.JPG';
-            tooth.alt = 'Wilderness Waterway';
-            tooth.title = 'Wilderness Waterway Finish';
-            tooth.style.cssText = 'height:22px; width:auto; display:block; margin:auto;';
-            wwCell.appendChild(tooth);
-        }
-        row.appendChild(wwCell);
     
         tbody.appendChild(row);
     });
     
     table.appendChild(tbody);
-
-    // Append the table to the resultsDiv
     resultsDiv.appendChild(table);
 
-// Call linkifyTable with the ID of the newly created table
-linkifyTable('#outputTable');
-
+    // Call linkifyTable with the ID of the newly created table
+    linkifyTable('#outputTable');
 }
 
 // Helper function to convert hours to days, hours, minutes
