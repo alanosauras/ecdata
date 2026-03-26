@@ -12,46 +12,75 @@ document.addEventListener('DOMContentLoaded', function () {
         return d + 'd ' + Math.floor(rem) + 'h ' + m + 'm';
     }
 
-    // Build boat finish time data
+    // Build boat finish time data — store class and group per individual finish
     const boatTimeData = {};
     racedata.forEach(e => {
         const boat = (e.BOAT || '').trim();
         if (!boat || boat === '?') return;
         const t = e['Total (hrs)'];
         if (!t || isNaN(t) || Number(t) <= 0) return;
-        if (!boatTimeData[boat]) boatTimeData[boat] = { times: [], cls: e['C#'] };
-        boatTimeData[boat].times.push(Number(t));
+        if (!boatTimeData[boat]) boatTimeData[boat] = { finishes: [] };
+        boatTimeData[boat].finishes.push({
+            time: Number(t),
+            cls: e['C#'],
+            group: e['Group']
+        });
     });
 
-    const avgResults = Object.entries(boatTimeData)
-        .filter(([, d]) => d.times.length >= 5)
-        .map(([boat, d]) => {
-            const n = d.times.length;
-            const avg = d.times.reduce((a, b) => a + b, 0) / n;
-            const variance = d.times.reduce((s, t) => s + Math.pow(t - avg, 2), 0) / n;
-            const stddev = Math.sqrt(variance);
-            const best = Math.min(...d.times);
-            const worst = Math.max(...d.times);
-            return { boat, cls: d.cls, finishes: n, avg, stddev, best, worst };
-        });
+    function buildAvgResults(classFilter, groupFilter) {
+        return Object.entries(boatTimeData)
+            .map(([boat, d]) => {
+                // Filter individual finishes by class and group
+                const filtered = d.finishes.filter(f => {
+                    const matchClass = classFilter === 'ALL' || f.cls === classFilter;
+                    const matchGroup = groupFilter === 'ALL' || f.group === groupFilter;
+                    return matchClass && matchGroup;
+                });
+                if (filtered.length < 5) return null;
 
-    function getSorted(method) {
-        const copy = [...avgResults];
+                const times = filtered.map(f => f.time);
+                const n = times.length;
+                const avg = times.reduce((a, b) => a + b, 0) / n;
+                const variance = times.reduce((s, t) => s + Math.pow(t - avg, 2), 0) / n;
+                const stddev = Math.sqrt(variance);
+                const best = Math.min(...times);
+                const worst = Math.max(...times);
+
+                // Show all classes this boat appears in for these filtered finishes
+                const classes = [...new Set(filtered.map(f => f.cls))].sort().join('/');
+
+                return { boat, cls: classes, finishes: n, avg, stddev, best, worst };
+            })
+            .filter(Boolean);
+    }
+
+    function getSorted(results, method) {
+        const copy = [...results];
         switch (method) {
-            case 'avgFastest':    return copy.sort((a, b) => a.avg - b.avg);
-            case 'avgSlowest':    return copy.sort((a, b) => b.avg - a.avg);
-            case 'mostFinishes':  return copy.sort((a, b) => b.finishes - a.finishes);
+            case 'avgFastest':     return copy.sort((a, b) => a.avg - b.avg);
+            case 'avgSlowest':     return copy.sort((a, b) => b.avg - a.avg);
+            case 'mostFinishes':   return copy.sort((a, b) => b.finishes - a.finishes);
             case 'mostConsistent': return copy.sort((a, b) => a.stddev - b.stddev);
             default: return copy;
         }
     }
 
-    function renderAvgTable(method) {
+    function renderAvgTable() {
         const PREVIEW = 5;
+        const method = document.getElementById('avgSortFilter').value;
+        const classFilter = document.getElementById('avgClassFilter').value;
+        const groupFilter = document.getElementById('avgGroupFilter').value;
+
         const container = document.getElementById('avgFinishTable');
         container.innerHTML = '';
 
-        const sorted = getSorted(method);
+        const results = buildAvgResults(classFilter, groupFilter);
+        const sorted = getSorted(results, method);
+
+        if (sorted.length === 0) {
+            container.innerHTML = '<p>No boats with 5+ finishes match the current filters.</p>';
+            return;
+        }
 
         const table = document.createElement('table');
         table.classList.add('search-results-table');
@@ -107,10 +136,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    renderAvgTable('avgFastest');
-    document.getElementById('avgSortFilter').addEventListener('change', function () {
-        renderAvgTable(this.value);
-    });
+    renderAvgTable();
+    document.getElementById('avgSortFilter').addEventListener('change', renderAvgTable);
+    document.getElementById('avgClassFilter').addEventListener('change', renderAvgTable);
+    document.getElementById('avgGroupFilter').addEventListener('change', renderAvgTable);
 
     // -------------------------------------------------------
     // SECTION 2: All boats by finish count (existing logic)
