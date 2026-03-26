@@ -8,7 +8,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-603N0XSSEK');
 </script>
 
@@ -19,16 +18,14 @@
             background: none;
             color: blue;
             border: none;
-            padding: 6px 0;
+            padding: 4px 0;
             cursor: pointer;
             font-size: 14px;
             text-decoration: underline;
             border-radius: 0;
         }
-        .show-more-btn:hover {
-            color: darkblue;
-            background: none;
-        }
+        .show-more-btn:hover { color: darkblue; background: none; }
+        .stat-section { margin-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -39,26 +36,22 @@
     <h2>Other Stats</h2>
 
     <div class="stat-section">
-        <h4>Most Finishes (All-Time)</h4>
-        <p>Ranked by total finishes — EC finishes plus UFC Stage 1 completions (which cover the same route as the EC). Unlike the Lucky Tribers list, this includes participants who have also DNF'd.</p>
+        <p><strong>Most Finishes (All-Time):</strong> Ranked by total finishes — EC finishes plus UFC Stage 1 completions (which cover the same route as the EC). Unlike the Lucky Tribers list, this includes participants who have also DNF'd.</p>
         <div id="mostFinishes"></div>
     </div>
 
     <div class="stat-section">
-        <h4>Longest Consecutive Entry Streaks</h4>
-        <p>Ranked by the longest unbroken run of entries (every year the race was held). Finishes and DNFs are counted within that streak window.</p>
+        <p><strong>Longest Consecutive Entry Streaks:</strong> Ranked by the longest unbroken run of entries (every year the race was held). UFC entries count — showing up on the beach for Stage 1 is the same start line. Finishes and DNFs are counted within that streak window.</p>
         <div id="consecutiveStreaks"></div>
     </div>
 
     <div class="stat-section">
-        <h4>Most Different Boats Used</h4>
-        <p>Tribers who have successfully finished on the most variety of different boat models. DNF entries don't count.</p>
+        <p><strong>Most Different Boats Used:</strong> Tribers who have successfully finished on the most variety of different boat models. DNF entries don't count.</p>
         <div id="mostBoats"></div>
     </div>
 
     <div class="stat-section">
-        <h4>Most Different Classes Raced</h4>
-        <p>Tribers who have successfully finished in the most different classes (C1–C6, CS). Only finishes count — DNFs don't. Max anyone has achieved is 4 classes.</p>
+        <p><strong>Most Different Classes Raced:</strong> Tribers who have successfully finished in the most different classes (C1–C6, CS). Only finishes count — DNFs don't. Max anyone has achieved is 4 classes.</p>
         <div id="mostClasses"></div>
     </div>
 
