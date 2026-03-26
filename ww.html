@@ -8,12 +8,25 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-603N0XSSEK');
 </script>
 
     <title>Wilderness Waterway Finishers</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .show-more-btn {
+            background: none;
+            color: blue;
+            border: none;
+            padding: 4px 0;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: underline;
+            border-radius: 0;
+        }
+        .show-more-btn:hover { color: darkblue; background: none; }
+        .stat-section { margin-bottom: 10px; }
+    </style>
 </head>
 <body>
     <div id="navigation"></div>
@@ -21,6 +34,25 @@
     <script src="activelink.js"></script>
 
     <h2>Wilderness Waterway Finishers</h2>
+
+    <div class="stat-section">
+        <p><strong>Most WW Finishes by Team:</strong> Teams are identified by their combined triber names regardless of sign-up order, so "Nitenavigator &amp; Nitesong" and "Nitesong &amp; Nitenavigator" count as the same team. Solo entries are also included.</p>
+        <div id="wwTeams"></div>
+    </div>
+
+    <div class="stat-section">
+        <p><strong>Most WW Finishes by Individual:</strong> Each participant counted individually across all their WW finishes, whether solo or as part of a team.</p>
+        <div id="wwIndividuals"></div>
+    </div>
+
+    <div class="stat-section">
+        <p><strong>Most Consecutive WW Finishes:</strong> Longest unbroken streak of WW completions (every year the WW was held with no skipped years).</p>
+        <div id="wwStreaks"></div>
+    </div>
+
+    <hr>
+
+    <h4>All Wilderness Waterway Finishes</h4>
     <div>
         <label for="sortOptions">Sort by:</label>
         <select id="sortOptions">
@@ -35,90 +67,236 @@
     <script src="racedata.js"></script>
     <script src="helperfunctions.js"></script>
     <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const wwFinishers = racedata.filter(entry => entry.WW === 'ww');
-    displayWWResults(sortResults(wwFinishers, "fastestOverall"));
+document.addEventListener('DOMContentLoaded', function () {
 
-    document.getElementById('sortOptions').addEventListener('change', function() {
-        const sortOption = this.value;
-        const sortedResults = sortResults(wwFinishers, sortOption);
-        displayWWResults(sortedResults);
+    const wwFinishers = racedata.filter(entry => entry.WW === 'ww');
+    const wwYears = [...new Set(wwFinishers.map(e => e.YEAR))].sort((a, b) => a - b);
+
+    // -------------------------------------------------------
+    // SECTION 1: Most WW finishes by team
+    // -------------------------------------------------------
+    function teamKey(entry) {
+        return [entry['Captain wt name'], entry['Crew wt name'], entry['3rd wt name']]
+            .map(n => (n || '').trim()).filter(Boolean).sort().join(' & ');
+    }
+
+    function teamDisplay(entry) {
+        return [entry['Captain wt name'], entry['Crew wt name'], entry['3rd wt name']]
+            .map(n => (n || '').trim()).filter(Boolean).join(' & ');
+    }
+
+    const teamCounts = {};
+    wwFinishers.forEach(e => {
+        const key = teamKey(e);
+        if (!teamCounts[key]) teamCounts[key] = { display: teamDisplay(e), count: 0, years: [] };
+        teamCounts[key].count++;
+        teamCounts[key].years.push(e.YEAR);
     });
+
+    const teamResults = Object.values(teamCounts)
+        .sort((a, b) => b.count - a.count);
+
+    renderWWTable(
+        document.getElementById('wwTeams'),
+        teamResults.slice(0, 20),
+        ['#', 'Team', 'WW Finishes', 'Years'],
+        r => [r.display, r.count + ' finish' + (r.count !== 1 ? 'es' : ''), r.years.sort((a,b)=>a-b).join(', ')]
+    );
+
+    // -------------------------------------------------------
+    // SECTION 2: Most WW finishes by individual
+    // -------------------------------------------------------
+    const indivCounts = {};
+    wwFinishers.forEach(e => {
+        ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(f => {
+            const n = (e[f] || '').trim(); if (!n) return;
+            if (!indivCounts[n]) indivCounts[n] = { count: 0, years: [] };
+            indivCounts[n].count++;
+            indivCounts[n].years.push(e.YEAR);
+        });
+    });
+
+    const indivResults = Object.entries(indivCounts)
+        .map(([name, s]) => ({ name, count: s.count, years: s.years }))
+        .sort((a, b) => b.count - a.count);
+
+    renderWWTable(
+        document.getElementById('wwIndividuals'),
+        indivResults.slice(0, 20),
+        ['#', 'Triber', 'WW Finishes', 'Years'],
+        r => [r.name, r.count + ' finish' + (r.count !== 1 ? 'es' : ''), r.years.sort((a,b)=>a-b).join(', ')]
+    );
+
+    // -------------------------------------------------------
+    // SECTION 3: Most consecutive WW finishes (individual)
+    // -------------------------------------------------------
+    function longestStreak(yearSet, allYears) {
+        let best = { start: 0, end: 0, length: 0 };
+        let i = 0;
+        while (i < allYears.length) {
+            if (!yearSet.has(allYears[i])) { i++; continue; }
+            let j = i;
+            while (j < allYears.length && yearSet.has(allYears[j])) j++;
+            if (j - i > best.length) best = { start: allYears[i], end: allYears[j - 1], length: j - i };
+            i = j;
+        }
+        return best;
+    }
+
+    const indivYearSets = {};
+    wwFinishers.forEach(e => {
+        ['Captain wt name', 'Crew wt name', '3rd wt name'].forEach(f => {
+            const n = (e[f] || '').trim(); if (!n) return;
+            if (!indivYearSets[n]) indivYearSets[n] = new Set();
+            indivYearSets[n].add(e.YEAR);
+        });
+    });
+
+    const streakResults = Object.entries(indivYearSets).map(([name, yearSet]) => {
+        const streak = longestStreak(yearSet, wwYears);
+        return { name, streak: streak.length, start: streak.start, end: streak.end, total: yearSet.size };
+    }).sort((a, b) => b.streak - a.streak || b.total - a.total);
+
+    renderWWTable(
+        document.getElementById('wwStreaks'),
+        streakResults.slice(0, 20),
+        ['#', 'Triber', 'Consecutive WW Finishes', 'Years', 'Total WW Finishes'],
+        r => [r.name, r.streak + ' in a row', r.start + ' to ' + r.end, r.total + ' total']
+    );
+
+    // -------------------------------------------------------
+    // SECTION 4: Full WW results list (existing)
+    // -------------------------------------------------------
+    displayWWResults(sortResults(wwFinishers, 'fastestOverall'));
+
+    document.getElementById('sortOptions').addEventListener('change', function () {
+        displayWWResults(sortResults(wwFinishers, this.value));
+    });
+
+    // -------------------------------------------------------
+    // Shared WW table renderer with show more / show less
+    // -------------------------------------------------------
+    function renderWWTable(container, rows, headers, rowFn) {
+        const PREVIEW = 5;
+        if (!rows.length) { container.innerHTML = '<p>No data found.</p>'; return; }
+
+        const table = document.createElement('table');
+        table.classList.add('search-results-table');
+
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        headers.forEach(text => {
+            const th = document.createElement('th');
+            th.textContent = text;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        rows.forEach((r, idx) => {
+            const row = document.createElement('tr');
+            if (idx >= PREVIEW) row.style.display = 'none';
+            [idx + 1, ...rowFn(r)].forEach(val => {
+                const td = document.createElement('td');
+                td.textContent = val;
+                row.appendChild(td);
+            });
+            tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+        container.appendChild(table);
+
+        if (rows.length > PREVIEW) {
+            const btn = document.createElement('button');
+            btn.className = 'show-more-btn';
+            btn.textContent = 'Show more (' + (rows.length - PREVIEW) + ' more)';
+            let expanded = false;
+            btn.addEventListener('click', () => {
+                expanded = !expanded;
+                [...tbody.querySelectorAll('tr')].forEach((row, idx) => {
+                    if (idx >= PREVIEW) row.style.display = expanded ? '' : 'none';
+                });
+                btn.textContent = expanded
+                    ? 'Show less'
+                    : 'Show more (' + (rows.length - PREVIEW) + ' more)';
+            });
+            container.appendChild(btn);
+        }
+    }
+
 });
 
 function sortResults(results, sortBy) {
-    if (sortBy === "fastestOverall") {
-        return results.sort((a, b) => parseFloat(a['Total (hrs)']) - parseFloat(b['Total (hrs)']));
-    } else if (sortBy === "fastestCP2toCP3") {
-        return results.sort((a, b) => parseFloat(a['cp3']) - parseFloat(b['cp3']));
-    } else {
-        return results; // Default to no sorting if an unexpected value is passed
+    if (sortBy === 'fastestOverall') {
+        return [...results].sort((a, b) => parseFloat(a['Total (hrs)']) - parseFloat(b['Total (hrs)']));
+    } else if (sortBy === 'fastestCP2toCP3') {
+        return [...results].sort((a, b) => parseFloat(a['cp3']) - parseFloat(b['cp3']));
     }
+    return results;
 }
 
+function displayWWResults(results) {
+    const resultsDiv = document.getElementById('searchresults');
+    resultsDiv.innerHTML = '';
 
-        function displayWWResults(results) {
-            const resultsDiv = document.getElementById('searchresults');
-            resultsDiv.innerHTML = '';
+    if (results.length === 0) {
+        resultsDiv.innerHTML = 'No wilderness waterway finishes found.';
+        return;
+    }
 
-            if (results.length === 0) {
-                resultsDiv.innerHTML = 'No wilderness waterway finishes found.';
-                return;
-            }
+    const table = document.createElement('table');
+    table.classList.add('search-results-table');
 
-            const table = document.createElement('table');
-            table.classList.add('search-results-table');
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    ["No.", "Year", "Triber/s", "Group/Gender", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"].forEach(headerText => {
+        const header = document.createElement('th');
+        header.textContent = headerText;
+        headerRow.appendChild(header);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
 
-            const thead = document.createElement('thead');
-            const headerRow = document.createElement('tr');
-            const headers = ["No.", "Year", "Triber/s", "Group/Gender", "Boat", "Class", "Total (hrs)", "cp1", "cp2", "cp3", "Total (days/hrs/min)"];
-            headers.forEach(headerText => {
-                const header = document.createElement('th');
-                header.textContent = headerText;
-                headerRow.appendChild(header);
-            });
-            thead.appendChild(headerRow);
-            table.appendChild(thead);
+    const tbody = document.createElement('tbody');
+    results.forEach((result, index) => {
+        const row = document.createElement('tr');
+        const numberCell = document.createElement('td');
+        numberCell.textContent = index + 1;
+        row.appendChild(numberCell);
 
-            const tbody = document.createElement('tbody');
-            results.forEach((result, index) => {
-                const row = document.createElement('tr');
-                const numberCell = document.createElement('td');
-                numberCell.textContent = index + 1;
-                row.appendChild(numberCell);
+        const dataValues = [
+            result['YEAR'],
+            result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'],
+            result['Group/Gender'],
+            result['BOAT'],
+            result['C#'],
+            result['Total (hrs)'],
+            result['cp1'],
+            result['cp2'],
+            result['cp3'],
+            convertHoursToDHM(result['Total (hrs)'])
+        ];
 
-                const dataValues = [
-                    result['YEAR'],
-                    result['Crew wt name'] ? `${result['Captain wt name']} and ${result['Crew wt name']}` : result['Captain wt name'],
-                    result['Group/Gender'],
-                    result['BOAT'],
-                    result['C#'],
-                    result['Total (hrs)'],
-                    result['cp1'],
-                    result['cp2'],
-                    result['cp3'],
-                    convertHoursToDHM(result['Total (hrs)'])
-                ];
+        dataValues.forEach(value => {
+            const cell = document.createElement('td');
+            cell.textContent = value || '-';
+            row.appendChild(cell);
+        });
 
-                dataValues.forEach(value => {
-                    const cell = document.createElement('td');
-                    cell.textContent = value || '-';
-                    row.appendChild(cell);
-                });
+        tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    resultsDiv.appendChild(table);
+}
 
-                tbody.appendChild(row);
-            });
-            table.appendChild(tbody);
-            resultsDiv.appendChild(table);
-        }
-
-        function convertHoursToDHM(totalHours) {
-            const hours = Number(totalHours);
-            const days = Math.floor(hours / 24);
-            const remainderHours = hours % 24;
-            const minutes = Math.floor((remainderHours - Math.floor(remainderHours)) * 60);
-            return `${days}d ${Math.floor(remainderHours)}h ${minutes}m`;
-        }
+function convertHoursToDHM(totalHours) {
+    const hours = Number(totalHours);
+    const days = Math.floor(hours / 24);
+    const remainderHours = hours % 24;
+    const minutes = Math.floor((remainderHours - Math.floor(remainderHours)) * 60);
+    return `${days}d ${Math.floor(remainderHours)}h ${minutes}m`;
+}
     </script>
 </body>
 </html>
